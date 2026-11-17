@@ -36,6 +36,7 @@ test('red background threshold uses converted displayed total, strictly below 80
  assert.equal(isUnderBudget(offer({price:190,shipping:10}),{EUR:4}),false);
  assert.equal(isUnderBudget(offer({price:190,shipping:10,fees:1}),{EUR:4}),false);
  assert.equal(isUnderBudget(offer(),{}),false);
+ assert.equal(isUnderBudget(offer({price:10,shipping:0,saleType:'auction'}),{EUR:4}),false);
 });
 test('price drop uses original currency measurements rather than exchange-rate changes',()=>{
  const o=offer({price:80,history:[{at:'2026-11-16T00:00:00Z',price:100},{at:'2026-11-17T00:00:00Z',price:80}]});

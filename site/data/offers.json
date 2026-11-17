@@ -1223,16 +1223,16 @@
     {
       "name": "Catawiki",
       "url": "https://www.catawiki.com",
-      "status": "manual",
-      "message": "Import ręczny; uwzględnij prowizję i aktualną stawkę aukcji.",
+      "status": "agent_scheduled",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Aukcje w osobnym filtrze, bez alertu okazji na podstawie bieżącej stawki. Pierwszy skan jeszcze nie został wykonany.",
       "checkedAt": null,
       "lastSuccessAt": null
     },
     {
       "name": "COMC",
       "url": "https://www.comc.com",
-      "status": "manual",
-      "message": "Import ręczny kart; sprawdź koszty wysyłki do Polski.",
+      "status": "agent_scheduled",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty Topps/Panini; cena z dostawą do Polski i znanymi opłatami. Pierwszy skan jeszcze nie został wykonany.",
       "checkedAt": null,
       "lastSuccessAt": null
     },
@@ -1291,6 +1291,14 @@
       "message": "Import ręczny podpisanych pamiątek.",
       "checkedAt": null,
       "lastSuccessAt": null
+    },
+    {
+      "name": "Allegro Lokalnie",
+      "url": "https://allegrolokalnie.pl",
+      "checkedAt": null,
+      "lastSuccessAt": null,
+      "status": "agent_scheduled",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty i koszulki; wymagane zdjęcie podpisu. Pierwszy skan jeszcze nie został wykonany."
     }
   ]
 }

@@ -37,7 +37,7 @@ export function amount(o,rates={PLN:1}) {
 }
 export const isUnderBudget = (o,rates,limit=800) => {
   const cost=amount(o,rates);
-  return cost!==null && cost.pln<limit;
+  return o.saleType!=='auction' && cost!==null && cost.pln<limit;
 };
 export function drop(o) {
   const previous = o.history.length>1 ? o.history.at(-2).price : null;

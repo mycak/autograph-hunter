@@ -22,6 +22,9 @@ def import_report(report_path, data_path=DATA):
         if matching:
             source['agent']={'checkedAt':max(o['lastSeen'] for o in matching),'offers':len(matching),
                              'message':'Skan agentowy bez API: ceny i dostawa odczytane z konkretnych ogłoszeń. Dowody autentyczności wymagają oddzielnej kontroli.'}
+            if source['status']=='agent_scheduled':
+                source['status']='agent_checked'
+                source['message']=source['message'].replace(' Pierwszy skan jeszcze nie został wykonany.','')
     temp=data_path.with_suffix('.tmp')
     temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')
     temp.replace(data_path)

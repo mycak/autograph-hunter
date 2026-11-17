@@ -44,7 +44,9 @@ Nie utożsamiamy opisu „COA”, programu eBay Authenticity Guarantee ani gradi
 
 ### Pozostałe platformy
 
-Vinted, OLX, Allegro, Catawiki, COMC, Fanatics Collect, Icons.com, Colectin, MySlabs, Goldin, Whatnot i SportsMemorabilia obsługują obecnie **wyłącznie import ręczny**. Nie ma tu ukrytego scrapingu ani obchodzenia blokad. Odczyt Icons.com podczas przygotowania integracji zwrócił 403. Nie deklarujemy automatycznego skanowania tych serwisów.
+Plan codziennego skanu agentowego o 08:00 czasu polskiego obejmuje eBay, **COMC, Catawiki i Allegro Lokalnie**. Dla trzech dodanych źródeł strona pokazuje stan zaplanowania do pierwszej rzeczywistej kontroli. Aukcje Catawiki są oddzielone filtrem rodzaju sprzedaży i nie generują alertów Kup teraz poniżej 800 PLN.
+
+Vinted, OLX, Allegro, Fanatics Collect, Icons.com, Colectin, MySlabs, Goldin, Whatnot i SportsMemorabilia nadal obsługują obecnie **wyłącznie import ręczny**. Nie ma tu ukrytego scrapingu ani obchodzenia blokad. Odczyt Icons.com podczas przygotowania integracji zwrócił 403. Nie deklarujemy automatycznego skanowania tych serwisów.
 
 ### Trwała aktualizacja danych
 
