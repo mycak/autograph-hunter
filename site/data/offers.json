@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:26:58.256232Z",
+  "updatedAt": "2026-11-17T10:45:54Z",
   "rates": {
     "date": "2026-11-16",
     "values": {
@@ -41,6 +41,147 @@
     "status": "ok"
   },
   "offers": [
+    {
+      "id": "allegro-lokalnie:9455d9ed-3a79-405d-b5d2-6d8e986a1245",
+      "source": "Allegro Lokalnie",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Cristiano Ronaldo — Topps Match Attax 2014, karta z podpisem markerem",
+      "url": "https://allegrolokalnie.pl/oferta/sprzedam-autograf-cristiano-ronaldo-na-karcie-ze-specjalnej-edycji-topps-id5",
+      "image": "https://a.allegroimg.com/s512x512/1e3799/e0e322f24bb5bb0b554430af4560",
+      "price": 450,
+      "currency": "PLN",
+      "shipping": 10.95,
+      "fees": 0,
+      "sellerCountry": "PL",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://allegrolokalnie.pl/oferta/sprzedam-autograf-cristiano-ronaldo-na-karcie-ze-specjalnej-edycji-topps-id5",
+      "evidenceNote": "Aktywne Kup teraz. Cena 450 zł i dostawa InPost 10,95 zł. Na zdjęciu podpis czarnym markerem naniesiony na kartę. Brak certyfikatu lub niezależnej weryfikacji; nie jest to potwierdzony oryginał.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:45:53.912522Z",
+      "lastSeen": "2026-11-17T10:45:53.912522Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:45:53.912522Z",
+          "price": 450
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://a.allegroimg.com/s512x512/1e3799/e0e322f24bb5bb0b554430af4560",
+        "note": "Duży czarny podpis biegnie po dolnej części karty, przez wizerunek piłkarza i pola statystyk."
+      }
+    },
+    {
+      "id": "catawiki:108517701",
+      "source": "Catawiki",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo — koszulka Portugalii Puma nr 7 XL z podpisem (aukcja)",
+      "url": "https://www.catawiki.com/en/l/108517701-portugal-internationaal-cristiano-ronaldo-football-jersey",
+      "image": "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2026/11/11/b/f/7/bf70fb7b-333c-4ee8-b648-fe5f2fb2245d.jpg@webp",
+      "price": 320,
+      "currency": "EUR",
+      "shipping": 23,
+      "fees": 31.8,
+      "sellerCountry": "NL",
+      "shipsToPL": true,
+      "saleType": "auction",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.catawiki.com/en/l/108517701-portugal-internationaal-cristiano-ronaldo-football-jersey",
+      "evidenceNote": "Bieżąca stawka 320 EUR, cena minimalna nieosiągnięta. Dostawa do Polski 23 EUR. Prowizja kupującego 9% + 3 EUR = 31,80 EUR przy obecnej stawce; rośnie z ceną. Koniec pokazany jako piątek 21:22 (20.11.2026, czas polski). Cena nie jest końcowa. Sprzedawca deklaruje dokument CR7 Museum z 2022 r.; nie zweryfikowano go niezależnie, zgodność dokumentu z tą koszulką wymaga kontroli.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:45:53.912522Z",
+      "lastSeen": "2026-11-17T10:45:53.912522Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:45:53.912522Z",
+          "price": 320
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2026/11/11/b/f/7/bf70fb7b-333c-4ee8-b648-fe5f2fb2245d.jpg@webp",
+        "note": "Ciemny podpis widoczny na plecach czerwonej koszulki, po lewej stronie cyfry 7."
+      },
+      "endAt": "2026-11-20T20:22:00Z"
+    },
+    {
+      "id": "comc:332557022",
+      "source": "COMC",
+      "player": "zidane",
+      "category": "card",
+      "title": "Zinedine Zidane — 2024-25 Panini Select FIFA Select Signatures SS-ZZ",
+      "url": "https://www.comc.com/Cards/Soccer/2024-25/Panini_Select_FIFA_-_Select_Signatures/SS-ZZ/Zinedine_Zidane/29439214",
+      "image": "https://img.comc.com/i/Soccer/2024-25/Panini-Select-FIFA---Select-Signatures/SS-ZZ/Zinedine-Zidane.jpg?id=e515e200-4fb5-43db-83b4-9637506f7794&size=original",
+      "price": 281.36,
+      "currency": "USD",
+      "shipping": 7.49,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.comc.com/Cards/Soccer/2024-25/Panini_Select_FIFA_-_Select_Signatures/SS-ZZ/Zinedine_Zidane/29439214",
+      "evidenceNote": "Aktywne: ostatnia karta w magazynie, egzemplarz COMC 332557022, sprzedawca talmklein. Wysyłka do Polski w kalkulatorze COMC: Guest IMEX 7,49 USD, bez śledzenia, deklarowany długi termin przygotowania 70 dni. Opłaty importowe nieopłacone i nieznane; kwota jest subtotalem. Autentyczność podpisu niezweryfikowana niezależnie.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:45:53.912522Z",
+      "lastSeen": "2026-11-17T10:45:53.912522Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:45:53.912522Z",
+          "price": 281.36
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://img.comc.com/i/Soccer/2024-25/Panini-Select-FIFA---Select-Signatures/SS-ZZ/Zinedine-Zidane.jpg?id=e515e200-4fb5-43db-83b4-9637506f7794&size=original",
+        "note": "Niebieski podpis w środkowym białym polu karty, poniżej zdjęcia Zidane’a w koszulce Francji."
+      }
+    },
+    {
+      "id": "comc:339873322",
+      "source": "COMC",
+      "player": "zidane",
+      "category": "card",
+      "title": "Zinedine Zidane — 2025-26 Panini Prizm FIFA Club Legends Signatures CL-ZZ",
+      "url": "https://www.comc.com/Cards/Soccer/2025-26/Panini_Prizm_FIFA_-_Club_Legends_Signatures/CL-ZZ/Zinedine_Zidane/32637544",
+      "image": "https://img.comc.com/i/Soccer/2025-26/Panini-Prizm-FIFA---Club-Legends-Signatures/CL-ZZ/Zinedine-Zidane.jpg?id=dda43e64-8a82-4f36-b624-ff6f893d9591&size=original",
+      "price": 231.1,
+      "currency": "USD",
+      "shipping": 7.49,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.comc.com/Cards/Soccer/2025-26/Panini_Prizm_FIFA_-_Club_Legends_Signatures/CL-ZZ/Zinedine_Zidane/32637544",
+      "evidenceNote": "Aktywne: ostatnia karta w magazynie, egzemplarz COMC 339873322, sprzedawca bibweb104. Wysyłka do Polski w kalkulatorze COMC: Guest IMEX 7,49 USD, bez śledzenia, deklarowany długi termin przygotowania 70 dni. Opłaty importowe nieopłacone i nieznane; kwota jest subtotalem. Autentyczność podpisu niezweryfikowana niezależnie. Przechowywana zdalnie, tylko standardowa wysyłka.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:45:53.912522Z",
+      "lastSeen": "2026-11-17T10:45:53.912522Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:45:53.912522Z",
+          "price": 231.1
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://img.comc.com/i/Soccer/2025-26/Panini-Prizm-FIFA---Club-Legends-Signatures/CL-ZZ/Zinedine-Zidane.jpg?id=dda43e64-8a82-4f36-b624-ff6f893d9591&size=original",
+        "note": "Niebieski podpis na jasnym polu pod napisem Club Legends, nad imieniem Zinedine Zidane."
+      }
+    },
     {
       "id": "ebay:v1|135148847256|0",
       "source": "eBay",
@@ -1223,18 +1364,28 @@
     {
       "name": "Catawiki",
       "url": "https://www.catawiki.com",
-      "status": "agent_scheduled",
-      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Aukcje w osobnym filtrze, bez alertu okazji na podstawie bieżącej stawki. Pierwszy skan jeszcze nie został wykonany.",
+      "status": "agent_checked",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Aukcje w osobnym filtrze, bez alertu okazji na podstawie bieżącej stawki.",
       "checkedAt": null,
-      "lastSuccessAt": null
+      "lastSuccessAt": null,
+      "agent": {
+        "checkedAt": "2026-11-17T10:45:53.912522Z",
+        "offers": 1,
+        "message": "Sprawdzono szczegóły 1 aktywnej aukcji koszulki Ronaldo. Dodano z dostawą do Polski, prowizją i terminem zakończenia. Bieżąca stawka nie jest ceną końcową."
+      }
     },
     {
       "name": "COMC",
       "url": "https://www.comc.com",
-      "status": "agent_scheduled",
-      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty Topps/Panini; cena z dostawą do Polski i znanymi opłatami. Pierwszy skan jeszcze nie został wykonany.",
+      "status": "agent_checked",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty Topps/Panini; cena z dostawą do Polski i znanymi opłatami.",
       "checkedAt": null,
-      "lastSuccessAt": null
+      "lastSuccessAt": null,
+      "agent": {
+        "checkedAt": "2026-11-17T10:45:53.912522Z",
+        "offers": 2,
+        "message": "Sprawdzono wyniki wyszukiwania obu piłkarzy i szczegóły 2 kart Zidane’a. Dodano 2 karty ze zdjęciami podpisu; wysyłka do Polski 7,49 USD, opłaty importowe nieznane. Karty Leaf i Signature Style pominięto."
+      }
     },
     {
       "name": "Fanatics Collect",
@@ -1297,8 +1448,13 @@
       "url": "https://allegrolokalnie.pl",
       "checkedAt": null,
       "lastSuccessAt": null,
-      "status": "agent_scheduled",
-      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty i koszulki; wymagane zdjęcie podpisu. Pierwszy skan jeszcze nie został wykonany."
+      "status": "agent_checked",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty i koszulki; wymagane zdjęcie podpisu.",
+      "agent": {
+        "checkedAt": "2026-11-17T10:45:53.912522Z",
+        "offers": 1,
+        "message": "Przejrzano 8 wyników Ronaldo i 4 Zidane’a; otwarto 3 szczegóły ofert. Dodano 1 kartę Topps Ronaldo. Odrzucono zakończoną koszulkę, zdjęcia, plakaty i buty poza zakresem."
+      }
     }
   ]
 }

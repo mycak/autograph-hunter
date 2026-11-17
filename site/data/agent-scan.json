@@ -18,5 +18,29 @@
       "reason": "Karta patch bez autografu. Usunięta po korekcie właściciela; sam tytuł Auto nie jest dowodem obecności podpisu."
     }
   ],
-  "note": "To propozycje do weryfikacji, nie potwierdzone oryginalne autografy. Dodatkowe nadruki, tabliczki i zwykłe karty odrzucono podczas wyszukiwania."
+  "note": "To propozycje do weryfikacji, nie potwierdzone oryginalne autografy. Dodatkowe nadruki, tabliczki i zwykłe karty odrzucono podczas wyszukiwania.",
+  "latestExpansionScan": {
+    "method": "browser-agent",
+    "completedAt": "2026-11-17T10:46:13.590846Z",
+    "sources": [
+      "COMC",
+      "Catawiki",
+      "Allegro Lokalnie"
+    ],
+    "searchResultsReviewed": 22,
+    "listingDetailsChecked": 6,
+    "addedOffers": 4,
+    "verifiedSignatures": 0,
+    "note": "Kontrola zdjęć potwierdza widoczność podpisów, nie ich autentyczność. COMC: 2 karty Zidane’a; Catawiki: 1 aukcja koszulki Ronaldo; Allegro Lokalnie: 1 karta Ronaldo. Nie odświeżano ofert eBay w tym skanie.",
+    "excluded": [
+      {
+        "url": "https://allegrolokalnie.pl/oferta/cristiano-ronaldo-koszulka-z-autografem-real-madryt-201112-beckett-gns",
+        "reason": "Oferta zakończona lub sprzedana; Kup teraz wyłączone."
+      },
+      {
+        "url": "https://allegrolokalnie.pl/oferta/cristiano-ronaldo-autograf-certyfikat-prezent",
+        "reason": "Fotografia/obraz poza zakresem kart Topps/Panini i koszulek."
+      }
+    ]
+  }
 }
