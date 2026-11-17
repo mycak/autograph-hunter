@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:45:54Z",
+  "updatedAt": "2026-11-17T10:58:50Z",
   "rates": {
     "date": "2026-11-16",
     "values": {
@@ -74,6 +74,78 @@
         "visibleSignature": true,
         "imageUrl": "https://a.allegroimg.com/s512x512/1e3799/e0e322f24bb5bb0b554430af4560",
         "note": "Duży czarny podpis biegnie po dolnej części karty, przez wizerunek piłkarza i pola statystyk."
+      }
+    },
+    {
+      "id": "allstarsignings:868613:unframed",
+      "source": "All Star Signings",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane — podpisana koszulka Juventusu 2024/25 nr 21, bez ramy",
+      "url": "https://allstarsignings.com/product/zinedine-zidane-signed-juventus-shirt/",
+      "image": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-juventus-shirt-450x450.jpg",
+      "price": 689.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://allstarsignings.com/product/zinedine-zidane-signed-juventus-shirt/",
+      "evidenceNote": "Wybrany wariant Unframed (+0 GBP); przycisk dodania do koszyka dostępny. Sklep deklaruje podpisanie 04.10.2025 oraz COA i JSA. Nie zweryfikowano niezależnie numeru certyfikatu konkretnego egzemplarza. Zdjęcie katalogowe: miejsce podpisu dostarczonej sztuki może się różnić. Dostawa międzynarodowa z UK deklarowana przez sklep; cena wysyłki do Polski i opłaty importowe nieznane (nie są zerowe).",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:58:49.751299Z",
+      "lastSeen": "2026-11-17T10:58:49.751299Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:58:49.751299Z",
+          "price": 689.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-juventus-shirt-450x450.jpg",
+        "note": "Jasny podpis widoczny na czarnej cyfrze 1 numeru 21, po prawej stronie pleców. Obejrzano zdjęcie katalogowe produktu.",
+        "imageType": "catalog"
+      }
+    },
+    {
+      "id": "allstarsignings:86861:unframed",
+      "source": "All Star Signings",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane — podpisana koszulka Francji 2024 nr 10, bez ramy",
+      "url": "https://allstarsignings.com/product/zinedine-zidane-signed-france-10-shirt/",
+      "image": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-france-2024-shirt-450x450.jpg",
+      "price": 689.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://allstarsignings.com/product/zinedine-zidane-signed-france-10-shirt/",
+      "evidenceNote": "Wybrany wariant Unframed (+0 GBP); przycisk dodania do koszyka dostępny. Sklep deklaruje podpisanie 04.10.2025 oraz COA i JSA. Nie zweryfikowano niezależnie numeru certyfikatu konkretnego egzemplarza. Zdjęcie katalogowe: miejsce podpisu dostarczonej sztuki może się różnić. Dostawa międzynarodowa z UK deklarowana przez sklep; cena wysyłki do Polski i opłaty importowe nieznane (nie są zerowe).",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:58:49.751299Z",
+      "lastSeen": "2026-11-17T10:58:49.751299Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:58:49.751299Z",
+          "price": 689.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-france-2024-shirt-450x450.jpg",
+        "note": "Ciemny podpis widoczny pionowo na białej cyfrze 1 numeru 10 na plecach. Obejrzano zdjęcie katalogowe produktu.",
+        "imageType": "catalog"
       }
     },
     {
@@ -1321,6 +1393,78 @@
         }
       ],
       "checkedBy": "browser-agent"
+    },
+    {
+      "id": "icons:I3821CF",
+      "source": "Icons.com",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane — koszulka Francji nr 10 z podpisem, Classic Frame",
+      "url": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-classic-frame-01549.html",
+      "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/3/i3821cf_edited.webp",
+      "price": 1374.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-classic-frame-01549.html",
+      "evidenceNote": "Dostępna w sklepie: In Stock, 5 sztuk. Zdjęcie prezentuje podpis na koszulce. Deklarowany COA Icons nie został niezależnie zweryfikowany dla konkretnego egzemplarza. Opis podaje sesję 12.12.2022, a tytuł koszulkę France 2024 — rozbieżność wymaga wyjaśnienia. Zdjęcie produktu nie identyfikuje wysyłanej sztuki. Wysyłka z UK do Europy przez DHL; cena dostawy do Polski i opłaty importowe nieznane.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:58:49.751299Z",
+      "lastSeen": "2026-11-17T10:58:49.751299Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:58:49.751299Z",
+          "price": 1374.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/3/i3821cf_edited.webp",
+        "note": "Ciemny podpis na białej cyfrze 1 numeru 10. Koszulka w pionowej ramie z dwiema fotografiami u dołu. Obejrzano zdjęcie produktu.",
+        "imageType": "catalog"
+      }
+    },
+    {
+      "id": "icons:I3821HF1",
+      "source": "Icons.com",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane — koszulka Francji nr 10 z podpisem, Hero Frame Option 1",
+      "url": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-hero-frame-option-1-17826.html",
+      "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/3/i3821hf1_edited.webp",
+      "price": 1399.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-hero-frame-option-1-17826.html",
+      "evidenceNote": "Dostępna w sklepie: In Stock, 5 sztuk. Zdjęcie prezentuje podpis na koszulce. Deklarowany COA Icons nie został niezależnie zweryfikowany dla konkretnego egzemplarza. Opis podaje sesję 12.12.2022, a tytuł koszulkę France 2024 — rozbieżność wymaga wyjaśnienia. Zdjęcie produktu nie identyfikuje wysyłanej sztuki. Wysyłka z UK do Europy przez DHL; cena dostawy do Polski i opłaty importowe nieznane. Jest to odrębny wariant oprawy tej samej linii koszulki, nie dowód na unikalny egzemplarz.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:58:49.751299Z",
+      "lastSeen": "2026-11-17T10:58:49.751299Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:58:49.751299Z",
+          "price": 1399.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/3/i3821hf1_edited.webp",
+        "note": "Ciemny podpis widoczny na białej cyfrze 1 numeru 10. Koszulka po lewej w poziomej ramie, zdjęcie z pucharem po prawej. Obejrzano zdjęcie produktu.",
+        "imageType": "catalog"
+      }
     }
   ],
   "sources": [
@@ -1398,10 +1542,15 @@
     {
       "name": "Icons.com",
       "url": "https://www.icons.com",
-      "status": "manual",
-      "message": "Import ręczny; odczyt automatyczny zwrócił HTTP 403.",
+      "status": "agent_checked",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki obu piłkarzy; pomijaj wyprzedane i niepodpisane produkty.",
       "checkedAt": null,
-      "lastSuccessAt": null
+      "lastSuccessAt": null,
+      "agent": {
+        "checkedAt": "2026-11-17T10:58:49.751299Z",
+        "offers": 2,
+        "message": "Dostęp w przeglądarce działa. Dodano 2 dostępne warianty oprawionej koszulki Zidane’a po 1374,99 i 1399,99 GBP. Koszulki Cristiano Ronaldo pokazane jako wyprzedane pominięto; produkty UNSIGNED odrzucono. Nie zweryfikowano niezależnie certyfikatów."
+      }
     },
     {
       "name": "Colectin",
@@ -1454,6 +1603,19 @@
         "checkedAt": "2026-11-17T10:45:53.912522Z",
         "offers": 1,
         "message": "Przejrzano 8 wyników Ronaldo i 4 Zidane’a; otwarto 3 szczegóły ofert. Dodano 1 kartę Topps Ronaldo. Odrzucono zakończoną koszulkę, zdjęcia, plakaty i buty poza zakresem."
+      }
+    },
+    {
+      "name": "All Star Signings",
+      "url": "https://allstarsignings.com",
+      "checkedAt": null,
+      "lastSuccessAt": null,
+      "status": "agent_checked",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki obu piłkarzy; sprawdzaj wariant, zdjęcie podpisu i koszty importu.",
+      "agent": {
+        "checkedAt": "2026-11-17T10:58:49.751299Z",
+        "offers": 2,
+        "message": "Sprawdzono kategorie obu piłkarzy i 2 produkty Zidane’a: Francja i Juventus, warianty bez ramy po 689,99 GBP. Kategoria Cristiano Ronaldo jest pusta. Obejrzano zdjęcia katalogowe podpisów; wysyłka i import wymagają wyceny."
       }
     }
   ]

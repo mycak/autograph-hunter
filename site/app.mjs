@@ -1,4 +1,4 @@
-import {validate,ranked,PLAYERS,AUTH,amount,isNew,isFresh,drop,safeUrl,isUnderBudget} from './core.mjs?v=20261117-sources4';
+import {validate,ranked,PLAYERS,AUTH,amount,isNew,isFresh,drop,safeUrl,isUnderBudget} from './core.mjs?v=20261117-shops5';
 const $=id=>document.getElementById(id);
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const date=s=>Number.isFinite(Date.parse(s))?new Intl.DateTimeFormat('pl-PL',{dateStyle:'short',timeStyle:'short',timeZone:'Europe/Warsaw'}).format(new Date(s)):'Brak';
@@ -6,12 +6,15 @@ const price=(n,c='PLN')=>new Intl.NumberFormat('pl-PL',{style:'currency',currenc
 const STORAGE='autograph-hunter:v1';
 let server,data,local=false;
 const boardDefs=[['zidane','card','05','KARTY TOPPS / PANINI'],['zidane','shirt','05','PODPISANE KOSZULKI'],['ronaldo','card','07','KARTY TOPPS / PANINI'],['ronaldo','shirt','07','PODPISANE KOSZULKI']];
-function filters(){const f=new FormData($('filters'));return {search:f.get('search'),auth:f.get('auth'),saleType:f.get('saleType'),sort:f.get('sort'),pl:f.has('pl'),eu:f.has('eu'),newOnly:f.has('newOnly'),dropOnly:f.has('dropOnly')};}
+function filters(){const f=new FormData($('filters'));return {search:f.get('search'),source:f.get('source'),auth:f.get('auth'),saleType:f.get('saleType'),sort:f.get('sort'),pl:f.has('pl'),eu:f.has('eu'),newOnly:f.has('newOnly'),dropOnly:f.has('dropOnly')};}
 function offerHtml(o,index){
   const cost=amount(o,data.rates?.values),d=drop(o);
   return `<article class="offer${isUnderBudget(o,data.rates?.values)?' under-budget':''}"><span class="offer-rank">${String(index+1).padStart(2,'0')}</span>${o.image?`<img class="offer-image" src="${esc(o.image)}" loading="lazy" referrerpolicy="no-referrer" alt="Zdjęcie przedmiotu: ${esc(o.title)}">`:`<div class="offer-image offer-placeholder" aria-hidden="true">${o.category==='card'?'▤':'♜'}</div>`}<div><div class="offer-tags">${isNew(o)?'<span class="badge new" title="Nowo wykryta w ostatnich 48 godzinach">NEW</span>':''}${d?`<span class="badge drop">↘ ${d.percent}% PRICE DROP</span>`:''}${o.saleType==='auction'?'<span class="badge auction">AUKCJA</span>':''}</div><h4><a href="${esc(o.url)}" target="_blank" rel="noopener noreferrer">${esc(o.title)} ↗</a></h4><p class="offer-meta">${esc(o.source)} · ${esc(o.sellerCountry??'Kraj nieznany')} · ${o.shipsToPL===true?'Dostawa do PL':o.shipsToPL===false?'Bez dostawy do PL':'Dostawa do ustalenia'}</p><span class="auth-label ${esc(o.authenticity)}">${esc(AUTH[o.authenticity])}</span><details><summary>Dowody i ostatnia kontrola</summary><p>${esc(o.evidenceNote||'Brak zweryfikowanych dowodów autentyczności podpisu.')} ${safeUrl(o.evidenceUrl)?`<a href="${esc(safeUrl(o.evidenceUrl))}" target="_blank" rel="noopener noreferrer">Zobacz dowód ↗</a>`:''}</p><p>Kontrola oferty: ${date(o.lastSeen)}${o.verifiedAt?` · Weryfikacja podpisu: ${date(o.verifiedAt)}`:''}</p></details><div class="costs">${price(o.price,o.currency)} + dostawa ${o.shipping===null?'?':price(o.shipping,o.currency)} + opłaty ${o.fees===null?'?':price(o.fees,o.currency)}</div><div class="offer-price"><span class="price">${cost?`${cost.complete?'':'<small>od </small>'}${price(cost.pln)}`:`${price(o.price,o.currency)} <small>brak kursu PLN</small>`}</span><button class="history-button" data-history="${esc(o.id)}">Historia ↗</button></div>${d?`<p class="costs">Obniżka ${price(d.value,o.currency)}; poprzednia cena ${price(d.previous,o.currency)}.</p>`:''}</div></article>`;
 }
 function render(){
+  const sourceSelect=$('filters').elements.source,selectedSource=sourceSelect.value;
+  const sourceOptions='<option value="all">Wszystkie źródła</option>'+[...new Set(data.offers.map(o=>o.source))].sort((a,b)=>a.localeCompare(b,'pl')).map(s=>`<option value="${esc(s)}">${esc(s)}</option>`).join('');
+  if(sourceSelect.innerHTML!==sourceOptions){sourceSelect.innerHTML=sourceOptions;sourceSelect.value=[...sourceSelect.options].some(o=>o.value===selectedSource)?selectedSource:'all';}
   const f=filters(),active=data.offers.filter(o=>o.active!==false && isFresh(o) && (!o.endAt||Date.parse(o.endAt)>Date.now()));
   $('offer-count').innerHTML=`${String(active.length).padStart(2,'0')}<span>/ aktywnych ofert</span>`;
   $('updated').textContent=data.updatedAt?date(data.updatedAt):'Jeszcze nie uruchomiono';

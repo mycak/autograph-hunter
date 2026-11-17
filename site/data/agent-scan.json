@@ -42,5 +42,28 @@
         "reason": "Fotografia/obraz poza zakresem kart Topps/Panini i koszulek."
       }
     ]
+  },
+  "latestShopScan": {
+    "method": "browser-agent",
+    "completedAt": "2026-11-17T10:59:22.221865Z",
+    "sources": [
+      "All Star Signings",
+      "Icons.com"
+    ],
+    "categoriesChecked": 4,
+    "productDetailsChecked": 4,
+    "addedOffers": 4,
+    "verifiedSignatures": 0,
+    "note": "Dwa produkty All Star Signings i dwa warianty oprawy koszulki Icons. Wszystkie zdjęcia obejrzano; są to produkty sklepowe, zdjęcia nie identyfikują konkretnej dostarczanej sztuki. Brak nowych ofert poniżej 800 PLN. Starszych ofert nie odświeżano.",
+    "excluded": [
+      {
+        "url": "https://allstarsignings.com/product-category/players/cristiano-ronaldo/",
+        "reason": "Brak produktów w kategorii."
+      },
+      {
+        "url": "https://www.icons.com/players/cristiano-ronaldo.html",
+        "reason": "Koszulki podpisane wyprzedane. Dostępna fotografia poza zakresem, koszulki UNSIGNED bez podpisu."
+      }
+    ]
   }
 }

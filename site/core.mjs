@@ -43,9 +43,9 @@ export function drop(o) {
   const previous = o.history.length>1 ? o.history.at(-2).price : null;
   return previous>o.price ? {value:previous-o.price,percent:Math.round((previous-o.price)/previous*100),previous} : null;
 }
-export function ranked(data, {player,category,auth='all',eu=false,pl=true,newOnly=false,dropOnly=false,saleType='fixed',search='',sort='price'}={},now=Date.now()) {
+export function ranked(data, {player,category,auth='all',eu=false,pl=true,newOnly=false,dropOnly=false,saleType='fixed',source='all',search='',sort='price'}={},now=Date.now()) {
   return data.offers.filter(o=>o.player===player && o.category===category && o.active!==false && (!o.endAt || Date.parse(o.endAt)>now) && isFresh(o,now)
     && (auth==='all'||o.authenticity===auth) && (!eu||EU.has(o.sellerCountry)) && (!pl||o.shipsToPL===true) && (!newOnly||isNew(o,now)) && (!dropOnly||drop(o))
-    && (saleType==='all'||o.saleType===saleType) && o.title.toLocaleLowerCase('pl').includes(search.toLocaleLowerCase('pl')))
+    && (source==='all'||o.source===source) && (saleType==='all'||o.saleType===saleType) && o.title.toLocaleLowerCase('pl').includes(search.toLocaleLowerCase('pl')))
     .sort((a,b)=> sort==='newest' ? Date.parse(b.firstSeen)-Date.parse(a.firstSeen) : (amount(a,data.rates?.values)?.pln??Infinity)-(amount(b,data.rates?.values)?.pln??Infinity) || a.id.localeCompare(b.id)).slice(0,10);
 }

@@ -49,3 +49,12 @@ test('imports reject unsafe URLs, duplicates, unsubstantiated verified labels an
  assert.equal(safeUrl('javascript:alert(1)'), '');
  assert.doesNotThrow(()=>validate(JSON.parse(readFileSync(new URL('../site/data/example.json',import.meta.url)))));
 });
+
+test('source filter applies before the top ten limit and keeps other filters',()=>{
+ const cheap=Array.from({length:12},(_,i)=>offer({id:String(i),url:`https://example.com/${i}`,source:'eBay',price:10+i}));
+ const shop=offer({id:'shop',url:'https://example.com/shop',source:'Icons.com',price:1000});
+ const all=data([...cheap,shop]);
+ assert.equal(ranked(all,{player:'zidane',category:'card'},now).some(o=>o.id==='shop'),false);
+ assert.deepEqual(ranked(all,{player:'zidane',category:'card',source:'Icons.com'},now).map(o=>o.id),['shop']);
+ assert.equal(ranked(all,{player:'zidane',category:'card',source:'Icons.com',saleType:'auction'},now).length,0);
+});

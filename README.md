@@ -44,9 +44,9 @@ Nie utożsamiamy opisu „COA”, programu eBay Authenticity Guarantee ani gradi
 
 ### Pozostałe platformy
 
-Plan codziennego skanu agentowego o 08:00 czasu polskiego obejmuje eBay, **COMC, Catawiki i Allegro Lokalnie**. Dla trzech dodanych źródeł strona pokazuje stan zaplanowania do pierwszej rzeczywistej kontroli. Aukcje Catawiki są oddzielone filtrem rodzaju sprzedaży i nie generują alertów Kup teraz poniżej 800 PLN.
+Plan codziennego skanu agentowego o 08:00 czasu polskiego obejmuje eBay, **COMC, Catawiki, Allegro Lokalnie, All Star Signings i Icons.com**. Pierwsze kontrole wszystkich sześciu źródeł wykonano; szczegóły zakresu są w statusach źródeł i raporcie skanu. Filtr **Źródło** pokazuje również droższe oferty sklepu, które nie mieszczą się w ogólnym top 10. Aukcje Catawiki są oddzielone filtrem rodzaju sprzedaży i nie generują alertów Kup teraz poniżej 800 PLN.
 
-Vinted, OLX, Allegro, Fanatics Collect, Icons.com, Colectin, MySlabs, Goldin, Whatnot i SportsMemorabilia nadal obsługują obecnie **wyłącznie import ręczny**. Nie ma tu ukrytego scrapingu ani obchodzenia blokad. Odczyt Icons.com podczas przygotowania integracji zwrócił 403. Nie deklarujemy automatycznego skanowania tych serwisów.
+Vinted, OLX, Allegro, Fanatics Collect, Colectin, MySlabs, Goldin, Whatnot i SportsMemorabilia nadal obsługują obecnie **wyłącznie import ręczny**. Nie ma tu ukrytego scrapingu ani obchodzenia blokad. Nie deklarujemy automatycznego skanowania tych serwisów.
 
 ### Trwała aktualizacja danych
 
