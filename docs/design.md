@@ -4,7 +4,7 @@ Odtworzony z rozmowy „Wyszukiwanie autografów Zidane’a” udostępnionej pr
 
 Ciemny kolekcjonerski dashboard. Zidane i Cristiano Ronaldo, osobno karty Topps/Panini i koszulki. Do 10 aktywnych ofert w każdej grupie, sortowanie od najtańszej znanej kwoty. Dowody autentyczności, PL/UE, historia cen, NEW 48h i PRICE DROP. Import JSON. Bez fikcyjnych ofert w bazie.
 
-Wybrana w rozmowie uproszczona architektura: statyczny frontend, pliki JSON i GitHub Actions, bez Supabase, Vercel i OpenAI API. Repozytorium prywatne `mycak/autograph-hunter` zgodnie z późniejszą decyzją właściciela. Hosting GitHub Pages zależy od planu konta.
+Wybrana w rozmowie uproszczona architektura: statyczny frontend, pliki JSON i GitHub Actions, bez Supabase, Vercel i OpenAI API. Repozytorium `mycak/autograph-hunter` utworzono jako prywatne. Po odrzuceniu GitHub Pages przez ograniczenia planu właściciel 17 listopada 2026 wyraźnie wybrał zmianę na publiczne repozytorium i darmowe Pages.
 
 Alerty cenowe i lista obserwowanych ofert nie zostały wybrane do tej wersji. Automatyczna analiza zdjęć i certyfikatów nie jest częścią darmowej wersji. Istniejące zadanie ChatGPT jest niezależne; nie utworzono duplikatu.
 
