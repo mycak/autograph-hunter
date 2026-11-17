@@ -17,7 +17,7 @@ npm run refresh
 
 - Cztery niezależne rankingi z limitem 10; nie uzupełniamy brakujących pozycji fikcyjnymi ofertami.
 - Filtry autentyczności, miejsca wysyłki w UE, potwierdzonej dostawy do Polski, NEW, spadków cen, aukcji i wyszukiwanie po tytule.
-- Domyślnie: potwierdzone autografy, kup teraz, dostawa do Polski. Automatycznie pobrane oferty eBay mają ocenę **niezweryfikowany** — wybierz odpowiedni filtr, żeby je obejrzeć.
+- Domyślnie: wszystkie oceny autentyczności, kup teraz, dostawa do Polski. Automatycznie pobrane oferty eBay mają ocenę **niezweryfikowany** — etykieta pozostaje widoczna przy każdej ofercie.
 - NEW przez 48 godzin od pierwszego wykrycia, nie od publikacji ogłoszenia.
 - Cena przedmiotu + znana dostawa + znane opłaty, przeliczane według tabeli A NBP. Nieznany koszt ma wartość `null`, a suma etykietę „od”. Ceny z niepełnymi kosztami nie gwarantują najniższej ostatecznej kwoty zakupu.
 - PRICE DROP na podstawie ostatnich dwóch pomiarów ceny w walucie oferty. Historia i wykres w oknie oferty; bez mieszania zmian kursowych ze zmianami ceny przedmiotu.
@@ -27,7 +27,7 @@ npm run refresh
 
 ## Dane i integracje
 
-Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, nie gwarantowane oryginalne autografy. Przycisk „Pokaż znalezione propozycje” pozwala obejrzeć oferty niezweryfikowane bez zmiany domyślnego filtra potwierdzonych autografów. Procedura kolejnych skanów: [monitoring agentowy](docs/agent-monitoring.md).
+Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, nie gwarantowane oryginalne autografy. Przycisk „Pokaż znalezione propozycje” pozwala obejrzeć oferty niezweryfikowane po ręcznym zawężeniu filtra autentyczności. Procedura kolejnych skanów: [monitoring agentowy](docs/agent-monitoring.md).
 
 `site/data/example.json` to **nieaktywna fikcyjna pozycja wyłącznie do dokumentacji formatu**; nie jest wczytywana do rankingu. Kopiując format, zastąp dane prawdziwą ofertą, ustaw aktualne daty i `active: true`.
 

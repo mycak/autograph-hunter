@@ -11,10 +11,11 @@ test('ranking compares converted item + delivery + fees, and caps each category 
  const r=ranked(data(list),{player:'zidane',category:'card'},now);
  assert.equal(r.length,10);assert.equal(r[0].id,'usd');assert.equal(amount(r[0],{USD:3}).pln,315);
 });
-test('default filter excludes unverified, unknown PL delivery, expired, stale, inactive, auctions and other players',()=>{
+test('default view shows collected unverified offers; verified filter remains available',()=>{
  const changes=[{}, {authenticity:'unverified'}, {shipsToPL:null}, {lastSeen:'2026-11-10T08:00:00Z',firstSeen:'2026-11-09T08:00:00Z'}, {endAt:'2026-11-16T09:00:00Z'}, {active:false}, {saleType:'auction'}, {player:'ronaldo'}];
  const list=changes.map((c,i)=>offer({...c,id:String(i),url:`https://example.com/${i}`}));
- assert.deepEqual(ranked(data(list),{player:'zidane',category:'card'},now).map(o=>o.id),['0']);
+ assert.deepEqual(ranked(data(list),{player:'zidane',category:'card'},now).map(o=>o.id),['0','1']);
+ assert.deepEqual(ranked(data(list),{player:'zidane',category:'card',auth:'verified'},now).map(o=>o.id),['0']);
 });
 test('EU filter excludes GB and unknown countries; default filter can be relaxed',()=>{
  const list=[offer(),offer({id:'2',url:'https://example.com/2',sellerCountry:'GB'}),offer({id:'3',url:'https://example.com/3',sellerCountry:null,authenticity:'unverified',shipsToPL:null})];
