@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "offers": [
+    {
+      "id": "example-only",
+      "source": "Przykład formatu — nie oferta",
+      "player": "zidane",
+      "category": "card",
+      "title": "PRZYKŁAD — Topps Zidane autograph",
+      "url": "https://example.com/not-a-real-listing",
+      "image": null,
+      "price": 100,
+      "currency": "EUR",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "FR",
+      "shipsToPL": null,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": null,
+      "evidenceNote": "Dane testowe. Nie importuj jako prawdziwej oferty.",
+      "verifiedAt": null,
+      "firstSeen": "2026-01-01T08:00:00Z",
+      "lastSeen": "2026-01-02T08:00:00Z",
+      "active": false,
+      "history": [
+        {
+          "at": "2026-01-01T08:00:00Z",
+          "price": 120
+        },
+        {
+          "at": "2026-01-02T08:00:00Z",
+          "price": 100
+        }
+      ]
+    }
+  ]
+}

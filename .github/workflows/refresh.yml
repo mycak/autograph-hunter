@@ -1,0 +1,73 @@
+name: Refresh offers
+on:
+  schedule:
+    - cron: '10 6 * * *'
+  workflow_dispatch:
+    inputs:
+      offers_json:
+        description: 'Optional JSON document to merge into published offers'
+        required: false
+        type: string
+permissions:
+  contents: write
+concurrency:
+  group: autograph-data
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test data pipeline
+        run: npm test
+      - name: Read optional manual import
+        env:
+          OFFERS_JSON: ${{ inputs.offers_json }}
+        run: |
+          python3 - <<'PY'
+          import os
+          from pathlib import Path
+          value = os.getenv('OFFERS_JSON', '')
+          if value.strip():
+              Path('/tmp/offers-import.json').write_text(value)
+          PY
+      - name: Refresh data
+        env:
+          EBAY_CLIENT_ID: ${{ secrets.EBAY_CLIENT_ID }}
+          EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
+        run: |
+          if [ -f /tmp/offers-import.json ]; then
+            python3 scripts/refresh.py --import-file /tmp/offers-import.json
+          else
+            python3 scripts/refresh.py
+          fi
+          node scripts/validate.mjs
+      - name: Save snapshot
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add site/data/offers.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh autograph listings and exchange rates'
+            git push
+          fi
+      - name: Check configured providers
+        run: |
+          python3 - <<'PY'
+          import json, os
+          d = json.load(open('site/data/offers.json'))
+          source = next(s for s in d['sources'] if s['name']=='eBay')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write('## Data refresh\n\neBay: **'+source['status']+'**\n\n'+source['message']+'\n')
+          if source['status'] == 'error':
+              raise SystemExit('eBay scan failed. Snapshot preserved; inspect source status.')
+          PY
