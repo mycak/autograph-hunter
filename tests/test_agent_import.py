@@ -14,6 +14,14 @@ m=importlib.util.module_from_spec(spec)
 spec.loader.exec_module(m)
 
 class AgentImportTests(unittest.TestCase):
+    def test_title_and_autenticity_label_do_not_prove_signature_presence(self):
+        offer=json.loads((ROOT/'site/data/example.json').read_text())['offers'][0]
+        offer['active']=True
+        with tempfile.TemporaryDirectory() as temp:
+            path=Path(temp)/'data.json';original=json.dumps(empty_data());path.write_text(original)
+            incoming=Path(temp)/'report.json';incoming.write_text(json.dumps({'schemaVersion':1,'offers':[offer]}))
+            with self.assertRaisesRegex(ValueError,'signatureEvidence'):m.import_report(incoming,path)
+            self.assertEqual(path.read_text(),original)
     def test_report_preserves_initial_detection_and_api_refresh_preserves_agent_status(self):
         offer=json.loads((ROOT/'site/data/example.json').read_text())['offers'][0]
         offer.update(source='eBay',id='ebay:v1|123|0',firstSeen='2026-11-16T08:00:00Z',lastSeen='2026-11-16T08:00:00Z')

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T10:13:56Z",
+  "updatedAt": "2026-11-17T10:26:58.256232Z",
   "rates": {
     "date": "2026-11-16",
     "values": {
@@ -1062,36 +1062,6 @@
       "checkedBy": "browser-agent"
     },
     {
-      "id": "ebay:v1|800895835045|0",
-      "source": "eBay",
-      "player": "zidane",
-      "category": "card",
-      "title": "Zinedine Zidane /10 Patch Juventus UEFA Topps 2025-26 Museum Collection Auto",
-      "url": "https://www.ebay.pl/itm/800895835045",
-      "image": "https://i.ebayimg.com/images/g/qK4AAeSw-rZq8Yf-/s-l500.webp",
-      "price": 190.0,
-      "currency": "EUR",
-      "shipping": 13.0,
-      "fees": null,
-      "sellerCountry": "AT",
-      "shipsToPL": true,
-      "saleType": "fixed",
-      "authenticity": "unverified",
-      "evidenceUrl": "https://www.ebay.pl/itm/800895835045",
-      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
-      "verifiedAt": null,
-      "firstSeen": "2026-11-17T10:07:24.585Z",
-      "lastSeen": "2026-11-17T10:07:24.585Z",
-      "active": true,
-      "history": [
-        {
-          "at": "2026-11-17T10:07:24.585Z",
-          "price": 190.0
-        }
-      ],
-      "checkedBy": "browser-agent"
-    },
-    {
       "id": "ebay:v1|800909760860|0",
       "source": "eBay",
       "player": "zidane",
@@ -1222,7 +1192,7 @@
       "lastSuccessAt": null,
       "agent": {
         "checkedAt": "2026-11-17T10:09:36.096Z",
-        "offers": 39,
+        "offers": 38,
         "message": "Skan agentowy bez API: ceny i dostawa odczytane z konkretnych ogłoszeń. Dowody autentyczności wymagają oddzielnej kontroli."
       }
     },

@@ -13,6 +13,14 @@ from urllib.request import Request, urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'site/data/offers.json'
+
+def excluded_offer(offer):
+    """Keep reviewed false positives out of both API and agent imports."""
+    exclusions=json.loads((ROOT/'site/data/excluded-offers.json').read_text())
+    blocked={e['itemId'] for e in exclusions if e['source']=='eBay'}
+    item_id=re.search(r'/itm/(?:[^/]+/)?(\d+)',offer.get('url',offer.get('itemWebUrl','')))
+    return bool(item_id and item_id[1] in blocked)
+
 SOURCES = [
     ('eBay', 'https://www.ebay.pl', 'credentials_required', 'Oficjalne Browse API. Dodaj klucze produkcyjne w sekretach repozytorium.'),
     ('Vinted', 'https://www.vinted.pl', 'manual', 'Import ręczny; automatyczny dostęp nie został podłączony.'),
@@ -48,6 +56,8 @@ def money(value):
     return result
 
 def normalize_ebay(item, player, category, now):
+    if excluded_offer(item):
+        return None
     title = item.get('title', '')
     low = title.lower()
     # Search results can contain unrelated items, facsimiles, and blank cards.
@@ -109,9 +119,11 @@ def collect_ebay(client, secret, now, fetch=request_json):
     return list(found.values())
 
 def merge(previous, incoming, now):
-    offers={o['id']:copy.deepcopy(o) for o in previous}
-    by_url={o['url']:o['id'] for o in previous}
+    offers={o['id']:copy.deepcopy(o) for o in previous if not excluded_offer(o)}
+    by_url={o['url']:o['id'] for o in offers.values()}
     for offer in incoming:
+        if excluded_offer(offer):
+            continue
         old=offers.get(offer['id'])
         if old is None and offer['url'] in by_url:
             old=offers[by_url[offer['url']]]

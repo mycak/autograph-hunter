@@ -10,6 +10,13 @@ spec.loader.exec_module(m)
 NOW='2026-11-17T08:00:00Z'
 
 class PipelineTests(unittest.TestCase):
+    def test_reviewed_unsigned_patch_cannot_return_from_api_or_merge(self):
+        item=self.item()
+        item.update(itemWebUrl='https://www.ebay.com/itm/800895835045',title='Zinedine Zidane /10 Patch Juventus UEFA Topps 2025-26 Museum Collection Auto')
+        self.assertIsNone(m.normalize_ebay(item,'zidane','card',NOW))
+        offer=m.normalize_ebay(self.item(),'zidane','card',NOW)
+        offer['url']=item['itemWebUrl']
+        self.assertEqual(m.merge([offer],[offer],NOW),[])
     def item(self):
         return {'itemId':'v1|123|0','title':'Panini Zidane autograph','itemWebUrl':'https://www.ebay.com/itm/123','buyingOptions':['FIXED_PRICE'],'price':{'value':'100','currency':'EUR'},'shippingOptions':[{'shippingCost':{'value':'10','currency':'EUR'}}],'itemLocation':{'country':'FR'}}
     def test_only_relevant_signed_items_and_never_auto_verified(self):

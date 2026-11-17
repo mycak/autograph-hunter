@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {validate,ranked,amount,isNew,drop,safeUrl} from '../site/core.mjs';
+import {validate,ranked,amount,isNew,drop,safeUrl,isUnderBudget} from '../site/core.mjs';
 const now=Date.parse('2026-11-17T08:00:00Z');
 const offer=(changes={})=>({id:'1',source:'Test',player:'zidane',category:'card',title:'Panini Zidane autograph',url:'https://example.com/item/1',image:null,price:100,currency:'EUR',shipping:10,fees:0,sellerCountry:'FR',shipsToPL:true,saleType:'fixed',authenticity:'verified',evidenceUrl:'https://example.com/cert/1',evidenceNote:'Checked signature certificate',verifiedAt:'2026-11-17T07:00:00Z',firstSeen:'2026-11-16T08:00:00Z',lastSeen:'2026-11-17T07:00:00Z',history:[],...changes});
 const data=(offers)=>validate({schemaVersion:1,offers,rates:{values:{PLN:1,EUR:4,USD:3}}});
@@ -30,6 +30,12 @@ test('NEW is measured from first detection and expires exactly at 48 hours',()=>
 test('unknown delivery never becomes zero or a complete total',()=>{
  assert.deepEqual(amount(offer({shipping:null,fees:null}),{EUR:4}),{pln:400,complete:false});
  assert.equal(amount(offer(),{}),null);
+});
+test('red background threshold uses converted displayed total, strictly below 800 PLN',()=>{
+ assert.equal(isUnderBudget(offer({price:190,shipping:9.99}),{EUR:4}),true);
+ assert.equal(isUnderBudget(offer({price:190,shipping:10}),{EUR:4}),false);
+ assert.equal(isUnderBudget(offer({price:190,shipping:10,fees:1}),{EUR:4}),false);
+ assert.equal(isUnderBudget(offer(),{}),false);
 });
 test('price drop uses original currency measurements rather than exchange-rate changes',()=>{
  const o=offer({price:80,history:[{at:'2026-11-16T00:00:00Z',price:100},{at:'2026-11-17T00:00:00Z',price:80}]});

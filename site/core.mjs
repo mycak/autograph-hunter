@@ -35,6 +35,10 @@ export function amount(o,rates={PLN:1}) {
   if (typeof rate!=='number' || !Number.isFinite(rate) || rate<=0) return null;
   return {pln:Math.round((o.price+(o.shipping??0)+(o.fees??0))*rate*100)/100,complete:o.shipping!==null && o.fees!==null};
 }
+export const isUnderBudget = (o,rates,limit=800) => {
+  const cost=amount(o,rates);
+  return cost!==null && cost.pln<limit;
+};
 export function drop(o) {
   const previous = o.history.length>1 ? o.history.at(-2).price : null;
   return previous>o.price ? {value:previous-o.price,percent:Math.round((previous-o.price)/previous*100),previous} : null;

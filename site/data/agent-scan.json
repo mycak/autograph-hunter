@@ -2,7 +2,7 @@
   "method": "browser-agent",
   "completedAt": "2026-11-17T10:09:36.096Z",
   "checkedItems": 41,
-  "acceptedCandidates": 39,
+  "acceptedCandidates": 38,
   "verifiedSignatures": 0,
   "excluded": [
     {
@@ -12,6 +12,10 @@
     {
       "url": "https://www.ebay.pl/itm/800879047651",
       "reason": "Opis sprzedawcy jednoznacznie stwierdza, że podpis jest nadrukowany."
+    },
+    {
+      "url": "https://www.ebay.pl/itm/800895835045",
+      "reason": "Karta patch bez autografu. Usunięta po korekcie właściciela; sam tytuł Auto nie jest dowodem obecności podpisu."
     }
   ],
   "note": "To propozycje do weryfikacji, nie potwierdzone oryginalne autografy. Dodatkowe nadruki, tabliczki i zwykłe karty odrzucono podczas wyszukiwania."
