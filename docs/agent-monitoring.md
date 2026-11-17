@@ -15,6 +15,16 @@ Stronę można aktualizować przez agenta przeglądającego publiczne ogłoszeni
 
 Do 10 pozycji na ranking to cel, nie obowiązek wypełnienia luk. Nie ma potrzeby dodawania kolejnych nieudokumentowanych ofert tylko po to, żeby uzyskać równo 40 wyników. Nie aktualizuj `lastSeen` ofert, których nie sprawdzono. Nie oznaczaj pozycji jako sprzedanej jedynie dlatego, że nie ma jej w ograniczonej liście wyników.
 
+## Alerty poniżej 800 PLN
+
+Właściciel włączył alerty 17 listopada 2026. Po wykryciu oferty z kwotą **ściśle poniżej 800 PLN** przygotuj alert w bieżącym czacie, obejmujący nazwę przedmiotu, link, cenę przedmiotu, dostawę, znane opłaty, wyliczoną kwotę w PLN i status autentyczności. Stosuj tę samą kwotę co frontend: cena przedmiotu + dostawa + znane opłaty, przeliczone według aktualnie zapisanych kursów NBP. Dokładnie 800 PLN nie spełnia warunku. Przy niepełnych kosztach napisz wyraźnie „od” i wskaż brakujące koszty.
+
+Warunek jakości obowiązuje także dla alertów: podpis musi być faktycznie widoczny na zdjęciu i opisany w `signatureEvidence`. Nie alarmuj o patchach bez podpisu, nadrukach, autopenach ani o rekordzie z samym słowem Auto w tytule. Widoczność podpisu i weryfikacja jego autentyczności to odrębne rzeczy; jeśli autentyczność jest niepotwierdzona, wyraźnie zaznacz to w alercie i nie nazywaj oferty potwierdzonym oryginałem.
+
+Alert dotyczy nowo wykrytej oferty poniżej progu, istniejącej oferty jeszcze niezgłoszonej albo ponownego zejścia ceny z co najmniej 800 PLN poniżej progu. Nie powtarzaj codziennie identycznego alertu. Zachowuj stan zgłoszeń po ID oferty w `/Users/mycak/Documents/Codex/2026-11-17/sprawd-po-czenie-z-moim-githubem/work/autograph-alert-state.json`; aktualizuj go po przekazaniu alertu. W razie braku pliku traktuj prawidłowo sprawdzone propozycje jako jeszcze niezgłoszone. Brak alertu nie może zostać zapisany jako alert wysłany.
+
+Alert przekaż zaraz po wykryciu podczas skanu, a następnie dokończ publikację danych. Harmonogram pozostaje codziennie o 08:00 czasu polskiego; nie jest to ciągły monitoring w czasie rzeczywistym. Ustawienia dostarczania powiadomień należą do konfiguracji automatyzacji w aplikacji.
+
 ## Dostępność i koszty
 
 Agentowy przegląd nie wymaga osobnego API marketplace, ale korzysta z dostępnych narzędzi i limitów planu agenta. Harmonogram wymagający lokalnej przeglądarki lub plików zależy od dostępności komputera i aplikacji. Sam GitHub Actions nie uruchamia takiego agenta. Produkcyjne API eBay jest darmową alternatywą do ustrukturyzowanego pobierania, wymaga jednak konta deweloperskiego i kluczy.
