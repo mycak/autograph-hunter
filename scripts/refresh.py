@@ -162,7 +162,7 @@ def run(path=DATA, import_path=None, fetch=request_json):
             source.update(status='error',message='Pobranie eBay nie powiodło się. Zachowano wcześniejsze dane; sprawdź klucze i dostęp produkcyjny Browse API.')
             print('eBay: refresh failed; preserving previous listings.',file=sys.stderr)
     else:
-        source.update(status='credentials_required',message='Pobieranie nieaktywne: brak EBAY_CLIENT_ID / EBAY_CLIENT_SECRET. Dostęp produkcyjny Browse API może wymagać zatwierdzenia przez eBay.')
+        source.update(status='credentials_required',message='Pobieranie przez API nieaktywne: brak EBAY_CLIENT_ID / EBAY_CLIENT_SECRET. Dostęp produkcyjny Browse API może wymagać zatwierdzenia przez eBay.')
     path.parent.mkdir(parents=True,exist_ok=True)
     temp=path.with_suffix('.tmp')
     temp.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n')

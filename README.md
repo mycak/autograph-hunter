@@ -16,7 +16,7 @@ npm run refresh
 ## Działające funkcje
 
 - Cztery niezależne rankingi z limitem 10; nie uzupełniamy brakujących pozycji fikcyjnymi ofertami.
-- Filtry autentyczności, kraju sprzedawcy w UE, potwierdzonej dostawy do Polski, NEW, spadków cen, aukcji i wyszukiwanie po tytule.
+- Filtry autentyczności, miejsca wysyłki w UE, potwierdzonej dostawy do Polski, NEW, spadków cen, aukcji i wyszukiwanie po tytule.
 - Domyślnie: potwierdzone autografy, kup teraz, dostawa do Polski. Automatycznie pobrane oferty eBay mają ocenę **niezweryfikowany** — wybierz odpowiedni filtr, żeby je obejrzeć.
 - NEW przez 48 godzin od pierwszego wykrycia, nie od publikacji ogłoszenia.
 - Cena przedmiotu + znana dostawa + znane opłaty, przeliczane według tabeli A NBP. Nieznany koszt ma wartość `null`, a suma etykietę „od”. Ceny z niepełnymi kosztami nie gwarantują najniższej ostatecznej kwoty zakupu.
@@ -27,7 +27,9 @@ npm run refresh
 
 ## Dane i integracje
 
-Startowa baza jest pusta. `site/data/example.json` to **nieaktywna fikcyjna pozycja wyłącznie do dokumentacji formatu**; nie jest wczytywana do rankingu. Kopiując format, zastąp dane prawdziwą ofertą, ustaw aktualne daty i `active: true`.
+Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, nie gwarantowane oryginalne autografy. Przycisk „Pokaż znalezione propozycje” pozwala obejrzeć oferty niezweryfikowane bez zmiany domyślnego filtra potwierdzonych autografów. Procedura kolejnych skanów: [monitoring agentowy](docs/agent-monitoring.md).
+
+`site/data/example.json` to **nieaktywna fikcyjna pozycja wyłącznie do dokumentacji formatu**; nie jest wczytywana do rankingu. Kopiując format, zastąp dane prawdziwą ofertą, ustaw aktualne daty i `active: true`.
 
 ### eBay — oficjalne Browse API
 
@@ -45,6 +47,8 @@ Nie utożsamiamy opisu „COA”, programu eBay Authenticity Guarantee ani gradi
 Vinted, OLX, Allegro, Catawiki, COMC, Fanatics Collect, Icons.com, Colectin, MySlabs, Goldin, Whatnot i SportsMemorabilia obsługują obecnie **wyłącznie import ręczny**. Nie ma tu ukrytego scrapingu ani obchodzenia blokad. Odczyt Icons.com podczas przygotowania integracji zwrócił 403. Nie deklarujemy automatycznego skanowania tych serwisów.
 
 ### Trwała aktualizacja danych
+
+Raport po rzeczywistym sprawdzeniu ofert przez agenta można scalić poleceniem `python3 scripts/import-agent.py /sciezka/raport.json`. Aktualizuje oferty i oddzielny status skanu agentowego; nie wymaga kluczy API. Nie uruchamia kolejnego skanu samodzielnie. GitHub Actions aktualizuje kursy/status API, a agent musi dostarczyć kolejne sprawdzone dane.
 
 Zamiast lokalnego importu możesz dodać dokument JSON do `Actions → Refresh offers → Run workflow → offers_json`. Aktualizacja scala oferty po ID lub dokładnym URL i zachowuje pierwszą datę wykrycia oraz historię. Dotychczasowe pozycje nieobecne w ograniczonym wyszukiwaniu nie są automatycznie oznaczane jako sprzedane; po 72h bez kontroli wypadają z widoku.
 

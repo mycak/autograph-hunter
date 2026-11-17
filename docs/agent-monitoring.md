@@ -1,0 +1,20 @@
+# Monitoring agentowy bez API
+
+Stronę można aktualizować przez agenta przeglądającego publiczne ogłoszenia. Pierwszy taki skan wykonano 17 listopada 2026; jego podsumowanie jest w `site/data/agent-scan.json`. Oferty zebrane w ten sposób nie wymagają klucza eBay. Nie jest to scraping uruchamiany przez GitHub Actions.
+
+## Procedura kolejnego skanu
+
+1. Pobierz najnowszy stan domyślnej gałęzi repozytorium `mycak/autograph-hunter`. Sprawdź istniejące oferty i historię.
+2. Przez dostępne narzędzia wyszukiwania i przeglądarki szukaj ofert Zidane’a i Cristiano Ronaldo: osobno karty Topps/Panini oraz koszulki. Ustaw sprzedaż kup teraz i dostawę do Polski. Zacznij od eBay; inne zatwierdzone źródła sprawdzaj w miarę dostępności. Nie omijaj blokad, CAPTCHA ani logowania. Zaznacz źródło niedostępne zamiast raportować pusty udany skan.
+3. Odrzuć tabliczki, plakaty, fotokopie, nadruki podpisu, autopen/podpis maszynowy, „signature style”, przedruki kart, zamknięte boxy z szansą na autograf i przedmioty niewłaściwego piłkarza. Sam tytuł jest niewystarczający. W pierwszym skanie opis koszulki ujawnił `PRINTED SIGNATURE`, mimo słowa `SIGNED` w tytule; inna miała `Machine signed`.
+4. Otwórz konkretne ogłoszenie. Odczytaj aktualną cenę w oryginalnej walucie, wysyłkę do Polski, dostępność, miejsce wysyłki i opis sprzedawcy. Indeks wyszukiwarki i lista wyników bywają nieaktualne lub pokazują inne kwoty po uwzględnieniu kraju dostawy. Nie używaj ich jako zamiennika kontroli szczegółów.
+5. Certyfikaty PSA/DNA, BAS, JSA i gwarancję autografu producenta sprawdzaj niezależnie. Brak numeru lub brak dostępu do weryfikatora oznacza `unverified`. Deklaracja „COA”, nazwa gradingu czy deklaracja sprzedawcy nie wystarczają do `verified`. Nie dopisuj domyślnego zera jako nieznanej wysyłki/opłaty; użyj `null`. Cena „od” jest subtotalem.
+6. Zapisz raport `{ "schemaVersion": 1, "offers": [...] }` zgodnie z `site/data/example.json`, z rzeczywistym `lastSeen`, linkiem konkretnej oferty i krótką notatką własnymi słowami. Dla pojedynczego przedmiotu eBay używaj ID `ebay:v1|NUMER_PRZEDMIOTU|0`, aby dopasować późniejsze dane API. `sellerCountry` w istniejącym formacie oznacza w tym zbiorze kraj wskazanego miejsca wysyłki, nie prawnie potwierdzone miejsce rejestracji firmy. Nie dopisuj nieznanej lokalizacji. Zachowaj `firstSeen` istniejących ofert przez importer.
+7. Uruchom `python3 scripts/import-agent.py /absolutna/sciezka/raport.json`, następnie `npm run check` i `node scripts/validate.mjs`. Importer scala dane i zapisuje oddzielny status ostatniego skanu agentowego. Zapytania eBay API mogą nadal mieć status braku kluczy — to osobny mechanizm.
+8. Sprawdź diff: tylko prawdziwe oferty, zgodne waluty i stawki, zero zmyślonych certyfikatów. Commituj i wypchnij aktualizację na domyślną gałąź, używając autoryzacji konta `mycak`. Nie zapisuj ani nie wypisuj tokenów. Publikacja Pages uruchamia się automatycznie po zmianie `site/`. Poczekaj na jej zakończenie i sprawdź publiczny JSON.
+
+Do 10 pozycji na ranking to cel, nie obowiązek wypełnienia luk. Nie ma potrzeby dodawania kolejnych nieudokumentowanych ofert tylko po to, żeby uzyskać równo 40 wyników. Nie aktualizuj `lastSeen` ofert, których nie sprawdzono. Nie oznaczaj pozycji jako sprzedanej jedynie dlatego, że nie ma jej w ograniczonej liście wyników.
+
+## Dostępność i koszty
+
+Agentowy przegląd nie wymaga osobnego API marketplace, ale korzysta z dostępnych narzędzi i limitów planu agenta. Harmonogram wymagający lokalnej przeglądarki lub plików zależy od dostępności komputera i aplikacji. Sam GitHub Actions nie uruchamia takiego agenta. Produkcyjne API eBay jest darmową alternatywą do ustrukturyzowanego pobierania, wymaga jednak konta deweloperskiego i kluczy.

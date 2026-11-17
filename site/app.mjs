@@ -17,14 +17,19 @@ function render(){
   $('updated').textContent=data.updatedAt?date(data.updatedAt):'Jeszcze nie uruchomiono';
   $('rate-date').textContent=data.rates?.date?`Kursy NBP: ${data.rates.date}`:'Brak kursów walut';
   const working=(data.sources??[]).some(s=>s.status==='ok');
+  const agentScans=(data.sources??[]).filter(s=>s.agent?.checkedAt).sort((a,b)=>Date.parse(b.agent.checkedAt)-Date.parse(a.agent.checkedAt));
+  const unverified=active.filter(o=>o.authenticity==='unverified').length;
+  $('show-candidates').hidden=!unverified || f.auth==='all';
+  $('show-candidates').textContent=`Pokaż znalezione propozycje (${unverified} do weryfikacji) →`;
   $('notice').className='notice';
   $('notice').textContent=local?'Oglądasz lokalny import zapisany w tej przeglądarce. Dane serwera pozostają bez zmian.':working?'Dane z ostatniego skanu. Ocena podpisu wymaga oddzielnej weryfikacji; sprawdź status każdego źródła poniżej.':active.length?'Wczytano oferty z importu. Automatyczne pobieranie nie jest aktywne; aktualność i dowody sprawdzisz przy każdej ofercie.':'Ranking czeka na dane. Automatyczne pobieranie ofert nie jest jeszcze aktywne — eBay wymaga kluczy API, a pozostałe źródła obsługują import ręczny. Możesz już importować, filtrować i porównywać własne oferty.';
+  if(!local && agentScans.length && active.length) $('notice').textContent=`Ostatni skan agentowy bez API: ${date(agentScans[0].agent.checkedAt)}. W bazie ${active.length} aktualnych propozycji. Domyślnie widzisz tylko potwierdzone autografy; znalezione oferty bez sprawdzonego dowodu podpisu wymagają weryfikacji.`;
   $('boards').innerHTML=boardDefs.map(([player,category,num,label])=>{
     const offers=ranked(data,{...f,player,category}),hasAny=data.offers.some(o=>o.player===player&&o.category===category);
     const query=`${PLAYERS[player]} ${category==='card'?'(Topps,Panini) autograph':'signed jersey'}`;
     return `<section class="board" aria-label="${PLAYERS[player]} — ${label}"><header class="board-header"><span class="board-num">${num}</span><div class="board-title"><h3>${PLAYERS[player]}</h3><p>${label}</p></div><span class="board-count">${offers.length} / 10</span></header>${offers.length?offers.map(offerHtml).join(''):`<div class="empty"><div class="empty-icon" aria-hidden="true">${category==='card'?'▤':'♜'}</div><strong>${hasAny?'Brak ofert spełniających filtry':'Czekamy na pierwszy egzemplarz.'}</strong><p>${hasAny?'Zmień filtry lub zaktualizuj dane. Domyślnie pokazujemy tylko świeże, potwierdzone autografy z dostawą do Polski.':'Tutaj pojawi się ranking prawdziwych ofert. Bez przykładowych cen i fikcyjnych ogłoszeń.'}</p><a href="https://www.ebay.pl/sch/i.html?_nkw=${encodeURIComponent(query)}" target="_blank" rel="noopener noreferrer">Szukaj ręcznie na eBay ↗</a></div>`}</section>`;
   }).join('');
-  $('source-list').innerHTML=(data.sources??[]).map(s=>`<article class="source"><h3>${safeUrl(s.url)?`<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a>`:esc(s.name)}</h3><span class="source-status ${s.status==='ok'?'ok':''}">${s.status==='ok'?'● Sprawdzono':s.status==='error'?'● Błąd pobierania':s.status==='credentials_required'?'○ Wymaga kluczy API':'○ Import ręczny'}</span><p>${esc(s.message??'Nie podłączono automatycznej integracji.')}</p>${s.checkedAt?`<p>Próba: ${date(s.checkedAt)}</p>`:''}${s.lastSuccessAt?`<p>Udany skan: ${date(s.lastSuccessAt)}</p>`:''}</article>`).join('');
+  $('source-list').innerHTML=(data.sources??[]).map(s=>`<article class="source"><h3>${safeUrl(s.url)?`<a href="${esc(safeUrl(s.url))}" target="_blank" rel="noopener noreferrer">${esc(s.name)} ↗</a>`:esc(s.name)}</h3><span class="source-status ${s.status==='ok'||s.agent?'ok':''}">${s.agent?'● Skan agentowy':s.status==='ok'?'● Sprawdzono':s.status==='error'?'● Błąd pobierania':s.status==='credentials_required'?'○ Wymaga kluczy API':'○ Import ręczny'}</span>${s.agent?`<p>${esc(s.agent.message)} Ostatnia kontrola: ${date(s.agent.checkedAt)}.</p>`:''}<p>${esc(s.message??'Nie podłączono automatycznej integracji.')}</p>${s.checkedAt?`<p>Próba API: ${date(s.checkedAt)}</p>`:''}${s.lastSuccessAt?`<p>Udany skan API: ${date(s.lastSuccessAt)}</p>`:''}</article>`).join('');
 }
 function showHistory(id){
   const o=data.offers.find(o=>o.id===id);if(!o)return;
@@ -38,6 +43,7 @@ $('filters').addEventListener('reset',()=>setTimeout(()=>data&&render(),0));
 $('filters').addEventListener('submit',e=>e.preventDefault());
 $('boards').addEventListener('click',e=>{const b=e.target.closest('[data-history]');if(b)showHistory(b.dataset.history);});
 $('import-open').addEventListener('click',()=>$('import-dialog').showModal());
+$('show-candidates').addEventListener('click',()=>{ $('filters').elements.auth.value='all';render();$('rankings').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'}); });
 $('import-file').addEventListener('change',async e=>{
   const file=e.target.files[0];if(!file)return;
   try{

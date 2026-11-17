@@ -1,0 +1,18 @@
+{
+  "method": "browser-agent",
+  "completedAt": "2026-11-17T10:09:36.096Z",
+  "checkedItems": 41,
+  "acceptedCandidates": 39,
+  "verifiedSignatures": 0,
+  "excluded": [
+    {
+      "url": "https://www.ebay.pl/itm/297903325334",
+      "reason": "Podpis maszynowy lub nadruk według opisu sprzedawcy."
+    },
+    {
+      "url": "https://www.ebay.pl/itm/800879047651",
+      "reason": "Opis sprzedawcy jednoznacznie stwierdza, że podpis jest nadrukowany."
+    }
+  ],
+  "note": "To propozycje do weryfikacji, nie potwierdzone oryginalne autografy. Dodatkowe nadruki, tabliczki i zwykłe karty odrzucono podczas wyszukiwania."
+}

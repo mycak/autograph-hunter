@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17T09:47:39Z",
+  "updatedAt": "2026-11-17T10:13:56Z",
   "rates": {
     "date": "2026-11-16",
     "values": {
@@ -40,15 +40,1191 @@
     },
     "status": "ok"
   },
-  "offers": [],
+  "offers": [
+    {
+      "id": "ebay:v1|135148847256|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "maglia Cristiano Ronaldo manchester united 2004 2005 Vodafone signed jersey",
+      "url": "https://www.ebay.pl/itm/135148847256",
+      "image": "https://i.ebayimg.com/images/g/4QoAAeSwFHNqkp2a/s-l500.webp",
+      "price": 229.9,
+      "currency": "EUR",
+      "shipping": 17.9,
+      "fees": null,
+      "sellerCountry": "IT",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/135148847256",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Tytuł deklaruje podpis, ale opis nie dokumentuje jego pochodzenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:14.332Z",
+      "lastSeen": "2026-11-17T10:09:14.332Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:14.332Z",
+          "price": 229.9
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|137550919634|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano ronaldo Ręcznie podpisana koszulka Jeep Adidas Jr",
+      "url": "https://www.ebay.pl/itm/137550919634",
+      "image": "https://i.ebayimg.com/images/g/zwcAAeSwNwVqZP88/s-l500.webp",
+      "price": 244.77,
+      "currency": "USD",
+      "shipping": 30.66,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/137550919634",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 143,17 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:12.533Z",
+      "lastSeen": "2026-11-17T10:09:12.533Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:12.533Z",
+          "price": 244.77
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|137935739240|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane #10 Francja Beckett Świadkowie Podpisana koszulka piłkarska",
+      "url": "https://www.ebay.pl/itm/137935739240",
+      "image": "https://i.ebayimg.com/images/g/3Q0AAeSwcXtq-N2Q/s-l500.webp",
+      "price": 210.0,
+      "currency": "GBP",
+      "shipping": 38.0,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/137935739240",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Deklarowany Beckett/BAS: numer certyfikatu wymaga niezależnego sprawdzenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:47.708Z",
+      "lastSeen": "2026-11-17T10:08:47.708Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:47.708Z",
+          "price": 210.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|147369082207|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Super RZADKI Cristiano Ronaldo Autograf ON CARD Auto z Topps Hologram zobacz zdjęcia",
+      "url": "https://www.ebay.pl/itm/147369082207",
+      "image": "https://i.ebayimg.com/images/g/0UsAAeSwblppGKaV/s-l500.webp",
+      "price": 499.99,
+      "currency": "GBP",
+      "shipping": 12.5,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/147369082207",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:32.651Z",
+      "lastSeen": "2026-11-17T10:08:32.651Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:32.651Z",
+          "price": 499.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|147533071514|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane Podpisany Mistrzostwa Świata Francji 2006 AUTO Jersey z/COA Matching Holo!!",
+      "url": "https://www.ebay.pl/itm/147533071514",
+      "image": "https://i.ebayimg.com/images/g/O7wAAeSwvDhqkXTO/s-l500.webp",
+      "price": 512.91,
+      "currency": "USD",
+      "shipping": 51.61,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/147533071514",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Deklarowany Beckett/BAS: numer certyfikatu wymaga niezależnego sprawdzenia. eBay pokazuje szacowaną opłatę importową 281,97 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:05.465Z",
+      "lastSeen": "2026-11-17T10:09:05.465Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:05.465Z",
+          "price": 512.91
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|147557185927|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2023-24 Panini Origins Zinedine Zidane Auto /64 Juventus",
+      "url": "https://www.ebay.pl/itm/147557185927",
+      "image": "https://i.ebayimg.com/images/g/IcwAAeSw469qntnm/s-l500.webp",
+      "price": 338.25,
+      "currency": "USD",
+      "shipping": 36.52,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/147557185927",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:07:30.179Z",
+      "lastSeen": "2026-11-17T10:07:30.179Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:07:30.179Z",
+          "price": 338.25
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|157545204767|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2022-23 Panini Chronicles Origins Autograf Zinedine Zidane /25",
+      "url": "https://www.ebay.pl/itm/157545204767",
+      "image": "https://i.ebayimg.com/images/g/c~YAAeSwnv1pQDOq/s-l500.webp",
+      "price": 250.0,
+      "currency": "USD",
+      "shipping": 20.81,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/157545204767",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:07:26.795Z",
+      "lastSeen": "2026-11-17T10:07:26.795Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:07:26.795Z",
+          "price": 250.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|237152937942|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2024-25 Panini Select FIFA Select Signatures Zinedine Zidane #SS-ZZ Auto 16wc",
+      "url": "https://www.ebay.pl/itm/237152937942",
+      "image": "https://i.ebayimg.com/images/g/F1AAAeSw6gpq5MOP/s-l500.webp",
+      "price": 346.07,
+      "currency": "USD",
+      "shipping": 36.15,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/237152937942",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:09.182Z",
+      "lastSeen": "2026-11-17T10:08:09.182Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:09.182Z",
+          "price": 346.07
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|256861806536|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "2020 2020 2020 Topps Living Liga Mistrzów UEFA Cristiano Ronaldo Autograf",
+      "url": "https://www.ebay.pl/itm/256861806536",
+      "image": "https://i.ebayimg.com/images/g/Dg4AAeSwg8ln2O2X/s-l500.webp",
+      "price": 1843.77,
+      "currency": "USD",
+      "shipping": 86.72,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/256861806536",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:36.004Z",
+      "lastSeen": "2026-11-17T10:08:36.004Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:36.004Z",
+          "price": 1843.77
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|278339387460|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "Zinedine Zidane - Auto - Panini Select Road To World Cup 2026",
+      "url": "https://www.ebay.pl/itm/278339387460",
+      "image": "https://i.ebayimg.com/images/g/bpoAAeSwPGFquzwb/s-l500.webp",
+      "price": 256.82,
+      "currency": "GBP",
+      "shipping": 33.42,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/278339387460",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:11.039Z",
+      "lastSeen": "2026-11-17T10:08:11.039Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:11.039Z",
+          "price": 256.82
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|285044584645|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "2021-22 Topps TERAZ podpisany Cristiano Ronaldo #14 ManU Beckett BAS Witness",
+      "url": "https://www.ebay.pl/itm/285044584645",
+      "image": "https://i.ebayimg.com/images/g/NjEAAeSwL-BqJb01/s-l500.webp",
+      "price": 1843.51,
+      "currency": "USD",
+      "shipping": 87.12,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/285044584645",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. Deklarowany Beckett/BAS: numer certyfikatu wymaga niezależnego sprawdzenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:37.473Z",
+      "lastSeen": "2026-11-17T10:08:37.473Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:37.473Z",
+          "price": 1843.51
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|287393832174|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "2005-06 Panini WCCF European Clubs #59 podpisany Cristiano Ronaldo Beckett AUTO",
+      "url": "https://www.ebay.pl/itm/287393832174",
+      "image": "https://i.ebayimg.com/images/g/5oUAAeSwh8lqLjq~/s-l500.webp",
+      "price": 1843.75,
+      "currency": "USD",
+      "shipping": 87.12,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/287393832174",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. Deklarowany Beckett/BAS: numer certyfikatu wymaga niezależnego sprawdzenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:39.060Z",
+      "lastSeen": "2026-11-17T10:08:39.060Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:39.060Z",
+          "price": 1843.75
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|287545860370|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo podpisana portugalska koszulka domowa #7 z certyfikatem COA w zestawie",
+      "url": "https://www.ebay.pl/itm/287545860370",
+      "image": "https://i.ebayimg.com/images/g/OmgAAeSw0fJqjgjw/s-l500.webp",
+      "price": 175.0,
+      "currency": "GBP",
+      "shipping": 40.0,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/287545860370",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Niespójność: tytuł mówi o numerze 7, opis o 17; wymaga wyjaśnienia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:29.088Z",
+      "lastSeen": "2026-11-17T10:09:29.088Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:29.088Z",
+          "price": 175.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|287679543304|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo podpisana portugalska koszulka domowa #17 z certyfikatem COA w zestawie",
+      "url": "https://www.ebay.pl/itm/287679543304",
+      "image": "https://i.ebayimg.com/images/g/UdIAAeSwM2lqjgip/s-l500.webp",
+      "price": 175.0,
+      "currency": "GBP",
+      "shipping": 40.0,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/287679543304",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:15.976Z",
+      "lastSeen": "2026-11-17T10:09:15.976Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:15.976Z",
+          "price": 175.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|307164664440|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Koszulka Manchester United podpisana przez Cristiano Ronaldo",
+      "url": "https://www.ebay.pl/itm/307164664440",
+      "image": "https://i.ebayimg.com/images/g/oCAAAeSwKVxqnEoV/s-l500.webp",
+      "price": 129.15,
+      "currency": "GBP",
+      "shipping": 21.34,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/307164664440",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Sprzedawca wprost informuje o braku certyfikatu. eBay pokazuje szacowaną opłatę importową 27,07 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:08.756Z",
+      "lastSeen": "2026-11-17T10:09:08.756Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:08.756Z",
+          "price": 129.15
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|307257474693|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2026 Topps chromowane zawody klubowe UEFA Zinedine Zidane Auto /99",
+      "url": "https://www.ebay.pl/itm/307257474693",
+      "image": "https://i.ebayimg.com/images/g/N3MAAeSwzDpq5PNf/s-l500.webp",
+      "price": 276.75,
+      "currency": "USD",
+      "shipping": 33.9,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/307257474693",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:07:25.732Z",
+      "lastSeen": "2026-11-17T10:07:25.732Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:07:25.732Z",
+          "price": 276.75
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|316658909012|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "ZINEDINE ZIDANE SIGNED REAL MADRID 2001-2002 AWAY JERSEY - BECKETT COA",
+      "url": "https://www.ebay.pl/itm/316658909012",
+      "image": "https://i.ebayimg.com/images/g/Fv0AAOSw7tFnanVD/s-l500.webp",
+      "price": 400.0,
+      "currency": "AUD",
+      "shipping": 145.98,
+      "fees": null,
+      "sellerCountry": "AU",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/316658909012",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Deklarowany Beckett/BAS: numer certyfikatu wymaga niezależnego sprawdzenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:52.391Z",
+      "lastSeen": "2026-11-17T10:08:52.391Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:52.391Z",
+          "price": 400.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|318826033736|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "Zinedine Zidane Auto 78/99 Panini Select FIFA Mistrzostwa Świata Gwiazdy Fioletowe",
+      "url": "https://www.ebay.pl/itm/318826033736",
+      "image": "https://i.ebayimg.com/images/g/aGUAAeSwzMRqmwI4/s-l500.webp",
+      "price": 300.0,
+      "currency": "USD",
+      "shipping": 9.9,
+      "fees": null,
+      "sellerCountry": "SG",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/318826033736",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:07.364Z",
+      "lastSeen": "2026-11-17T10:08:07.364Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:07.364Z",
+          "price": 300.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|327410047995|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane Signed Real Madrid 2002 Centenary Jersey #5 Witnessed COA Card",
+      "url": "https://www.ebay.pl/itm/327410047995",
+      "image": "https://i.ebayimg.com/images/g/iQoAAeSwRZ5q0~X3/s-l500.webp",
+      "price": 550.0,
+      "currency": "AUD",
+      "shipping": 35.0,
+      "fees": null,
+      "sellerCountry": "AU",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/327410047995",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:53.797Z",
+      "lastSeen": "2026-11-17T10:08:53.797Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:53.797Z",
+          "price": 550.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|357054152514|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo CR7 Al-Nassr Football Club shirt 2023-2024 Hand Signed w/COA",
+      "url": "https://www.ebay.pl/itm/357054152514",
+      "image": "https://i.ebayimg.com/images/g/NYcAAeSw3lpoRI4I/s-l500.webp",
+      "price": 399.0,
+      "currency": "CAD",
+      "shipping": 45.99,
+      "fees": null,
+      "sellerCountry": "CA",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/357054152514",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:36.096Z",
+      "lastSeen": "2026-11-17T10:09:36.096Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:36.096Z",
+          "price": 399.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366645257582|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo Podpisana koszulka GCOA COA Autograf CR7 Pamiątki piłkarskie",
+      "url": "https://www.ebay.pl/itm/366645257582",
+      "image": "https://i.ebayimg.com/images/g/x90AAeSwEWlqw14M/s-l500.webp",
+      "price": 280.0,
+      "currency": "USD",
+      "shipping": 25.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366645257582",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Certyfikat GCOA według sprzedawcy; brak potwierdzenia PSA/DNA, BAS lub JSA.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:34.164Z",
+      "lastSeen": "2026-11-17T10:09:34.164Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:34.164Z",
+          "price": 280.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366758014709|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Cristiano Ronaldo, Portugalia 🇵🇹 Liga Narodów 2021 Topps ręcznie podpisany",
+      "url": "https://www.ebay.pl/itm/366758014709",
+      "image": "https://i.ebayimg.com/images/g/UTQAAeSwMc9q3F1N/s-l500.webp",
+      "price": 239.99,
+      "currency": "USD",
+      "shipping": 8.0,
+      "fees": null,
+      "sellerCountry": "NO",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366758014709",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:15.106Z",
+      "lastSeen": "2026-11-17T10:08:15.106Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:15.106Z",
+          "price": 239.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366758015451|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Cristiano Ronaldo, Portugalia 🇵🇹 UEFA Euro 2020 Panini ręcznie podpisany",
+      "url": "https://www.ebay.pl/itm/366758015451",
+      "image": "https://i.ebayimg.com/images/g/ISgAAeSwveVq3F0o/s-l500.webp",
+      "price": 319.99,
+      "currency": "USD",
+      "shipping": 8.0,
+      "fees": null,
+      "sellerCountry": "NO",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366758015451",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:16.790Z",
+      "lastSeen": "2026-11-17T10:08:16.790Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:16.790Z",
+          "price": 319.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366758016025|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Cristiano Ronaldo, Portugalia 🇵🇹 UEFA Euro 2016 Panini ręcznie podpisany",
+      "url": "https://www.ebay.pl/itm/366758016025",
+      "image": "https://i.ebayimg.com/images/g/pisAAeSwmKxq3FyN/s-l500.webp",
+      "price": 479.99,
+      "currency": "USD",
+      "shipping": 8.0,
+      "fees": null,
+      "sellerCountry": "NO",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366758016025",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:31.056Z",
+      "lastSeen": "2026-11-17T10:08:31.056Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:31.056Z",
+          "price": 479.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366758016527|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Cristiano Ronaldo, Portugalia 🇵🇹 UEFA Euro 2016 Panini ręcznie podpisany",
+      "url": "https://www.ebay.pl/itm/366758016527",
+      "image": "https://i.ebayimg.com/images/g/ZwAAAeSw02pq3F7o/s-l500.webp",
+      "price": 799.99,
+      "currency": "USD",
+      "shipping": 8.0,
+      "fees": null,
+      "sellerCountry": "NO",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366758016527",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:34.241Z",
+      "lastSeen": "2026-11-17T10:08:34.241Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:34.241Z",
+          "price": 799.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366767196093|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane Podpisana Francja #10 Mistrzostwa Świata 2006 Koszulka piłkarska z COA",
+      "url": "https://www.ebay.pl/itm/366767196093",
+      "image": "https://i.ebayimg.com/images/g/6PkAAeSw~9lq4jJX/s-l500.webp",
+      "price": 305.0,
+      "currency": "USD",
+      "shipping": 25.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366767196093",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:49.321Z",
+      "lastSeen": "2026-11-17T10:08:49.321Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:49.321Z",
+          "price": 305.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|366815193194|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo podpisany Al Nassr Adidas biała koszulka numer 7 GCOA COA",
+      "url": "https://www.ebay.pl/itm/366815193194",
+      "image": "https://i.ebayimg.com/images/g/Tp0AAeSwviJq-4hn/s-l500.webp",
+      "price": 270.0,
+      "currency": "USD",
+      "shipping": 25.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366815193194",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Certyfikat GCOA według sprzedawcy; brak potwierdzenia PSA/DNA, BAS lub JSA.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:32.362Z",
+      "lastSeen": "2026-11-17T10:09:32.362Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:32.362Z",
+          "price": 270.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|377346029319|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2024/25 Panini Obsidian Zinedine Zidane Lightning Strike France Auto /25",
+      "url": "https://www.ebay.pl/itm/377346029319",
+      "image": "https://i.ebayimg.com/images/g/zZ0AAeSw~gZqWEJG/s-l500.webp",
+      "price": 510.45,
+      "currency": "CAD",
+      "shipping": 48.62,
+      "fees": null,
+      "sellerCountry": "CA",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/377346029319",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,81 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:12.974Z",
+      "lastSeen": "2026-11-17T10:08:12.974Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:12.974Z",
+          "price": 510.45
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|398140371681|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo podpisana koszulka Real Madryt finał UCL 2017 Cardiff coa w zestawie",
+      "url": "https://www.ebay.pl/itm/398140371681",
+      "image": "https://i.ebayimg.com/images/g/YCIAAeSw-lpqSYTC/s-l500.webp",
+      "price": 175.0,
+      "currency": "GBP",
+      "shipping": 40.0,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/398140371681",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:30.763Z",
+      "lastSeen": "2026-11-17T10:09:30.763Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:30.763Z",
+          "price": 175.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|398250510410|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane podpisana koszulka Mistrzostwa Świata 2006 Francja z COA",
+      "url": "https://www.ebay.pl/itm/398250510410",
+      "image": "https://i.ebayimg.com/images/g/amoAAeSwhINqbj~X/s-l500.webp",
+      "price": 401.76,
+      "currency": "USD",
+      "shipping": 20.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/398250510410",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:59.471Z",
+      "lastSeen": "2026-11-17T10:08:59.471Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:59.471Z",
+          "price": 401.76
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|398408075326|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane podpisana koszulka Mistrzostwa Świata Francji 2006 #10 + COA",
+      "url": "https://www.ebay.pl/itm/398408075326",
+      "image": "https://i.ebayimg.com/images/g/PAkAAeSwkUhqrXOT/s-l500.webp",
+      "price": 380.0,
+      "currency": "USD",
+      "shipping": 20.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/398408075326",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Certyfikat GCOA według sprzedawcy; brak potwierdzenia PSA/DNA, BAS lub JSA.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:55.466Z",
+      "lastSeen": "2026-11-17T10:08:55.466Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:55.466Z",
+          "price": 380.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|398408089279|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane Podpisana koszulka Mistrzostw Świata Francji 1998 + COA",
+      "url": "https://www.ebay.pl/itm/398408089279",
+      "image": "https://i.ebayimg.com/images/g/3AAAAeSwXS5qrXZD/s-l500.webp",
+      "price": 400.0,
+      "currency": "USD",
+      "shipping": 20.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/398408089279",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Certyfikat GCOA według sprzedawcy; brak potwierdzenia PSA/DNA, BAS lub JSA.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:57.645Z",
+      "lastSeen": "2026-11-17T10:08:57.645Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:57.645Z",
+          "price": 400.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|405088545064|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "AUTOGRAFO Cristiano Ronaldo HAND SIGNED Panini Rare 2022 Portogallo",
+      "url": "https://www.ebay.pl/itm/405088545064",
+      "image": "https://i.ebayimg.com/images/g/G40AAOSw3uJmjTV3/s-l500.webp",
+      "price": 349.99,
+      "currency": "EUR",
+      "shipping": 7.0,
+      "fees": null,
+      "sellerCountry": "FR",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/405088545064",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:29.526Z",
+      "lastSeen": "2026-11-17T10:08:29.526Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:29.526Z",
+          "price": 349.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|405487653915|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "AUTOGRAFO Cristiano Ronaldo HAND SIGNED Panini 2019 2020",
+      "url": "https://www.ebay.pl/itm/405487653915",
+      "image": "https://i.ebayimg.com/images/g/mk4AAOSwL0BnjQHR/s-l500.webp",
+      "price": 299.99,
+      "currency": "EUR",
+      "shipping": 7.0,
+      "fees": null,
+      "sellerCountry": "FR",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/405487653915",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:27.939Z",
+      "lastSeen": "2026-11-17T10:08:27.939Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:27.939Z",
+          "price": 299.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|800895835045|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "Zinedine Zidane /10 Patch Juventus UEFA Topps 2025-26 Museum Collection Auto",
+      "url": "https://www.ebay.pl/itm/800895835045",
+      "image": "https://i.ebayimg.com/images/g/qK4AAeSw-rZq8Yf-/s-l500.webp",
+      "price": 190.0,
+      "currency": "EUR",
+      "shipping": 13.0,
+      "fees": null,
+      "sellerCountry": "AT",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/800895835045",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:07:24.585Z",
+      "lastSeen": "2026-11-17T10:07:24.585Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:07:24.585Z",
+          "price": 190.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|800909760860|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2023-24 Panini Obsidian Zinedine Zidane Juventus Podpisy wulkaniczne Auto /30",
+      "url": "https://www.ebay.pl/itm/800909760860",
+      "image": "https://i.ebayimg.com/images/g/3aUAAeSwDNVq9jxe/s-l500.webp",
+      "price": 307.5,
+      "currency": "USD",
+      "shipping": 40.11,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/800909760860",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:07:27.960Z",
+      "lastSeen": "2026-11-17T10:07:27.960Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:07:27.960Z",
+          "price": 307.5
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|800909767906|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "2025-26 Panini Prizm FIFA Zinedine Zidane Club Legends Prizm Auto CL-ZZ",
+      "url": "https://www.ebay.pl/itm/800909767906",
+      "image": "https://i.ebayimg.com/images/g/HfUAAeSwZXlq9j0K/s-l500.webp",
+      "price": 307.5,
+      "currency": "USD",
+      "shipping": 40.11,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/800909767906",
+      "evidenceNote": "Oferta karty lub naklejki Topps/Panini z deklarowanym autografem. Nie zweryfikowano autentyczności podpisu ani gwarancji producenta. Odczytano cenę i dostawę z konkretnego ogłoszenia. eBay pokazuje szacowaną opłatę importową 10,84 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:07:29.137Z",
+      "lastSeen": "2026-11-17T10:07:29.137Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:07:29.137Z",
+          "price": 307.5
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|860020793782|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane podpisana Francja #10 koszulka GCOA COA autograf",
+      "url": "https://www.ebay.pl/itm/860020793782",
+      "image": "https://i.ebayimg.com/images/g/3w8AAeSw5opqxsfz/s-l500.webp",
+      "price": 315.0,
+      "currency": "USD",
+      "shipping": 25.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/860020793782",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Certyfikat GCOA według sprzedawcy; brak potwierdzenia PSA/DNA, BAS lub JSA.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:08:50.813Z",
+      "lastSeen": "2026-11-17T10:08:50.813Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:08:50.813Z",
+          "price": 315.0
+        }
+      ],
+      "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|920115670394|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane Podpisana koszulka Beckett COA Francja Futbol",
+      "url": "https://www.ebay.pl/itm/920115670394",
+      "image": "https://i.ebayimg.com/images/g/2OsAAeSwdV1q70eG/s-l500.webp",
+      "price": 614.99,
+      "currency": "USD",
+      "shipping": 53.06,
+      "fees": null,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/920115670394",
+      "evidenceNote": "Sprzedawca deklaruje ręczny autograf. Nie zweryfikowano dowodu autentyczności podpisu. Cena i dostawa odczytane agentowo z konkretnego ogłoszenia. Deklarowany Beckett/BAS: numer certyfikatu wymaga niezależnego sprawdzenia. eBay pokazuje szacowaną opłatę importową 331,74 PLN; kwota ostateczna przy płatności.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-17T10:09:06.981Z",
+      "lastSeen": "2026-11-17T10:09:06.981Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-17T10:09:06.981Z",
+          "price": 614.99
+        }
+      ],
+      "checkedBy": "browser-agent"
+    }
+  ],
   "sources": [
     {
       "name": "eBay",
       "url": "https://www.ebay.pl",
       "status": "credentials_required",
-      "message": "Pobieranie nieaktywne: brak EBAY_CLIENT_ID / EBAY_CLIENT_SECRET. Dostęp produkcyjny Browse API może wymagać zatwierdzenia przez eBay.",
+      "message": "Pobieranie przez API nieaktywne: brak EBAY_CLIENT_ID / EBAY_CLIENT_SECRET. Dostęp produkcyjny Browse API może wymagać zatwierdzenia przez eBay.",
       "checkedAt": "2026-11-17T09:47:39Z",
-      "lastSuccessAt": null
+      "lastSuccessAt": null,
+      "agent": {
+        "checkedAt": "2026-11-17T10:09:36.096Z",
+        "offers": 39,
+        "message": "Skan agentowy bez API: ceny i dostawa odczytane z konkretnych ogłoszeń. Dowody autentyczności wymagają oddzielnej kontroli."
+      }
     },
     {
       "name": "Vinted",
