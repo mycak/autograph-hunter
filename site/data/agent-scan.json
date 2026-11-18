@@ -65,5 +65,58 @@
         "reason": "Koszulki podpisane wyprzedane. Dostępna fotografia poza zakresem, koszulki UNSIGNED bez podpisu."
       }
     ]
+  },
+  "latestDailyScan": {
+    "method": "browser-agent",
+    "completedAt": "2026-11-18T18:40:10Z",
+    "scope": "partial",
+    "sourceAttempts": 6,
+    "existingListingsChecked": 12,
+    "candidateDetailAttempts": 1,
+    "acceptedNewOffers": 0,
+    "priceDrops": 0,
+    "deactivatedOffers": 1,
+    "unchangedPriceOffers": 10,
+    "auctionBidIncreases": 1,
+    "newAlerts": 0,
+    "repeatedAlertsSuppressed": 1,
+    "sources": [
+      {
+        "name": "eBay",
+        "message": "Sprawdzono 4 zapisane oferty (karty obu piłkarzy i koszulki). 1 koszulka Zidane’a sprzedana — wyłączona. Koszulka Ronaldo 129,15 GBP ma dodatkowo 27,12 PLN szacowanych opłat importowych: razem ok. 822,02 PLN. Pozostałych 34 ofert eBay nie odświeżano. Wyszukiwanie uzupełniające nie dostarczyło nowych zweryfikowanych szczegółowo ofert."
+      },
+      {
+        "name": "COMC",
+        "message": "Ponownie sprawdzono 2 konkretne karty Zidane’a: ceny 231,10 i 281,36 USD, nadal dostępne, zdjęcia podpisów obejrzane. Ponowna wycena wysyłki nie powiodła się (brak tabeli, następnie błąd połączenia); poprzedniej wyceny nie uznano za aktualną, shipping=null. Próba wyszukania nowych kart Ronaldo nie zakończyła się po błędzie połączenia."
+      },
+      {
+        "name": "Catawiki",
+        "message": "Sprawdzono istniejącą aukcję Ronaldo: stawka wzrosła z 320 do 340 EUR, prowizja 33,60 EUR, dostawa do Polski 23 EUR. Cena minimalna nadal nieosiągnięta; bez alertu cenowego. Dodatkowy wynik Zidane’a przekierował poza szczegóły — nie dodano go."
+      },
+      {
+        "name": "Allegro Lokalnie",
+        "message": "Sprawdzono szczegóły karty Ronaldo: bez zmiany, 450 + 10,95 PLN. Alert już zgłoszony 17.11 — bez powtórki. Przejrzano 8 wyników Ronaldo i 4 Zidane’a; brak nowej zaakceptowanej oferty w wymaganych kategoriach."
+      },
+      {
+        "name": "All Star Signings",
+        "message": "Sprawdzono 2 dostępne produkty Zidane’a (Francja i Juventus): bez zmiany po 689,99 GBP, wariant bez ramy. Obejrzano katalogowe zdjęcia podpisów. Kategoria Cristiano Ronaldo nadal pusta. Koszty wysyłki i importu nieznane."
+      },
+      {
+        "name": "Icons.com",
+        "message": "Sprawdzono 2 dostępne warianty koszulki Zidane’a: Classic 1374,99 GBP, Hero 1399,99 GBP, po 5 sztuk; ceny bez zmiany, zdjęcia podpisów obejrzane. Kategoria Cristiano Ronaldo nadal pokazuje podpisane koszulki jako wyprzedane, a dostępną fotografię pominięto. Koszty wysyłki i importu nieznane."
+      }
+    ],
+    "materialCorrections": [
+      {
+        "id": "ebay:v1|307164664440|0",
+        "reason": "Dodano ujawnioną przez eBay szacowaną opłatę importową 27,12 PLN. Kwota przekracza 800 PLN, więc oferta traci czerwone wyróżnienie."
+      }
+    ],
+    "limitations": [
+      "Skan częściowy: pozostałe 34 oferty eBay zachowują poprzednią datę kontroli.",
+      "COMC: błąd ponownej wyceny dostawy i wyszukania Ronaldo.",
+      "Dodatkowego wyniku Zidane’a na Catawiki nie udało się potwierdzić na stronie szczegółów."
+    ],
+    "note": "Widoczność podpisów sprawdzono na zdjęciach; autentyczność pozostaje niezweryfikowana. Nie wykonano pełnego przeglądu całego rynku. Brak nowych ofert poniżej 800 PLN."
   }
 }
