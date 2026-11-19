@@ -27,7 +27,7 @@ npm run refresh
 
 ## Dane i integracje
 
-Zawodnicy mają oddzielne identyfikatory: `zidane`, `ronaldo` (Cristiano) i `nazario` (R9). Każdy ma osobny ranking kart i koszulek. Nazário został dodany 19.11.2026; jego sekcje czekają na pierwszy skan, bez przenoszenia ofert Cristiano. Alerty poniżej 800 PLN obejmują także Nazário.
+Zawodnicy mają oddzielne identyfikatory: `zidane`, `ronaldo` (Cristiano) i `nazario` (R9). Każdy ma osobny ranking kart i koszulek. Nazário został dodany 19.11.2026; pierwszy research dostarczył 5 kart i 10 koszulek z eBay, All Star Signings i Icons.com, bez przenoszenia ofert Cristiano. Szczegóły i ograniczenia są w `latestNazarioScan` w raporcie skanu. Alerty poniżej 800 PLN obejmują także Nazário.
 
 Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, nie gwarantowane oryginalne autografy. Przycisk „Pokaż znalezione propozycje” pozwala obejrzeć oferty niezweryfikowane po ręcznym zawężeniu filtra autentyczności. Procedura kolejnych skanów: [monitoring agentowy](docs/agent-monitoring.md).
 

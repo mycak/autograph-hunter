@@ -120,5 +120,61 @@
       "Podpisy widoczne na zdjęciach, autentyczność konkretnych podpisów nie została niezależnie zweryfikowana."
     ],
     "note": "Dokończono dzienną próbę skanu wszystkich 6 wymaganych źródeł. Dodano 1 koszulkę Kup teraz znacznie powyżej 800 PLN i 1 aukcję karty z nieosiągniętą ceną minimalną. Brak nowego alertu Kup teraz poniżej 800 PLN. Nie odświeżano niesprawdzonych rekordów."
+  },
+  "latestNazarioScan": {
+    "method": "browser-agent",
+    "completedAt": "2026-11-19T08:31:12Z",
+    "scope": "partial",
+    "player": "nazario",
+    "sourceAttempts": 6,
+    "candidateDetailsChecked": 17,
+    "acceptedNewOffers": 15,
+    "cardsAdded": 5,
+    "shirtsAdded": 10,
+    "newAlerts": 0,
+    "sources": [
+      {
+        "name": "eBay",
+        "message": "Dodatkowy research Nazário 19.11: odczytano szczegóły 12 różnych ogłoszeń. Dodano 5 kart Topps/Panini i 5 koszulek, wszystkie Kup teraz z dostawą do Polski; podpisy obejrzane na zdjęciach. Nie dodano karty Monopoly z polem podpisującego Pelé ani karty Luxor z parametrami innego piłkarza. Pozostałe oferty Zidane’a i Cristiano zachowały wcześniejsze daty kontroli. To częściowy research, bez gwarancji najtańszych ofert całego rynku."
+      },
+      {
+        "name": "All Star Signings",
+        "message": "Research Nazário 19.11: sprawdzono kategorię i 2 dostępne koszulki — Real Madrid i Brazylia retro. Dodano warianty bez ramy po 549,99 GBP. Podpisy obejrzane na zdjęciach katalogowych; deklarowane Beckett/COA nie zostały niezależnie sprawdzone. Koszty dostawy i importu nieznane. Ofert innych piłkarzy nie odświeżano w tym dodatkowym skanie."
+      },
+      {
+        "name": "Icons.com",
+        "message": "Research Nazário 19.11: przejrzano 29 pozycji kategorii, szczegółowo sprawdzono i dodano 3 dostępne koszulki w pudełku Deluxe: Barcelona 584,99 GBP, Inter i Brazylia po 634,99 GBP. Obejrzano zdjęcia katalogowe podpisów. Koszty wysyłki i importu nieznane; COA bez niezależnej weryfikacji. Pozostałe oferty zachowały wcześniejsze daty kontroli."
+      },
+      {
+        "name": "COMC",
+        "message": "Research Nazário 19.11: dostęp zadziałał po załadowaniu strony. Wyszukiwanie 398 wyników, filtr Autographed pokazał 3 karty — 1 Futera i 2 Leaf, poza zakresem Topps/Panini. Nie dodano ofert; cen wcześniejszych kart Zidane’a ani ich lastSeen nie odświeżano. Poprzednia blokada z porannej próby nie wystąpiła w tym researchu."
+      },
+      {
+        "name": "Allegro Lokalnie",
+        "message": "Research Nazário 19.11: przejrzano 33 wyniki wyszukiwania. Lista nie dostarczyła nowej potwierdzonej oferty karty Topps/Panini lub koszulki z odręcznym podpisem R9; 0 dodanych. Nie utożsamiano zwykłych kart, numerowanych wariantów ani niepodpisanych koszulek z autografami. Nie odświeżano starych ogłoszeń."
+      },
+      {
+        "name": "Catawiki",
+        "message": "Research Nazário 19.11: przejrzano pierwszą stronę wyszukiwania (31 wyników łącznie), obejmującą aukcje kart i koszulek. Nie dodano ofert bez pełnej kontroli szczegółów, zdjęć i terminu. Leaf/Futera, boxy i same fotografie poza zakresem. W tym uzupełnieniu dodawano wyłącznie szczegółowo sprawdzone oferty Kup teraz z innych źródeł; wcześniejszych aukcji nie odświeżano."
+      }
+    ],
+    "rejectedCandidates": [
+      {
+        "id": "ebay:v1|307083124014|0",
+        "reason": "Tytuł Ronaldo, ale parametr Signiert von wskazuje Pelé. Nie potwierdzono tożsamości podpisującego; bez publikacji i alertu."
+      },
+      {
+        "id": "ebay:v1|327274592712|0",
+        "reason": "Zdjęcie i tytuł Ronaldo, ale parametry piłkarza i zespołu wskazują Fermín López / FC Barcelona. Pominięto do wyjaśnienia rozbieżności."
+      }
+    ],
+    "limitations": [
+      "Skan częściowy; 5 kart i 10 koszulek to zaakceptowane propozycje, nie pełen przegląd rynku.",
+      "COMC pokazał 3 autografy spoza wymaganych marek Topps/Panini.",
+      "Allegro Lokalnie: 33 podglądy wyników, bez nowej potwierdzonej oferty; Catawiki: przejrzano pierwszą stronę wyników, bez akceptacji nowych aukcji.",
+      "Zdjęcia sklepowe są katalogowe, koszty ich dostawy i importu wymagają wyceny.",
+      "Podpisy widoczne, ale autentyczność nie została niezależnie zweryfikowana. Rozbieżności parametrów karty Select i koszulki PSV opisano przy ofertach."
+    ],
+    "note": "Nazário ma 5 kart i 10 koszulek Kup teraz z deklarowaną dostawą do Polski. Najtańsza zaakceptowana karta od 1652,62 PLN; koszulka od 1285,44 PLN według kursów NBP z 18.11.2026. Brak nowej zaakceptowanej oferty poniżej 800 PLN."
   }
 }

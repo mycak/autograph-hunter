@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-19T08:05:52Z",
+  "updatedAt": "2026-11-19T08:31:12Z",
   "rates": {
     "date": "2026-11-18",
     "values": {
@@ -82,6 +82,78 @@
         "visibleSignature": true,
         "imageUrl": "https://a.allegroimg.com/s512x512/1e3799/e0e322f24bb5bb0b554430af4560",
         "note": "Duży czarny podpis biegnie po dolnej części karty, przez wizerunek piłkarza i pola statystyk."
+      }
+    },
+    {
+      "id": "allstarsignings:13329:unframed",
+      "source": "All Star Signings",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka Brazylii retro, bez ramy",
+      "url": "https://allstarsignings.com/product/ronaldo-nazario-signed-brazil-retro-home-shirt/",
+      "image": "https://allstarsignings.com/wp-content/uploads/2024/09/ronaldo-brazil-450x450.jpg",
+      "price": 549.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://allstarsignings.com/product/ronaldo-nazario-signed-brazil-retro-home-shirt/",
+      "evidenceNote": "19.11: produkt dostępny, obejrzano widoczny podpis na zdjęciu katalogowym. Wariant Unframed + £0.00, SKU 13329UF. Sklep deklaruje certyfikaty Beckett i All Star Signings. Zdjęcie jest przykładowe; nie identyfikuje dostarczanej sztuki. Autentyczności konkretnego podpisu i certyfikatu nie sprawdzono niezależnie. Sklep deklaruje wysyłkę międzynarodową, ale dostawa do Polski oraz import nie zostały wycenione — shipping i fees=null.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:24:49.098Z",
+      "lastSeen": "2026-11-19T08:24:49.098Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:24:49.098Z",
+          "price": 549.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2024/09/ronaldo-brazil-450x450.jpg",
+        "imageType": "catalog",
+        "note": "Jasny podpis na prawej pionowej części zielonej cyfry 9 z tyłu żółtej koszulki Brazylii; zdjęcie katalogowe."
+      }
+    },
+    {
+      "id": "allstarsignings:13334:unframed",
+      "source": "All Star Signings",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka Real Madrid 2022/23, bez ramy",
+      "url": "https://allstarsignings.com/product/ronaldo-nazario-signed-real-madrid-home-shirt/",
+      "image": "https://allstarsignings.com/wp-content/uploads/2024/09/ronaldo-nazario-madrid-450x450.jpg",
+      "price": 549.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://allstarsignings.com/product/ronaldo-nazario-signed-real-madrid-home-shirt/",
+      "evidenceNote": "19.11: produkt dostępny, obejrzano widoczny podpis na zdjęciu katalogowym. Wariant Unframed + £0.00, SKU 13334UF. Sklep deklaruje certyfikaty Beckett i All Star Signings. Zdjęcie jest przykładowe; nie identyfikuje dostarczanej sztuki. Autentyczności konkretnego podpisu i certyfikatu nie sprawdzono niezależnie. Sklep deklaruje wysyłkę międzynarodową, ale dostawa do Polski oraz import nie zostały wycenione — shipping i fees=null.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:24:38.331Z",
+      "lastSeen": "2026-11-19T08:24:38.331Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:24:38.331Z",
+          "price": 549.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2024/09/ronaldo-nazario-madrid-450x450.jpg",
+        "imageType": "catalog",
+        "note": "Jasny podpis na lewej czarnej cyfrze 1 w numerze 11 z tyłu białej koszulki Realu; zdjęcie katalogowe."
       }
     },
     {
@@ -599,6 +671,41 @@
       }
     },
     {
+      "id": "ebay:v1|178490281753|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "Ronaldo Nazário — Panini Donruss 2025/26 The Beautiful Game Autograph /49",
+      "url": "https://www.ebay.pl/itm/178490281753",
+      "image": "https://i.ebayimg.com/images/g/rD4AAeSwpCRqpWiW/s-l1600.webp",
+      "price": 650.0,
+      "currency": "EUR",
+      "shipping": 21.73,
+      "fees": null,
+      "sellerCountry": "GR",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/178490281753",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 650.00 EUR, wysyłka 21.73 EUR do Polski (01-001). Miejsce wysyłki: Greece, Grecja. Dodatkowe opłaty nie zostały wycenione, fees=null. Autograf serii Donruss deklarowany w tytule i parametrach; brak niezależnej kontroli gwarancji konkretnego podpisu.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:21:05.774Z",
+      "lastSeen": "2026-11-19T08:21:05.774Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:21:05.774Z",
+          "price": 650.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/rD4AAeSwpCRqpWiW/s-l1600.webp",
+        "note": "Niebieski podpis na białym dolnym panelu karty pod napisem The Beautiful Game, pod wizerunkiem Nazário w żółtej koszulce Brazylii."
+      }
+    },
+    {
       "id": "ebay:v1|237152937942|0",
       "source": "eBay",
       "player": "zidane",
@@ -870,6 +977,41 @@
       }
     },
     {
+      "id": "ebay:v1|307228089220|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "Ronaldo Nazário — Topps Finest Flashbacks 2022/23 Orange Refractor Autograph /10",
+      "url": "https://www.ebay.pl/itm/307228089220",
+      "image": "https://i.ebayimg.com/images/g/yGwAAeSw59lqzWEL/s-l500.webp",
+      "price": 861.0,
+      "currency": "USD",
+      "shipping": 66.27,
+      "fees": 2.7059995,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/307228089220",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 861.00 USD, wysyłka 66.27 USD do Polski (01-001). Miejsce wysyłki: Milwaukee, WI, Stany Zjednoczone. Szacowane opłaty importowe 10.87 PLN przeliczono do pola fees w USD kursem NBP z 2026-11-18; kwota końcowa przy płatności może się zmienić. Zdjęcie pokazuje podpis i oznaczenie Topps Certified Autograph Issue. Nie sprawdzono niezależnie gwarancji producenta. Cena w szczegółach 861 USD różni się od niższej kwoty z listy wyszukiwania; zapisano cenę ze szczegółów.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:21:18.303Z",
+      "lastSeen": "2026-11-19T08:21:18.303Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:21:18.303Z",
+          "price": 861.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/yGwAAeSw59lqzWEL/s-l1600.webp",
+        "note": "Niebieski podpis na przezroczystym jasnym panelu pod sylwetką piłkarza w koszulce Interu; poniżej nadruk Topps Certified Autograph Issue."
+      }
+    },
+    {
       "id": "ebay:v1|307257474693|0",
       "source": "eBay",
       "player": "zidane",
@@ -906,6 +1048,41 @@
         "visibleSignature": true,
         "imageUrl": "https://i.ebayimg.com/images/g/N3MAAeSwzDpq5PNf/s-l500.webp",
         "note": "Niebieski podpis na jasnym panelu poniżej sylwetki Zidane’a; zielona karta Topps Chrome, numeracja 25/99."
+      }
+    },
+    {
+      "id": "ebay:v1|307261715605|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka kibicowska Real Madrid nr 11",
+      "url": "https://www.ebay.pl/itm/307261715605",
+      "image": "https://i.ebayimg.com/images/g/gcEAAeSwiIdq6GIt/s-l500.webp",
+      "price": 282.9,
+      "currency": "GBP",
+      "shipping": 27.96,
+      "fees": 39.31467236,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/307261715605",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 282.90 GBP, wysyłka 27.96 GBP do Polski (01-001). Miejsce wysyłki: Bishopton, Wielka Brytania. Szacowane opłaty importowe 208.01 PLN przeliczono do pola fees w GBP kursem NBP z 2026-11-18; kwota końcowa przy płatności może się zmienić. Sprzedawca wprost opisuje koszulkę kibicowską, nie Adidas. Deklaruje Beckett COA i zakup w A1 Sporting Speakers; certyfikatu nie zweryfikowano niezależnie. Cena szczegółów 282,90 GBP jest wyższa niż na liście wyszukiwania.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:23:18.486Z",
+      "lastSeen": "2026-11-19T08:23:18.486Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:23:18.486Z",
+          "price": 282.9
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/gcEAAeSwiIdq6GIt/s-l1600.webp",
+        "note": "Jasny podpis pionowo na prawej czarnej cyfrze 1 w numerze 11 z tyłu białej koszulki; nad podpisem naklejka."
       }
     },
     {
@@ -1240,6 +1417,41 @@
       }
     },
     {
+      "id": "ebay:v1|366811778695|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka FC Barcelona Kappa nr 9",
+      "url": "https://www.ebay.pl/itm/366811778695",
+      "image": "https://i.ebayimg.com/thumbs/images/g/pF0AAeSwS~Nq9dEY/s-l500.jpg",
+      "price": 295.0,
+      "currency": "USD",
+      "shipping": 25.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/366811778695",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 295.00 USD, wysyłka 25.00 USD do Polski (01-001). Miejsce wysyłki: Boqueres, Hiszpania. Dodatkowe opłaty nie zostały wycenione, fees=null. Opis wskazuje koszulkę Kappa oraz dołączony certyfikat GCOA; brak niezależnej kontroli certyfikatu i podpisu.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:23:17.010Z",
+      "lastSeen": "2026-11-19T08:23:17.010Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:23:17.010Z",
+          "price": 295.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/pF0AAeSwS~Nq9dEY/s-l1600.webp",
+        "note": "Cienki ciemny podpis pionowo na lewym białym fragmencie cyfry 9 z tyłu błękitnej koszulki Barcelony."
+      }
+    },
+    {
       "id": "ebay:v1|366815193194|0",
       "source": "eBay",
       "player": "ronaldo",
@@ -1309,6 +1521,41 @@
       }
     },
     {
+      "id": "ebay:v1|389714167939|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "Ronaldo Nazário — Panini Chronicles Origins 2022/23 FC Barcelona Autograph /23",
+      "url": "https://www.ebay.pl/itm/389714167939",
+      "image": "https://i.ebayimg.com/images/g/W1kAAeSw0y9pq9B4/s-l1600.webp",
+      "price": 984.0,
+      "currency": "USD",
+      "shipping": 58.57,
+      "fees": 2.7059995,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/389714167939",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 984.00 USD, wysyłka 58.57 USD do Polski (01-001). Miejsce wysyłki: Downers Grove, IL, Stany Zjednoczone. Szacowane opłaty importowe 10.87 PLN przeliczono do pola fees w USD kursem NBP z 2026-11-18; kwota końcowa przy płatności może się zmienić. Sprzedawca oferuje 1 partię po 1 karcie. Autentyczność konkretnego podpisu nie została niezależnie potwierdzona; tytuł i opis wskazują wariant /23.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:21:55.558Z",
+      "lastSeen": "2026-11-19T08:21:55.558Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:21:55.558Z",
+          "price": 984.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/W1kAAeSw0y9pq9B4/s-l1600.webp",
+        "note": "Niebieski podpis w dolnej jasnej części karty Origins, poniżej sylwetki piłkarza w stroju FC Barcelona."
+      }
+    },
+    {
       "id": "ebay:v1|398140371681|0",
       "source": "eBay",
       "player": "ronaldo",
@@ -1339,6 +1586,41 @@
       "checkedBy": "browser-agent"
     },
     {
+      "id": "ebay:v1|398250510292|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka Brazylii nr 9",
+      "url": "https://www.ebay.pl/itm/398250510292",
+      "image": "https://i.ebayimg.com/images/g/P6wAAeSwwilqC31d/s-l500.webp",
+      "price": 334.8,
+      "currency": "USD",
+      "shipping": 20.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/398250510292",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 334.80 USD, wysyłka 20.00 USD do Polski (01-001). Miejsce wysyłki: Xixona, Hiszpania. Dodatkowe opłaty nie zostały wycenione, fees=null. Aktualnie ostatnia sztuka, 1 wcześniej sprzedana. Dołączony COA jest deklaracją sprzedawcy; bez niezależnej weryfikacji podpisu.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:23:30.464Z",
+      "lastSeen": "2026-11-19T08:23:30.464Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:23:30.464Z",
+          "price": 334.8
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/P6wAAeSwwilqC31d/s-l1600.webp",
+        "note": "Czarny podpis na żółtym materiale z tyłu koszulki, po lewej stronie zielonego numeru 9; poniżej drobne oznaczenie."
+      }
+    },
+    {
       "id": "ebay:v1|398250510410|0",
       "source": "eBay",
       "player": "zidane",
@@ -1367,6 +1649,41 @@
         }
       ],
       "checkedBy": "browser-agent"
+    },
+    {
+      "id": "ebay:v1|398406001748|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka Inter Milan nr 10",
+      "url": "https://www.ebay.pl/itm/398406001748",
+      "image": "https://i.ebayimg.com/thumbs/images/g/MREAAeSwt3xqrLbj/s-l500.jpg",
+      "price": 360.0,
+      "currency": "USD",
+      "shipping": 20.0,
+      "fees": null,
+      "sellerCountry": "ES",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/398406001748",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 360.00 USD, wysyłka 20.00 USD do Polski (01-001). Miejsce wysyłki: Abio, Hiszpania. Dodatkowe opłaty nie zostały wycenione, fees=null. Sprzedawca deklaruje GCOA oraz produkt z Tajlandii. Kraj wysyłki według oferty: Hiszpania. Nie potwierdzono niezależnie autentyczności podpisu ani certyfikatu.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:23:40.403Z",
+      "lastSeen": "2026-11-19T08:23:40.403Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:23:40.403Z",
+          "price": 360.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/MREAAeSwt3xqrLbj/s-l1600.webp",
+        "note": "Czarny podpis na białej cyfrze 1 w numerze 10 z tyłu niebiesko-czarnej koszulki Interu."
+      }
     },
     {
       "id": "ebay:v1|398408075326|0",
@@ -1567,6 +1884,41 @@
       }
     },
     {
+      "id": "ebay:v1|820252482042|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka PSV nr 9",
+      "url": "https://www.ebay.pl/itm/820252482042",
+      "image": "https://i.ebayimg.com/images/g/yFsAAeSw8JZq1QBE/s-l500.webp",
+      "price": 500.0,
+      "currency": "CAD",
+      "shipping": 45.0,
+      "fees": null,
+      "sellerCountry": "CA",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/820252482042",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 500.00 CAD, wysyłka 45.00 CAD do Polski (01-001). Miejsce wysyłki: Laval, Quebec, Kanada. Dodatkowe opłaty nie zostały wycenione, fees=null. Opis deklaruje podpis Nazário i COA. Zdjęcie pokazuje PSV; parametry ogólne podają Brazil. Nie zweryfikowano niezależnie podpisu ani certyfikatu. eBay ostrzega o możliwych, niewycenionych opłatach importowych.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:24:02.121Z",
+      "lastSeen": "2026-11-19T08:24:02.121Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:24:02.121Z",
+          "price": 500.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/yFsAAeSw8JZq1QBE/s-l1600.webp",
+        "note": "Cienki ciemny podpis na czerwono-białych pasach z tyłu koszulki PSV, po lewej stronie czarnego numeru 9."
+      }
+    },
+    {
       "id": "ebay:v1|860020793782|0",
       "source": "eBay",
       "player": "zidane",
@@ -1597,6 +1949,76 @@
       "checkedBy": "browser-agent"
     },
     {
+      "id": "ebay:v1|860128826900|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "Ronaldo Nazário — Panini Select La Liga 2023/24 Signatures Tie-Dye, PSA 9",
+      "url": "https://www.ebay.pl/itm/860128826900",
+      "image": "https://i.ebayimg.com/images/g/YmUAAeSwF3Bq8iqQ/s-l500.webp",
+      "price": 550.0,
+      "currency": "EUR",
+      "shipping": 15.0,
+      "fees": null,
+      "sellerCountry": "IT",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/860128826900",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 550.00 EUR, wysyłka 15.00 EUR do Polski (01-001). Miejsce wysyłki: Cicciano, Włochy. Dodatkowe opłaty nie zostały wycenione, fees=null. Na zdjęciu etykieta PSA MINT 9, SIGNATURE-TIE-DYE, nr 95117932. Parametry sprzedawcy podają inny numer 102154144 i Purple Prizm — zachowano informację o rozbieżności. Nie zweryfikowano niezależnie certyfikatu ani autentyczności podpisu; ocena karty PSA 9 nie jest oceną autografu.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:28:08.196Z",
+      "lastSeen": "2026-11-19T08:28:08.196Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:28:08.196Z",
+          "price": 550.0
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/YmUAAeSwF3Bq8iqQ/s-l1600.webp",
+        "note": "Niebieski podpis na jasnym dolnym panelu karty Select, poniżej piłkarza w koszulce Realu; karta w slabie PSA."
+      }
+    },
+    {
+      "id": "ebay:v1|920110858870|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "Ronaldo Nazário — Panini Origins 2022/23 Inter Milan Silver Autograph /35",
+      "url": "https://www.ebay.pl/itm/920110858870",
+      "image": "https://i.ebayimg.com/images/g/cAMAAeSwHS5q7Wdt/s-l1600.webp",
+      "price": 585.87,
+      "currency": "AUD",
+      "shipping": 25.44,
+      "fees": null,
+      "sellerCountry": "AU",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/920110858870",
+      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 585.87 AUD, wysyłka 25.44 AUD do Polski (01-001). Miejsce wysyłki: Glen Waverley, VIC, Australia. Dodatkowe opłaty nie zostały wycenione, fees=null. Sprzedawca deklaruje autograf producenta Panini; nie sprawdzono niezależnie jego gwarancji dla tego egzemplarza.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:20:40.979Z",
+      "lastSeen": "2026-11-19T08:20:40.979Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:20:40.979Z",
+          "price": 585.87
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/cAMAAeSwHS5q7Wdt/s-l1600.webp",
+        "note": "Niebieski podpis na dolnym panelu karty Origins, pod nazwiskiem i sylwetką Nazário w stroju Interu."
+      }
+    },
+    {
       "id": "ebay:v1|920115670394|0",
       "source": "eBay",
       "player": "zidane",
@@ -1625,6 +2047,42 @@
         }
       ],
       "checkedBy": "browser-agent"
+    },
+    {
+      "id": "icons:I2066D",
+      "source": "Icons.com",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — koszulka Brazylii podpisana z przodu, Deluxe Packaging",
+      "url": "https://www.icons.com/ronaldo-front-signed-modern-brazil-home-shirt-in-deluxe-packaging-75849.html",
+      "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/2/i2066d_-_ronaldo_nazario_front_signed_brazil_2022-23_home_shirt_.webp",
+      "price": 634.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.icons.com/ronaldo-front-signed-modern-brazil-home-shirt-in-deluxe-packaging-75849.html",
+      "evidenceNote": "19.11: produkt dostępny, obejrzano widoczny podpis na zdjęciu katalogowym. SKU I2066D, ostatnia sztuka. Pudełko Deluxe, bez ramy. Sklep deklaruje podpisanie 6.07.2023 na Ibizie i Icons COA. Zdjęcie jest przykładowe; nie identyfikuje dostarczanej sztuki. Autentyczności konkretnego podpisu i certyfikatu nie sprawdzono niezależnie. Sklep deklaruje wysyłkę międzynarodową, ale dostawa do Polski oraz import nie zostały wycenione — shipping i fees=null.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:25:51.752Z",
+      "lastSeen": "2026-11-19T08:25:51.752Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:25:51.752Z",
+          "price": 634.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/2/i2066d_-_ronaldo_nazario_front_signed_brazil_2022-23_home_shirt_.webp",
+        "imageType": "catalog",
+        "note": "Ciemny podpis z przodu żółtej koszulki Brazylii, poniżej znaku Nike i na lewo od herbu CBF, widoczny w oknie pudełka; zdjęcie katalogowe."
+      }
     },
     {
       "id": "icons:I3821CF",
@@ -1713,6 +2171,78 @@
         "note": "Ciemny podpis widoczny na białej cyfrze 1 numeru 10. Koszulka po lewej w poziomej ramie, zdjęcie z pucharem po prawej. Obejrzano zdjęcie produktu.",
         "imageType": "catalog"
       }
+    },
+    {
+      "id": "icons:I5161D",
+      "source": "Icons.com",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka Inter 1998 UEFA Cup Final, Deluxe Packaging",
+      "url": "https://www.icons.com/ronaldo-back-signed-internazionale-1998-uefa-cup-final-shirt-in-deluxe-packaging-67834.html",
+      "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/5/i5161d_-_ronaldo_back_signed_inter_milan_1998_eufa_cup_final_shirt.webp",
+      "price": 634.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.icons.com/ronaldo-back-signed-internazionale-1998-uefa-cup-final-shirt-in-deluxe-packaging-67834.html",
+      "evidenceNote": "19.11: produkt dostępny, obejrzano widoczny podpis na zdjęciu katalogowym. SKU I5161D, produkt dostępny. Pudełko Deluxe, bez ramy. Sklep deklaruje Icons COA. Zdjęcie jest przykładowe; nie identyfikuje dostarczanej sztuki. Autentyczności konkretnego podpisu i certyfikatu nie sprawdzono niezależnie. Sklep deklaruje wysyłkę międzynarodową, ale dostawa do Polski oraz import nie zostały wycenione — shipping i fees=null.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:25:42.173Z",
+      "lastSeen": "2026-11-19T08:25:42.173Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:25:42.173Z",
+          "price": 634.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/5/i5161d_-_ronaldo_back_signed_inter_milan_1998_eufa_cup_final_shirt.webp",
+        "imageType": "catalog",
+        "note": "Czarny podpis na żółtej cyfrze 1 w numerze 10 z tyłu czarno-szarej koszulki Interu, widoczny w oknie pudełka; zdjęcie katalogowe."
+      }
+    },
+    {
+      "id": "icons:I5404D",
+      "source": "Icons.com",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka FC Barcelona 2025/26, Deluxe Packaging",
+      "url": "https://www.icons.com/ronaldo-back-signed-fc-barcelona-2025-26-home-shirt-in-deluxe-packaging-18094.html",
+      "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/5/i5404d_ronaldo_back_signed_barcelona_2025-26_home_shirt_copy.webp",
+      "price": 584.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.icons.com/ronaldo-back-signed-fc-barcelona-2025-26-home-shirt-in-deluxe-packaging-18094.html",
+      "evidenceNote": "19.11: produkt dostępny, obejrzano widoczny podpis na zdjęciu katalogowym. SKU I5404D, 2 sztuki w magazynie. Pudełko Deluxe, bez ramy. Sklep deklaruje Icons COA. Zdjęcie jest przykładowe; nie identyfikuje dostarczanej sztuki. Autentyczności konkretnego podpisu i certyfikatu nie sprawdzono niezależnie. Sklep deklaruje wysyłkę międzynarodową, ale dostawa do Polski oraz import nie zostały wycenione — shipping i fees=null.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-19T08:25:29.836Z",
+      "lastSeen": "2026-11-19T08:25:29.836Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-19T08:25:29.836Z",
+          "price": 584.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/5/i5404d_ronaldo_back_signed_barcelona_2025-26_home_shirt_copy.webp",
+        "imageType": "catalog",
+        "note": "Czarny podpis na prawej białej części cyfry 9 z tyłu koszulki Barcelony, widoczny w oknie pudełka; zdjęcie katalogowe."
+      }
     }
   ],
   "sources": [
@@ -1724,10 +2254,11 @@
       "checkedAt": "2026-11-19T06:25:50Z",
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-19T08:01:53.933Z",
-        "offers": 11,
-        "message": "Sprawdzono szczegóły 11 zapisanych ofert: 8 kart i 1 koszulkę Zidane’a oraz kartę i koszulkę Ronaldo. Ceny przedmiotów bez zmiany, zdjęcia podpisów obejrzane; uzupełniono ujawnione szacowane opłaty importowe. Koszulka Ronaldo 129,15 GBP + 21,34 GBP dostawy + 27,11 PLN importu: ok. 823,34 PLN. Przejrzano pierwszą stronę wyników wspólnego wyszukiwania obu piłkarzy; bez nowych zaakceptowanych ofert. Pozostałych 26 aktywnych ofert eBay nie odświeżano.",
-        "scope": "partial"
+        "checkedAt": "2026-11-19T08:28:08.196Z",
+        "offers": 10,
+        "message": "Dodatkowy research Nazário 19.11: odczytano szczegóły 12 różnych ogłoszeń. Dodano 5 kart Topps/Panini i 5 koszulek, wszystkie Kup teraz z dostawą do Polski; podpisy obejrzane na zdjęciach. Nie dodano karty Monopoly z polem podpisującego Pelé ani karty Luxor z parametrami innego piłkarza. Pozostałe oferty Zidane’a i Cristiano zachowały wcześniejsze daty kontroli. To częściowy research, bez gwarancji najtańszych ofert całego rynku.",
+        "scope": "partial",
+        "player": "nazario"
       }
     },
     {
@@ -1762,10 +2293,11 @@
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-19T08:03:09.913Z",
-        "offers": 2,
-        "message": "Sprawdzono aukcję koszulki Ronaldo: nadal 340 EUR, opłata kupującego 33,60 EUR; cena minimalna nieosiągnięta. Dodano aukcję karty Zidane’a Panini Immaculate 36/49: stawka startowa 1 EUR, bez ofert, cena minimalna nieosiągnięta, koniec 26.11 o 19:51 UTC. Zdjęcia podpisów obejrzane. Dostawy do PL nie udało się ponownie wycenić: serwis ustala Maroko, shipping=null. Dla nowej karty także shipsToPL=null. Aukcje nie podlegają alertom Kup teraz.",
-        "scope": "partial"
+        "checkedAt": "2026-11-19T08:26:26.992Z",
+        "offers": 0,
+        "message": "Research Nazário 19.11: przejrzano pierwszą stronę wyszukiwania (31 wyników łącznie), obejmującą aukcje kart i koszulek. Nie dodano ofert bez pełnej kontroli szczegółów, zdjęć i terminu. Leaf/Futera, boxy i same fotografie poza zakresem. W tym uzupełnieniu dodawano wyłącznie szczegółowo sprawdzone oferty Kup teraz z innych źródeł; wcześniejszych aukcji nie odświeżano.",
+        "scope": "partial",
+        "player": "nazario"
       }
     },
     {
@@ -1776,12 +2308,11 @@
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-18T18:39:32Z",
-        "offers": 2,
-        "message": "19.11: próba otwarcia konkretnej karty zatrzymana przez Cloudflare „Performing security verification”. Nie obchodzono blokady. Nie odświeżono cen ani dat kontroli żadnej oferty COMC; ostatnia udana kontrola pochodzi z 18.11. Wysyłka pozostaje nieznana.",
+        "checkedAt": "2026-11-19T08:27:45.003Z",
+        "offers": 0,
+        "message": "Research Nazário 19.11: dostęp zadziałał po załadowaniu strony. Wyszukiwanie 398 wyników, filtr Autographed pokazał 3 karty — 1 Futera i 2 Leaf, poza zakresem Topps/Panini. Nie dodano ofert; cen wcześniejszych kart Zidane’a ani ich lastSeen nie odświeżano. Poprzednia blokada z porannej próby nie wystąpiła w tym researchu.",
         "scope": "partial",
-        "lastAttemptAt": "2026-11-19T07:59:14.551Z",
-        "attemptStatus": "blocked"
+        "player": "nazario"
       }
     },
     {
@@ -1796,14 +2327,15 @@
       "name": "Icons.com",
       "url": "https://www.icons.com",
       "status": "agent_checked",
-      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki obu piłkarzy; pomijaj wyprzedane i niepodpisane produkty.",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki wszystkich trzech piłkarzy; pomijaj wyprzedane i niepodpisane produkty.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-19T07:59:37.808Z",
-        "offers": 2,
-        "message": "Sprawdzono 2 zapisane koszulki Zidane’a: Classic 1374,99 GBP, Hero 1399,99 GBP, po 5 sztuk, ceny bez zmiany. Obejrzano katalogowe zdjęcia podpisów. Przejrzano kategorie obu piłkarzy: podpisane koszulki Ronaldo nadal wyprzedane. Dostawa i import nieznane.",
-        "scope": "partial"
+        "checkedAt": "2026-11-19T08:25:51.752Z",
+        "offers": 3,
+        "message": "Research Nazário 19.11: przejrzano 29 pozycji kategorii, szczegółowo sprawdzono i dodano 3 dostępne koszulki w pudełku Deluxe: Barcelona 584,99 GBP, Inter i Brazylia po 634,99 GBP. Obejrzano zdjęcia katalogowe podpisów. Koszty wysyłki i importu nieznane; COA bez niezależnej weryfikacji. Pozostałe oferty zachowały wcześniejsze daty kontroli.",
+        "scope": "partial",
+        "player": "nazario"
       }
     },
     {
@@ -1854,10 +2386,11 @@
       "status": "agent_checked",
       "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Karty i koszulki; wymagane zdjęcie podpisu.",
       "agent": {
-        "checkedAt": "2026-11-19T07:59:05.545Z",
-        "offers": 1,
-        "message": "Sprawdzona karta Ronaldo jest niedostępna: strona informuje o sprzedaży lub zakończeniu publikacji, Kup teraz nieaktywne. Wyłączono ją z aktywnych ofert. Przejrzano 7 wyników Ronaldo i 4 Zidane’a; brak nowej zaakceptowanej oferty w wymaganych kategoriach. Nie emitowano alertu dla ceny zakończonego ogłoszenia.",
-        "scope": "partial"
+        "checkedAt": "2026-11-19T08:26:14.160Z",
+        "offers": 0,
+        "message": "Research Nazário 19.11: przejrzano 33 wyniki wyszukiwania. Lista nie dostarczyła nowej potwierdzonej oferty karty Topps/Panini lub koszulki z odręcznym podpisem R9; 0 dodanych. Nie utożsamiano zwykłych kart, numerowanych wariantów ani niepodpisanych koszulek z autografami. Nie odświeżano starych ogłoszeń.",
+        "scope": "partial",
+        "player": "nazario"
       }
     },
     {
@@ -1866,12 +2399,13 @@
       "checkedAt": null,
       "lastSuccessAt": null,
       "status": "agent_checked",
-      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki obu piłkarzy; sprawdzaj wariant, zdjęcie podpisu i koszty importu.",
+      "message": "Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki wszystkich trzech piłkarzy; sprawdzaj wariant, zdjęcie podpisu i koszty importu.",
       "agent": {
-        "checkedAt": "2026-11-19T08:02:02.142Z",
-        "offers": 3,
-        "message": "Sprawdzono 2 zapisane koszulki Zidane’a: Francja i Juventus nadal po 689,99 GBP bez ramy. Dodano Real Madrid 2024/25 bez ramy (SKU 868612UF), 689,99 GBP. Obejrzano katalogowe zdjęcia podpisów. Przejrzano kategorie obu piłkarzy: Ronaldo nadal bez produktów. Dostawa i import bez wyceny; COA/JSA bez niezależnej kontroli konkretnego certyfikatu.",
-        "scope": "partial"
+        "checkedAt": "2026-11-19T08:24:49.098Z",
+        "offers": 2,
+        "message": "Research Nazário 19.11: sprawdzono kategorię i 2 dostępne koszulki — Real Madrid i Brazylia retro. Dodano warianty bez ramy po 549,99 GBP. Podpisy obejrzane na zdjęciach katalogowych; deklarowane Beckett/COA nie zostały niezależnie sprawdzone. Koszty dostawy i importu nieznane. Ofert innych piłkarzy nie odświeżano w tym dodatkowym skanie.",
+        "scope": "partial",
+        "player": "nazario"
       }
     }
   ]
