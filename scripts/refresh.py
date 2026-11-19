@@ -7,6 +7,7 @@ import os
 from pathlib import Path
 import re
 import sys
+import unicodedata
 from datetime import datetime, timezone
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
@@ -30,8 +31,8 @@ SOURCES = [
     ('Catawiki', 'https://www.catawiki.com', 'agent_scheduled', 'Codzienny skan agentowy o 08:00 czasu polskiego. Aukcje w osobnym filtrze, bez alertu okazji na podstawie bieżącej stawki. Pierwszy skan jeszcze nie został wykonany.'),
     ('COMC', 'https://www.comc.com', 'agent_scheduled', 'Codzienny skan agentowy o 08:00 czasu polskiego. Karty Topps/Panini; cena z dostawą do Polski i znanymi opłatami. Pierwszy skan jeszcze nie został wykonany.'),
     ('Fanatics Collect', 'https://www.fanaticscollect.com', 'manual', 'Import ręczny kart i aukcji.'),
-    ('Icons.com', 'https://www.icons.com', 'agent_scheduled', 'Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki obu piłkarzy; pomijaj wyprzedane i niepodpisane produkty.'),
-    ('All Star Signings', 'https://allstarsignings.com', 'agent_scheduled', 'Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki obu piłkarzy; sprawdzaj wariant, zdjęcie podpisu i koszty importu.'),
+    ('Icons.com', 'https://www.icons.com', 'agent_scheduled', 'Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki wszystkich trzech piłkarzy; pomijaj wyprzedane i niepodpisane produkty.'),
+    ('All Star Signings', 'https://allstarsignings.com', 'agent_scheduled', 'Codzienny skan agentowy o 08:00 czasu polskiego. Koszulki wszystkich trzech piłkarzy; sprawdzaj wariant, zdjęcie podpisu i koszty importu.'),
     ('Colectin', 'https://www.colectin.com', 'manual', 'Import ręczny; certyfikat dodany przez sprzedawcę wymaga kontroli.'),
     ('MySlabs', 'https://www.myslabs.com', 'manual', 'Import ręczny; grading karty nie zawsze obejmuje podpis.'),
     ('Goldin', 'https://goldin.co', 'manual', 'Import ręczny; uwzględnij prowizję domu aukcyjnego.'),
@@ -63,13 +64,17 @@ def normalize_ebay(item, player, category, now):
     title = item.get('title', '')
     low = title.lower()
     # Search results can contain unrelated items, facsimiles, and blank cards.
-    if any(x in low for x in ['facsimile', 'reprint', 'unsigned', 'non auto', 'no auto', 'preprint', 'pre-print', 'printed signature', 'digital card']):
+    if re.search(r'\b(facsimile|reprint|unsigned|non auto|no auto|preprint|pre-print|printed signature|digital card)\b', low):
         return None
     if not re.search(r'\b(auto(?:graph(?:ed)?)?|signed|signature[s]?)\b', low):
         return None
     if player == 'zidane' and 'zidane' not in low:
         return None
-    if player == 'ronaldo' and ('cristiano' not in low or 'ronaldo' not in low):
+    identity = ''.join(c for c in unicodedata.normalize('NFKD', low) if not unicodedata.combining(c))
+    nazario = bool(re.search(r'\b(nazario|r9|fenomeno)\b', identity))
+    if player == 'ronaldo' and ('cristiano' not in low or 'ronaldo' not in low or nazario):
+        return None
+    if player == 'nazario' and ('ronaldo' not in low or not nazario or re.search(r'\b(cristiano|cr7)\b', identity)):
         return None
     if category == 'card' and not any(b in low for b in ['topps', 'panini']):
         return None
@@ -103,7 +108,7 @@ def collect_ebay(client, secret, now, fetch=request_json):
     headers={'Authorization':'Bearer '+token, 'X-EBAY-C-MARKETPLACE-ID':'EBAY_DE',
              'X-EBAY-C-ENDUSERCTX':'contextualLocation=country%3DPL'}
     found={}
-    for player, name in [('zidane','Zinedine Zidane'),('ronaldo','Cristiano Ronaldo')]:
+    for player, name in [('zidane','Zinedine Zidane'),('ronaldo','Cristiano Ronaldo'),('nazario','Ronaldo Nazario')]:
         for category, terms in [('card','(Topps,Panini) autograph'),('shirt','signed (shirt,jersey)')]:
             for offset in range(0,1000,200):
                 params={'q':name+' '+terms,'filter':'buyingOptions:{FIXED_PRICE},deliveryCountry:PL',

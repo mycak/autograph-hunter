@@ -5,6 +5,13 @@ import {validate,ranked,amount,isNew,drop,safeUrl,isUnderBudget} from '../site/c
 const now=Date.parse('2026-11-17T08:00:00Z');
 const offer=(changes={})=>({id:'1',source:'Test',player:'zidane',category:'card',title:'Panini Zidane autograph',url:'https://example.com/item/1',image:null,price:100,currency:'EUR',shipping:10,fees:0,sellerCountry:'FR',shipsToPL:true,saleType:'fixed',authenticity:'verified',evidenceUrl:'https://example.com/cert/1',evidenceNote:'Checked signature certificate',verifiedAt:'2026-11-17T07:00:00Z',firstSeen:'2026-11-16T08:00:00Z',lastSeen:'2026-11-17T07:00:00Z',history:[],...changes});
 const data=(offers)=>validate({schemaVersion:1,offers,rates:{values:{PLN:1,EUR:4,USD:3}}});
+test('Nazario imports and rankings stay separate from Cristiano and Zidane',()=>{
+ const list=data(['zidane','ronaldo','nazario'].flatMap(player=>['card','shirt'].map(category=>offer({id:`${player}-${category}`,url:`https://example.com/${player}/${category}`,player,category}))));
+ for(const player of ['zidane','ronaldo','nazario'])for(const category of ['card','shirt']){
+  assert.deepEqual(ranked(list,{player,category},now).map(o=>o.id),[`${player}-${category}`]);
+ }
+ assert.throws(()=>data([offer({player:'unknown'})]));
+});
 test('ranking compares converted item + delivery + fees, and caps each category at 10',()=>{
  const list=Array.from({length:12},(_,i)=>offer({id:String(i),url:`https://example.com/item/${i}`,price:i+100}));
  list.push(offer({id:'usd',url:'https://example.com/item/usd',price:100,currency:'USD',shipping:5,fees:0}));

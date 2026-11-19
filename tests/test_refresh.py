@@ -67,7 +67,21 @@ class PipelineTests(unittest.TestCase):
             return {'itemSummaries':[self.item()]}
         found=m.collect_ebay('id','secret',NOW,fetch)
         self.assertEqual(len(found),1)
-        self.assertEqual(len(calls),9)
+        self.assertEqual(len(calls),13)
+        self.assertTrue(any('Ronaldo+Nazario' in u for u in calls))
         self.assertTrue(all('deliveryCountry' in u for u in calls[1:]))
+
+    def test_nazario_and_cristiano_do_not_mix(self):
+        for name in ['Ronaldo Nazário', 'Ronaldo Nazario', 'Ronaldo R9', 'Ronaldo Fenômeno']:
+            item={**self.item(),'title':f'Panini {name} autograph'}
+            self.assertEqual(m.normalize_ebay(item,'nazario','card',NOW)['player'],'nazario')
+            self.assertIsNone(m.normalize_ebay(item,'ronaldo','card',NOW))
+        for name in ['Cristiano Ronaldo', 'Ronaldo', 'Cristiano Ronaldo Nazario dual', 'Ronaldo R9 CR7 dual']:
+            item={**self.item(),'title':f'Topps {name} autograph'}
+            self.assertIsNone(m.normalize_ebay(item,'nazario','card',NOW))
+        item={**self.item(),'title':'Cristiano Ronaldo signed jersey'}
+        self.assertEqual(m.normalize_ebay(item,'ronaldo','shirt',NOW)['player'],'ronaldo')
+        item['title']='Ronaldo Nazário signed Brazil jersey'
+        self.assertEqual(m.normalize_ebay(item,'nazario','shirt',NOW)['category'],'shirt')
 
 if __name__=='__main__':unittest.main()

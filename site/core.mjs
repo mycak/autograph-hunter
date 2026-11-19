@@ -1,5 +1,5 @@
 export const EU = new Set('AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE'.split(' '));
-export const PLAYERS = {zidane: 'Zinedine Zidane', ronaldo: 'Cristiano Ronaldo'};
+export const PLAYERS = {zidane: 'Zinedine Zidane', ronaldo: 'Cristiano Ronaldo', nazario: 'Ronaldo Nazário'};
 export const AUTH = {verified:'Potwierdzony', probable:'Prawdopodobny', unverified:'Niezweryfikowany'};
 export const safeUrl = value => { try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : ''; } catch { return ''; } };
 export const isNew = (o, now=Date.now()) => now-Date.parse(o.firstSeen)>=0 && now-Date.parse(o.firstSeen)<48*3600e3;

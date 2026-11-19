@@ -1,6 +1,6 @@
 # Autograph Hunter
 
-Polski dashboard kolekcjonerski: cztery rankingi do 10 ofert autografów Zinedine’a Zidane’a i Cristiano Ronaldo — karty Topps/Panini oraz koszulki.
+Polski dashboard kolekcjonerski: sześć rankingów do 10 ofert autografów Zinedine’a Zidane’a, Cristiano Ronaldo i Ronaldo Nazário — karty Topps/Panini oraz koszulki.
 
 ## Uruchomienie
 
@@ -15,7 +15,7 @@ npm run refresh
 
 ## Działające funkcje
 
-- Cztery niezależne rankingi z limitem 10; nie uzupełniamy brakujących pozycji fikcyjnymi ofertami.
+- Sześć niezależnych rankingów z limitem 10; nie uzupełniamy brakujących pozycji fikcyjnymi ofertami.
 - Filtry autentyczności, miejsca wysyłki w UE, potwierdzonej dostawy do Polski, NEW, spadków cen, aukcji i wyszukiwanie po tytule.
 - Domyślnie: wszystkie oceny autentyczności, kup teraz, dostawa do Polski. Automatycznie pobrane oferty eBay mają ocenę **niezweryfikowany** — etykieta pozostaje widoczna przy każdej ofercie.
 - NEW przez 48 godzin od pierwszego wykrycia, nie od publikacji ogłoszenia.
@@ -26,6 +26,8 @@ npm run refresh
 - Jawne statusy wszystkich źródeł. Data próby aktualizacji nie jest deklaracją udanego sprawdzenia wszystkich źródeł.
 
 ## Dane i integracje
+
+Zawodnicy mają oddzielne identyfikatory: `zidane`, `ronaldo` (Cristiano) i `nazario` (R9). Każdy ma osobny ranking kart i koszulek. Nazário został dodany 19.11.2026; jego sekcje czekają na pierwszy skan, bez przenoszenia ofert Cristiano. Alerty poniżej 800 PLN obejmują także Nazário.
 
 Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, nie gwarantowane oryginalne autografy. Przycisk „Pokaż znalezione propozycje” pozwala obejrzeć oferty niezweryfikowane po ręcznym zawężeniu filtra autentyczności. Procedura kolejnych skanów: [monitoring agentowy](docs/agent-monitoring.md).
 
