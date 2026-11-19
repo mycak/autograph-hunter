@@ -68,55 +68,57 @@
   },
   "latestDailyScan": {
     "method": "browser-agent",
-    "completedAt": "2026-11-18T18:40:10Z",
+    "completedAt": "2026-11-19T08:06:30Z",
     "scope": "partial",
     "sourceAttempts": 6,
-    "existingListingsChecked": 12,
-    "candidateDetailAttempts": 1,
-    "acceptedNewOffers": 0,
+    "sourcesChecked": 5,
+    "sourcesBlocked": 1,
+    "existingListingsChecked": 17,
+    "candidateDetailAttempts": 2,
+    "acceptedNewOffers": 2,
     "priceDrops": 0,
     "deactivatedOffers": 1,
-    "unchangedPriceOffers": 10,
-    "auctionBidIncreases": 1,
+    "unchangedPriceOffers": 16,
     "newAlerts": 0,
-    "repeatedAlertsSuppressed": 1,
     "sources": [
       {
         "name": "eBay",
-        "message": "Sprawdzono 4 zapisane oferty (karty obu piłkarzy i koszulki). 1 koszulka Zidane’a sprzedana — wyłączona. Koszulka Ronaldo 129,15 GBP ma dodatkowo 27,12 PLN szacowanych opłat importowych: razem ok. 822,02 PLN. Pozostałych 34 ofert eBay nie odświeżano. Wyszukiwanie uzupełniające nie dostarczyło nowych zweryfikowanych szczegółowo ofert."
-      },
-      {
-        "name": "COMC",
-        "message": "Ponownie sprawdzono 2 konkretne karty Zidane’a: ceny 231,10 i 281,36 USD, nadal dostępne, zdjęcia podpisów obejrzane. Ponowna wycena wysyłki nie powiodła się (brak tabeli, następnie błąd połączenia); poprzedniej wyceny nie uznano za aktualną, shipping=null. Próba wyszukania nowych kart Ronaldo nie zakończyła się po błędzie połączenia."
-      },
-      {
-        "name": "Catawiki",
-        "message": "Sprawdzono istniejącą aukcję Ronaldo: stawka wzrosła z 320 do 340 EUR, prowizja 33,60 EUR, dostawa do Polski 23 EUR. Cena minimalna nadal nieosiągnięta; bez alertu cenowego. Dodatkowy wynik Zidane’a przekierował poza szczegóły — nie dodano go."
+        "message": "Sprawdzono szczegóły 11 zapisanych ofert: 8 kart i 1 koszulkę Zidane’a oraz kartę i koszulkę Ronaldo. Ceny przedmiotów bez zmiany, zdjęcia podpisów obejrzane; uzupełniono ujawnione szacowane opłaty importowe. Koszulka Ronaldo 129,15 GBP + 21,34 GBP dostawy + 27,11 PLN importu: ok. 823,34 PLN. Przejrzano pierwszą stronę wyników wspólnego wyszukiwania obu piłkarzy; bez nowych zaakceptowanych ofert. Pozostałych 26 aktywnych ofert eBay nie odświeżano."
       },
       {
         "name": "Allegro Lokalnie",
-        "message": "Sprawdzono szczegóły karty Ronaldo: bez zmiany, 450 + 10,95 PLN. Alert już zgłoszony 17.11 — bez powtórki. Przejrzano 8 wyników Ronaldo i 4 Zidane’a; brak nowej zaakceptowanej oferty w wymaganych kategoriach."
+        "message": "Sprawdzona karta Ronaldo jest niedostępna: strona informuje o sprzedaży lub zakończeniu publikacji, Kup teraz nieaktywne. Wyłączono ją z aktywnych ofert. Przejrzano 7 wyników Ronaldo i 4 Zidane’a; brak nowej zaakceptowanej oferty w wymaganych kategoriach. Nie emitowano alertu dla ceny zakończonego ogłoszenia."
+      },
+      {
+        "name": "Catawiki",
+        "message": "Sprawdzono aukcję koszulki Ronaldo: nadal 340 EUR, opłata kupującego 33,60 EUR; cena minimalna nieosiągnięta. Dodano aukcję karty Zidane’a Panini Immaculate 36/49: stawka startowa 1 EUR, bez ofert, cena minimalna nieosiągnięta, koniec 26.11 o 19:51 UTC. Zdjęcia podpisów obejrzane. Dostawy do PL nie udało się ponownie wycenić: serwis ustala Maroko, shipping=null. Dla nowej karty także shipsToPL=null. Aukcje nie podlegają alertom Kup teraz."
       },
       {
         "name": "All Star Signings",
-        "message": "Sprawdzono 2 dostępne produkty Zidane’a (Francja i Juventus): bez zmiany po 689,99 GBP, wariant bez ramy. Obejrzano katalogowe zdjęcia podpisów. Kategoria Cristiano Ronaldo nadal pusta. Koszty wysyłki i importu nieznane."
+        "message": "Sprawdzono 2 zapisane koszulki Zidane’a: Francja i Juventus nadal po 689,99 GBP bez ramy. Dodano Real Madrid 2024/25 bez ramy (SKU 868612UF), 689,99 GBP. Obejrzano katalogowe zdjęcia podpisów. Przejrzano kategorie obu piłkarzy: Ronaldo nadal bez produktów. Dostawa i import bez wyceny; COA/JSA bez niezależnej kontroli konkretnego certyfikatu."
       },
       {
         "name": "Icons.com",
-        "message": "Sprawdzono 2 dostępne warianty koszulki Zidane’a: Classic 1374,99 GBP, Hero 1399,99 GBP, po 5 sztuk; ceny bez zmiany, zdjęcia podpisów obejrzane. Kategoria Cristiano Ronaldo nadal pokazuje podpisane koszulki jako wyprzedane, a dostępną fotografię pominięto. Koszty wysyłki i importu nieznane."
+        "message": "Sprawdzono 2 zapisane koszulki Zidane’a: Classic 1374,99 GBP, Hero 1399,99 GBP, po 5 sztuk, ceny bez zmiany. Obejrzano katalogowe zdjęcia podpisów. Przejrzano kategorie obu piłkarzy: podpisane koszulki Ronaldo nadal wyprzedane. Dostawa i import nieznane."
+      },
+      {
+        "name": "COMC",
+        "status": "blocked",
+        "message": "19.11: próba otwarcia konkretnej karty zatrzymana przez Cloudflare „Performing security verification”. Nie obchodzono blokady. Nie odświeżono cen ani dat kontroli żadnej oferty COMC; ostatnia udana kontrola pochodzi z 18.11. Wysyłka pozostaje nieznana."
       }
     ],
     "materialCorrections": [
       {
-        "id": "ebay:v1|307164664440|0",
-        "reason": "Dodano ujawnioną przez eBay szacowaną opłatę importową 27,12 PLN. Kwota przekracza 800 PLN, więc oferta traci czerwone wyróżnienie."
+        "id": "allegro-lokalnie:9455d9ed-3a79-405d-b5d2-6d8e986a1245",
+        "reason": "Ogłoszenie zakończone lub przedmiot sprzedany; wyłączono dotychczasową okazję poniżej 800 PLN."
       }
     ],
     "limitations": [
-      "Skan częściowy: pozostałe 34 oferty eBay zachowują poprzednią datę kontroli.",
-      "COMC: błąd ponownej wyceny dostawy i wyszukania Ronaldo.",
-      "Dodatkowego wyniku Zidane’a na Catawiki nie udało się potwierdzić na stronie szczegółów."
+      "Skan częściowy: 26 aktywnych ofert eBay zachowało wcześniejszą datę kontroli. Przejrzano pierwszą stronę nowego wyszukiwania, bez pełnego przeglądu rynku.",
+      "COMC: blokada Cloudflare; brak aktualizacji ofert tego źródła.",
+      "Catawiki: serwis ustala lokalizację Maroko i nie udostępnia wyceny do Polski. Dla nowej karty możliwość dostawy do PL niepotwierdzona; aby ją zobaczyć, wybierz Aukcje i wyłącz filtr tylko dostawy do PL.",
+      "Podpisy widoczne na zdjęciach, autentyczność konkretnych podpisów nie została niezależnie zweryfikowana."
     ],
-    "note": "Widoczność podpisów sprawdzono na zdjęciach; autentyczność pozostaje niezweryfikowana. Nie wykonano pełnego przeglądu całego rynku. Brak nowych ofert poniżej 800 PLN."
+    "note": "Dokończono dzienną próbę skanu wszystkich 6 wymaganych źródeł. Dodano 1 koszulkę Kup teraz znacznie powyżej 800 PLN i 1 aukcję karty z nieosiągniętą ceną minimalną. Brak nowego alertu Kup teraz poniżej 800 PLN. Nie odświeżano niesprawdzonych rekordów."
   }
 }
