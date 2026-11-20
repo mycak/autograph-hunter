@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T06:25:08Z",
+  "updatedAt": "2026-11-20T18:31:38Z",
   "rates": {
     "date": "2026-11-19",
     "values": {
@@ -2256,9 +2256,12 @@
       "agent": {
         "checkedAt": "2026-11-19T08:28:08.196Z",
         "offers": 10,
-        "message": "Dodatkowy research Nazário 19.11: odczytano szczegóły 12 różnych ogłoszeń. Dodano 5 kart Topps/Panini i 5 koszulek, wszystkie Kup teraz z dostawą do Polski; podpisy obejrzane na zdjęciach. Nie dodano karty Monopoly z polem podpisującego Pelé ani karty Luxor z parametrami innego piłkarza. Pozostałe oferty Zidane’a i Cristiano zachowały wcześniejsze daty kontroli. To częściowy research, bez gwarancji najtańszych ofert całego rynku.",
+        "message": "Próba 20.11 nieukończona: Nie udało się otworzyć aktualnej koszulki Ronaldo 307164664440: utworzenie karty przeglądarki i nawigacja natywna przekroczyły czas, a połączenie przeglądarki stało się niedostępne. Awaryjny odczyt strony eBay również niedostępny. Brak aktualnej kontroli cen, dostawy i zdjęć. Data kontroli poniżej pozostaje datą poprzedniego udanego skanu. Dodatkowy research Nazário 19.11: odczytano szczegóły 12 różnych ogłoszeń. Dodano 5 kart Topps/Panini i 5 koszulek, wszystkie Kup teraz z dostawą do Polski; podpisy obejrzane na zdjęciach. Nie dodano karty Monopoly z polem podpisującego Pelé ani karty Luxor z parametrami innego piłkarza. Pozostałe oferty Zidane’a i Cristiano zachowały wcześniejsze daty kontroli. To częściowy research, bez gwarancji najtańszych ofert całego rynku.",
         "scope": "partial",
-        "player": "nazario"
+        "player": "nazario",
+        "lastAttemptAt": "2026-11-20T18:32:15Z",
+        "attemptStatus": "failed",
+        "attemptMessage": "Nie udało się otworzyć aktualnej koszulki Ronaldo 307164664440: utworzenie karty przeglądarki i nawigacja natywna przekroczyły czas, a połączenie przeglądarki stało się niedostępne. Awaryjny odczyt strony eBay również niedostępny. Brak aktualnej kontroli cen, dostawy i zdjęć."
       }
     },
     {
@@ -2295,9 +2298,12 @@
       "agent": {
         "checkedAt": "2026-11-19T08:26:26.992Z",
         "offers": 0,
-        "message": "Research Nazário 19.11: przejrzano pierwszą stronę wyszukiwania (31 wyników łącznie), obejmującą aukcje kart i koszulek. Nie dodano ofert bez pełnej kontroli szczegółów, zdjęć i terminu. Leaf/Futera, boxy i same fotografie poza zakresem. W tym uzupełnieniu dodawano wyłącznie szczegółowo sprawdzone oferty Kup teraz z innych źródeł; wcześniejszych aukcji nie odświeżano.",
+        "message": "Próba 20.11 nieukończona: Awaryjny odczyt zapisanej aukcji Ronaldo zwrócił kopię pobraną 2 dni wcześniej, z nieaktualnym licznikiem końca. Nie uznano jej za bieżące potwierdzenie stawki, dostępności ani dostawy. Nie odświeżono aukcji. Data kontroli poniżej pozostaje datą poprzedniego udanego skanu. Research Nazário 19.11: przejrzano pierwszą stronę wyszukiwania (31 wyników łącznie), obejmującą aukcje kart i koszulek. Nie dodano ofert bez pełnej kontroli szczegółów, zdjęć i terminu. Leaf/Futera, boxy i same fotografie poza zakresem. W tym uzupełnieniu dodawano wyłącznie szczegółowo sprawdzone oferty Kup teraz z innych źródeł; wcześniejszych aukcji nie odświeżano.",
         "scope": "partial",
-        "player": "nazario"
+        "player": "nazario",
+        "lastAttemptAt": "2026-11-20T18:32:15Z",
+        "attemptStatus": "failed",
+        "attemptMessage": "Awaryjny odczyt zapisanej aukcji Ronaldo zwrócił kopię pobraną 2 dni wcześniej, z nieaktualnym licznikiem końca. Nie uznano jej za bieżące potwierdzenie stawki, dostępności ani dostawy. Nie odświeżono aukcji."
       }
     },
     {
@@ -2310,9 +2316,12 @@
       "agent": {
         "checkedAt": "2026-11-19T08:27:45.003Z",
         "offers": 0,
-        "message": "Research Nazário 19.11: dostęp zadziałał po załadowaniu strony. Wyszukiwanie 398 wyników, filtr Autographed pokazał 3 karty — 1 Futera i 2 Leaf, poza zakresem Topps/Panini. Nie dodano ofert; cen wcześniejszych kart Zidane’a ani ich lastSeen nie odświeżano. Poprzednia blokada z porannej próby nie wystąpiła w tym researchu.",
+        "message": "Próba 20.11 nieukończona: Awaryjny odczyt strony COMC zwrócił HTTP 403. Dostęp przeglądarkowy nie działał, więc nie wykonano kontroli zapisanych kart ani nowego wyszukiwania trzech piłkarzy. Data kontroli poniżej pozostaje datą poprzedniego udanego skanu. Research Nazário 19.11: dostęp zadziałał po załadowaniu strony. Wyszukiwanie 398 wyników, filtr Autographed pokazał 3 karty — 1 Futera i 2 Leaf, poza zakresem Topps/Panini. Nie dodano ofert; cen wcześniejszych kart Zidane’a ani ich lastSeen nie odświeżano. Poprzednia blokada z porannej próby nie wystąpiła w tym researchu.",
         "scope": "partial",
-        "player": "nazario"
+        "player": "nazario",
+        "lastAttemptAt": "2026-11-20T18:32:15Z",
+        "attemptStatus": "failed",
+        "attemptMessage": "Awaryjny odczyt strony COMC zwrócił HTTP 403. Dostęp przeglądarkowy nie działał, więc nie wykonano kontroli zapisanych kart ani nowego wyszukiwania trzech piłkarzy."
       }
     },
     {
@@ -2333,9 +2342,12 @@
       "agent": {
         "checkedAt": "2026-11-19T08:25:51.752Z",
         "offers": 3,
-        "message": "Research Nazário 19.11: przejrzano 29 pozycji kategorii, szczegółowo sprawdzono i dodano 3 dostępne koszulki w pudełku Deluxe: Barcelona 584,99 GBP, Inter i Brazylia po 634,99 GBP. Obejrzano zdjęcia katalogowe podpisów. Koszty wysyłki i importu nieznane; COA bez niezależnej weryfikacji. Pozostałe oferty zachowały wcześniejsze daty kontroli.",
+        "message": "Próba 20.11 nieukończona: Podjęto odczyt kategorii wszystkich trzech piłkarzy. Kopie Zidane’a i Nazário pochodzą sprzed 2 dni; wynik Cristiano oznaczono jako pobrany dzisiaj. Nie wykonano bieżącej kontroli konkretnych produktów, wariantów, dostawy ani zdjęć, więc ofert nie odświeżono. Data kontroli poniżej pozostaje datą poprzedniego udanego skanu. Research Nazário 19.11: przejrzano 29 pozycji kategorii, szczegółowo sprawdzono i dodano 3 dostępne koszulki w pudełku Deluxe: Barcelona 584,99 GBP, Inter i Brazylia po 634,99 GBP. Obejrzano zdjęcia katalogowe podpisów. Koszty wysyłki i importu nieznane; COA bez niezależnej weryfikacji. Pozostałe oferty zachowały wcześniejsze daty kontroli.",
         "scope": "partial",
-        "player": "nazario"
+        "player": "nazario",
+        "lastAttemptAt": "2026-11-20T18:32:15Z",
+        "attemptStatus": "failed",
+        "attemptMessage": "Podjęto odczyt kategorii wszystkich trzech piłkarzy. Kopie Zidane’a i Nazário pochodzą sprzed 2 dni; wynik Cristiano oznaczono jako pobrany dzisiaj. Nie wykonano bieżącej kontroli konkretnych produktów, wariantów, dostawy ani zdjęć, więc ofert nie odświeżono."
       }
     },
     {
@@ -2388,9 +2400,12 @@
       "agent": {
         "checkedAt": "2026-11-19T08:26:14.160Z",
         "offers": 0,
-        "message": "Research Nazário 19.11: przejrzano 33 wyniki wyszukiwania. Lista nie dostarczyła nowej potwierdzonej oferty karty Topps/Panini lub koszulki z odręcznym podpisem R9; 0 dodanych. Nie utożsamiano zwykłych kart, numerowanych wariantów ani niepodpisanych koszulek z autografami. Nie odświeżano starych ogłoszeń.",
+        "message": "Próba 20.11 nieukończona: Próby wyszukiwania Ronaldo i Nazário zwróciły stare kopie indeksu (sprzed 2 miesięcy i miesiąca); wyszukiwanie Zidane’a było niedostępne. Brak bieżącej kontroli szczegółów i zdjęć, bez dodanych ofert. Data kontroli poniżej pozostaje datą poprzedniego udanego skanu. Research Nazário 19.11: przejrzano 33 wyniki wyszukiwania. Lista nie dostarczyła nowej potwierdzonej oferty karty Topps/Panini lub koszulki z odręcznym podpisem R9; 0 dodanych. Nie utożsamiano zwykłych kart, numerowanych wariantów ani niepodpisanych koszulek z autografami. Nie odświeżano starych ogłoszeń.",
         "scope": "partial",
-        "player": "nazario"
+        "player": "nazario",
+        "lastAttemptAt": "2026-11-20T18:32:15Z",
+        "attemptStatus": "failed",
+        "attemptMessage": "Próby wyszukiwania Ronaldo i Nazário zwróciły stare kopie indeksu (sprzed 2 miesięcy i miesiąca); wyszukiwanie Zidane’a było niedostępne. Brak bieżącej kontroli szczegółów i zdjęć, bez dodanych ofert."
       }
     },
     {
@@ -2403,9 +2418,12 @@
       "agent": {
         "checkedAt": "2026-11-19T08:24:49.098Z",
         "offers": 2,
-        "message": "Research Nazário 19.11: sprawdzono kategorię i 2 dostępne koszulki — Real Madrid i Brazylia retro. Dodano warianty bez ramy po 549,99 GBP. Podpisy obejrzane na zdjęciach katalogowych; deklarowane Beckett/COA nie zostały niezależnie sprawdzone. Koszty dostawy i importu nieznane. Ofert innych piłkarzy nie odświeżano w tym dodatkowym skanie.",
+        "message": "Próba 20.11 nieukończona: Podjęto odczyt kategorii Zidane’a, Cristiano i Nazário. Narzędzie awaryjne udostępniło kopie sprzed 3 dni, 3 dni i miesiąca. Nie zweryfikowano dziś dostępności, wybranych wariantów, cen ani zdjęć produktów. Data kontroli poniżej pozostaje datą poprzedniego udanego skanu. Research Nazário 19.11: sprawdzono kategorię i 2 dostępne koszulki — Real Madrid i Brazylia retro. Dodano warianty bez ramy po 549,99 GBP. Podpisy obejrzane na zdjęciach katalogowych; deklarowane Beckett/COA nie zostały niezależnie sprawdzone. Koszty dostawy i importu nieznane. Ofert innych piłkarzy nie odświeżano w tym dodatkowym skanie.",
         "scope": "partial",
-        "player": "nazario"
+        "player": "nazario",
+        "lastAttemptAt": "2026-11-20T18:32:15Z",
+        "attemptStatus": "failed",
+        "attemptMessage": "Podjęto odczyt kategorii Zidane’a, Cristiano i Nazário. Narzędzie awaryjne udostępniło kopie sprzed 3 dni, 3 dni i miesiąca. Nie zweryfikowano dziś dostępności, wybranych wariantów, cen ani zdjęć produktów."
       }
     }
   ]
