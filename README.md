@@ -36,14 +36,20 @@ Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, n
 
 ### eBay — oficjalne Browse API
 
-Od 21 listopada 2026 klucze Production są aktywne; rzeczywiste testy OAuth i Browse API zwróciły HTTP 200. Odbiornik wymaganych powiadomień o usuwaniu kont działa w osobnym projekcie Supabase. [Konfiguracja i obsługa zgłoszeń](docs/ebay-notifications.md). Lokalne sekrety są w ignorowanym `.env`, a konfiguracja odbiornika w szyfrowanym Vault. Nie oznacza to jeszcze zapisania sekretów w GitHub Actions ani ponownej kontroli ofert.
+Od 21 listopada 2026 klucze Production są aktywne i zapisane jako sekrety GitHub Actions; rzeczywiste testy OAuth i Browse API zwróciły HTTP 200. Odbiornik wymaganych powiadomień o usuwaniu kont działa w osobnym projekcie Supabase. [Konfiguracja i obsługa zgłoszeń](docs/ebay-notifications.md). Lokalne sekrety są w ignorowanym `.env`, a konfiguracja odbiornika w szyfrowanym Vault.
 
 Pobieranie przez GitHub Actions wymaga dodania sekretów w GitHub → Settings → Secrets and variables → Actions:
 
 - `EBAY_CLIENT_ID`
 - `EBAY_CLIENT_SECRET`
 
-Klucze workflow są używane wyłącznie na serwerze GitHub Actions. Nigdy nie dodawaj ich do JSON, frontendu ani repozytorium. Kod uzyskuje application token przez OAuth client credentials i wyszukuje do 1000 wyników na kategorię na rynku EBAY_DE z filtrem dostawy do PL. To ranking w obrębie pobranych wyników, nie gwarancja przeszukania całego rynku. Wersja bez kluczy aktualizuje kursy i pokazuje „wymaga kluczy API”.
+Klucze workflow są używane wyłącznie na serwerze GitHub Actions. Nigdy nie dodawaj ich do JSON, frontendu ani repozytorium. Kod uzyskuje application token przez OAuth client credentials i wyszukuje do 1000 wyników na kategorię na rynku EBAY_DE z filtrem dostawy do PL. To ograniczone wyszukiwanie, nie gwarancja przeszukania całego rynku. API zapisuje **nieaktywnych kandydatów** do artefaktu Actions `ebay-candidates-for-review` (3 dni retencji), nie podmienia opublikowanych cen ani `lastSeen`. Agent odczytuje aktualne szczegóły, dostawę i zdjęcia, a dopiero potem importuje sprawdzone oferty. Filtr dostawy API nie zastępuje kontroli `shipToLocations` w szczegółach. Walutę źródłową zachowujemy z `convertedFrom`, aby konwersja eBay nie tworzyła pozornych spadków cen. Wersja bez kluczy aktualizuje kursy i pokazuje „wymaga kluczy API”.
+
+### Ulubieni i równoległe skanowanie
+
+Trwała konfiguracja [watchlist.json](site/data/watchlist.json) zachowuje Zinedine’a Zidane’a, Cristiano Ronaldo i Ronaldo Nazário jako trzech ulubionych. Importy ofert nie nadpisują tej listy. Osobne rankingi i identyfikatory R9/CR7 pozostają rozdzielone.
+
+W `.agents/skills/` są oddzielne procedury wyszukiwania dla wszystkich15 źródeł i koordynator `autograph-hunter-parallel-scan`. Kopie są zainstalowane w lokalnym katalogu skilli Codex. Każdy agent bada przydzielone źródło lub rozłączną grupę, zapisuje własny raport i nie dotyka wspólnych danych. Koordynator waliduje raporty poleceniem `python3 scripts/merge-agent-reports.py <raporty...> --out <combined.json>`, potem wykonuje jeden import i publikację. Duplikaty ID/URL zatrzymują scalanie bez nadpisania poprzedniego wyniku. Sześć obowiązkowych źródeł i codzienny harmonogram pozostają bez zmian; skille dziewięciu dodatkowych serwisów nie oznaczają ich automatycznej kontroli.
 
 Nie utożsamiamy opisu „COA”, programu eBay Authenticity Guarantee ani gradingu karty z potwierdzeniem podpisu. Automatyczna integracja nie przyznaje etykiety „potwierdzony”. Do takiej oceny wymagane są `evidenceUrl`, `evidenceNote`, `verifiedAt` po rzeczywistej kontroli dokumentacji podpisu.
 

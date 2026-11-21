@@ -4,7 +4,7 @@ import {readFileSync} from 'node:fs';
 import {validate,ranked,amount,isNew,drop,safeUrl,isUnderBudget} from '../site/core.mjs';
 const now=Date.parse('2026-11-17T08:00:00Z');
 const offer=(changes={})=>({id:'1',source:'Test',player:'zidane',category:'card',title:'Panini Zidane autograph',url:'https://example.com/item/1',image:null,price:100,currency:'EUR',shipping:10,fees:0,sellerCountry:'FR',shipsToPL:true,saleType:'fixed',authenticity:'verified',evidenceUrl:'https://example.com/cert/1',evidenceNote:'Checked signature certificate',verifiedAt:'2026-11-17T07:00:00Z',firstSeen:'2026-11-16T08:00:00Z',lastSeen:'2026-11-17T07:00:00Z',history:[],...changes});
-const data=(offers)=>validate({schemaVersion:1,offers,rates:{values:{PLN:1,EUR:4,USD:3}}});
+const data=(offers)=>validate({schemaVersion:1,offers:offers.map(o=>({signatureEvidence:{visibleSignature:true,imageUrl:'https://example.com/signature.jpg',note:'Test fixture: visible ink signature on the card.'},...o})),rates:{values:{PLN:1,EUR:4,USD:3}}});
 test('Nazario imports and rankings stay separate from Cristiano and Zidane',()=>{
  const list=data(['zidane','ronaldo','nazario'].flatMap(player=>['card','shirt'].map(category=>offer({id:`${player}-${category}`,url:`https://example.com/${player}/${category}`,player,category}))));
  for(const player of ['zidane','ronaldo','nazario'])for(const category of ['card','shirt']){
@@ -55,6 +55,11 @@ test('imports reject unsafe URLs, duplicates, unsubstantiated verified labels an
  assert.throws(()=>data([offer(),offer()]));
  assert.equal(safeUrl('javascript:alert(1)'), '');
  assert.doesNotThrow(()=>validate(JSON.parse(readFileSync(new URL('../site/data/example.json',import.meta.url)))));
+});
+test('active offers without visually reviewed signature cannot enter the dashboard',()=>{
+ assert.throws(()=>data([offer({signatureEvidence:null})]),/signatureEvidence/);
+ assert.throws(()=>data([offer({signatureEvidence:{visibleSignature:false,imageUrl:'https://example.com/photo.jpg',note:'Patch only'}})]),/signatureEvidence/);
+ assert.doesNotThrow(()=>data([offer({active:false,signatureEvidence:null})]));
 });
 
 test('source filter applies before the top ten limit and keeps other filters',()=>{

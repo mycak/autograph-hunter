@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "favoritePlayers": ["zidane", "ronaldo", "nazario"],
+  "players": {
+    "zidane": {"name": "Zinedine Zidane", "query": "Zinedine Zidane"},
+    "ronaldo": {"name": "Cristiano Ronaldo", "query": "Cristiano Ronaldo"},
+    "nazario": {"name": "Ronaldo Nazário", "query": "Ronaldo (Nazario,R9,Fenomeno)"}
+  },
+  "categories": ["card", "shirt"],
+  "cardBrands": ["Topps", "Panini"],
+  "deliveryCountry": "PL",
+  "alertBelowPLN": 800
+}

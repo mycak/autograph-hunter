@@ -39,6 +39,6 @@ Szczegóły otwieraj wyłącznie w prywatnym panelu. Po faktycznej obsłudze usu
 
 21 listopada 2026 panel eBay potwierdził **A test notification was sent successfully!**, a podpisane powiadomienie trafiło do bazy. Sprawdzono testową tożsamość i oznaczono ten rekord jako completed; kolejka pending pozostała pusta. Weryfikacja używa przypiętej `@noble/curves@2.4.0`, ponieważ hosted Edge Runtime nie importuje natywnie klucza secp256k1 eBay. Zależności są zapisane w `package-lock.json` oraz `deno.lock`; frontend nie ładuje tej biblioteki.
 
-Klucze Production zostały odblokowane 21 listopada 2026 po zapisaniu endpointu w panelu eBay. Testy OAuth i Browse API zwróciły HTTP 200. Sam test API nie aktualizuje ofert dashboardu ani nie zastępuje kontroli widoczności podpisów.
+Klucze Production zostały odblokowane 21 listopada 2026 po zapisaniu endpointu w panelu eBay. Testy OAuth i Browse API zwróciły HTTP 200. Sekrety są także zapisane w GitHub Actions. Workflow pobiera nieaktywnych kandydatów do artefaktu kontroli; publikacja wymaga osobnej kontroli zdjęć przez agenta.
 
 Dokumentacja: [eBay Marketplace Account Deletion](https://developer.ebay.com/develop/guides/sell/marketplace-user-account-deletion), [eBay Notification SDK](https://github.com/eBay/event-notification-nodejs-sdk), [Supabase Vault](https://supabase.com/docs/guides/database/vault).

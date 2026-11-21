@@ -44,5 +44,5 @@ class AgentImportTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as temp:
             path=Path(temp)/'data.json';original=json.dumps(empty_data());path.write_text(original)
             incoming=Path(temp)/'report.json';incoming.write_text('{"schemaVersion":1,"offers":[{"id":"bad"}]}')
-            with self.assertRaises(subprocess.CalledProcessError):m.import_report(incoming,path)
+            with self.assertRaises((subprocess.CalledProcessError,ValueError)):m.import_report(incoming,path)
             self.assertEqual(path.read_text(),original)

@@ -67,58 +67,110 @@
     ]
   },
   "latestDailyScan": {
-    "method": "browser-agent-with-web-fallback",
-    "completedAt": "2026-11-20T18:32:15Z",
-    "status": "failed",
-    "scope": "unverified",
+    "method": "production-api-plus-parallel-agents",
+    "completedAt": "2026-11-21T09:34:19Z",
+    "status": "partial",
+    "scope": "partial",
     "sourceAttempts": 6,
-    "sourcesChecked": 0,
-    "existingListingsChecked": 0,
-    "candidateDetailAttempts": 2,
-    "acceptedNewOffers": 0,
+    "sourcesChecked": 5,
+    "apiCandidates": 202,
+    "apiDetailsRetrieved": 94,
+    "listingDetailsChecked": 88,
+    "signatureImagesViewed": 97,
+    "acceptedReviewedOffers": 52,
+    "acceptedNewOffers": 38,
+    "refreshedExistingOffers": 14,
+    "heldForMissingSignatureEvidence": 24,
     "priceDrops": 0,
-    "deactivatedOffers": 0,
     "newAlerts": 0,
-    "offersPreserved": 63,
+    "favoritePlayers": [
+      "zidane",
+      "ronaldo",
+      "nazario"
+    ],
+    "sourceSkills": 15,
     "sources": [
       {
         "name": "eBay",
-        "status": "unavailable",
-        "message": "Nie udało się otworzyć aktualnej koszulki Ronaldo 307164664440: utworzenie karty przeglądarki i nawigacja natywna przekroczyły czas, a połączenie przeglądarki stało się niedostępne. Awaryjny odczyt strony eBay również niedostępny. Brak aktualnej kontroli cen, dostawy i zdjęć."
+        "status": "agent_checked",
+        "scope": "partial",
+        "apiCandidates": 202,
+        "apiDetailsRetrieved": 94,
+        "listingDetailsChecked": 72,
+        "signatureImagesViewed": 83,
+        "acceptedOffers": 39,
+        "message": "Produkcja Browse API: 202 kandydatów w6 grupach, 94 szczegóły getItem pobrane. Agentowo oceniono72 szczegóły i83 zdjęcia, przyjęto39 ofert po kontroli podpisu i wysyłki PL. 22 dodatkowe karty Cristiano i pozostałe kandydatury poza zakresem tej kontroli. Brak zaakceptowanych ofert poniżej800PLN; zdjęcia katalogowe jawnie oznaczone, autentyczność niezweryfikowana."
       },
       {
         "name": "COMC",
-        "status": "unavailable",
-        "message": "Awaryjny odczyt strony COMC zwrócił HTTP 403. Dostęp przeglądarkowy nie działał, więc nie wykonano kontroli zapisanych kart ani nowego wyszukiwania trzech piłkarzy."
+        "status": "agent_checked",
+        "scope": "partial",
+        "listingDetailsChecked": 2,
+        "signatureImagesViewed": 2,
+        "acceptedOffers": 2,
+        "message": "Po błędzie403 w odczycie web zadziałała bezpośrednia przeglądarka. Obejrzano podpisy2 zapisanych kart Zidane’a; ceny281,36USD i231,10USD, Last item in stock. Kalkulator POLAND: Guest IMEX Global7,49USD +handling0USD; import DDU nieznany. Bez pełnego wyszukiwania Cristiano/Nazário; ich danych nie odświeżono."
+      },
+      {
+        "name": "Allegro Lokalnie",
+        "status": "agent_checked",
+        "scope": "partial",
+        "playersChecked": [
+          "zidane",
+          "ronaldo",
+          "nazario"
+        ],
+        "searchResultsReviewed": 7,
+        "listingDetailsChecked": 3,
+        "signatureImagesViewed": 1,
+        "acceptedOffers": 0,
+        "message": "Bieżąca przeglądarka: frazy autograf dla3 ulubionych —4/3/0wyników. Karta CR7 za400PLN ma komunikat sprzedane/zakończone i Kup teraz disabled; bez reaktywacji/alertu. Obejrzana Panini Euro2008 to karta bez podpisu; ICON oraz fotografie/but poza zakresem albo bez dowodu podpisu. 0 przyjętych."
       },
       {
         "name": "Catawiki",
         "status": "not_verified",
-        "message": "Awaryjny odczyt zapisanej aukcji Ronaldo zwrócił kopię pobraną 2 dni wcześniej, z nieaktualnym licznikiem końca. Nie uznano jej za bieżące potwierdzenie stawki, dostępności ani dostawy. Nie odświeżono aukcji."
-      },
-      {
-        "name": "Allegro Lokalnie",
-        "status": "not_verified",
-        "message": "Próby wyszukiwania Ronaldo i Nazário zwróciły stare kopie indeksu (sprzed 2 miesięcy i miesiąca); wyszukiwanie Zidane’a było niedostępne. Brak bieżącej kontroli szczegółów i zdjęć, bez dodanych ofert."
+        "scope": "attempted",
+        "listingDetailsAttempted": 2,
+        "acceptedOffers": 0,
+        "message": "Web nie udostępnił bieżących wyników dla3 zawodników. Kopia starej aukcji CR7 pokazała licznik sprzeczny z zapisanym endAt; nie odświeżono ceny, dat ani oferty. Zapisana karta Zidane niedostępna w odczycie; brak bieżącej kontroli zdjęć i terminu. Bez nowych zaakceptowanych aukcji."
       },
       {
         "name": "All Star Signings",
-        "status": "not_verified",
-        "message": "Podjęto odczyt kategorii Zidane’a, Cristiano i Nazário. Narzędzie awaryjne udostępniło kopie sprzed 3 dni, 3 dni i miesiąca. Nie zweryfikowano dziś dostępności, wybranych wariantów, cen ani zdjęć produktów."
+        "status": "agent_checked",
+        "scope": "partial",
+        "method": "live-browser",
+        "categoriesChecked": 3,
+        "listingDetailsChecked": 6,
+        "signatureImagesVisuallyChecked": 6,
+        "acceptedOffers": 6,
+        "newOffers": 1,
+        "priceDrops": 0,
+        "message": "Wszystkie 3 kategorie odczytane na żywo. Cristiano: No products were found matching your selection. Nazário: 2 koszulki Unframed po 549,99 GBP. Zidane: 4 tanie warianty Unframed po 689,99 GBP obejrzane szczegółowo, w tym nowy SKU868622 ze złotym obrysem cyfry 5. Zdjęcia 6 podpisów obejrzane; katalogowe, bez niezależnej kontroli autentyczności. Inne droższe warianty/framed i artykuły poza zakresem nie zostały szczegółowo sprawdzone. Delivery potwierdza NON-UK/Worldwide, ale wyceny PL/importu nie uzyskano; koszty null."
       },
       {
         "name": "Icons.com",
-        "status": "not_verified",
-        "message": "Podjęto odczyt kategorii wszystkich trzech piłkarzy. Kopie Zidane’a i Nazário pochodzą sprzed 2 dni; wynik Cristiano oznaczono jako pobrany dzisiaj. Nie wykonano bieżącej kontroli konkretnych produktów, wariantów, dostawy ani zdjęć, więc ofert nie odświeżono."
+        "status": "agent_checked",
+        "scope": "partial",
+        "method": "live-browser",
+        "categoriesChecked": 3,
+        "listingDetailsChecked": 5,
+        "signatureImagesVisuallyChecked": 5,
+        "acceptedOffers": 5,
+        "newOffers": 0,
+        "priceDrops": 0,
+        "message": "Wszystkie 3 kategorie odczytane na żywo; nie twierdzimy, że przejrzano cały katalog. Szczegółowo potwierdzono 5 istniejących produktów: 2 Zidane France Classic/Hero (5 sztuk każdy), R9 Barcelona Deluxe (2), R9 Brazil Deluxe (1), R9 Inter Deluxe (dostępny). Ceny bez zmian. Podpisy na 5 zdjęciach katalogowych obejrzane; autentyczność unverified. Cristiano: 6 koszulek w pre-order po 2800/2850 GBP, wcześniejsze koszulki sold out; dostępna fotografia poza zakresem. Pre-order pominięto jako brak natychmiastowego stanu magazynowego. Zachowano sprzeczność daty podpisania Zidane 12.12.2022 wobec tytułu France 2024. Worldwide deklarowane; koszt dostawy PL i import null."
       }
     ],
     "limitations": [
-      "Sterowanie przeglądarką: utworzenie karty Chrome — timeout; ponowne połączenie — przeglądarka niedostępna; nawigacja natywna — timeout. Nie obchodzono zabezpieczeń ani blokad.",
-      "Odczyt awaryjny 12 publicznych adresów źródeł nie dostarczył bieżącej, kompletnej kontroli szczegółów i zdjęć. Starych kopii indeksu nie uznano za aktualne oferty.",
-      "Nie wywnioskowano braku okazji z nieudanego skanu. Nie oceniono zmian cen ani bieżącej dostępności.",
-      "Zachowano wszystkie 63 rekordy wraz z lastSeen, cenami, firstSeen, historią i dowodami podpisów. Daty agent.checkedAt oraz prób API nie zmieniły się. Oferty starsze niż 72 h wypadają z rankingu zgodnie z istniejącą regułą."
+      "To częściowy przegląd6 źródeł, nie pełne najtańsze oferty całego rynku.",
+      "Catawiki bez bieżącego potwierdzenia; wcześniejszych cen/lastSeen nie odświeżono.",
+      "COMC tylko2 zapisane karty Zidane’a, bez pełnego wyszukiwania wszystkich3 zawodników.",
+      "Wszystkie przyjęte podpisy są niezweryfikowane pod względem autentyczności. Zdjęcia sklepowe i wskazane komercyjne eBay są katalogowe.",
+      "Brakujące koszty importu lub dostawy pozostają null. Deklaracja worldwide sklepów nie jest indywidualną wyceną koszyka PL.",
+      "25 starszych rekordów bez zapisanego dowodu zdjęcia wyłączono do ponownej oceny; nowa kontrola może je reaktywować.",
+      "Nie stwierdzono zaakceptowanej oferty Kup teraz poniżej800PLN; nie oznacza to braku okazji poza sprawdzonym zakresem."
     ],
-    "note": "Dzisiejsza próba skanu nie powiodła się. Dodano wyłącznie informację o błędzie; brak nowych zweryfikowanych ofert i brak oceny, czy pojawiły się okazje poniżej 800 PLN. Do dalszych kontroli potrzebne jest działające połączenie z przeglądarką."
+    "note": "52 oferty po kontroli szczegółów i zdjęć: 38 nowych ID i 14 odświeżonych. Ulubieni zachowani; API zbiera nieaktywnych kandydatów, tylko raport po kontroli może publikować aktywne oferty.",
+    "initiallyHeldForMissingSignatureEvidence": 25
   },
   "latestNazarioScan": {
     "method": "browser-agent",

@@ -48,11 +48,18 @@ jobs:
           EBAY_CLIENT_SECRET: ${{ secrets.EBAY_CLIENT_SECRET }}
         run: |
           if [ -f /tmp/offers-import.json ]; then
-            python3 scripts/refresh.py --import-file /tmp/offers-import.json
+            python3 scripts/refresh.py --import-file /tmp/offers-import.json --candidates-file /tmp/ebay-candidates.json
           else
-            python3 scripts/refresh.py
+            python3 scripts/refresh.py --candidates-file /tmp/ebay-candidates.json
           fi
           node scripts/validate.mjs
+      - name: Keep candidates for agent photo review
+        uses: actions/upload-artifact@v4
+        with:
+          name: ebay-candidates-for-review
+          path: /tmp/ebay-candidates.json
+          if-no-files-found: ignore
+          retention-days: 3
       - name: Save snapshot
         run: |
           git config user.name 'github-actions[bot]'

@@ -1,5 +1,7 @@
 # Monitoring agentowy bez API
 
+Aktualizacja 21.11.2026: eBay Production jest aktywne. API dostarcza kandydatów do ręcznej/agentowej kontroli zdjęć; pozostałe źródła nadal przegląda agent. Ulubieni są zapisani w `site/data/watchlist.json`. Używaj skilla `.agents/skills/autograph-hunter-parallel-scan/SKILL.md` i odpowiednich skilli źródeł. Zlecenia mogą działać równolegle, ale mają osobne, niezmieniane podczas pracy wejścia i raporty. Tylko koordynator scala/importuje/publikuje. Sekrety są w GitHub Actions; nigdy nie przekazuj ich workerom. Wyniki API nie odświeżają automatycznie `lastSeen` i nie trafiają aktywnie na stronę bez obejrzenia podpisu. Pozostałe zasady jakości i progu alertu pozostają w mocy.
+
 Stronę można aktualizować przez agenta przeglądającego publiczne ogłoszenia. Pierwszy taki skan wykonano 17 listopada 2026; jego podsumowanie jest w `site/data/agent-scan.json`. Oferty zebrane w ten sposób nie wymagają klucza eBay. Nie jest to scraping uruchamiany przez GitHub Actions.
 
 ## Procedura kolejnego skanu

@@ -27,6 +27,12 @@ class PipelineTests(unittest.TestCase):
             item=self.item();item['title']=title
             self.assertIsNone(m.normalize_ebay(item,'zidane','card',NOW))
         self.assertIsNone(m.normalize_ebay({**self.item(),'title':'Panini Ronaldo autograph'},'ronaldo','card',NOW))
+    def test_original_currency_prevents_marketplace_conversion_price_drops(self):
+        item={**self.item(),'price':{'value':'120','currency':'EUR','convertedFromValue':'100','convertedFromCurrency':'GBP'},
+            'shippingOptions':[{'shippingCost':{'value':'12','currency':'EUR','convertedFromValue':'10','convertedFromCurrency':'GBP'}}]}
+        candidate=m.normalize_ebay(item,'zidane','card',NOW)
+        self.assertEqual((candidate['price'],candidate['shipping'],candidate['currency']),(100,10,'GBP'))
+        self.assertIs(candidate['active'],False)
     def test_merge_preserves_first_detection_and_price_history(self):
         o=m.normalize_ebay(self.item(),'zidane','card','2026-11-15T08:00:00Z')
         first=m.merge([], [o], NOW)
@@ -44,6 +50,18 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(m.merge([old],[o],NOW)[0]['authenticity'],'verified')
         changed={**o,'title':'Topps Zidane autograph'}
         self.assertEqual(m.merge([old],[changed],NOW)[0]['authenticity'],'unverified')
+    def test_new_agent_review_can_downgrade_and_replace_old_evidence(self):
+        o=m.normalize_ebay(self.item(),'zidane','card',NOW)
+        old={**o,'authenticity':'verified','evidenceNote':'Previously checked certificate',
+            'evidenceUrl':'https://example.com/old-cert','verifiedAt':NOW}
+        reviewed={**o,'active':True,'signatureEvidence':{'visibleSignature':True,
+            'imageUrl':'https://example.com/signature.jpg','note':'Signature on lower card edge'},
+            'evidenceNote':'Current review found a certificate discrepancy; verification withdrawn',
+            'authenticity':'unverified','evidenceUrl':None,'verifiedAt':None}
+        result=m.merge([old],[reviewed],NOW)[0]
+        self.assertEqual(result['authenticity'],'unverified')
+        self.assertEqual(result['evidenceNote'],reviewed['evidenceNote'])
+        self.assertIsNone(result['verifiedAt'])
     def test_bounded_search_never_marks_missing_items_as_sold(self):
         o=m.normalize_ebay(self.item(),'zidane','card',NOW)
         self.assertEqual(m.merge([o],[],NOW),[o])
@@ -68,8 +86,29 @@ class PipelineTests(unittest.TestCase):
         found=m.collect_ebay('id','secret',NOW,fetch)
         self.assertEqual(len(found),1)
         self.assertEqual(len(calls),13)
-        self.assertTrue(any('Ronaldo+Nazario' in u for u in calls))
+        self.assertTrue(any('Nazario' in u and 'Ronaldo' in u for u in calls))
         self.assertTrue(all('deliveryCountry' in u for u in calls[1:]))
+
+    def test_api_candidates_never_replace_published_photo_review_or_last_seen(self):
+        import json
+        old={**m.normalize_ebay(self.item(),'zidane','card',NOW),'active':True,
+            'signatureEvidence':{'visibleSignature':True,'imageUrl':'https://example.com/reviewed.jpg','note':'Signature on lower edge'}}
+        d=m.empty_data();d['offers']=[old]
+        def fetch(url,headers=None,body=None):
+            if 'nbp.pl' in url:return [{'effectiveDate':'2026-11-20','rates':[]}]
+            if 'oauth2' in url:return {'access_token':'test'}
+            return {'itemSummaries':[{**self.item(),'price':{'value':'20','currency':'EUR'}}]}
+        with tempfile.TemporaryDirectory() as temp:
+            p=Path(temp)/'offers.json';p.write_text(json.dumps(d));review=Path(temp)/'candidates.json'
+            with patch.dict('os.environ',{'EBAY_CLIENT_ID':'id','EBAY_CLIENT_SECRET':'secret'}):
+                result=m.run(p,fetch=fetch,candidates_path=review)
+            self.assertEqual(result['offers'],[old])
+            candidates=json.loads(review.read_text())['offers']
+            self.assertEqual(len(candidates),1)
+            self.assertIs(candidates[0]['active'],False)
+            self.assertIs(candidates[0]['signatureReviewRequired'],True)
+            self.assertEqual(candidates[0]['price'],20)
+            self.assertEqual(result['sources'][0]['status'],'ok')
 
     def test_nazario_and_cristiano_do_not_mix(self):
         for name in ['Ronaldo Nazário', 'Ronaldo Nazario', 'Ronaldo R9', 'Ronaldo Fenômeno']:

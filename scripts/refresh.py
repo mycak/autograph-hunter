@@ -15,6 +15,9 @@ from urllib.request import Request, urlopen
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'site/data/offers.json'
 
+def watchlist():
+    return json.loads((ROOT/'site/data/watchlist.json').read_text())
+
 def excluded_offer(offer):
     """Keep reviewed false positives out of both API and agent imports."""
     exclusions=json.loads((ROOT/'site/data/excluded-offers.json').read_text())
@@ -58,15 +61,21 @@ def money(value):
         raise ValueError('Invalid amount')
     return result
 
+def source_amount(value):
+    """Keep original listing currency so marketplace conversions do not manufacture price drops."""
+    if value.get('convertedFromValue') is not None and value.get('convertedFromCurrency'):
+        return money(value['convertedFromValue']),value['convertedFromCurrency']
+    return money(value['value']),value['currency']
+
 def normalize_ebay(item, player, category, now):
     if excluded_offer(item):
         return None
     title = item.get('title', '')
     low = title.lower()
     # Search results can contain unrelated items, facsimiles, and blank cards.
-    if re.search(r'\b(facsimile|reprint|unsigned|non auto|no auto|preprint|pre-print|printed signature|digital card)\b', low):
+    if re.search(r'\b(facsimile|reprint|unsigned|non auto|no auto|preprint|pre-print|printed signature|digital card|autopen|machine signed|signature style|ohne autogramm)\b', low):
         return None
-    if not re.search(r'\b(auto(?:graph(?:ed)?)?|signed|signature[s]?)\b', low):
+    if not re.search(r'\b(auto(?:graph(?:ed)?)?|autogramm|handsigniert|signiert|signed|signature[s]?)\b', low):
         return None
     if player == 'zidane' and 'zidane' not in low:
         return None
@@ -78,27 +87,31 @@ def normalize_ebay(item, player, category, now):
         return None
     if category == 'card' and not any(b in low for b in ['topps', 'panini']):
         return None
-    if category == 'shirt' and not any(b in low for b in ['shirt', 'jersey']):
-        return None
+    if category == 'shirt':
+        if not any(b in low for b in ['shirt', 'jersey', 'trikot']) or re.search(r'\b(poster|print|photo|foto|druck|plakat)\b',low):
+            return None
     if 'FIXED_PRICE' not in item.get('buyingOptions', []):
         return None
     p = item.get('price')
     if not p or not item.get('itemId') or not item.get('itemWebUrl'):
         return None
-    currency = p['currency']
+    price,currency = source_amount(p)
     shipping = None
     for option in item.get('shippingOptions', []):
         cost = option.get('shippingCost', {})
-        if cost.get('currency') == currency:
-            val = money(cost['value'])
+        if cost.get('value') is not None:
+            val,cost_currency=source_amount(cost)
+            if cost_currency != currency:
+                continue
             shipping = val if shipping is None else min(shipping, val)
     return dict(id='ebay:'+item['itemId'], source='eBay', player=player, category=category,
                 title=title, url=item['itemWebUrl'], image=item.get('image',{}).get('imageUrl'),
-                price=money(p['value']), currency=currency, shipping=shipping, fees=None,
-                sellerCountry=item.get('itemLocation',{}).get('country'), shipsToPL=True,
+                price=price, currency=currency, shipping=shipping, fees=None,
+                sellerCountry=item.get('itemLocation',{}).get('country'), shipsToPL=None,
                 saleType='fixed', authenticity='unverified', evidenceUrl=None, verifiedAt=None,
                 evidenceNote='Pobrano przez API; opis sprzedawcy ani program eBay nie potwierdzają podpisu.',
-                firstSeen=now,lastSeen=now,active=True,endAt=item.get('itemEndDate'),history=[])
+                firstSeen=now,lastSeen=now,active=False,signatureReviewRequired=True,
+                endAt=item.get('itemEndDate'),history=[])
 
 def collect_ebay(client, secret, now, fetch=request_json):
     credentials=base64.b64encode((client+':'+secret).encode()).decode()
@@ -108,8 +121,10 @@ def collect_ebay(client, secret, now, fetch=request_json):
     headers={'Authorization':'Bearer '+token, 'X-EBAY-C-MARKETPLACE-ID':'EBAY_DE',
              'X-EBAY-C-ENDUSERCTX':'contextualLocation=country%3DPL'}
     found={}
-    for player, name in [('zidane','Zinedine Zidane'),('ronaldo','Cristiano Ronaldo'),('nazario','Ronaldo Nazario')]:
-        for category, terms in [('card','(Topps,Panini) autograph'),('shirt','signed (shirt,jersey)')]:
+    favorites=watchlist()
+    for player in favorites['favoritePlayers']:
+        name=favorites['players'][player]['query']
+        for category, terms in [('card','(Topps,Panini) (autograph,auto,signed,signature,autogramm)'),('shirt','(signed,autograph,autogramm,signiert) (shirt,jersey,trikot)')]:
             for offset in range(0,1000,200):
                 params={'q':name+' '+terms,'filter':'buyingOptions:{FIXED_PRICE},deliveryCountry:PL',
                         'sort':'price','limit':200,'offset':offset}
@@ -140,7 +155,7 @@ def merge(previous, incoming, now):
             current['firstSeen']=old['firstSeen']
             history=copy.deepcopy(old.get('history',[])) if old['currency']==current['currency'] else []
             # Preserve reviewed evidence only while the identity of the item is unchanged.
-            if current.get('authenticity')=='unverified' and all(old.get(k)==current.get(k) for k in ['title','url','image','player','category']):
+            if not current.get('signatureEvidence') and current.get('authenticity')=='unverified' and all(old.get(k)==current.get(k) for k in ['title','url','image','player','category']):
                 for key in ['authenticity','evidenceUrl','evidenceNote','verifiedAt']:
                     if key in old:
                         current[key]=old[key]
@@ -154,10 +169,11 @@ def merge(previous, incoming, now):
     # Missing from a bounded search is not proof an item sold. UI excludes stale items after 72h.
     return sorted(offers.values(), key=lambda o:o['id'])
 
-def run(path=DATA, import_path=None, fetch=request_json):
+def run(path=DATA, import_path=None, fetch=request_json, candidates_path=None):
     data=json.loads(path.read_text()) if path.exists() else empty_data()
     now=stamp()
     data['updatedAt']=now
+    data['favoritePlayers']=watchlist()['favoritePlayers']
     try:
         table=fetch('https://api.nbp.pl/api/exchangerates/tables/A/?format=json')[0]
         data['rates']={'date':table['effectiveDate'],'values':{'PLN':1,**{r['code']:r['mid'] for r in table['rates']}}}
@@ -174,8 +190,14 @@ def run(path=DATA, import_path=None, fetch=request_json):
     if client and secret:
         try:
             offers=collect_ebay(client,secret,now,fetch)
-            data['offers']=merge(data['offers'],offers,now)
-            source.update(status='ok',message=f'Browse API: {len(offers)} wyników po filtrach. Maks. 1000 wyników na kategorię; ceny i dostawa do PL według API. Podpisy wymagają osobnej kontroli.',lastSuccessAt=now)
+            # API is a discovery stage, never a substitute for visual review.
+            # Preserve published prices, lastSeen and evidence until an agent reviews the offer.
+            if candidates_path:
+                target=Path(candidates_path)
+                target.parent.mkdir(parents=True,exist_ok=True)
+                target.write_text(json.dumps({'schemaVersion':1,'collectedAt':now,
+                    'favoritePlayers':data['favoritePlayers'],'offers':offers},ensure_ascii=False,indent=2)+'\n')
+            source.update(status='ok',message=f'Browse API: {len(offers)} kandydatów do kontroli zdjęć. Maks. 1000 wyników na kategorię. Publikacja i alerty dopiero po sprawdzeniu podpisu przez agenta.',lastSuccessAt=now)
         except Exception:
             # No exception body or request headers: they may contain credentials.
             source.update(status='error',message='Pobranie eBay nie powiodło się. Zachowano wcześniejsze dane; sprawdź klucze i dostęp produkcyjny Browse API.')
@@ -192,9 +214,10 @@ def run(path=DATA, import_path=None, fetch=request_json):
 if __name__=='__main__':
     parser=argparse.ArgumentParser()
     parser.add_argument('--import-file',type=Path)
+    parser.add_argument('--candidates-file',type=Path,help='Private review report; API candidates are never published as active offers')
     args=parser.parse_args()
     if args.import_file:
         # A single validator is shared with the UI and validates before any file writes.
         import subprocess
         subprocess.run(['node',str(ROOT/'scripts/validate.mjs'),str(args.import_file)],check=True)
-    run(import_path=args.import_file)
+    run(import_path=args.import_file,candidates_path=args.candidates_file)

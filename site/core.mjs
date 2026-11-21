@@ -1,6 +1,7 @@
 export const EU = new Set('AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE'.split(' '));
 export const PLAYERS = {zidane: 'Zinedine Zidane', ronaldo: 'Cristiano Ronaldo', nazario: 'Ronaldo Nazário'};
 export const AUTH = {verified:'Potwierdzony', probable:'Prawdopodobny', unverified:'Niezweryfikowany'};
+export const FAVORITE_PLAYERS = ['zidane','ronaldo','nazario'];
 export const safeUrl = value => { try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : ''; } catch { return ''; } };
 export const isNew = (o, now=Date.now()) => now-Date.parse(o.firstSeen)>=0 && now-Date.parse(o.firstSeen)<48*3600e3;
 export const isFresh = (o, now=Date.now()) => now-Date.parse(o.lastSeen)>=-300e3 && now-Date.parse(o.lastSeen)<72*3600e3;
@@ -20,6 +21,8 @@ export function validate(data) {
     for (const k of ['shipping','fees']) if (o[k]!==null && !money(o[k])) fail(`${k} musi być kwotą lub null (nieznane).`);
     if (![true,false,null].includes(o.shipsToPL) || !['fixed','auction'].includes(o.saleType)) fail('nieprawidłowa dostawa lub rodzaj sprzedaży.');
     if (!Object.hasOwn(AUTH,o.authenticity)) fail('nieprawidłowa ocena autentyczności.');
+    const proof=o.signatureEvidence;
+    if (o.active!==false && (!proof || proof.visibleSignature!==true || !safeUrl(proof.imageUrl) || typeof proof.note!=='string' || !proof.note.trim())) fail('aktywna oferta wymaga obejrzanego podpisu: signatureEvidence, zdjęcie HTTPS i notatka.');
     if (o.authenticity==='verified' && (!safeUrl(o.evidenceUrl) || !o.evidenceNote || !Number.isFinite(Date.parse(o.verifiedAt)))) fail('potwierdzony autograf wymaga dowodu, notatki i daty weryfikacji.');
     if (!Number.isFinite(Date.parse(o.firstSeen)) || !Number.isFinite(Date.parse(o.lastSeen)) || Date.parse(o.firstSeen)>Date.parse(o.lastSeen)) fail('nieprawidłowe daty wykrycia i kontroli.');
     if (o.endAt && !Number.isFinite(Date.parse(o.endAt))) fail('nieprawidłowy termin końca oferty.');

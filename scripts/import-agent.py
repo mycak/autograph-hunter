@@ -7,12 +7,12 @@ from urllib.parse import urlparse
 from refresh import ROOT, DATA, merge, stamp
 
 def import_report(report_path, data_path=DATA):
-    subprocess.run(['node',str(ROOT/'scripts/validate.mjs'),str(report_path)],check=True)
     report=json.loads(Path(report_path).read_text())
     for offer in report['offers']:
         proof=offer.get('signatureEvidence',{})
         if offer.get('active',True) and (not isinstance(proof,dict) or proof.get('visibleSignature') is not True or urlparse(proof.get('imageUrl','')).scheme!='https' or not proof.get('note')):
             raise ValueError('Active agent offers require signatureEvidence: visibleSignature=true, imageUrl and a note describing the visible signature. Title or patch alone is insufficient: '+offer['id'])
+    subprocess.run(['node',str(ROOT/'scripts/validate.mjs'),str(report_path)],check=True)
     data=json.loads(data_path.read_text())
     now=stamp()
     data['offers']=merge(data['offers'],report['offers'],now)
@@ -21,7 +21,7 @@ def import_report(report_path, data_path=DATA):
         matching=[o for o in report['offers'] if o['source']==source['name']]
         if matching:
             source['agent']={'checkedAt':max(o['lastSeen'] for o in matching),'offers':len(matching),
-                             'message':'Skan agentowy bez API: ceny i dostawa odczytane z konkretnych ogłoszeń. Dowody autentyczności wymagają oddzielnej kontroli.'}
+                             'message':'Kontrola agentowa: obejrzane zdjęcia podpisów i aktualne szczegóły konkretnych ofert. Dowody autentyczności wymagają oddzielnej weryfikacji.'}
             if source['status']=='agent_scheduled':
                 source['status']='agent_checked'
                 source['message']=source['message'].replace(' Pierwszy skan jeszcze nie został wykonany.','')
