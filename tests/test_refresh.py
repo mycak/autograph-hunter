@@ -10,6 +10,23 @@ spec.loader.exec_module(m)
 NOW='2026-11-17T08:00:00Z'
 
 class PipelineTests(unittest.TestCase):
+    def test_expanded_scan_checks_all_28_players_without_changing_favorites(self):
+        calls=[]
+        def fetch(url,headers=None,body=None):
+            calls.append(url)
+            return {'access_token':'test'} if 'oauth2' in url else {'itemSummaries':[]}
+        config=m.watchlist()
+        self.assertEqual(len(config['monitoredPlayers']),28)
+        self.assertEqual(config['favoritePlayers'],['zidane','ronaldo','nazario'])
+        self.assertEqual(m.collect_ebay('id','secret',NOW,fetch,player_ids=config['monitoredPlayers']),[])
+        self.assertEqual(len(calls),57)
+        self.assertTrue(any('David+Beckham' in url for url in calls))
+    def test_new_player_identity_cannot_be_assigned_from_query_alone(self):
+        for player,title in [('messi','Topps Lionel Messi autograph'),('kaka','Panini Kaká auto'),('roberto-carlos','Topps Roberto Carlos autograph')]:
+            candidate=m.normalize_ebay({**self.item(),'title':title},player,'card',NOW)
+            self.assertEqual(candidate['player'],player)
+            self.assertIs(candidate['active'],False)
+            self.assertIsNone(m.normalize_ebay(self.item(),player,'card',NOW))
     def test_reviewed_unsigned_patch_cannot_return_from_api_or_merge(self):
         item=self.item()
         item.update(itemWebUrl='https://www.ebay.com/itm/800895835045',title='Zinedine Zidane /10 Patch Juventus UEFA Topps 2025-26 Museum Collection Auto')

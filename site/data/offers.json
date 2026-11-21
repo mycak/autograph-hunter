@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T09:57:12Z",
+  "updatedAt": "2026-11-21T10:26:52.406Z",
   "rates": {
     "date": "2026-11-20",
     "values": {
@@ -4461,6 +4461,79 @@
           "price": 699
         }
       ]
+    },
+    {
+      "id": "ebay:v1|377350508134|0",
+      "source": "eBay",
+      "player": "ibrahimovic",
+      "category": "card",
+      "title": "Zlatan Ibrahimović — Topps Chrome UCC2024/25 Black Lazer Autograph Gold /50 BLA-ZI (raw)",
+      "url": "https://www.ebay.pl/itm/377350508134",
+      "image": "https://i.ebayimg.com/images/g/ExgAAeSw1bNqWqFt/s-l1600.webp",
+      "price": 368.99,
+      "currency": "USD",
+      "shipping": 37.93,
+      "fees": 2.6961810257799224,
+      "sellerCountry": "US",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.pl/itm/377350508134",
+      "evidenceNote": "21.11: live exact detail and active Buy now checked; shipping dialog explicitly Polska selected. Observed USD368.99 price includes Polish VAT (search previewUSD299.99 was beforeVAT, not used), USD37.93 eBayInternationalShipping fromUS. Additional import handling quote PLN10.95 estimated, normalized to USD by stored NBP rate to preserve original item/shipping USD; actual checkout can differ. All3comparisons use sameUSorigin,PLdestination,liveVAT-inclusiveprice,sameEIS,thesamePLN10.95estimatedfee. Front+backviewed. This is below median of current asking prices, not sold comps or proven fair value. No independent authentication of exact autograph. Coordinator-supplied getItemPL independently confirms original USDprice/shipping, PLVAT23.0% includedInPrice=true, IN_STOCK1, FIXED_PRICE, USdispatch and PLincluded. API import quoteUSD2.69; browserPLN10.95 normalized withNBP differs byUSD0.00618 dueconversionrounding, original feeQuote retained.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-21T10:25:12.373777Z",
+      "lastSeen": "2026-11-21T10:25:12.373777Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-21T10:25:12.373777Z",
+          "price": 368.99
+        }
+      ],
+      "checkedBy": "browser-agent",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/ExgAAeSw1bNqWqFt/s-l1600.webp",
+        "imageType": "listing",
+        "note": "Karta w holderze i podstawceHurryUpCards; niebieski podpis na dolnym jasnym panelu pod tułowiemIbrahimovicia; rewersBLA-ZI i ToppsChromeUCC2024/25."
+      },
+      "feeQuote": {
+        "value": 10.95,
+        "currency": "PLN",
+        "type": "estimated import fee",
+        "convertedToUSDWith": "NBP 2026-11-20 USD/PLN=4.0613",
+        "estimated": true
+      },
+      "taxBasis": "Poland-selected live eBay.pl detail price, includes VAT",
+      "sellerPublicHandle": "hurryupcards",
+      "apiVerification": {
+        "checkedAt": "2026-11-21T10:23:27.143463+00:00",
+        "priceOriginal": "368.99",
+        "priceCurrency": "USD",
+        "shippingOriginal": "37.93",
+        "shippingCurrency": "USD",
+        "importOriginal": "2.69",
+        "importCurrency": "USD",
+        "VAT": [
+          {
+            "taxJurisdiction": {
+              "taxJurisdictionId": "PL"
+            },
+            "taxType": "VAT",
+            "taxPercentage": "23.0",
+            "includedInPrice": true,
+            "ebayCollectAndRemitTax": true
+          }
+        ],
+        "availability": "IN_STOCK",
+        "quantity": 1,
+        "buyingOptions": [
+          "FIXED_PRICE",
+          "BEST_OFFER"
+        ],
+        "shipsToPL": true,
+        "countryOfDispatch": "US"
+      }
     }
   ],
   "sources": [
@@ -4760,5 +4833,29 @@
     "zidane",
     "ronaldo",
     "nazario"
-  ]
+  ],
+  "opportunityDiscovery": {
+    "checkedAt": "2026-11-21T10:19:47Z",
+    "source": "eBay",
+    "playersSearched": 28,
+    "candidates": 2154,
+    "status": "partial_review",
+    "reviewedPlayerGroups": [
+      "beckham",
+      "roberto-carlos",
+      "figo",
+      "rooney",
+      "gerrard",
+      "pirlo",
+      "xavi",
+      "iniesta",
+      "henry",
+      "ronaldinho",
+      "kaka",
+      "ibrahimovic",
+      "lewandowski"
+    ],
+    "acceptedDeviations": 1,
+    "message": "Wyszukiwania API dla 28 piłkarzy; szczegółowy, ograniczony przegląd porównań w 13 dodatkowych grupach. 1 potwierdzone odchylenie wobec aktualnych cen ofertowych. Pozostałe wyniki API nie są przejrzanymi okazjami."
+  }
 }

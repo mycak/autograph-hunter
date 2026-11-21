@@ -85,3 +85,7 @@ GitHub Free udostępnia Pages dla repozytoriów publicznych; Pages dla prywatneg
 ## Sprawdzenie jakości
 
 `npm run check` weryfikuje składnię i testy logiki rankingu, importów, walut, kosztów, nowych ofert, historii, filtrowania, scalania i zachowania danych przy awarii API. Dodatkowo workflow waliduje JSON przed publikacją. Testy nie udają potwierdzonego dostępu do produkcyjnego eBay.
+
+## Okazje eBay
+
+Na stronie głównej działa osobna sekcja odchyleń cen dla radaru 28 piłkarzy. Pokazuje tylko oferty eBay ze sprawdzonym podpisem, dostawą PL i co najmniej trzema zgodnymi porównaniami: minimum 20% poniżej mediany i 10% poniżej najtańszego porównania. Rankingi trzech ulubionych i ich dotychczasowe źródła pozostają osobno. Kontrakt, import i procedura aktualizacji: [docs/ebay-opportunities.md](docs/ebay-opportunities.md).

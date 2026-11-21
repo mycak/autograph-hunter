@@ -1,5 +1,5 @@
 export const EU = new Set('AT BE BG HR CY CZ DK EE FI FR DE GR HU IE IT LV LT LU MT NL PL PT RO SK SI ES SE'.split(' '));
-export const PLAYERS = {zidane: 'Zinedine Zidane', ronaldo: 'Cristiano Ronaldo', nazario: 'Ronaldo Nazário'};
+export const PLAYERS = {"zidane": "Zinedine Zidane", "ronaldo": "Cristiano Ronaldo", "nazario": "Ronaldo Nazário", "messi": "Lionel Messi", "ronaldinho": "Ronaldinho", "maradona": "Diego Maradona", "pele": "Pelé", "beckham": "David Beckham", "henry": "Thierry Henry", "kaka": "Kaká", "ibrahimovic": "Zlatan Ibrahimović", "mbappe": "Kylian Mbappé", "haaland": "Erling Haaland", "vinicius": "Vinícius Júnior", "bellingham": "Jude Bellingham", "lewandowski": "Robert Lewandowski", "salah": "Mohamed Salah", "neymar": "Neymar", "yamal": "Lamine Yamal", "roberto-carlos": "Roberto Carlos", "figo": "Luís Figo", "pirlo": "Andrea Pirlo", "iniesta": "Andrés Iniesta", "xavi": "Xavi Hernández", "modric": "Luka Modrić", "rooney": "Wayne Rooney", "gerrard": "Steven Gerrard", "buffon": "Gianluigi Buffon"};
 export const AUTH = {verified:'Potwierdzony', probable:'Prawdopodobny', unverified:'Niezweryfikowany'};
 export const FAVORITE_PLAYERS = ['zidane','ronaldo','nazario'];
 export const safeUrl = value => { try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password ? u.href : ''; } catch { return ''; } };
@@ -19,6 +19,7 @@ export function validate(data) {
     if (!url || urls.has(url)) fail('wymagany unikatowy adres HTTPS konkretnej oferty.');
     if (!money(o.price) || !/^[A-Z]{3}$/.test(o.currency || '')) fail('nieprawidłowa cena lub waluta.');
     for (const k of ['shipping','fees']) if (o[k]!==null && !money(o[k])) fail(`${k} musi być kwotą lub null (nieznane).`);
+    if(o.feeQuote!==undefined&&(!money(o.feeQuote?.value)||!/^[A-Z]{3}$/.test(o.feeQuote?.currency)||o.fees===null))fail('feeQuote wymaga kwoty, waluty i zapisanego kosztu opłat.');
     if (![true,false,null].includes(o.shipsToPL) || !['fixed','auction'].includes(o.saleType)) fail('nieprawidłowa dostawa lub rodzaj sprzedaży.');
     if (!Object.hasOwn(AUTH,o.authenticity)) fail('nieprawidłowa ocena autentyczności.');
     const proof=o.signatureEvidence;
@@ -36,7 +37,10 @@ export function validate(data) {
 export function amount(o,rates={PLN:1}) {
   const rate=rates[o.currency];
   if (typeof rate!=='number' || !Number.isFinite(rate) || rate<=0) return null;
-  return {pln:Math.round((o.price+(o.shipping??0)+(o.fees??0))*rate*100)/100,complete:o.shipping!==null && o.fees!==null};
+  const feeRate=o.feeQuote?rates[o.feeQuote.currency]:rate;
+  if(o.feeQuote&&(typeof feeRate!=='number'||!Number.isFinite(feeRate)||feeRate<=0))return null;
+  const fees=o.feeQuote?o.feeQuote.value*feeRate:(o.fees??0)*rate;
+  return {pln:Math.round(((o.price+(o.shipping??0))*rate+fees)*100)/100,complete:o.shipping!==null && o.fees!==null};
 }
 export const isUnderBudget = (o,rates,limit=800) => {
   const cost=amount(o,rates);

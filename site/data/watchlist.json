@@ -1,13 +1,287 @@
 {
   "schemaVersion": 1,
-  "favoritePlayers": ["zidane", "ronaldo", "nazario"],
+  "favoritePlayers": [
+    "zidane",
+    "ronaldo",
+    "nazario"
+  ],
   "players": {
-    "zidane": {"name": "Zinedine Zidane", "query": "Zinedine Zidane"},
-    "ronaldo": {"name": "Cristiano Ronaldo", "query": "Cristiano Ronaldo"},
-    "nazario": {"name": "Ronaldo Nazário", "query": "Ronaldo (Nazario,R9,Fenomeno)"}
+    "zidane": {
+      "name": "Zinedine Zidane",
+      "query": "Zinedine Zidane"
+    },
+    "ronaldo": {
+      "name": "Cristiano Ronaldo",
+      "query": "Cristiano Ronaldo"
+    },
+    "nazario": {
+      "name": "Ronaldo Nazário",
+      "query": "Ronaldo (Nazario,R9,Fenomeno)"
+    },
+    "messi": {
+      "name": "Lionel Messi",
+      "query": "Lionel Messi",
+      "aliases": [
+        "Lionel Messi",
+        "Leo Messi",
+        "Messi"
+      ],
+      "group": "legends"
+    },
+    "ronaldinho": {
+      "name": "Ronaldinho",
+      "query": "Ronaldinho",
+      "aliases": [
+        "Ronaldinho"
+      ],
+      "group": "legends"
+    },
+    "maradona": {
+      "name": "Diego Maradona",
+      "query": "Diego Maradona",
+      "aliases": [
+        "Diego Maradona",
+        "Maradona"
+      ],
+      "group": "legends"
+    },
+    "pele": {
+      "name": "Pelé",
+      "query": "Pele",
+      "aliases": [
+        "Pele"
+      ],
+      "group": "legends"
+    },
+    "beckham": {
+      "name": "David Beckham",
+      "query": "David Beckham",
+      "aliases": [
+        "David Beckham"
+      ],
+      "group": "legends"
+    },
+    "henry": {
+      "name": "Thierry Henry",
+      "query": "Thierry Henry",
+      "aliases": [
+        "Thierry Henry"
+      ],
+      "group": "legends"
+    },
+    "kaka": {
+      "name": "Kaká",
+      "query": "Kaka",
+      "aliases": [
+        "Kaka"
+      ],
+      "group": "legends"
+    },
+    "ibrahimovic": {
+      "name": "Zlatan Ibrahimović",
+      "query": "Zlatan Ibrahimovic",
+      "aliases": [
+        "Zlatan Ibrahimovic",
+        "Ibrahimovic"
+      ],
+      "group": "legends"
+    },
+    "mbappe": {
+      "name": "Kylian Mbappé",
+      "query": "Kylian Mbappe",
+      "aliases": [
+        "Kylian Mbappe",
+        "Mbappe"
+      ],
+      "group": "stars"
+    },
+    "haaland": {
+      "name": "Erling Haaland",
+      "query": "Erling Haaland",
+      "aliases": [
+        "Erling Haaland",
+        "Haaland"
+      ],
+      "group": "stars"
+    },
+    "vinicius": {
+      "name": "Vinícius Júnior",
+      "query": "Vinicius Junior",
+      "aliases": [
+        "Vinicius Junior",
+        "Vinicius Jr"
+      ],
+      "group": "stars"
+    },
+    "bellingham": {
+      "name": "Jude Bellingham",
+      "query": "Jude Bellingham",
+      "aliases": [
+        "Jude Bellingham"
+      ],
+      "group": "stars"
+    },
+    "lewandowski": {
+      "name": "Robert Lewandowski",
+      "query": "Robert Lewandowski",
+      "aliases": [
+        "Robert Lewandowski",
+        "Lewandowski"
+      ],
+      "group": "stars"
+    },
+    "salah": {
+      "name": "Mohamed Salah",
+      "query": "Mohamed Salah",
+      "aliases": [
+        "Mohamed Salah",
+        "Mo Salah"
+      ],
+      "group": "stars"
+    },
+    "neymar": {
+      "name": "Neymar",
+      "query": "Neymar",
+      "aliases": [
+        "Neymar"
+      ],
+      "group": "stars"
+    },
+    "yamal": {
+      "name": "Lamine Yamal",
+      "query": "Lamine Yamal",
+      "aliases": [
+        "Lamine Yamal"
+      ],
+      "group": "stars"
+    },
+    "roberto-carlos": {
+      "name": "Roberto Carlos",
+      "query": "Roberto Carlos",
+      "aliases": [
+        "Roberto Carlos"
+      ],
+      "group": "value-legends"
+    },
+    "figo": {
+      "name": "Luís Figo",
+      "query": "Luis Figo",
+      "aliases": [
+        "Luis Figo",
+        "Figo"
+      ],
+      "group": "value-legends"
+    },
+    "pirlo": {
+      "name": "Andrea Pirlo",
+      "query": "Andrea Pirlo",
+      "aliases": [
+        "Andrea Pirlo",
+        "Pirlo"
+      ],
+      "group": "value-legends"
+    },
+    "iniesta": {
+      "name": "Andrés Iniesta",
+      "query": "Andres Iniesta",
+      "aliases": [
+        "Andres Iniesta",
+        "Iniesta"
+      ],
+      "group": "value-legends"
+    },
+    "xavi": {
+      "name": "Xavi Hernández",
+      "query": "Xavi Hernandez",
+      "aliases": [
+        "Xavi Hernandez",
+        "Xavi"
+      ],
+      "group": "value-legends"
+    },
+    "modric": {
+      "name": "Luka Modrić",
+      "query": "Luka Modric",
+      "aliases": [
+        "Luka Modric",
+        "Modric"
+      ],
+      "group": "value-legends"
+    },
+    "rooney": {
+      "name": "Wayne Rooney",
+      "query": "Wayne Rooney",
+      "aliases": [
+        "Wayne Rooney"
+      ],
+      "group": "value-legends"
+    },
+    "gerrard": {
+      "name": "Steven Gerrard",
+      "query": "Steven Gerrard",
+      "aliases": [
+        "Steven Gerrard"
+      ],
+      "group": "value-legends"
+    },
+    "buffon": {
+      "name": "Gianluigi Buffon",
+      "query": "Gianluigi Buffon",
+      "aliases": [
+        "Gianluigi Buffon",
+        "Buffon"
+      ],
+      "group": "value-legends"
+    }
   },
-  "categories": ["card", "shirt"],
-  "cardBrands": ["Topps", "Panini"],
+  "categories": [
+    "card",
+    "shirt"
+  ],
+  "cardBrands": [
+    "Topps",
+    "Panini"
+  ],
   "deliveryCountry": "PL",
-  "alertBelowPLN": 800
+  "alertBelowPLN": 800,
+  "monitoredPlayers": [
+    "zidane",
+    "ronaldo",
+    "nazario",
+    "messi",
+    "ronaldinho",
+    "maradona",
+    "pele",
+    "beckham",
+    "henry",
+    "kaka",
+    "ibrahimovic",
+    "mbappe",
+    "haaland",
+    "vinicius",
+    "bellingham",
+    "lewandowski",
+    "salah",
+    "neymar",
+    "yamal",
+    "roberto-carlos",
+    "figo",
+    "pirlo",
+    "iniesta",
+    "xavi",
+    "modric",
+    "rooney",
+    "gerrard",
+    "buffon"
+  ],
+  "discoveryMaxResultsPerCategory": 200,
+  "opportunityRules": {
+    "source": "eBay",
+    "minimumDiscountPercent": 20,
+    "minimumComparables": 3,
+    "comparisonMaxAgeHours": 72,
+    "basis": "item-plus-shipping-and-known-fees",
+    "requiresIndependentSellers": true,
+    "minimumCheapestDiscountPercent": 10
+  }
 }

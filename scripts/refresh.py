@@ -85,6 +85,10 @@ def normalize_ebay(item, player, category, now):
         return None
     if player == 'nazario' and ('ronaldo' not in low or not nazario or re.search(r'\b(cristiano|cr7)\b', identity)):
         return None
+    if player not in ['zidane','ronaldo','nazario']:
+        aliases=watchlist()['players'].get(player,{}).get('aliases',[])
+        if not any(re.search(r'\b'+re.escape(alias.lower())+r'\b',identity) for alias in aliases):
+            return None
     if category == 'card' and not any(b in low for b in ['topps', 'panini']):
         return None
     if category == 'shirt':
@@ -113,7 +117,7 @@ def normalize_ebay(item, player, category, now):
                 firstSeen=now,lastSeen=now,active=False,signatureReviewRequired=True,
                 endAt=item.get('itemEndDate'),history=[])
 
-def collect_ebay(client, secret, now, fetch=request_json):
+def collect_ebay(client, secret, now, fetch=request_json, player_ids=None):
     credentials=base64.b64encode((client+':'+secret).encode()).decode()
     token=fetch('https://api.ebay.com/identity/v1/oauth2/token',
                 {'Authorization':'Basic '+credentials,'Content-Type':'application/x-www-form-urlencoded'},
@@ -122,10 +126,11 @@ def collect_ebay(client, secret, now, fetch=request_json):
              'X-EBAY-C-ENDUSERCTX':'contextualLocation=country%3DPL'}
     found={}
     favorites=watchlist()
-    for player in favorites['favoritePlayers']:
+    for player in player_ids if player_ids is not None else favorites['favoritePlayers']:
         name=favorites['players'][player]['query']
         for category, terms in [('card','(Topps,Panini) (autograph,auto,signed,signature,autogramm)'),('shirt','(signed,autograph,autogramm,signiert) (shirt,jersey,trikot)')]:
-            for offset in range(0,1000,200):
+            maximum=1000 if player in favorites['favoritePlayers'] else favorites.get('discoveryMaxResultsPerCategory',200)
+            for offset in range(0,maximum,200):
                 params={'q':name+' '+terms,'filter':'buyingOptions:{FIXED_PRICE},deliveryCountry:PL',
                         'sort':'price','limit':200,'offset':offset}
                 payload=fetch('https://api.ebay.com/buy/browse/v1/item_summary/search?'+urlencode(params),headers)
@@ -135,7 +140,7 @@ def collect_ebay(client, secret, now, fetch=request_json):
                 for item in payload.get('itemSummaries',[]):
                     offer=normalize_ebay(item,player,category,now)
                     if offer:
-                        found[offer['id']]=offer
+                        found.setdefault(offer['id'],offer)
                 if not payload.get('next'):
                     break
     return list(found.values())
@@ -189,15 +194,17 @@ def run(path=DATA, import_path=None, fetch=request_json, candidates_path=None):
     source['checkedAt']=now
     if client and secret:
         try:
-            offers=collect_ebay(client,secret,now,fetch)
+            monitored=watchlist().get('monitoredPlayers',data['favoritePlayers'])
+            offers=collect_ebay(client,secret,now,fetch,player_ids=monitored)
             # API is a discovery stage, never a substitute for visual review.
             # Preserve published prices, lastSeen and evidence until an agent reviews the offer.
             if candidates_path:
                 target=Path(candidates_path)
                 target.parent.mkdir(parents=True,exist_ok=True)
                 target.write_text(json.dumps({'schemaVersion':1,'collectedAt':now,
-                    'favoritePlayers':data['favoritePlayers'],'offers':offers},ensure_ascii=False,indent=2)+'\n')
-            source.update(status='ok',message=f'Browse API: {len(offers)} kandydatów do kontroli zdjęć. Maks. 1000 wyników na kategorię. Publikacja i alerty dopiero po sprawdzeniu podpisu przez agenta.',lastSuccessAt=now)
+                    'favoritePlayers':data['favoritePlayers'],'monitoredPlayers':monitored,'offers':offers},ensure_ascii=False,indent=2)+'\n')
+            data['opportunityDiscovery']={'checkedAt':now,'playersSearched':len(monitored),'candidates':len(offers),'source':'eBay','status':'awaiting_comparison_review'}
+            source.update(status='ok',message=f'Browse API: {len(offers)} kandydatów dla {len(monitored)} piłkarzy. Ulubieni: maks. 1000 wyników na kategorię; pozostali: maks. 200. Publikacja po kontroli zdjęć, okazje wyłącznie po porównaniu cen.',lastSuccessAt=now)
         except Exception:
             # No exception body or request headers: they may contain credentials.
             source.update(status='error',message='Pobranie eBay nie powiodło się. Zachowano wcześniejsze dane; sprawdź klucze i dostęp produkcyjny Browse API.')
