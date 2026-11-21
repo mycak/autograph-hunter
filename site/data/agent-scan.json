@@ -68,109 +68,221 @@
   },
   "latestDailyScan": {
     "method": "production-api-plus-parallel-agents",
-    "completedAt": "2026-11-21T09:34:19Z",
+    "completedAt": "2026-11-21T09:57:12Z",
     "status": "partial",
     "scope": "partial",
-    "sourceAttempts": 6,
-    "sourcesChecked": 5,
-    "apiCandidates": 202,
-    "apiDetailsRetrieved": 94,
-    "listingDetailsChecked": 88,
-    "signatureImagesViewed": 97,
-    "acceptedReviewedOffers": 52,
-    "acceptedNewOffers": 38,
-    "refreshedExistingOffers": 14,
-    "heldForMissingSignatureEvidence": 24,
-    "priceDrops": 0,
+    "sourceAttempts": 15,
+    "sourcesChecked": 14,
+    "acceptedNewOffers": 52,
+    "reactivatedHeldOffers": 20,
+    "heldForMissingSignatureEvidence": 3,
+    "rejectedUnsigned": 1,
     "newAlerts": 0,
+    "sourceSkills": 15,
     "favoritePlayers": [
       "zidane",
       "ronaldo",
       "nazario"
     ],
-    "sourceSkills": 15,
-    "sources": [
-      {
-        "name": "eBay",
-        "status": "agent_checked",
-        "scope": "partial",
-        "apiCandidates": 202,
-        "apiDetailsRetrieved": 94,
-        "listingDetailsChecked": 72,
-        "signatureImagesViewed": 83,
-        "acceptedOffers": 39,
-        "message": "Produkcja Browse API: 202 kandydatów w6 grupach, 94 szczegóły getItem pobrane. Agentowo oceniono72 szczegóły i83 zdjęcia, przyjęto39 ofert po kontroli podpisu i wysyłki PL. 22 dodatkowe karty Cristiano i pozostałe kandydatury poza zakresem tej kontroli. Brak zaakceptowanych ofert poniżej800PLN; zdjęcia katalogowe jawnie oznaczone, autentyczność niezweryfikowana."
+    "earlierPass": {
+      "method": "production-api-plus-parallel-agents",
+      "completedAt": "2026-11-21T09:34:19Z",
+      "status": "partial",
+      "scope": "partial",
+      "sourceAttempts": 6,
+      "sourcesChecked": 5,
+      "apiCandidates": 202,
+      "apiDetailsRetrieved": 94,
+      "listingDetailsChecked": 88,
+      "signatureImagesViewed": 97,
+      "acceptedReviewedOffers": 52,
+      "acceptedNewOffers": 38,
+      "refreshedExistingOffers": 14,
+      "heldForMissingSignatureEvidence": 24,
+      "priceDrops": 0,
+      "newAlerts": 0,
+      "favoritePlayers": [
+        "zidane",
+        "ronaldo",
+        "nazario"
+      ],
+      "sourceSkills": 15,
+      "sources": [
+        {
+          "name": "eBay",
+          "status": "agent_checked",
+          "scope": "partial",
+          "apiCandidates": 202,
+          "apiDetailsRetrieved": 94,
+          "listingDetailsChecked": 72,
+          "signatureImagesViewed": 83,
+          "acceptedOffers": 39,
+          "message": "Produkcja Browse API: 202 kandydatów w6 grupach, 94 szczegóły getItem pobrane. Agentowo oceniono72 szczegóły i83 zdjęcia, przyjęto39 ofert po kontroli podpisu i wysyłki PL. 22 dodatkowe karty Cristiano i pozostałe kandydatury poza zakresem tej kontroli. Brak zaakceptowanych ofert poniżej800PLN; zdjęcia katalogowe jawnie oznaczone, autentyczność niezweryfikowana."
+        },
+        {
+          "name": "COMC",
+          "status": "agent_checked",
+          "scope": "partial",
+          "listingDetailsChecked": 2,
+          "signatureImagesViewed": 2,
+          "acceptedOffers": 2,
+          "message": "Po błędzie403 w odczycie web zadziałała bezpośrednia przeglądarka. Obejrzano podpisy2 zapisanych kart Zidane’a; ceny281,36USD i231,10USD, Last item in stock. Kalkulator POLAND: Guest IMEX Global7,49USD +handling0USD; import DDU nieznany. Bez pełnego wyszukiwania Cristiano/Nazário; ich danych nie odświeżono."
+        },
+        {
+          "name": "Allegro Lokalnie",
+          "status": "agent_checked",
+          "scope": "partial",
+          "playersChecked": [
+            "zidane",
+            "ronaldo",
+            "nazario"
+          ],
+          "searchResultsReviewed": 7,
+          "listingDetailsChecked": 3,
+          "signatureImagesViewed": 1,
+          "acceptedOffers": 0,
+          "message": "Bieżąca przeglądarka: frazy autograf dla3 ulubionych —4/3/0wyników. Karta CR7 za400PLN ma komunikat sprzedane/zakończone i Kup teraz disabled; bez reaktywacji/alertu. Obejrzana Panini Euro2008 to karta bez podpisu; ICON oraz fotografie/but poza zakresem albo bez dowodu podpisu. 0 przyjętych."
+        },
+        {
+          "name": "Catawiki",
+          "status": "not_verified",
+          "scope": "attempted",
+          "listingDetailsAttempted": 2,
+          "acceptedOffers": 0,
+          "message": "Web nie udostępnił bieżących wyników dla3 zawodników. Kopia starej aukcji CR7 pokazała licznik sprzeczny z zapisanym endAt; nie odświeżono ceny, dat ani oferty. Zapisana karta Zidane niedostępna w odczycie; brak bieżącej kontroli zdjęć i terminu. Bez nowych zaakceptowanych aukcji."
+        },
+        {
+          "name": "All Star Signings",
+          "status": "agent_checked",
+          "scope": "partial",
+          "method": "live-browser",
+          "categoriesChecked": 3,
+          "listingDetailsChecked": 6,
+          "signatureImagesVisuallyChecked": 6,
+          "acceptedOffers": 6,
+          "newOffers": 1,
+          "priceDrops": 0,
+          "message": "Wszystkie 3 kategorie odczytane na żywo. Cristiano: No products were found matching your selection. Nazário: 2 koszulki Unframed po 549,99 GBP. Zidane: 4 tanie warianty Unframed po 689,99 GBP obejrzane szczegółowo, w tym nowy SKU868622 ze złotym obrysem cyfry 5. Zdjęcia 6 podpisów obejrzane; katalogowe, bez niezależnej kontroli autentyczności. Inne droższe warianty/framed i artykuły poza zakresem nie zostały szczegółowo sprawdzone. Delivery potwierdza NON-UK/Worldwide, ale wyceny PL/importu nie uzyskano; koszty null."
+        },
+        {
+          "name": "Icons.com",
+          "status": "agent_checked",
+          "scope": "partial",
+          "method": "live-browser",
+          "categoriesChecked": 3,
+          "listingDetailsChecked": 5,
+          "signatureImagesVisuallyChecked": 5,
+          "acceptedOffers": 5,
+          "newOffers": 0,
+          "priceDrops": 0,
+          "message": "Wszystkie 3 kategorie odczytane na żywo; nie twierdzimy, że przejrzano cały katalog. Szczegółowo potwierdzono 5 istniejących produktów: 2 Zidane France Classic/Hero (5 sztuk każdy), R9 Barcelona Deluxe (2), R9 Brazil Deluxe (1), R9 Inter Deluxe (dostępny). Ceny bez zmian. Podpisy na 5 zdjęciach katalogowych obejrzane; autentyczność unverified. Cristiano: 6 koszulek w pre-order po 2800/2850 GBP, wcześniejsze koszulki sold out; dostępna fotografia poza zakresem. Pre-order pominięto jako brak natychmiastowego stanu magazynowego. Zachowano sprzeczność daty podpisania Zidane 12.12.2022 wobec tytułu France 2024. Worldwide deklarowane; koszt dostawy PL i import null."
+        }
+      ],
+      "limitations": [
+        "To częściowy przegląd6 źródeł, nie pełne najtańsze oferty całego rynku.",
+        "Catawiki bez bieżącego potwierdzenia; wcześniejszych cen/lastSeen nie odświeżono.",
+        "COMC tylko2 zapisane karty Zidane’a, bez pełnego wyszukiwania wszystkich3 zawodników.",
+        "Wszystkie przyjęte podpisy są niezweryfikowane pod względem autentyczności. Zdjęcia sklepowe i wskazane komercyjne eBay są katalogowe.",
+        "Brakujące koszty importu lub dostawy pozostają null. Deklaracja worldwide sklepów nie jest indywidualną wyceną koszyka PL.",
+        "25 starszych rekordów bez zapisanego dowodu zdjęcia wyłączono do ponownej oceny; nowa kontrola może je reaktywować.",
+        "Nie stwierdzono zaakceptowanej oferty Kup teraz poniżej800PLN; nie oznacza to braku okazji poza sprawdzonym zakresem."
+      ],
+      "note": "52 oferty po kontroli szczegółów i zdjęć: 38 nowych ID i 14 odświeżonych. Ulubieni zachowani; API zbiera nieaktywnych kandydatów, tylko raport po kontroli może publikować aktywne oferty.",
+      "initiallyHeldForMissingSignatureEvidence": 25
+    },
+    "followup": {
+      "method": "parallel-browser-agents",
+      "completedAt": "2026-11-21T09:57:12Z",
+      "status": "partial",
+      "sourceAttempts": 12,
+      "acceptedReviewedOffers": 35,
+      "acceptedNewOffers": 14,
+      "reactivatedHeldOffers": 20,
+      "soldUpdates": 1,
+      "heldReview": {
+        "reviewed": 24,
+        "imagesViewed": 42,
+        "reactivated": 20,
+        "rejectedUnsigned": 1,
+        "blockedStockPhotos": 3
       },
-      {
-        "name": "COMC",
-        "status": "agent_checked",
-        "scope": "partial",
-        "listingDetailsChecked": 2,
-        "signatureImagesViewed": 2,
-        "acceptedOffers": 2,
-        "message": "Po błędzie403 w odczycie web zadziałała bezpośrednia przeglądarka. Obejrzano podpisy2 zapisanych kart Zidane’a; ceny281,36USD i231,10USD, Last item in stock. Kalkulator POLAND: Guest IMEX Global7,49USD +handling0USD; import DDU nieznany. Bez pełnego wyszukiwania Cristiano/Nazário; ich danych nie odświeżono."
-      },
-      {
-        "name": "Allegro Lokalnie",
-        "status": "agent_checked",
-        "scope": "partial",
-        "playersChecked": [
-          "zidane",
-          "ronaldo",
-          "nazario"
-        ],
-        "searchResultsReviewed": 7,
-        "listingDetailsChecked": 3,
-        "signatureImagesViewed": 1,
-        "acceptedOffers": 0,
-        "message": "Bieżąca przeglądarka: frazy autograf dla3 ulubionych —4/3/0wyników. Karta CR7 za400PLN ma komunikat sprzedane/zakończone i Kup teraz disabled; bez reaktywacji/alertu. Obejrzana Panini Euro2008 to karta bez podpisu; ICON oraz fotografie/but poza zakresem albo bez dowodu podpisu. 0 przyjętych."
-      },
-      {
-        "name": "Catawiki",
-        "status": "not_verified",
-        "scope": "attempted",
-        "listingDetailsAttempted": 2,
-        "acceptedOffers": 0,
-        "message": "Web nie udostępnił bieżących wyników dla3 zawodników. Kopia starej aukcji CR7 pokazała licznik sprzeczny z zapisanym endAt; nie odświeżono ceny, dat ani oferty. Zapisana karta Zidane niedostępna w odczycie; brak bieżącej kontroli zdjęć i terminu. Bez nowych zaakceptowanych aukcji."
-      },
-      {
-        "name": "All Star Signings",
-        "status": "agent_checked",
-        "scope": "partial",
-        "method": "live-browser",
-        "categoriesChecked": 3,
-        "listingDetailsChecked": 6,
-        "signatureImagesVisuallyChecked": 6,
-        "acceptedOffers": 6,
-        "newOffers": 1,
-        "priceDrops": 0,
-        "message": "Wszystkie 3 kategorie odczytane na żywo. Cristiano: No products were found matching your selection. Nazário: 2 koszulki Unframed po 549,99 GBP. Zidane: 4 tanie warianty Unframed po 689,99 GBP obejrzane szczegółowo, w tym nowy SKU868622 ze złotym obrysem cyfry 5. Zdjęcia 6 podpisów obejrzane; katalogowe, bez niezależnej kontroli autentyczności. Inne droższe warianty/framed i artykuły poza zakresem nie zostały szczegółowo sprawdzone. Delivery potwierdza NON-UK/Worldwide, ale wyceny PL/importu nie uzyskano; koszty null."
-      },
-      {
-        "name": "Icons.com",
-        "status": "agent_checked",
-        "scope": "partial",
-        "method": "live-browser",
-        "categoriesChecked": 3,
-        "listingDetailsChecked": 5,
-        "signatureImagesVisuallyChecked": 5,
-        "acceptedOffers": 5,
-        "newOffers": 0,
-        "priceDrops": 0,
-        "message": "Wszystkie 3 kategorie odczytane na żywo; nie twierdzimy, że przejrzano cały katalog. Szczegółowo potwierdzono 5 istniejących produktów: 2 Zidane France Classic/Hero (5 sztuk każdy), R9 Barcelona Deluxe (2), R9 Brazil Deluxe (1), R9 Inter Deluxe (dostępny). Ceny bez zmian. Podpisy na 5 zdjęciach katalogowych obejrzane; autentyczność unverified. Cristiano: 6 koszulek w pre-order po 2800/2850 GBP, wcześniejsze koszulki sold out; dostępna fotografia poza zakresem. Pre-order pominięto jako brak natychmiastowego stanu magazynowego. Zachowano sprzeczność daty podpisania Zidane 12.12.2022 wobec tytułu France 2024. Worldwide deklarowane; koszt dostawy PL i import null."
-      }
-    ],
+      "newAlerts": 0,
+      "favorites": [
+        "zidane",
+        "ronaldo",
+        "nazario"
+      ],
+      "sources": [
+        {
+          "name": "eBay",
+          "acceptedOffers": 20,
+          "message": "Dodatkowo sprawdzono wszystkie 24 wstrzymane oferty i 42 zdjęcia. Przywrócono 20; 1 koszulka bez podpisu odrzucona, 3 oferty nadal wstrzymane z powodu zdjęć przykładowych zamiast konkretnego egzemplarza. Wcześniejszy skan API i 39 przyjętych ofert pozostają udokumentowane w raporcie. Autentyczność niezweryfikowana."
+        },
+        {
+          "name": "COMC",
+          "acceptedOffers": 3,
+          "message": "Sprawdzono wyniki autografów wszystkich trzech piłkarzy: Zidane 3 karty Topps/Panini, Cristiano 2 kwalifikujące się z 4 wyników, Nazário 3 wyniki Leaf/Futera poza zakresem. Dodano 3 nowe karty po kontroli podpisów; 2 wcześniejsze karty Zidane’a sprawdzono wcześniej dziś. Dostawa POLAND 7,49 USD, import DDU nieznany; kalkulator wskazuje 73 dni pakowania."
+        },
+        {
+          "name": "Catawiki",
+          "acceptedOffers": 0,
+          "message": "Przejrzano wszystkie strony wyników: Zidane 27 wyników/2 strony, Cristiano 166/7, Nazário 43/2. Szczegółowo obejrzano 4 mocne propozycje i zdjęcia podpisów. Dostawa PL niepotwierdzona: kraj domyślny Maroko lub wymagane logowanie. Nie dodano aktywnych ofert; sprzedaną aukcję CR7 108517701 wyłączono (końcowa stawka 460 EUR). Nie jest to kontrola szczegółów wszystkich wyników."
+        },
+        {
+          "name": "Allegro",
+          "acceptedOffers": 1,
+          "message": "Frazy autograf dla trzech ulubionych. Dodano 1 kartę Topps Cristiano po oględzinach podpisu: 7199,95 PLN + 34,99 PLN dostawy. Box z szansą na autograf i nadruki odrzucono. Przegląd ograniczony do faktycznie otwartych wyników."
+        },
+        {
+          "name": "OLX",
+          "acceptedOffers": 1,
+          "message": "Frazy autograf dla trzech ulubionych; 2 szczegóły ofert sprawdzone. Dodano podpisaną koszulkę Nazário za 2490 PLN. Wyniki Theo/Enzo Zidane i karta bez wystarczającego dowodu odręcznego podpisu odrzucone."
+        },
+        {
+          "name": "Vinted",
+          "acceptedOffers": 1,
+          "message": "Wyszukiwania trzech piłkarzy, 3 szczegóły ofert. Dodano kartę Topps Nazário 02/10 za 15000 PLN po kontroli zdjęcia. Dostawa PL i opłaty niepotwierdzone; poza domyślnym filtrem PL. Pozostałe propozycje bez wystarczającego dowodu odrzucone."
+        },
+        {
+          "name": "Colectin",
+          "acceptedOffers": 1,
+          "message": "Zastosowano filtr Signed dla trzech piłkarzy, 2 szczegóły. Dodano koszulkę Galácticos za 799 EUR z widocznymi podpisami i deklaracją Zidane w opisie; konkretnej ręki ani autentyczności niezależnie nie potwierdzono. Polska jest na liście dostawy sprzedawcy; cena dostawy i opłaty nieznane. Lot kart za 45 EUR bez dowodu odręcznego autografu odrzucony."
+        },
+        {
+          "name": "Goldin",
+          "acceptedOffers": 1,
+          "message": "Ograniczony przegląd pierwszych stron dla trzech piłkarzy. Dodano aukcję Topps Nazário/Haaland 4/5 po kontroli zdjęcia: stawka 500 USD, znana prowizja 110 USD, koniec 13.12.2026 03:00 UTC. Dostawa PL i pozostałe koszty niepotwierdzone. Stawka nie jest ceną Kup teraz; bez alertu."
+        },
+        {
+          "name": "Fanatics Collect",
+          "acceptedOffers": 3,
+          "message": "Ograniczony przegląd dla trzech ulubionych; 3 aktualne oferty Kup teraz ze zdjęciami podpisów: karta Zidane oraz koszulki Cristiano i Nazário. Dostawa PL, wysyłka i opłaty wymagają potwierdzenia; poza domyślnym filtrem PL. Ceny historyczne i Guide Price pominięto."
+        },
+        {
+          "name": "MySlabs",
+          "acceptedOffers": 1,
+          "message": "Zapytania dla trzech ulubionych: 0/6/0 wyników. Obejrzano 1 aktualną kartę Cristiano z podpisami. Oficjalne warunki dopuszczają wyłącznie adres USA; shipsToPL=false, oferta wykluczona z rankingu z dostawą do Polski. Nie obejrzano wszystkich 6 szczegółów."
+        },
+        {
+          "name": "Whatnot",
+          "acceptedOffers": 2,
+          "message": "Przejrzano 11 produktów wybranego sklepu oraz trop Cristiano. Obejrzano podpisy na 2 ofertach Kup teraz: Zidane 699 EUR, Nazário 429 EUR. Dostawa PL i koszty niepotwierdzone; poza domyślnym filtrem PL. Cristiano za 1 GBP to Pre-Bid w aplikacji, odrzucony jako cena Kup teraz."
+        }
+      ],
+      "limitations": [
+        "Przegląd ograniczony do opisanych wyników i szczegółów; bez gwarancji pełnego rynku.",
+        "Catawiki: zdjęcia i wyniki dostępne, lecz brak potwierdzenia dostawy PL; 0 nowych aktywnych aukcji.",
+        "SportsMemorabilia: blokada dostępu. Fanatics, Whatnot, Vinted i Goldin: dostawa PL niepotwierdzona. MySlabs: tylko adres USA.",
+        "Wszystkie nowe i reaktywowane podpisy mają autentyczność unverified. Brak kwalifikującej się nowej oferty Kup teraz poniżej 800 PLN."
+      ]
+    },
+    "note": "Łącznie dzisiaj 52 nowe ID. W uzupełnieniu: 14 nowych, 20 przywróconych po kontroli zdjęć i 1 sprzedana aukcja wyłączona. Próby 15 źródeł; ograniczenia i niepotwierdzona wysyłka opisane osobno.",
     "limitations": [
-      "To częściowy przegląd6 źródeł, nie pełne najtańsze oferty całego rynku.",
-      "Catawiki bez bieżącego potwierdzenia; wcześniejszych cen/lastSeen nie odświeżono.",
-      "COMC tylko2 zapisane karty Zidane’a, bez pełnego wyszukiwania wszystkich3 zawodników.",
-      "Wszystkie przyjęte podpisy są niezweryfikowane pod względem autentyczności. Zdjęcia sklepowe i wskazane komercyjne eBay są katalogowe.",
-      "Brakujące koszty importu lub dostawy pozostają null. Deklaracja worldwide sklepów nie jest indywidualną wyceną koszyka PL.",
-      "25 starszych rekordów bez zapisanego dowodu zdjęcia wyłączono do ponownej oceny; nowa kontrola może je reaktywować.",
-      "Nie stwierdzono zaakceptowanej oferty Kup teraz poniżej800PLN; nie oznacza to braku okazji poza sprawdzonym zakresem."
-    ],
-    "note": "52 oferty po kontroli szczegółów i zdjęć: 38 nowych ID i 14 odświeżonych. Ulubieni zachowani; API zbiera nieaktywnych kandydatów, tylko raport po kontroli może publikować aktywne oferty.",
-    "initiallyHeldForMissingSignatureEvidence": 25
+      "Przegląd ograniczony do opisanych wyników i szczegółów; bez gwarancji pełnego rynku.",
+      "Catawiki: zdjęcia i wyniki dostępne, lecz brak potwierdzenia dostawy PL; 0 nowych aktywnych aukcji.",
+      "SportsMemorabilia: blokada dostępu. Fanatics, Whatnot, Vinted i Goldin: dostawa PL niepotwierdzona. MySlabs: tylko adres USA.",
+      "Wszystkie nowe i reaktywowane podpisy mają autentyczność unverified. Brak kwalifikującej się nowej oferty Kup teraz poniżej 800 PLN."
+    ]
   },
   "latestNazarioScan": {
     "method": "browser-agent",
@@ -227,5 +339,91 @@
       "Podpisy widoczne, ale autentyczność nie została niezależnie zweryfikowana. Rozbieżności parametrów karty Select i koszulki PSV opisano przy ofertach."
     ],
     "note": "Nazário ma 5 kart i 10 koszulek Kup teraz z deklarowaną dostawą do Polski. Najtańsza zaakceptowana karta od 1652,62 PLN; koszulka od 1285,44 PLN według kursów NBP z 18.11.2026. Brak nowej zaakceptowanej oferty poniżej 800 PLN."
+  },
+  "latestFollowupScan": {
+    "method": "parallel-browser-agents",
+    "completedAt": "2026-11-21T09:57:12Z",
+    "status": "partial",
+    "sourceAttempts": 12,
+    "acceptedReviewedOffers": 35,
+    "acceptedNewOffers": 14,
+    "reactivatedHeldOffers": 20,
+    "soldUpdates": 1,
+    "heldReview": {
+      "reviewed": 24,
+      "imagesViewed": 42,
+      "reactivated": 20,
+      "rejectedUnsigned": 1,
+      "blockedStockPhotos": 3
+    },
+    "newAlerts": 0,
+    "favorites": [
+      "zidane",
+      "ronaldo",
+      "nazario"
+    ],
+    "sources": [
+      {
+        "name": "eBay",
+        "acceptedOffers": 20,
+        "message": "Dodatkowo sprawdzono wszystkie 24 wstrzymane oferty i 42 zdjęcia. Przywrócono 20; 1 koszulka bez podpisu odrzucona, 3 oferty nadal wstrzymane z powodu zdjęć przykładowych zamiast konkretnego egzemplarza. Wcześniejszy skan API i 39 przyjętych ofert pozostają udokumentowane w raporcie. Autentyczność niezweryfikowana."
+      },
+      {
+        "name": "COMC",
+        "acceptedOffers": 3,
+        "message": "Sprawdzono wyniki autografów wszystkich trzech piłkarzy: Zidane 3 karty Topps/Panini, Cristiano 2 kwalifikujące się z 4 wyników, Nazário 3 wyniki Leaf/Futera poza zakresem. Dodano 3 nowe karty po kontroli podpisów; 2 wcześniejsze karty Zidane’a sprawdzono wcześniej dziś. Dostawa POLAND 7,49 USD, import DDU nieznany; kalkulator wskazuje 73 dni pakowania."
+      },
+      {
+        "name": "Catawiki",
+        "acceptedOffers": 0,
+        "message": "Przejrzano wszystkie strony wyników: Zidane 27 wyników/2 strony, Cristiano 166/7, Nazário 43/2. Szczegółowo obejrzano 4 mocne propozycje i zdjęcia podpisów. Dostawa PL niepotwierdzona: kraj domyślny Maroko lub wymagane logowanie. Nie dodano aktywnych ofert; sprzedaną aukcję CR7 108517701 wyłączono (końcowa stawka 460 EUR). Nie jest to kontrola szczegółów wszystkich wyników."
+      },
+      {
+        "name": "Allegro",
+        "acceptedOffers": 1,
+        "message": "Frazy autograf dla trzech ulubionych. Dodano 1 kartę Topps Cristiano po oględzinach podpisu: 7199,95 PLN + 34,99 PLN dostawy. Box z szansą na autograf i nadruki odrzucono. Przegląd ograniczony do faktycznie otwartych wyników."
+      },
+      {
+        "name": "OLX",
+        "acceptedOffers": 1,
+        "message": "Frazy autograf dla trzech ulubionych; 2 szczegóły ofert sprawdzone. Dodano podpisaną koszulkę Nazário za 2490 PLN. Wyniki Theo/Enzo Zidane i karta bez wystarczającego dowodu odręcznego podpisu odrzucone."
+      },
+      {
+        "name": "Vinted",
+        "acceptedOffers": 1,
+        "message": "Wyszukiwania trzech piłkarzy, 3 szczegóły ofert. Dodano kartę Topps Nazário 02/10 za 15000 PLN po kontroli zdjęcia. Dostawa PL i opłaty niepotwierdzone; poza domyślnym filtrem PL. Pozostałe propozycje bez wystarczającego dowodu odrzucone."
+      },
+      {
+        "name": "Colectin",
+        "acceptedOffers": 1,
+        "message": "Zastosowano filtr Signed dla trzech piłkarzy, 2 szczegóły. Dodano koszulkę Galácticos za 799 EUR z widocznymi podpisami i deklaracją Zidane w opisie; konkretnej ręki ani autentyczności niezależnie nie potwierdzono. Polska jest na liście dostawy sprzedawcy; cena dostawy i opłaty nieznane. Lot kart za 45 EUR bez dowodu odręcznego autografu odrzucony."
+      },
+      {
+        "name": "Goldin",
+        "acceptedOffers": 1,
+        "message": "Ograniczony przegląd pierwszych stron dla trzech piłkarzy. Dodano aukcję Topps Nazário/Haaland 4/5 po kontroli zdjęcia: stawka 500 USD, znana prowizja 110 USD, koniec 13.12.2026 03:00 UTC. Dostawa PL i pozostałe koszty niepotwierdzone. Stawka nie jest ceną Kup teraz; bez alertu."
+      },
+      {
+        "name": "Fanatics Collect",
+        "acceptedOffers": 3,
+        "message": "Ograniczony przegląd dla trzech ulubionych; 3 aktualne oferty Kup teraz ze zdjęciami podpisów: karta Zidane oraz koszulki Cristiano i Nazário. Dostawa PL, wysyłka i opłaty wymagają potwierdzenia; poza domyślnym filtrem PL. Ceny historyczne i Guide Price pominięto."
+      },
+      {
+        "name": "MySlabs",
+        "acceptedOffers": 1,
+        "message": "Zapytania dla trzech ulubionych: 0/6/0 wyników. Obejrzano 1 aktualną kartę Cristiano z podpisami. Oficjalne warunki dopuszczają wyłącznie adres USA; shipsToPL=false, oferta wykluczona z rankingu z dostawą do Polski. Nie obejrzano wszystkich 6 szczegółów."
+      },
+      {
+        "name": "Whatnot",
+        "acceptedOffers": 2,
+        "message": "Przejrzano 11 produktów wybranego sklepu oraz trop Cristiano. Obejrzano podpisy na 2 ofertach Kup teraz: Zidane 699 EUR, Nazário 429 EUR. Dostawa PL i koszty niepotwierdzone; poza domyślnym filtrem PL. Cristiano za 1 GBP to Pre-Bid w aplikacji, odrzucony jako cena Kup teraz."
+      }
+    ],
+    "limitations": [
+      "Przegląd ograniczony do opisanych wyników i szczegółów; bez gwarancji pełnego rynku.",
+      "Catawiki: zdjęcia i wyniki dostępne, lecz brak potwierdzenia dostawy PL; 0 nowych aktywnych aukcji.",
+      "SportsMemorabilia: blokada dostępu. Fanatics, Whatnot, Vinted i Goldin: dostawa PL niepotwierdzona. MySlabs: tylko adres USA.",
+      "Wszystkie nowe i reaktywowane podpisy mają autentyczność unverified. Brak kwalifikującej się nowej oferty Kup teraz poniżej 800 PLN."
+    ]
   }
 }
