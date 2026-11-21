@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-20T18:31:38Z",
+  "updatedAt": "2026-11-21T06:22:42Z",
   "rates": {
     "date": "2026-11-19",
     "values": {
@@ -38,7 +38,7 @@
       "CNY": 0.6026,
       "XDR": 5.4103
     },
-    "status": "ok"
+    "status": "error"
   },
   "offers": [
     {
@@ -2251,7 +2251,7 @@
       "url": "https://www.ebay.pl",
       "status": "credentials_required",
       "message": "Pobieranie przez API nieaktywne: brak EBAY_CLIENT_ID / EBAY_CLIENT_SECRET. Dostęp produkcyjny Browse API może wymagać zatwierdzenia przez eBay.",
-      "checkedAt": "2026-11-20T06:25:08Z",
+      "checkedAt": "2026-11-21T06:22:42Z",
       "lastSuccessAt": null,
       "agent": {
         "checkedAt": "2026-11-19T08:28:08.196Z",
