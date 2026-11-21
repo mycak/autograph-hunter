@@ -4,9 +4,10 @@ Polski dashboard kolekcjonerski: sześć rankingów do 10 ofert autografów Zine
 
 ## Uruchomienie
 
-Wymagane: Node.js 22+ i Python 3.9+. Brak zależności do instalacji, płatnej bazy i OpenAI API.
+Wymagane: Node.js 22+ i Python 3.9+. Frontend nie wymaga frameworka ani płatnego OpenAI API. Testy backendu powiadomień eBay używają przypiętej biblioteki kryptograficznej.
 
 ```sh
+npm ci
 npm run dev
 # http://127.0.0.1:4173
 npm test
@@ -35,12 +36,14 @@ Baza zawiera pierwszy skan agentowy bez API. To **propozycje do weryfikacji**, n
 
 ### eBay — oficjalne Browse API
 
-Kod integracji jest gotowy, ale pobieranie wymaga kluczy produkcyjnych i odpowiedniego dostępu do Browse API w programie deweloperskim eBay. Dodaj w GitHub → Settings → Secrets and variables → Actions:
+Od 21 listopada 2026 klucze Production są aktywne; rzeczywiste testy OAuth i Browse API zwróciły HTTP 200. Odbiornik wymaganych powiadomień o usuwaniu kont działa w osobnym projekcie Supabase. [Konfiguracja i obsługa zgłoszeń](docs/ebay-notifications.md). Lokalne sekrety są w ignorowanym `.env`, a konfiguracja odbiornika w szyfrowanym Vault. Nie oznacza to jeszcze zapisania sekretów w GitHub Actions ani ponownej kontroli ofert.
+
+Pobieranie przez GitHub Actions wymaga dodania sekretów w GitHub → Settings → Secrets and variables → Actions:
 
 - `EBAY_CLIENT_ID`
 - `EBAY_CLIENT_SECRET`
 
-Klucze są używane wyłącznie na serwerze GitHub Actions. Nigdy nie dodawaj ich do JSON, frontendu ani repozytorium. Kod uzyskuje application token przez OAuth client credentials i wyszukuje do 1000 wyników na kategorię na rynku EBAY_DE z filtrem dostawy do PL. To ranking w obrębie pobranych wyników, nie gwarancja przeszukania całego rynku. Wersja bez kluczy aktualizuje kursy i pokazuje „wymaga kluczy API”. Integrację przetestowano na danych testowych; bez kluczy nie można wykonać testu produkcyjnego eBay.
+Klucze workflow są używane wyłącznie na serwerze GitHub Actions. Nigdy nie dodawaj ich do JSON, frontendu ani repozytorium. Kod uzyskuje application token przez OAuth client credentials i wyszukuje do 1000 wyników na kategorię na rynku EBAY_DE z filtrem dostawy do PL. To ranking w obrębie pobranych wyników, nie gwarancja przeszukania całego rynku. Wersja bez kluczy aktualizuje kursy i pokazuje „wymaga kluczy API”.
 
 Nie utożsamiamy opisu „COA”, programu eBay Authenticity Guarantee ani gradingu karty z potwierdzeniem podpisu. Automatyczna integracja nie przyznaje etykiety „potwierdzony”. Do takiej oceny wymagane są `evidenceUrl`, `evidenceNote`, `verifiedAt` po rzeczywistej kontroli dokumentacji podpisu.
 
