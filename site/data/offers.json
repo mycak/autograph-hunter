@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T09:33:33Z",
+  "updatedAt": "2026-11-21T09:38:15Z",
   "rates": {
     "date": "2026-11-20",
     "values": {
@@ -3778,8 +3778,8 @@
       "url": "https://www.ebay.pl",
       "status": "ok",
       "message": "Browse API: 202 kandydatów do kontroli zdjęć. Maks. 1000 wyników na kategorię. Publikacja i alerty dopiero po sprawdzeniu podpisu przez agenta.",
-      "checkedAt": "2026-11-21T09:18:31Z",
-      "lastSuccessAt": "2026-11-21T09:18:31Z",
+      "checkedAt": "2026-11-21T09:38:15Z",
+      "lastSuccessAt": "2026-11-21T09:38:15Z",
       "agent": {
         "checkedAt": "2026-11-21T09:34:19Z",
         "offers": 39,
