@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-21T10:26:52.406Z",
+  "updatedAt": "2026-11-22T06:23:03Z",
   "rates": {
     "date": "2026-11-20",
     "values": {
@@ -4541,9 +4541,9 @@
       "name": "eBay",
       "url": "https://www.ebay.pl",
       "status": "ok",
-      "message": "Browse API: 202 kandydatów do kontroli zdjęć. Maks. 1000 wyników na kategorię. Publikacja i alerty dopiero po sprawdzeniu podpisu przez agenta.",
-      "checkedAt": "2026-11-21T09:38:15Z",
-      "lastSuccessAt": "2026-11-21T09:38:15Z",
+      "message": "Browse API: 2144 kandydatów dla 28 piłkarzy. Ulubieni: maks. 1000 wyników na kategorię; pozostali: maks. 200. Publikacja po kontroli zdjęć, okazje wyłącznie po porównaniu cen.",
+      "checkedAt": "2026-11-22T06:23:03Z",
+      "lastSuccessAt": "2026-11-22T06:23:03Z",
       "agent": {
         "checkedAt": "2026-11-21T09:43:52Z",
         "offers": 20,
@@ -4835,27 +4835,10 @@
     "nazario"
   ],
   "opportunityDiscovery": {
-    "checkedAt": "2026-11-21T10:19:47Z",
-    "source": "eBay",
+    "checkedAt": "2026-11-22T06:23:03Z",
     "playersSearched": 28,
-    "candidates": 2154,
-    "status": "partial_review",
-    "reviewedPlayerGroups": [
-      "beckham",
-      "roberto-carlos",
-      "figo",
-      "rooney",
-      "gerrard",
-      "pirlo",
-      "xavi",
-      "iniesta",
-      "henry",
-      "ronaldinho",
-      "kaka",
-      "ibrahimovic",
-      "lewandowski"
-    ],
-    "acceptedDeviations": 1,
-    "message": "Wyszukiwania API dla 28 piłkarzy; szczegółowy, ograniczony przegląd porównań w 13 dodatkowych grupach. 1 potwierdzone odchylenie wobec aktualnych cen ofertowych. Pozostałe wyniki API nie są przejrzanymi okazjami."
+    "candidates": 2144,
+    "source": "eBay",
+    "status": "awaiting_comparison_review"
   }
 }
