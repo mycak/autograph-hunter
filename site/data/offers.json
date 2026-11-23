@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T08:55:14.968388+00:00",
+  "updatedAt": "2026-11-23T09:03:41.397192+00:00",
   "rates": {
     "date": "2026-11-20",
     "values": {
@@ -121,6 +121,78 @@
       }
     },
     {
+      "id": "allegro:19095955959",
+      "source": "Allegro",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo – podpisana koszulka Portugalii w ramie",
+      "url": "https://allegro.pl/oferta/19095955959",
+      "image": "https://a.allegroimg.com/s720/fb9f01/8683a0764ca98efb7e67a87598a7/Cr-Ronaldo-Portugalia-koszulka-z-autografem-w-ramie-od-1zl-zag",
+      "currency": "PLN",
+      "price": 2345,
+      "shipping": 40,
+      "fees": null,
+      "sellerCountry": null,
+      "shipsToPL": true,
+      "saleType": "auction",
+      "endAt": "2026-11-29T22:45:00Z",
+      "active": true,
+      "authenticity": "unverified",
+      "verifiedAt": null,
+      "evidenceUrl": "https://allegro.pl/oferta/19095955959",
+      "firstSeen": "2026-11-23T08:19:29Z",
+      "lastSeen": "2026-11-23T08:19:29Z",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://a.allegroimg.com/s720/fb9f01/8683a0764ca98efb7e67a87598a7/Cr-Ronaldo-Portugalia-koszulka-z-autografem-w-ramie-od-1zl-zag",
+        "imageType": "listing",
+        "note": "Czarny odręczny podpis wzdłuż żółtej cyfry 7 na czerwono-zielonej koszulce Portugalii w ramie."
+      },
+      "evidenceNote": "Czarny odręczny podpis wzdłuż żółtej cyfry 7 na czerwono-zielonej koszulce Portugalii w ramie. Oferta charytatywna. Cena zapisana z porannej kontroli na żywo to bieżąca stawka. Dostawa 40 PLN. Autentyczność podpisu i certyfikatu niezweryfikowana niezależnie.",
+      "history": [
+        {
+          "at": "2026-11-23T08:19:29Z",
+          "price": 2345
+        }
+      ]
+    },
+    {
+      "id": "allegro:19133052268",
+      "source": "Allegro",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo – podpisana koszulka Realu Madryt w ramie",
+      "url": "https://allegro.pl/oferta/19133052268",
+      "image": "https://a.allegroimg.com/s720/fbdae7/e56301664f35ae53441ed60c0bf2/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-od-1zl-zag",
+      "currency": "PLN",
+      "price": 2325,
+      "shipping": 40,
+      "fees": null,
+      "sellerCountry": null,
+      "shipsToPL": true,
+      "saleType": "auction",
+      "endAt": "2026-12-06T22:25:00Z",
+      "active": true,
+      "authenticity": "unverified",
+      "verifiedAt": null,
+      "evidenceUrl": "https://allegro.pl/oferta/19133052268",
+      "firstSeen": "2026-11-23T08:19:05Z",
+      "lastSeen": "2026-11-23T08:19:05Z",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://a.allegroimg.com/s720/fbdae7/e56301664f35ae53441ed60c0bf2/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-od-1zl-zag",
+        "imageType": "listing",
+        "note": "Jasny odręczny podpis biegnie ukośnie wewnątrz niebieskiej cyfry 7 na białej koszulce Realu w ramie."
+      },
+      "evidenceNote": "Jasny odręczny podpis biegnie ukośnie wewnątrz niebieskiej cyfry 7 na białej koszulce Realu w ramie. Oferta charytatywna. Cena zapisana z porannej kontroli na żywo to bieżąca stawka. Dostawa 40 PLN. Autentyczność podpisu i certyfikatu niezweryfikowana niezależnie.",
+      "history": [
+        {
+          "at": "2026-11-23T08:19:05Z",
+          "price": 2325
+        }
+      ]
+    },
+    {
       "id": "allstarsignings:13329:unframed",
       "source": "All Star Signings",
       "player": "nazario",
@@ -133,14 +205,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://allstarsignings.com/product/ronaldo-nazario-signed-brazil-retro-home-shirt/",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. Wariant Unframed + £0.00; przycisk Add to basket dostępny. Oficjalna strona Delivery opisuje wysyłkę NON-UK przez Royal Mail International signed for; produkt deklaruje Worldwide Shipping. Nie uzyskano wyceny dostawy do Polski ani importu; shipping i fees=null. Sklep deklaruje Beckett i All Star Signings COA; nie sprawdzono certyfikatu egzemplarza.",
+      "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £549.99. Wariant w ramie: £659.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:24:49.098Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
       "active": true,
       "history": [
         {
@@ -150,14 +222,18 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 549.99
+        },
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
+          "price": 549.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://allstarsignings.com/wp-content/uploads/2024/09/ronaldo-brazil-450x450.jpg",
-        "imageType": "catalog",
-        "note": "Jasny podpis na prawej pionowej części zielonej cyfry 9 z tyłu żółtej koszulki Brazylii; zdjęcie katalogowe."
+        "note": "Srebrny odręczny podpis pionowo na prawym boku ciemnozielonej cyfry 9 na żółtych plecach koszulki Brazylii.",
+        "imageType": "catalog"
       },
       "signatureReviewRequired": false
     },
@@ -174,14 +250,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://allstarsignings.com/product/ronaldo-nazario-signed-real-madrid-home-shirt/",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. Wariant Unframed + £0.00; przycisk Add to basket dostępny. Oficjalna strona Delivery opisuje wysyłkę NON-UK przez Royal Mail International signed for; produkt deklaruje Worldwide Shipping. Nie uzyskano wyceny dostawy do Polski ani importu; shipping i fees=null. Sklep deklaruje Beckett i All Star Signings COA; nie sprawdzono certyfikatu egzemplarza.",
+      "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £549.99. Wariant w ramie: £659.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:24:38.331Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
       "active": true,
       "history": [
         {
@@ -191,14 +267,18 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 549.99
+        },
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
+          "price": 549.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://allstarsignings.com/wp-content/uploads/2024/09/ronaldo-nazario-madrid-450x450.jpg",
-        "imageType": "catalog",
-        "note": "Jasny podpis na lewej czarnej cyfrze 1 w numerze 11 z tyłu białej koszulki Realu; zdjęcie katalogowe."
+        "note": "Srebrny odręczny podpis pionowo na pierwszej czarnej cyfrze 1 w numerze 11 na białych plecach koszulki Realu Madryt.",
+        "imageType": "catalog"
       },
       "signatureReviewRequired": false
     },
@@ -209,20 +289,20 @@
       "category": "shirt",
       "title": "Zinedine Zidane — podpisana koszulka Real Madrid 2024/25, bez ramy",
       "url": "https://allstarsignings.com/product/zinedine-zidane-signed-real-madrid-shirt/",
-      "image": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-madrid-24-25-shirt-stencil-5-450x450.jpg.webp",
+      "image": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-madrid-24-25-shirt-stencil-5-450x450.jpg",
       "price": 689.99,
       "currency": "GBP",
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://allstarsignings.com/product/zinedine-zidane-signed-real-madrid-shirt/",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. Wariant Unframed + £0.00; przycisk Add to basket dostępny. Oficjalna strona Delivery opisuje wysyłkę NON-UK przez Royal Mail International signed for; produkt deklaruje Worldwide Shipping. Nie uzyskano wyceny dostawy do Polski ani importu; shipping i fees=null. Sklep deklaruje sesję 4.10.2025 w Aix-en-Provence oraz COA/JSA; nie sprawdzono certyfikatu egzemplarza.",
+      "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £689.99. Wariant w ramie: £799.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:02:02.142Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
       "active": true,
       "history": [
         {
@@ -232,14 +312,18 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 689.99
+        },
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
+          "price": 689.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
-        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-madrid-24-25-shirt-stencil-5-450x450.jpg.webp",
-        "imageType": "catalog",
-        "note": "Jasny podpis na prawej części czarnej cyfry 5 z tyłu białej koszulki Realu; zdjęcie katalogowe, bez identyfikacji dostarczanego egzemplarza."
+        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-madrid-24-25-shirt-stencil-5-450x450.jpg",
+        "note": "Jasny odręczny podpis na prawej zakrzywionej części czarnej cyfry 5 z szablonowymi przerwami na białych plecach.",
+        "imageType": "catalog"
       },
       "signatureReviewRequired": false
     },
@@ -251,19 +335,19 @@
       "title": "Zinedine Zidane — podpisana koszulka Juventusu 2024/25 nr 21, bez ramy",
       "url": "https://allstarsignings.com/product/zinedine-zidane-signed-juventus-shirt/",
       "image": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-juventus-shirt-450x450.jpg",
-      "price": 689.99,
+      "price": 489.99,
       "currency": "GBP",
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://allstarsignings.com/product/zinedine-zidane-signed-juventus-shirt/",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. Wariant Unframed + £0.00; przycisk Add to basket dostępny. Oficjalna strona Delivery opisuje wysyłkę NON-UK przez Royal Mail International signed for; produkt deklaruje Worldwide Shipping. Nie uzyskano wyceny dostawy do Polski ani importu; shipping i fees=null. Sklep deklaruje sesję 4.10.2025 w Aix-en-Provence oraz COA/JSA; nie sprawdzono certyfikatu egzemplarza.",
+      "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £489.99. Wariant w ramie: £599.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
       "active": true,
       "history": [
         {
@@ -281,13 +365,17 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 689.99
+        },
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
+          "price": 489.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-juventus-shirt-450x450.jpg",
-        "note": "Jasny podpis widoczny na czarnej cyfrze 1 numeru 21, po prawej stronie pleców. Obejrzano zdjęcie katalogowe produktu.",
+        "note": "Srebrny odręczny podpis na czarnej cyfrze 1 z numeru 21 na plecach koszulki Juventusu.",
         "imageType": "catalog"
       },
       "signatureReviewRequired": false
@@ -305,14 +393,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://allstarsignings.com/product/zinedine-zidane-signed-france-10-shirt/",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. Wariant Unframed + £0.00; przycisk Add to basket dostępny. Oficjalna strona Delivery opisuje wysyłkę NON-UK przez Royal Mail International signed for; produkt deklaruje Worldwide Shipping. Nie uzyskano wyceny dostawy do Polski ani importu; shipping i fees=null. Sklep deklaruje sesję 4.10.2025 w Aix-en-Provence oraz COA/JSA; nie sprawdzono certyfikatu egzemplarza.",
+      "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £689.99. Wariant w ramie: £799.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
       "active": true,
       "history": [
         {
@@ -330,13 +418,17 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 689.99
+        },
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
+          "price": 689.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-france-2024-shirt-450x450.jpg",
-        "note": "Ciemny podpis widoczny pionowo na białej cyfrze 1 numeru 10 na plecach. Obejrzano zdjęcie katalogowe produktu.",
+        "note": "Czarny odręczny podpis po lewej stronie białej cyfry 1 w numerze 10 niebieskiej koszulki Francji.",
         "imageType": "catalog"
       },
       "signatureReviewRequired": false
@@ -354,18 +446,22 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://allstarsignings.com/product/zinedine-zidane-signed-real-madrid-shirt-2/",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. SKU 868622; Unframed + £0.00; Add to basket dostępny, cena 689,99 GBP. Sklep opisuje koszulkę 2024/25 i sesję 4.10.2025. Złoty obrys numeru odróżnia wariant od SKU868612; nie jest to dowód unikalności sztuki. Dostawa NON-UK i worldwide deklarowana; koszt wysyłki do Polski i import nieznane.",
+      "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £689.99. Wariant w ramie: £799.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
       "verifiedAt": null,
       "firstSeen": "2026-11-21T09:22:53Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
       "active": true,
       "history": [
         {
           "at": "2026-11-21T09:22:53Z",
+          "price": 689.99
+        },
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
           "price": 689.99
         }
       ],
@@ -373,10 +469,45 @@
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-madrid-24-25-shirt-gold-trim-5-450x450.jpg",
-        "imageType": "catalog",
-        "note": "Jasny podpis wznoszący się ukośnie przez górny poziomy fragment czarnej cyfry 5, tuż pod napisem ZIDANE; cyfra ma złoty obrys. Obejrzano zdjęcie katalogowe."
+        "note": "Jasny odręczny podpis w górnej części czarnej cyfry 5 ze złotą obwódką na białych plecach.",
+        "imageType": "catalog"
       },
       "signatureReviewRequired": false
+    },
+    {
+      "id": "allstarsignings:86871:framed",
+      "source": "All Star Signings",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Zinedine Zidane — podpisana koszulka Francji 1998, w ramie",
+      "url": "https://allstarsignings.com/product/framed-zinedine-zidane-signed-france-1998-shirt/",
+      "image": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-france-1998-shirt-1.jpg",
+      "price": 799.99,
+      "currency": "GBP",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": null,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "verifiedAt": null,
+      "evidenceUrl": "https://allstarsignings.com/product/framed-zinedine-zidane-signed-france-1998-shirt/",
+      "evidenceNote": "Oznaczenie 1998 dotyczy modelu podanego przez sklep. Sklep deklaruje podpisanie 4 października 2025 r. i COA/JSA. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone.",
+      "firstSeen": "2026-11-23T09:00:43.529792+00:00",
+      "lastSeen": "2026-11-23T09:00:43.529792+00:00",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-23T09:00:43.529792+00:00",
+          "price": 799.99
+        }
+      ],
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://allstarsignings.com/wp-content/uploads/2025/10/zidane-france-1998-shirt-1.jpg",
+        "note": "Czarny odręczny podpis na białej cyfrze 1 w numerze 10 niebieskiej koszulki Francji pokazanej w ramie.",
+        "imageType": "catalog"
+      }
     },
     {
       "firstSeen": "2026-11-23T08:12:52.137263+00:00",
@@ -4524,6 +4655,78 @@
       ]
     },
     {
+      "id": "olx:1086361525",
+      "source": "OLX",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo — podpisana koszulka Realu Madryt w ramie",
+      "url": "https://www.olx.pl/d/oferta/koszulka-ronaldo-real-madryt-autograf-certyfikat-prezent-CID767-ID1bvgg5.html",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/7jfzq8wx0o6h2-PL/image;s=3000x4000",
+      "price": 1490,
+      "currency": "PLN",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "PL",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.olx.pl/d/oferta/koszulka-ronaldo-real-madryt-autograf-certyfikat-prezent-CID767-ID1bvgg5.html",
+      "evidenceNote": "Bieżąca strona oferty potwierdza aktywny status i włączoną Przesyłkę OLX dla tego ID. Koszt dostawy i Pakietu Ochronnego nieustalone. Opis wskazuje sezon 2016. Certyfikat widoczny pod koszulką jest nieczytelny i nie został zweryfikowany.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-23T09:03:13.805696Z",
+      "lastSeen": "2026-11-23T09:03:13.805696Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-23T09:03:13.805696Z",
+          "price": 1490
+        }
+      ],
+      "checkedBy": "public-listing-and-photo-review",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/7jfzq8wx0o6h2-PL/image;s=3000x4000",
+        "imageType": "listing",
+        "note": "Srebrny podpis na czarnej cyfrze 7, pod naklejką, na białej koszulce w gablocie."
+      }
+    },
+    {
+      "id": "olx:1100305468",
+      "source": "OLX",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo — podpisana koszulka Manchesteru United w ramie",
+      "url": "https://www.olx.pl/d/oferta/koszulka-ronaldo-manchester-united-2022-23-autograf-certyfikat-prezent-CID87-ID1csLIo.html",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/dvnl4x5jpwxf3-PL/image;s=700x700",
+      "price": 1490,
+      "currency": "PLN",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "PL",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.olx.pl/d/oferta/koszulka-ronaldo-manchester-united-2022-23-autograf-certyfikat-prezent-CID87-ID1csLIo.html",
+      "evidenceNote": "Bieżąca strona oferty potwierdza aktywny status i włączoną Przesyłkę OLX dla tego ID. Koszt dostawy i Pakietu Ochronnego nieustalone. Tytuł podaje sezon 2022/23, opis 2021/22. Nie potwierdzono sezonu ani certyfikatu. Oferta za 1200 zł używa tej samej fotografii i nie ma włączonej Przesyłki OLX.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-23T09:03:13.805696Z",
+      "lastSeen": "2026-11-23T09:03:13.805696Z",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-23T09:03:13.805696Z",
+          "price": 1490
+        }
+      ],
+      "checkedBy": "public-listing-and-photo-review",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/dvnl4x5jpwxf3-PL/image;s=700x700",
+        "imageType": "listing",
+        "note": "Cienkie ciemne pociągnięcia podpisu na ukośnej części białej cyfry 7 czerwonej koszulki w ramie."
+      }
+    },
+    {
       "id": "olx:922683341",
       "source": "OLX",
       "player": "nazario",
@@ -4540,11 +4743,11 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.olx.pl/d/oferta/autograf-ronaldo-koszulka-z-autografem-certyfikat-fc-barcelona-CID4042-ID10ru5n.html",
-      "evidenceNote": "21.11: otwarto dokładne ogłoszenie ID922683341, dodane20.11.2026, aktywny Kup. Cena2490PLN do negocjacji;2560PLN z Pakietem Ochronnym (różnica70PLN), dostawa OD10,99PLN, ostateczna dostawa nieustalona=null. Zdjęcie otwarto osobno i obejrzano podpis na numerze11. Sprzedawca deklaruje Beckett; nie sprawdzono numeru certyfikatu niezależnie.",
+      "evidenceNote": "OLX nadal pokazuje ofertę aktywną. Tytuł i opis wskazują FC Barcelonę, ale zdjęcie przodu pokazuje herb Realu Madryt i napis Siemens Mobile. Wstrzymano z powodu rozbieżności egzemplarza. Brak dowodu sprzedaży. Wcześniejsze ceny i daty zachowano.",
       "verifiedAt": null,
       "firstSeen": "2026-11-21T09:51:38.877823Z",
       "lastSeen": "2026-11-21T09:51:38.877823Z",
-      "active": true,
+      "active": false,
       "history": [
         {
           "at": "2026-11-21T09:51:38.877823Z",
@@ -4554,9 +4757,9 @@
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
-        "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/lcxwct2f3ijy1-PL/image;s=1000x700",
+        "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/jrqr9av18be53-PL/image;s=3000x4000",
         "imageType": "listing",
-        "note": "Czarny pionowy podpis widoczny na lewej białej jedynce numeru11 z tyłu granatowej koszulki Barcelona; nad numerem RONALDO."
+        "note": "Czarny podpis na lewej białej jedynce. Zdjęcie przodu tej galerii przedstawia herb Realu Madryt wbrew opisowi FC Barcelona."
       }
     },
     {
@@ -4691,7 +4894,7 @@
       "name": "Vinted",
       "url": "https://www.vinted.pl",
       "status": "error",
-      "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje.",
+      "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
@@ -4701,50 +4904,50 @@
         "scope": "partial"
       },
       "lastAgentAttempt": {
-        "at": "2026-11-23T08:54:57.797870+00:00",
+        "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
         "status": "error",
-        "scope": "partial",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "at": "2026-11-23T09:03:13.805696Z",
+        "scope": "partial"
       }
     },
     {
       "name": "OLX",
       "url": "https://www.olx.pl",
-      "status": "error",
-      "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje.",
+      "status": "agent_checked",
+      "message": "Dwie nowe koszulki Cristiano Ronaldo po 1490 PLN przed kosztami dostawy, z widocznym podpisem i dostępną wysyłką. Wstrzymano ofertę Nazário z powodu rozbieżności klubu między opisem i zdjęciem.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-21T09:51:38.877823Z",
-        "offers": 1,
-        "message": "Frazy autograf dla trzech ulubionych; 2 szczegóły ofert sprawdzone. Dodano podpisaną koszulkę Nazário za 2490 PLN. Wyniki Theo/Enzo Zidane i karta bez wystarczającego dowodu odręcznego podpisu odrzucone.",
-        "scope": "partial"
+        "checkedAt": "2026-11-23T09:03:13.805696Z",
+        "offers": 2,
+        "scope": "partial",
+        "message": "Dwie nowe koszulki Cristiano Ronaldo po 1490 PLN przed kosztami dostawy, z widocznym podpisem i dostępną wysyłką. Wstrzymano ofertę Nazário z powodu rozbieżności klubu między opisem i zdjęciem."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "scope": "partial",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "message": "Dwie nowe koszulki Cristiano Ronaldo po 1490 PLN przed kosztami dostawy, z widocznym podpisem i dostępną wysyłką. Wstrzymano ofertę Nazário z powodu rozbieżności klubu między opisem i zdjęciem.",
+        "status": "agent_checked",
+        "at": "2026-11-23T09:03:13.805696Z",
+        "scope": "partial"
       }
     },
     {
       "name": "Allegro",
       "url": "https://allegro.pl",
-      "status": "error",
-      "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje.",
+      "status": "agent_checked",
+      "message": "Dwie podpisane koszulki Cristiano Ronaldo z Allegro Charytatywni, sprawdzone na żywo o 09:19 czasu polskiego. Stawki 2325 i 2345 PLN plus 40 PLN dostawy. Trzecia oferta Realu może dotyczyć tego samego egzemplarza. Ponowny odczyt zwrócił 403.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-21T09:51:38.877823Z",
-        "offers": 1,
-        "message": "Frazy autograf dla trzech ulubionych. Dodano 1 kartę Topps Cristiano po oględzinach podpisu: 7199,95 PLN + 34,99 PLN dostawy. Box z szansą na autograf i nadruki odrzucono. Przegląd ograniczony do faktycznie otwartych wyników.",
-        "scope": "partial"
+        "checkedAt": "2026-11-23T08:19:29Z",
+        "offers": 2,
+        "scope": "partial",
+        "message": "Dwie podpisane koszulki Cristiano Ronaldo z Allegro Charytatywni, sprawdzone na żywo o 09:19 czasu polskiego. Stawki 2325 i 2345 PLN plus 40 PLN dostawy. Trzecia oferta Realu może dotyczyć tego samego egzemplarza. Ponowny odczyt zwrócił 403."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "scope": "partial",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "message": "Dwie podpisane koszulki Cristiano Ronaldo z Allegro Charytatywni, sprawdzone na żywo o 09:19 czasu polskiego. Stawki 2325 i 2345 PLN plus 40 PLN dostawy. Trzecia oferta Realu może dotyczyć tego samego egzemplarza. Ponowny odczyt zwrócił 403.",
+        "status": "agent_checked",
+        "at": "2026-11-23T08:19:29Z",
+        "scope": "partial"
       }
     },
     {
@@ -4811,7 +5014,7 @@
       "name": "Icons.com",
       "url": "https://www.icons.com",
       "status": "error",
-      "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje.",
+      "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
@@ -4820,10 +5023,10 @@
         "message": "Wszystkie 3 kategorie odczytane na żywo; nie twierdzimy, że przejrzano cały katalog. Szczegółowo potwierdzono 5 istniejących produktów: 2 Zidane France Classic/Hero (5 sztuk każdy), R9 Barcelona Deluxe (2), R9 Brazil Deluxe (1), R9 Inter Deluxe (dostępny). Ceny bez zmian. Podpisy na 5 zdjęciach katalogowych obejrzane; autentyczność unverified. Cristiano: 6 koszulek w pre-order po 2800/2850 GBP, wcześniejsze koszulki sold out; dostępna fotografia poza zakresem. Pre-order pominięto jako brak natychmiastowego stanu magazynowego. Zachowano sprzeczność daty podpisania Zidane 12.12.2022 wobec tytułu France 2024. Worldwide deklarowane; koszt dostawy PL i import null."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-23T08:54:57.797870+00:00",
+        "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
         "status": "error",
-        "scope": "partial",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "at": "2026-11-23T09:00:43.529792+00:00",
+        "scope": "partial"
       }
     },
     {
@@ -4925,18 +5128,19 @@
       "url": "https://allegrolokalnie.pl",
       "checkedAt": null,
       "lastSuccessAt": null,
-      "status": "error",
-      "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje.",
+      "status": "agent_checked",
+      "message": "Trzy bieżące wyszukiwania i trzy szczegóły. Zapisana karta CR7 jest zamknięta, a na zdjęciu Panini #217 nie widać podpisu. Nie dodano ofert.",
       "agent": {
-        "checkedAt": "2026-11-21T09:34:19Z",
+        "checkedAt": "2026-11-23T08:59:42.954102+00:00",
         "offers": 0,
-        "message": "Bieżąca przeglądarka: frazy autograf dla3 ulubionych —4/3/0wyników. Karta CR7 za400PLN ma komunikat sprzedane/zakończone i Kup teraz disabled; bez reaktywacji/alertu. Obejrzana Panini Euro2008 to karta bez podpisu; ICON oraz fotografie/but poza zakresem albo bez dowodu podpisu. 0 przyjętych."
+        "scope": "partial",
+        "message": "Trzy bieżące wyszukiwania i trzy szczegóły. Zapisana karta CR7 jest zamknięta, a na zdjęciu Panini #217 nie widać podpisu. Nie dodano ofert."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "scope": "partial",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "message": "Trzy bieżące wyszukiwania i trzy szczegóły. Zapisana karta CR7 jest zamknięta, a na zdjęciu Panini #217 nie widać podpisu. Nie dodano ofert.",
+        "status": "agent_checked",
+        "at": "2026-11-23T08:59:42.954102+00:00",
+        "scope": "partial"
       }
     },
     {
@@ -4944,18 +5148,19 @@
       "url": "https://allstarsignings.com",
       "checkedAt": null,
       "lastSuccessAt": null,
-      "status": "error",
-      "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje.",
+      "status": "agent_checked",
+      "message": "Odczyt publicznego API sklepu, szczegółów i zdjęć: sześć ofert odświeżonych i jedna nowa. Koszulka Zidane’a Juventus bez ramy staniała z 689,99 GBP do 489,99 GBP. Dostawa do Polski i import niepotwierdzone.",
       "agent": {
-        "checkedAt": "2026-11-21T09:34:19Z",
-        "offers": 6,
-        "message": "Wszystkie 3 kategorie odczytane na żywo. Cristiano: No products were found matching your selection. Nazário: 2 koszulki Unframed po 549,99 GBP. Zidane: 4 tanie warianty Unframed po 689,99 GBP obejrzane szczegółowo, w tym nowy SKU868622 ze złotym obrysem cyfry 5. Zdjęcia 6 podpisów obejrzane; katalogowe, bez niezależnej kontroli autentyczności. Inne droższe warianty/framed i artykuły poza zakresem nie zostały szczegółowo sprawdzone. Delivery potwierdza NON-UK/Worldwide, ale wyceny PL/importu nie uzyskano; koszty null."
+        "checkedAt": "2026-11-23T09:00:43.529792+00:00",
+        "offers": 7,
+        "scope": "partial",
+        "message": "Odczyt publicznego API sklepu, szczegółów i zdjęć: sześć ofert odświeżonych i jedna nowa. Koszulka Zidane’a Juventus bez ramy staniała z 689,99 GBP do 489,99 GBP. Dostawa do Polski i import niepotwierdzone."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "scope": "partial",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "message": "Odczyt publicznego API sklepu, szczegółów i zdjęć: sześć ofert odświeżonych i jedna nowa. Koszulka Zidane’a Juventus bez ramy staniała z 689,99 GBP do 489,99 GBP. Dostawa do Polski i import niepotwierdzone.",
+        "status": "agent_checked",
+        "at": "2026-11-23T09:00:43.529792+00:00",
+        "scope": "partial"
       }
     }
   ],

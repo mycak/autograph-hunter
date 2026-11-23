@@ -68,13 +68,13 @@
   },
   "latestDailyScan": {
     "method": "production-api-plus-parallel-agents",
-    "completedAt": "2026-11-23T08:55:14.968388+00:00",
+    "completedAt": "2026-11-23T09:03:41.397192+00:00",
     "status": "partial",
     "scope": "partial",
     "sourceAttempts": 9,
-    "sourcesChecked": 3,
-    "acceptedNewOffers": 3,
-    "activeReviewed": 17,
+    "sourcesChecked": 7,
+    "acceptedNewOffers": 8,
+    "activeReviewed": 28,
     "newAlertCandidates": 0,
     "favoritePlayers": [
       "zidane",
@@ -102,39 +102,39 @@
       },
       {
         "source": "Allegro Lokalnie",
-        "checkedAt": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "status": "agent_checked",
+        "message": "Trzy bieżące wyszukiwania i trzy szczegóły. Zapisana karta CR7 jest zamknięta, a na zdjęciu Panini #217 nie widać podpisu. Nie dodano ofert.",
+        "checkedAt": "2026-11-23T08:59:42.954102+00:00"
       },
       {
         "source": "All Star Signings",
-        "checkedAt": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "status": "agent_checked",
+        "message": "Odczyt publicznego API sklepu, szczegółów i zdjęć: sześć ofert odświeżonych i jedna nowa. Koszulka Zidane’a Juventus bez ramy staniała z 689,99 GBP do 489,99 GBP. Dostawa do Polski i import niepotwierdzone.",
+        "checkedAt": "2026-11-23T09:00:43.529792+00:00"
       },
       {
         "source": "Icons.com",
-        "checkedAt": "2026-11-23T08:54:57.797870+00:00",
         "status": "error",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
+        "checkedAt": "2026-11-23T09:00:43.529792+00:00"
       },
       {
         "source": "OLX",
-        "checkedAt": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "status": "agent_checked",
+        "message": "Dwie nowe koszulki Cristiano Ronaldo po 1490 PLN przed kosztami dostawy, z widocznym podpisem i dostępną wysyłką. Wstrzymano ofertę Nazário z powodu rozbieżności klubu między opisem i zdjęciem.",
+        "checkedAt": "2026-11-23T09:03:13.805696Z"
       },
       {
         "source": "Vinted",
-        "checkedAt": "2026-11-23T08:54:57.797870+00:00",
         "status": "error",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
+        "checkedAt": "2026-11-23T09:03:13.805696Z"
       },
       {
         "source": "Allegro",
-        "checkedAt": "2026-11-23T08:54:57.797870+00:00",
-        "status": "error",
-        "message": "Przegląd zlecono, lecz przed przerwaniem pracy nie uzyskano kompletnego raportu źródła. Zachowano wcześniejsze obserwacje."
+        "status": "agent_checked",
+        "message": "Dwie podpisane koszulki Cristiano Ronaldo z Allegro Charytatywni, sprawdzone na żywo o 09:19 czasu polskiego. Stawki 2325 i 2345 PLN plus 40 PLN dostawy. Trzecia oferta Realu może dotyczyć tego samego egzemplarza. Ponowny odczyt zwrócił 403.",
+        "checkedAt": "2026-11-23T08:19:29Z"
       }
     ],
     "ebayApi": {
@@ -143,7 +143,7 @@
       "players": 28
     },
     "verifiedPriceDeviations": 1,
-    "note": "Skan częściowy. Ukończono raporty eBay, COMC i Catawiki. Z sześciu pozostałych przydzielonych źródeł nie uzyskano pełnych raportów. Kandydaci API nie są liczeni jako sprawdzone oferty."
+    "note": "Skan z 23 listopada uzupełniony kolejną kontrolą sześciu źródeł. Zakres i blokady podano osobno przy każdym źródle."
   },
   "latestNazarioScan": {
     "method": "browser-agent",
@@ -285,6 +285,54 @@
       "Catawiki: zdjęcia i wyniki dostępne, lecz brak potwierdzenia dostawy PL; 0 nowych aktywnych aukcji.",
       "SportsMemorabilia: blokada dostępu. Fanatics, Whatnot, Vinted i Goldin: dostawa PL niepotwierdzona. MySlabs: tylko adres USA.",
       "Wszystkie nowe i reaktywowane podpisy mają autentyczność unverified. Brak kwalifikującej się nowej oferty Kup teraz poniżej 800 PLN."
+    ]
+  },
+  "latestSourceSupplement": {
+    "completedAt": "2026-11-23T09:03:41.397192+00:00",
+    "newOffers": [
+      "allegro:19095955959",
+      "allegro:19133052268",
+      "allstarsignings:86871:framed",
+      "olx:1086361525",
+      "olx:1100305468"
+    ],
+    "sourceResults": [
+      {
+        "source": "Allegro Lokalnie",
+        "status": "agent_checked",
+        "message": "Trzy bieżące wyszukiwania i trzy szczegóły. Zapisana karta CR7 jest zamknięta, a na zdjęciu Panini #217 nie widać podpisu. Nie dodano ofert.",
+        "checkedAt": "2026-11-23T08:59:42.954102+00:00"
+      },
+      {
+        "source": "All Star Signings",
+        "status": "agent_checked",
+        "message": "Odczyt publicznego API sklepu, szczegółów i zdjęć: sześć ofert odświeżonych i jedna nowa. Koszulka Zidane’a Juventus bez ramy staniała z 689,99 GBP do 489,99 GBP. Dostawa do Polski i import niepotwierdzone.",
+        "checkedAt": "2026-11-23T09:00:43.529792+00:00"
+      },
+      {
+        "source": "Icons.com",
+        "status": "error",
+        "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
+        "checkedAt": "2026-11-23T09:00:43.529792+00:00"
+      },
+      {
+        "source": "OLX",
+        "status": "agent_checked",
+        "message": "Dwie nowe koszulki Cristiano Ronaldo po 1490 PLN przed kosztami dostawy, z widocznym podpisem i dostępną wysyłką. Wstrzymano ofertę Nazário z powodu rozbieżności klubu między opisem i zdjęciem.",
+        "checkedAt": "2026-11-23T09:03:13.805696Z"
+      },
+      {
+        "source": "Vinted",
+        "status": "error",
+        "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
+        "checkedAt": "2026-11-23T09:03:13.805696Z"
+      },
+      {
+        "source": "Allegro",
+        "status": "agent_checked",
+        "message": "Dwie podpisane koszulki Cristiano Ronaldo z Allegro Charytatywni, sprawdzone na żywo o 09:19 czasu polskiego. Stawki 2325 i 2345 PLN plus 40 PLN dostawy. Trzecia oferta Realu może dotyczyć tego samego egzemplarza. Ponowny odczyt zwrócił 403.",
+        "checkedAt": "2026-11-23T08:19:29Z"
+      }
     ]
   }
 }
