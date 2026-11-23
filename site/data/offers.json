@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-23T09:03:41.397192+00:00",
+  "updatedAt": "2026-11-23T09:52:56Z",
   "rates": {
     "date": "2026-11-20",
     "values": {
@@ -4411,14 +4411,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/ronaldo-front-signed-modern-brazil-home-shirt-in-deluxe-packaging-75849.html",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. In Stock; cena nie zmieniła się. Sklep deklaruje wysyłkę worldwide z UK, a odbiorca pokrywa podatki/import. Polska i koszty nie zostały wycenione w koszyku; shipping i fees=null. SKU I2066D; ostatnia sztuka; pudełko Deluxe. Sklep deklaruje podpisanie 6.07.2023 na Ibizie.",
+      "evidenceNote": "23.11: szczegóły i podpis na zdjęciu katalogowym obejrzane w Chrome, In Stock i aktywne Add to Cart. Zdjęcie nie identyfikuje dostarczanego egzemplarza. Dostawa worldwide z UK; Polska wymaga potwierdzenia w koszyku, koszt dostawy i import null. COA bez niezależnej weryfikacji. Ostatnia sztuka; Deluxe; deklarowana sesja 6.07.2023 Ibiza.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:25:51.752Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:50:50.663Z",
       "active": true,
       "history": [
         {
@@ -4427,6 +4427,10 @@
         },
         {
           "at": "2026-11-21T09:22:53Z",
+          "price": 634.99
+        },
+        {
+          "at": "2026-11-23T09:50:50.663Z",
           "price": 634.99
         }
       ],
@@ -4438,6 +4442,41 @@
         "note": "Ciemny podpis z przodu żółtej koszulki Brazylii, poniżej znaku Nike i na lewo od herbu CBF, widoczny w oknie pudełka; zdjęcie katalogowe."
       },
       "signatureReviewRequired": false
+    },
+    {
+      "id": "icons:I2073D",
+      "source": "Icons.com",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — podpisana koszulka Real Madrid nr 9, Deluxe Packaging",
+      "url": "https://www.icons.com/ronaldo-back-signed-modern-real-madrid-cf-home-shirt-with-fan-style-numbers-in-deluxe-packaging-95261.html",
+      "sellerCountry": "GB",
+      "currency": "GBP",
+      "saleType": "fixed",
+      "evidenceUrl": null,
+      "verifiedAt": null,
+      "firstSeen": "2026-11-23T09:51:02.549Z",
+      "history": [
+        {
+          "at": "2026-11-23T09:51:02.549Z",
+          "price": 634.99
+        }
+      ],
+      "price": 634.99,
+      "fees": null,
+      "shipping": null,
+      "shipsToPL": null,
+      "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/2/i2073d_-_ronaldo_back_signed_real_madrid_2023-24_home_shirt.webp",
+      "lastSeen": "2026-11-23T09:51:02.549Z",
+      "active": true,
+      "authenticity": "unverified",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/2/i2073d_-_ronaldo_back_signed_real_madrid_2023-24_home_shirt.webp",
+        "imageType": "catalog",
+        "note": "Srebrny podpis na dolnej prawej części ciemnej cyfry 9 z tyłu białej koszulki Realu; zdjęcie katalogowe."
+      },
+      "evidenceNote": "23.11: szczegóły i podpis na zdjęciu katalogowym obejrzane w Chrome, In Stock i aktywne Add to Cart. Zdjęcie nie identyfikuje dostarczanego egzemplarza. Dostawa worldwide z UK; Polska wymaga potwierdzenia w koszyku, koszt dostawy i import null. COA bez niezależnej weryfikacji. 2 sztuki; Deluxe; deklarowana sesja 6.07.2023 Ibiza."
     },
     {
       "id": "icons:I3821CF",
@@ -4452,14 +4491,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-classic-frame-01549.html",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. In Stock; cena nie zmieniła się. Sklep deklaruje wysyłkę worldwide z UK, a odbiorca pokrywa podatki/import. Polska i koszty nie zostały wycenione w koszyku; shipping i fees=null. 5 sztuk w magazynie. Opis deklaruje podpisanie 12.12.2022 w Madrycie, tytuł France 2024 — rozbieżność zachowano do wyjaśnienia. Wariant oprawy tej samej linii koszulki, nie unikalny egzemplarz.",
+      "evidenceNote": "23.11: szczegóły i podpis na zdjęciu katalogowym obejrzane w Chrome, In Stock i aktywne Add to Cart. Zdjęcie nie identyfikuje dostarczanego egzemplarza. Dostawa worldwide z UK; Polska wymaga potwierdzenia w koszyku, koszt dostawy i import null. COA bez niezależnej weryfikacji. 5 sztuk. Tytuł France 2024, opis datuje podpisanie na 12.12.2022 w Madrycie — rozbieżność zachowano.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:48:42.772Z",
       "active": true,
       "history": [
         {
@@ -4477,14 +4516,18 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 1374.99
+        },
+        {
+          "at": "2026-11-23T09:48:42.772Z",
+          "price": 1374.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/3/i3821cf_edited.webp",
-        "note": "Ciemny podpis na białej cyfrze 1 numeru 10. Koszulka w pionowej ramie z dwiema fotografiami u dołu. Obejrzano zdjęcie produktu.",
-        "imageType": "catalog"
+        "imageType": "catalog",
+        "note": "Ciemny podpis na białej cyfrze 1 numeru 10. Koszulka w pionowej ramie z dwiema fotografiami u dołu. Obejrzano zdjęcie produktu."
       },
       "signatureReviewRequired": false
     },
@@ -4501,14 +4544,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-hero-frame-option-1-17826.html",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. In Stock; cena nie zmieniła się. Sklep deklaruje wysyłkę worldwide z UK, a odbiorca pokrywa podatki/import. Polska i koszty nie zostały wycenione w koszyku; shipping i fees=null. 5 sztuk w magazynie. Opis deklaruje podpisanie 12.12.2022 w Madrycie, tytuł France 2024 — rozbieżność zachowano do wyjaśnienia. Wariant oprawy tej samej linii koszulki, nie unikalny egzemplarz.",
+      "evidenceNote": "23.11: szczegóły i podpis na zdjęciu katalogowym obejrzane w Chrome, In Stock i aktywne Add to Cart. Zdjęcie nie identyfikuje dostarczanego egzemplarza. Dostawa worldwide z UK; Polska wymaga potwierdzenia w koszyku, koszt dostawy i import null. COA bez niezależnej weryfikacji. 5 sztuk. Tytuł France 2024, opis datuje podpisanie na 12.12.2022 w Madrycie — rozbieżność zachowano.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:49:02.847Z",
       "active": true,
       "history": [
         {
@@ -4526,14 +4569,18 @@
         {
           "at": "2026-11-21T09:22:53Z",
           "price": 1399.99
+        },
+        {
+          "at": "2026-11-23T09:49:02.847Z",
+          "price": 1399.99
         }
       ],
       "checkedBy": "browser-agent",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/3/i3821hf1_edited.webp",
-        "note": "Ciemny podpis widoczny na białej cyfrze 1 numeru 10. Koszulka po lewej w poziomej ramie, zdjęcie z pucharem po prawej. Obejrzano zdjęcie produktu.",
-        "imageType": "catalog"
+        "imageType": "catalog",
+        "note": "Ciemny podpis widoczny na białej cyfrze 1 numeru 10. Koszulka po lewej w poziomej ramie, zdjęcie z pucharem po prawej. Obejrzano zdjęcie produktu."
       },
       "signatureReviewRequired": false
     },
@@ -4550,14 +4597,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/ronaldo-back-signed-internazionale-1998-uefa-cup-final-shirt-in-deluxe-packaging-67834.html",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. In Stock; cena nie zmieniła się. Sklep deklaruje wysyłkę worldwide z UK, a odbiorca pokrywa podatki/import. Polska i koszty nie zostały wycenione w koszyku; shipping i fees=null. SKU I5161D; produkt dostępny, pudełko Deluxe.",
+      "evidenceNote": "23.11: szczegóły i podpis na zdjęciu katalogowym obejrzane w Chrome, In Stock i aktywne Add to Cart. Zdjęcie nie identyfikuje dostarczanego egzemplarza. Dostawa worldwide z UK; Polska wymaga potwierdzenia w koszyku, koszt dostawy i import null. COA bez niezależnej weryfikacji. Dostępny; Deluxe.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:25:42.173Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:50:32.084Z",
       "active": true,
       "history": [
         {
@@ -4566,6 +4613,10 @@
         },
         {
           "at": "2026-11-21T09:22:53Z",
+          "price": 634.99
+        },
+        {
+          "at": "2026-11-23T09:50:32.084Z",
           "price": 634.99
         }
       ],
@@ -4591,14 +4642,14 @@
       "shipping": null,
       "fees": null,
       "sellerCountry": "GB",
-      "shipsToPL": true,
+      "shipsToPL": null,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/ronaldo-back-signed-fc-barcelona-2025-26-home-shirt-in-deluxe-packaging-18094.html",
-      "evidenceNote": "21.11: otwarto aktualną stronę produktu, sprawdzono cenę, wybrany wariant i aktywną dostępność oraz osobiście obejrzano podpis na zdjęciu katalogowym. Zdjęcie nie identyfikuje konkretnej dostarczanej sztuki. Certyfikatu konkretnego podpisu nie zweryfikowano niezależnie. In Stock; cena nie zmieniła się. Sklep deklaruje wysyłkę worldwide z UK, a odbiorca pokrywa podatki/import. Polska i koszty nie zostały wycenione w koszyku; shipping i fees=null. SKU I5404D; 2 sztuki; pudełko Deluxe. Deklarowany dostawca Memento Memorabilia.",
+      "evidenceNote": "23.11: szczegóły i podpis na zdjęciu katalogowym obejrzane w Chrome, In Stock i aktywne Add to Cart. Zdjęcie nie identyfikuje dostarczanego egzemplarza. Dostawa worldwide z UK; Polska wymaga potwierdzenia w koszyku, koszt dostawy i import null. COA bez niezależnej weryfikacji. 2 sztuki; Deluxe, Memento Memorabilia.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:25:29.836Z",
-      "lastSeen": "2026-11-21T09:22:53Z",
+      "lastSeen": "2026-11-23T09:50:23.860Z",
       "active": true,
       "history": [
         {
@@ -4607,6 +4658,10 @@
         },
         {
           "at": "2026-11-21T09:22:53Z",
+          "price": 584.99
+        },
+        {
+          "at": "2026-11-23T09:50:23.860Z",
           "price": 584.99
         }
       ],
@@ -4763,6 +4818,76 @@
       }
     },
     {
+      "id": "vinted:10436740572",
+      "source": "Vinted",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo — koszulka Al-Nassr nr 7 z widocznym podpisem",
+      "url": "https://www.vinted.pl/items/10436740572-koszulka-cristiano-ronaldo-z-autografem",
+      "sellerCountry": null,
+      "currency": "PLN",
+      "saleType": "fixed",
+      "evidenceUrl": null,
+      "verifiedAt": null,
+      "firstSeen": "2026-11-23T09:48:29.033Z",
+      "history": [
+        {
+          "at": "2026-11-23T09:48:29.033Z",
+          "price": 1500
+        }
+      ],
+      "price": 1500,
+      "fees": 77.9,
+      "shipping": null,
+      "shipsToPL": null,
+      "image": "https://images1.vinted.net/t/02_00c5b_Cvp5xXe2btFeUbfCcb4no8xo/f800/7a1deb3d.webp?s=a841db0eca0dc44669eb5b98400a623ad4a02a63",
+      "lastSeen": "2026-11-23T09:48:29.033Z",
+      "active": true,
+      "authenticity": "unverified",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://images1.vinted.net/t/02_00c5b_Cvp5xXe2btFeUbfCcb4no8xo/f800/7a1deb3d.webp?s=a841db0eca0dc44669eb5b98400a623ad4a02a63",
+        "imageType": "listing",
+        "note": "Ciemny podpis na żółtym materiale z tyłu koszulki Al-Nassr, po lewej stronie granatowej cyfry 7. Zdjęcie sprzedawcy; autentyczność niezweryfikowana."
+      },
+      "evidenceNote": "23.11: aktywne Kup teraz; 1500 PLN + 77,90 PLN opłaty Vinted. Widoczny podpis na koszulce. Sprzedawca deklaruje pochodzenie z muzeum CR7 na Maderze, pokazuje dokument; nie zweryfikowano niezależnie autentyczności ani metody wykonania podpisu. Wysyłka od 0,00 nie jest wyceną ani potwierdzeniem trasy PL."
+    },
+    {
+      "id": "vinted:10867307158",
+      "source": "Vinted",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazário — Brazylia nr 9 z podpisem, oprawiona, deklarowane BAS BF34179",
+      "url": "https://www.vinted.pl/items/10867307158-ronaldo-nazario-brazylia-9-koszulka-z-autografem-beckett-bas-oprawiona",
+      "sellerCountry": null,
+      "currency": "PLN",
+      "saleType": "fixed",
+      "evidenceUrl": null,
+      "verifiedAt": null,
+      "firstSeen": "2026-11-23T09:50:16.225Z",
+      "history": [
+        {
+          "at": "2026-11-23T09:50:16.225Z",
+          "price": 4999
+        }
+      ],
+      "price": 4999,
+      "fees": 252.85,
+      "shipping": null,
+      "shipsToPL": null,
+      "image": "https://images1.vinted.net/t/06_0148b_FkZkQNJzrRm7PRDysT1DyRcc/f800/860ce440.webp?s=baaf3ebbb4705e6ba8b7d5f99876ff9439e635f6",
+      "lastSeen": "2026-11-23T09:50:16.225Z",
+      "active": true,
+      "authenticity": "unverified",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://images1.vinted.net/t/06_0148b_FkZkQNJzrRm7PRDysT1DyRcc/f800/860ce440.webp?s=baaf3ebbb4705e6ba8b7d5f99876ff9439e635f6",
+        "imageType": "listing",
+        "note": "Srebrny podpis na dolnej części zielonej cyfry 9 z tyłu żółtej koszulki Brazylii w czarnej ramie; zbliżenia podpisu i naklejki BAS."
+      },
+      "evidenceNote": "23.11: aktywne Kup teraz; 4999 PLN + 252,85 PLN opłaty Vinted. Srebrny podpis obejrzany na zdjęciach. Sprzedawca deklaruje BAS BF34179, bez niezależnej weryfikacji. Preferowany odbiór osobisty, wysyłka po uzgodnieniu — dostawa PL niepotwierdzona. UI podaje wysyłkę od 7,05 PLN, bez konkretnej wyceny, shipping=null."
+    },
+    {
       "id": "vinted:7546686045",
       "source": "Vinted",
       "player": "nazario",
@@ -4779,14 +4904,18 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.vinted.pl/items/7546686045-ronaldo-nazario-auto-autograph-0210-125-anniversary-net-patch-topps",
-      "evidenceNote": "21.11: dokładna strona 7546686045, aktywne Kup teraz, cena15000PLN i15752,90PLN z opłatą Vinted (752,90PLN). Wysyłka OD0,00 nie stanowi konkretnej wyceny, więc shipping=null, dostępność trasy PL niepotwierdzona=null. Sprzedawca preferuje odbiór lub przedpłatę; nie kontaktowano się i nie płacono. Zdjęcia przodu i tyłu karty obejrzano, widoczny niebieski podpis i numer02/10. Nie zweryfikowano autentyczności egzemplarza niezależnie.",
+      "evidenceNote": "23.11: aktywne Kup teraz, 15000 PLN + 752,90 PLN opłaty Vinted. Wysyłka od 0,00 nie jest wyceną. Sprzedawca preferuje odbiór osobisty lub przedpłatę; dostawa PL niepotwierdzona. Podpis i numer 02/10 obejrzane. Druga oferta 7525862959 za 25000 PLN przedstawia tę samą fizyczną kartę 02/10; nie dodano duplikatu.",
       "verifiedAt": null,
       "firstSeen": "2026-11-21T09:51:38.877823Z",
-      "lastSeen": "2026-11-21T09:51:38.877823Z",
+      "lastSeen": "2026-11-23T09:49:02.832Z",
       "active": true,
       "history": [
         {
           "at": "2026-11-21T09:51:38.877823Z",
+          "price": 15000
+        },
+        {
+          "at": "2026-11-23T09:49:02.832Z",
           "price": 15000
         }
       ],
@@ -4893,20 +5022,20 @@
     {
       "name": "Vinted",
       "url": "https://www.vinted.pl",
-      "status": "error",
-      "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
+      "status": "agent_checked",
+      "message": "Chrome: wyszukiwania trzech ulubionych (59/216/24 wyniki; pierwsza strona, bez pełnej paginacji). 9 szczegółów, 7 ofert ze zdjęciami obejrzanymi. Dodano koszulki CR7 za 1500 PLN i R9 za 4999 PLN; odświeżono kartę R9 02/10 za 15000 PLN i opłaty Vinted. Nadruki i brak podpisu odrzucone; druga oferta tej samej karty 02/10 pominięta. Dostawa PL niepotwierdzona.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-21T09:51:38.877823Z",
-        "offers": 1,
-        "message": "Wyszukiwania trzech piłkarzy, 3 szczegóły ofert. Dodano kartę Topps Nazário 02/10 za 15000 PLN po kontroli zdjęcia. Dostawa PL i opłaty niepotwierdzone; poza domyślnym filtrem PL. Pozostałe propozycje bez wystarczającego dowodu odrzucone.",
+        "checkedAt": "2026-11-23T09:52:56Z",
+        "offers": 3,
+        "message": "Chrome: wyszukiwania trzech ulubionych (59/216/24 wyniki; pierwsza strona, bez pełnej paginacji). 9 szczegółów, 7 ofert ze zdjęciami obejrzanymi. Dodano koszulki CR7 za 1500 PLN i R9 za 4999 PLN; odświeżono kartę R9 02/10 za 15000 PLN i opłaty Vinted. Nadruki i brak podpisu odrzucone; druga oferta tej samej karty 02/10 pominięta. Dostawa PL niepotwierdzona.",
         "scope": "partial"
       },
       "lastAgentAttempt": {
-        "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
-        "status": "error",
-        "at": "2026-11-23T09:03:13.805696Z",
+        "message": "Chrome: wyszukiwania trzech ulubionych (59/216/24 wyniki; pierwsza strona, bez pełnej paginacji). 9 szczegółów, 7 ofert ze zdjęciami obejrzanymi. Dodano koszulki CR7 za 1500 PLN i R9 za 4999 PLN; odświeżono kartę R9 02/10 za 15000 PLN i opłaty Vinted. Nadruki i brak podpisu odrzucone; druga oferta tej samej karty 02/10 pominięta. Dostawa PL niepotwierdzona.",
+        "status": "agent_checked",
+        "at": "2026-11-23T09:52:56Z",
         "scope": "partial"
       }
     },
@@ -5013,19 +5142,20 @@
     {
       "name": "Icons.com",
       "url": "https://www.icons.com",
-      "status": "error",
-      "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
+      "status": "agent_checked",
+      "message": "Chrome: trzy kategorie piłkarzy, Zidane i R9 z filtrem Signed shirts i sortowaniem ceny rosnąco; ograniczony zakres załadowanych wyników, bez Load More. 7 szczegółów, 6 obejrzanych zdjęć katalogowych: 5 ofert odświeżonych i nowy R9 Real Madrid Deluxe za 634,99 GBP. Ceny istniejących bez zmian. CR7: 6 pre-order po 2800/2850 GBP; 1 szczegół potwierdza pre-order mimo In Stock, bez potwierdzonego terminu. Trzy wyszukiwania kart Topps/Panini bez przyjętej oferty. Dostawa worldwide, trasa PL i koszty niepotwierdzone, import null.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-21T09:34:19Z",
-        "offers": 5,
-        "message": "Wszystkie 3 kategorie odczytane na żywo; nie twierdzimy, że przejrzano cały katalog. Szczegółowo potwierdzono 5 istniejących produktów: 2 Zidane France Classic/Hero (5 sztuk każdy), R9 Barcelona Deluxe (2), R9 Brazil Deluxe (1), R9 Inter Deluxe (dostępny). Ceny bez zmian. Podpisy na 5 zdjęciach katalogowych obejrzane; autentyczność unverified. Cristiano: 6 koszulek w pre-order po 2800/2850 GBP, wcześniejsze koszulki sold out; dostępna fotografia poza zakresem. Pre-order pominięto jako brak natychmiastowego stanu magazynowego. Zachowano sprzeczność daty podpisania Zidane 12.12.2022 wobec tytułu France 2024. Worldwide deklarowane; koszt dostawy PL i import null."
+        "checkedAt": "2026-11-23T09:52:56Z",
+        "offers": 6,
+        "message": "Chrome: trzy kategorie piłkarzy, Zidane i R9 z filtrem Signed shirts i sortowaniem ceny rosnąco; ograniczony zakres załadowanych wyników, bez Load More. 7 szczegółów, 6 obejrzanych zdjęć katalogowych: 5 ofert odświeżonych i nowy R9 Real Madrid Deluxe za 634,99 GBP. Ceny istniejących bez zmian. CR7: 6 pre-order po 2800/2850 GBP; 1 szczegół potwierdza pre-order mimo In Stock, bez potwierdzonego terminu. Trzy wyszukiwania kart Topps/Panini bez przyjętej oferty. Dostawa worldwide, trasa PL i koszty niepotwierdzone, import null.",
+        "scope": "partial"
       },
       "lastAgentAttempt": {
-        "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
-        "status": "error",
-        "at": "2026-11-23T09:00:43.529792+00:00",
+        "message": "Chrome: trzy kategorie piłkarzy, Zidane i R9 z filtrem Signed shirts i sortowaniem ceny rosnąco; ograniczony zakres załadowanych wyników, bez Load More. 7 szczegółów, 6 obejrzanych zdjęć katalogowych: 5 ofert odświeżonych i nowy R9 Real Madrid Deluxe za 634,99 GBP. Ceny istniejących bez zmian. CR7: 6 pre-order po 2800/2850 GBP; 1 szczegół potwierdza pre-order mimo In Stock, bez potwierdzonego terminu. Trzy wyszukiwania kart Topps/Panini bez przyjętej oferty. Dostawa worldwide, trasa PL i koszty niepotwierdzone, import null.",
+        "status": "agent_checked",
+        "at": "2026-11-23T09:52:56Z",
         "scope": "partial"
       }
     },

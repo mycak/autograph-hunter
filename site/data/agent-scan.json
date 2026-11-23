@@ -72,7 +72,7 @@
     "status": "partial",
     "scope": "partial",
     "sourceAttempts": 9,
-    "sourcesChecked": 7,
+    "sourcesChecked": 9,
     "acceptedNewOffers": 8,
     "activeReviewed": 28,
     "newAlertCandidates": 0,
@@ -114,9 +114,9 @@
       },
       {
         "source": "Icons.com",
-        "status": "error",
-        "message": "Strony produktów i kategorii zwróciły HTTP 403. Zachowano daty i dane wcześniej sprawdzonych ofert.",
-        "checkedAt": "2026-11-23T09:00:43.529792+00:00"
+        "status": "agent_checked",
+        "message": "Chrome: trzy kategorie piłkarzy, Zidane i R9 z filtrem Signed shirts i sortowaniem ceny rosnąco; ograniczony zakres załadowanych wyników, bez Load More. 7 szczegółów, 6 obejrzanych zdjęć katalogowych: 5 ofert odświeżonych i nowy R9 Real Madrid Deluxe za 634,99 GBP. Ceny istniejących bez zmian. CR7: 6 pre-order po 2800/2850 GBP; 1 szczegół potwierdza pre-order mimo In Stock, bez potwierdzonego terminu. Trzy wyszukiwania kart Topps/Panini bez przyjętej oferty. Dostawa worldwide, trasa PL i koszty niepotwierdzone, import null.",
+        "checkedAt": "2026-11-23T09:52:56Z"
       },
       {
         "source": "OLX",
@@ -126,9 +126,9 @@
       },
       {
         "source": "Vinted",
-        "status": "error",
-        "message": "Trzy wyszukiwania oraz próba odczytu zapisanej karty Nazário zwróciły HTTP 403. Zachowano ostatnie dane bez odświeżania.",
-        "checkedAt": "2026-11-23T09:03:13.805696Z"
+        "status": "agent_checked",
+        "message": "Chrome: wyszukiwania trzech ulubionych (59/216/24 wyniki; pierwsza strona, bez pełnej paginacji). 9 szczegółów, 7 ofert ze zdjęciami obejrzanymi. Dodano koszulki CR7 za 1500 PLN i R9 za 4999 PLN; odświeżono kartę R9 02/10 za 15000 PLN i opłaty Vinted. Nadruki i brak podpisu odrzucone; druga oferta tej samej karty 02/10 pominięta. Dostawa PL niepotwierdzona.",
+        "checkedAt": "2026-11-23T09:52:56Z"
       },
       {
         "source": "Allegro",
@@ -143,7 +143,8 @@
       "players": 28
     },
     "verifiedPriceDeviations": 1,
-    "note": "Skan z 23 listopada uzupełniony kolejną kontrolą sześciu źródeł. Zakres i blokady podano osobno przy każdym źródle."
+    "note": "Skan z 23 listopada uzupełniony kolejną kontrolą sześciu źródeł. Zakres i blokady podano osobno przy każdym źródle. Ponowna kontrola Vinted i Icons.com w Chrome zakończona 23.11 o 10:52 CET; wcześniejsze błędy 403 rozwiązane, zakres częściowy. Dodatkowo 3 nowe oferty i 6 odświeżonych; szczegóły latestBrowserRetry.",
+    "latestRetryAt": "2026-11-23T09:52:56Z"
   },
   "latestNazarioScan": {
     "method": "browser-agent",
@@ -334,5 +335,30 @@
         "checkedAt": "2026-11-23T08:19:29Z"
       }
     ]
+  },
+  "latestBrowserRetry": {
+    "method": "chrome-browser-agent",
+    "completedAt": "2026-11-23T09:52:56Z",
+    "scope": "partial",
+    "sources": [
+      {
+        "source": "Vinted",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-23T09:52:56Z",
+        "message": "Chrome: wyszukiwania trzech ulubionych (59/216/24 wyniki; pierwsza strona, bez pełnej paginacji). 9 szczegółów, 7 ofert ze zdjęciami obejrzanymi. Dodano koszulki CR7 za 1500 PLN i R9 za 4999 PLN; odświeżono kartę R9 02/10 za 15000 PLN i opłaty Vinted. Nadruki i brak podpisu odrzucone; druga oferta tej samej karty 02/10 pominięta. Dostawa PL niepotwierdzona."
+      },
+      {
+        "source": "Icons.com",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-23T09:52:56Z",
+        "message": "Chrome: trzy kategorie piłkarzy, Zidane i R9 z filtrem Signed shirts i sortowaniem ceny rosnąco; ograniczony zakres załadowanych wyników, bez Load More. 7 szczegółów, 6 obejrzanych zdjęć katalogowych: 5 ofert odświeżonych i nowy R9 Real Madrid Deluxe za 634,99 GBP. Ceny istniejących bez zmian. CR7: 6 pre-order po 2800/2850 GBP; 1 szczegół potwierdza pre-order mimo In Stock, bez potwierdzonego terminu. Trzy wyszukiwania kart Topps/Panini bez przyjętej oferty. Dostawa worldwide, trasa PL i koszty niepotwierdzone, import null."
+      }
+    ],
+    "listingDetailsChecked": 16,
+    "listingImagesReviewed": 13,
+    "acceptedReviewedOffers": 9,
+    "acceptedNewOffers": 3,
+    "newAlerts": 0,
+    "note": "Ponowiono wyłącznie Vinted i Icons.com. Brak błędu 403 w Chrome. Widoczność podpisów nie oznacza niezależnej weryfikacji autentyczności. Dostawa PL i pełne koszty niepotwierdzone; brak nowej oferty poniżej 800 PLN."
   }
 }
