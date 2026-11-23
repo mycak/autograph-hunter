@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "checkedAt": "2026-11-21T10:26:52.406Z",
+  "checkedAt": "2026-11-23T08:54:58.486Z",
   "comparisons": [
     {
       "offerId": "ebay:v1|377350508134|0",
       "comparisonKey": "ibrahimovic|2024-25|topps-chrome-ucc|BLA-ZI|black-lazer-gold|50|raw-nm-or-better|factory-auto|US-to-PL-EIS|detail-VAT-included",
-      "matchDescription": "Zlatan Ibrahimović, Topps Chrome UEFA Club Competitions 2024/25, Black Lazer Autograph Gold /50, BLA-ZI. Wszystkie cztery karty bez gradingu, deklarowany stan Near mint or better. Obejrzano przód i rewers oraz zgodny złoty wariant. To różne egzemplarze od czterech niezależnych sprzedawców. Autentyczność pojedynczych podpisów nie została niezależnie potwierdzona. Ceny obejmują VAT 23% i dostawę do Polski; podane opłaty importowe są wyceną eBay, nie gwarancją końcowej kwoty.",
-      "reviewedAt": "2026-11-21T10:25:12.373777Z",
+      "matchDescription": "Cztery egzemplarze Topps Chrome UEFA 2024/25 BLA-ZI Black Lazer Gold /50, Ibrahimović PSG. Obejrzane awersy i rewersy; cztery odrębne konta sprzedawców. USA, trasa EIS do Polski i zgodne ujęcie VAT PL oraz szacunku opłaty importowej.",
+      "reviewedAt": "2026-11-23T08:12:39.601913+00:00",
       "basis": "asking",
       "independentSellers": true,
       "comparables": [
@@ -16,57 +16,28 @@
           "price": 613.77,
           "currency": "USD",
           "shipping": 46.14,
-          "fees": 2.6961810257799224,
+          "fees": 2.69,
           "sellerCountry": "US",
           "shipsToPL": true,
-          "checkedAt": "2026-11-21T10:25:12.373777Z",
-          "imageUrl": "https://i.ebayimg.com/images/g/3fIAAeSw1Klplgns/s-l1600.webp",
-          "matchNote": "Ten sam wariant BLA-ZI Gold /50, bez gradingu, stan Near mint or better. Egzemplarz 28/50 w holderze OneTouch. Niebieski podpis na dolnym jasnym panelu; obejrzany rewers BLA-ZI. USA → Polska; cena i wysyłka z VAT potwierdzone na stronie oraz przez API.",
           "active": true,
           "saleType": "fixed",
-          "sellerPublicHandle": "manloz-44",
-          "feeQuote": {
-            "value": 10.95,
-            "currency": "PLN",
-            "type": "estimated import fee",
-            "convertedToUSDWith": "NBP 2026-11-20 USD/PLN=4.0613",
-            "estimated": true
-          },
-          "taxBasis": "Poland-selected live eBay.pl detail price, includes VAT; unadjusted observed USD amount",
           "signatureEvidence": {
             "visibleSignature": true,
-            "imageUrl": "https://i.ebayimg.com/images/g/3fIAAeSw1Klplgns/s-l1600.webp",
+            "imageUrl": "https://i.ebayimg.com/images/g/3fIAAeSw1Klplgns/s-l1600.jpg",
             "imageType": "listing",
-            "note": "Karta w holderzeOneTouch; niebieski podpis na dolnym jasnym panelu; numer28/50 na dole; rewersBLA-ZI."
+            "note": "Niebieski podpis pod spodenkami, egzemplarz 28/50; rewers BLA-ZI."
           },
-          "apiVerification": {
-            "checkedAt": "2026-11-21T10:23:26.614760+00:00",
-            "priceOriginal": "613.77",
-            "priceCurrency": "USD",
-            "shippingOriginal": "46.14",
-            "shippingCurrency": "USD",
-            "importOriginal": "2.69",
-            "importCurrency": "USD",
-            "VAT": [
-              {
-                "taxJurisdiction": {
-                  "taxJurisdictionId": "PL"
-                },
-                "taxType": "VAT",
-                "taxPercentage": "23.0",
-                "includedInPrice": true,
-                "ebayCollectAndRemitTax": true
-              }
-            ],
-            "availability": "IN_STOCK",
-            "quantity": 1,
-            "buyingOptions": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "shipsToPL": true,
-            "countryOfDispatch": "US"
-          }
+          "feeQuote": {
+            "value": 2.69,
+            "currency": "USD",
+            "type": "estimated import fee",
+            "estimated": true,
+            "source": "eBay Browse getItem"
+          },
+          "taxBasis": "VAT PL ujęty w cenie przez eBay; opłata importowa szacowana.",
+          "checkedAt": "2026-11-23T08:08:00.059413+00:00",
+          "imageUrl": "https://i.ebayimg.com/images/g/3fIAAeSw1Klplgns/s-l1600.jpg",
+          "matchNote": "Niebieski podpis pod spodenkami, egzemplarz 28/50; rewers BLA-ZI. Aktualne dane cenowe i wycena dostawy do Polski z eBay. Autentyczność niezweryfikowana niezależnie. VAT PL ujęty w cenie przez eBay; opłata importowa szacowana."
         },
         {
           "id": "ebay:v1|366815877757|0",
@@ -74,57 +45,28 @@
           "price": 492,
           "currency": "USD",
           "shipping": 42.71,
-          "fees": 2.6961810257799224,
+          "fees": 2.69,
           "sellerCountry": "US",
           "shipsToPL": true,
-          "checkedAt": "2026-11-21T10:25:12.373777Z",
-          "imageUrl": "https://i.ebayimg.com/images/g/VxYAAeSwhzBq--Am/s-l1600.webp",
-          "matchNote": "Ten sam wariant BLA-ZI Gold /50, bez gradingu, stan Near mint or better. Egzemplarz w holderze na czarnej macie. Niebieski podpis poniżej tułowia zawodnika; obejrzany rewers BLA-ZI. USA → Polska; cena i wysyłka z VAT potwierdzone na stronie oraz przez API.",
           "active": true,
           "saleType": "fixed",
-          "sellerPublicHandle": "cardsncommentary",
-          "feeQuote": {
-            "value": 10.95,
-            "currency": "PLN",
-            "type": "estimated import fee",
-            "convertedToUSDWith": "NBP 2026-11-20 USD/PLN=4.0613",
-            "estimated": true
-          },
-          "taxBasis": "Poland-selected live eBay.pl detail price, includes VAT; unadjusted observed USD amount",
           "signatureEvidence": {
             "visibleSignature": true,
-            "imageUrl": "https://i.ebayimg.com/images/g/VxYAAeSwhzBq--Am/s-l1600.webp",
+            "imageUrl": "https://i.ebayimg.com/images/g/VxYAAeSwhzBq--Am/s-l1600.jpg",
             "imageType": "listing",
-            "note": "Karta w holderze na czarnej macie z białym nadrukiem; niebieski podpis pod tułowiem; rewersBLA-ZI."
+            "note": "Niebieski podpis pod spodenkami, odrębny egzemplarz na czarnej macie; rewers BLA-ZI."
           },
-          "apiVerification": {
-            "checkedAt": "2026-11-21T10:23:26.732055+00:00",
-            "priceOriginal": "492.00",
-            "priceCurrency": "USD",
-            "shippingOriginal": "42.71",
-            "shippingCurrency": "USD",
-            "importOriginal": "2.69",
-            "importCurrency": "USD",
-            "VAT": [
-              {
-                "taxJurisdiction": {
-                  "taxJurisdictionId": "PL"
-                },
-                "taxType": "VAT",
-                "taxPercentage": "23.0",
-                "includedInPrice": true,
-                "ebayCollectAndRemitTax": true
-              }
-            ],
-            "availability": "IN_STOCK",
-            "quantity": 1,
-            "buyingOptions": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "shipsToPL": true,
-            "countryOfDispatch": "US"
-          }
+          "feeQuote": {
+            "value": 2.69,
+            "currency": "USD",
+            "type": "estimated import fee",
+            "estimated": true,
+            "source": "eBay Browse getItem"
+          },
+          "taxBasis": "VAT PL ujęty w cenie przez eBay; opłata importowa szacowana.",
+          "checkedAt": "2026-11-23T08:08:00.604971+00:00",
+          "imageUrl": "https://i.ebayimg.com/images/g/VxYAAeSwhzBq--Am/s-l1600.jpg",
+          "matchNote": "Niebieski podpis pod spodenkami, odrębny egzemplarz na czarnej macie; rewers BLA-ZI. Aktualne dane cenowe i wycena dostawy do Polski z eBay. Autentyczność niezweryfikowana niezależnie. VAT PL ujęty w cenie przez eBay; opłata importowa szacowana."
         },
         {
           "id": "ebay:v1|376654538917|0",
@@ -132,72 +74,30 @@
           "price": 1229.99,
           "currency": "USD",
           "shipping": 64.26,
-          "fees": 2.6961810257799224,
+          "fees": 2.69,
           "sellerCountry": "US",
           "shipsToPL": true,
-          "checkedAt": "2026-11-21T10:25:12.373777Z",
-          "imageUrl": "https://i.ebayimg.com/images/g/iUUAAeSww4lpAB6w/s-l1600.webp",
-          "matchNote": "Ten sam wariant BLA-ZI Gold /50, bez gradingu, stan Near mint or better. Egzemplarz 38/50 na stojaku. Niebieski podpis na dolnym jasnym panelu; obejrzany rewers BLA-ZI. USA → Polska; cena i wysyłka z VAT potwierdzone na stronie oraz przez API.",
           "active": true,
           "saleType": "fixed",
-          "sellerPublicHandle": "jordan6523",
-          "feeQuote": {
-            "value": 10.95,
-            "currency": "PLN",
-            "type": "estimated import fee",
-            "convertedToUSDWith": "NBP 2026-11-20 USD/PLN=4.0613",
-            "estimated": true
-          },
-          "taxBasis": "Poland-selected live eBay.pl detail price, includes VAT; unadjusted observed USD amount",
           "signatureEvidence": {
             "visibleSignature": true,
-            "imageUrl": "https://i.ebayimg.com/images/g/iUUAAeSww4lpAB6w/s-l1600.webp",
+            "imageUrl": "https://i.ebayimg.com/images/g/iUUAAeSww4lpAB6w/s-l1600.jpg",
             "imageType": "listing",
-            "note": "Karta na stojaku; niebieski podpis na dolnym jasnym panelu; numer38/50; rewersBLA-ZI."
+            "note": "Niebieski podpis pod spodenkami, egzemplarz 18/50; rewers BLA-ZI."
           },
-          "apiVerification": {
-            "checkedAt": "2026-11-21T10:23:26.635323+00:00",
-            "priceOriginal": "1229.99",
-            "priceCurrency": "USD",
-            "shippingOriginal": "64.26",
-            "shippingCurrency": "USD",
-            "importOriginal": "2.69",
-            "importCurrency": "USD",
-            "VAT": [
-              {
-                "taxJurisdiction": {
-                  "taxJurisdictionId": "PL"
-                },
-                "taxType": "VAT",
-                "taxPercentage": "23.0",
-                "includedInPrice": true,
-                "ebayCollectAndRemitTax": true
-              }
-            ],
-            "availability": "IN_STOCK",
-            "quantity": 1,
-            "buyingOptions": [
-              "FIXED_PRICE",
-              "BEST_OFFER"
-            ],
-            "shipsToPL": true,
-            "countryOfDispatch": "US"
-          }
+          "feeQuote": {
+            "value": 2.69,
+            "currency": "USD",
+            "type": "estimated import fee",
+            "estimated": true,
+            "source": "eBay Browse getItem"
+          },
+          "taxBasis": "VAT PL ujęty w cenie przez eBay; opłata importowa szacowana.",
+          "checkedAt": "2026-11-23T08:08:00.648242+00:00",
+          "imageUrl": "https://i.ebayimg.com/images/g/iUUAAeSww4lpAB6w/s-l1600.jpg",
+          "matchNote": "Niebieski podpis pod spodenkami, egzemplarz 18/50; rewers BLA-ZI. Aktualne dane cenowe i wycena dostawy do Polski z eBay. Autentyczność niezweryfikowana niezależnie. Opis sprzedawcy mówi tylko o USA. eBay nadal podaje trasę EIS i wycenę bezpośrednio dla Polski. VAT PL ujęty w cenie przez eBay; opłata importowa szacowana."
         }
-      ],
-      "calculation": {
-        "targetTotalUSD": 409.61618102577995,
-        "medianComparableTotalUSD": 662.6061810257798,
-        "discountFraction": 0.38181050410418205,
-        "feeNormalization": {
-          "originalPLN": 10.95,
-          "usdPerPLN": 0.2462265776967966,
-          "rateDate": "2026-11-20"
-        },
-        "targetApproxPLN": 1663.5741960000003,
-        "medianApproxPLN": 2691.0424829999997
-      },
-      "caveat": "Asking price median only. Not confirmed transactions or independently established market value. Import fee quote estimated; no checkout purchase performed."
+      ]
     }
   ]
 }

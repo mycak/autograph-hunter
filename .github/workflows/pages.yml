@@ -8,6 +8,7 @@ on:
     types: [completed]
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 concurrency:
@@ -33,6 +34,34 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
+      - name: Wait for artifact metadata
+        env:
+          GH_ACTIONS_TOKEN: ${{ github.token }}
+          GH_API_URL: ${{ github.api_url }}
+          GH_REPOSITORY: ${{ github.repository }}
+          GH_RUN_ID: ${{ github.run_id }}
+        run: |
+          python3 - <<'PY'
+          import json, os, time
+          from urllib.request import Request, urlopen
+          # Upload may finish before the artifact appears in the REST listing.
+          url = (os.environ['GH_API_URL'] + '/repos/' + os.environ['GH_REPOSITORY']
+                 + '/actions/runs/' + os.environ['GH_RUN_ID'] + '/artifacts?name=github-pages&per_page=100')
+          headers = {'Authorization': 'Bearer ' + os.environ['GH_ACTIONS_TOKEN'],
+                     'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache'}
+          for attempt in range(10):
+              try:
+                  with urlopen(Request(url, headers=headers), timeout=10) as response:
+                      artifacts = json.load(response).get('artifacts', [])
+                  if any(a.get('name') == 'github-pages' and not a.get('expired') for a in artifacts):
+                      print('Uploaded Pages artifact is visible.')
+                      break
+              except Exception:
+                  pass  # Never print authorization headers or provider response bodies.
+              if attempt == 9:
+                  raise SystemExit('Pages artifact metadata is unavailable; deployment was not started.')
+              time.sleep(3)
+          PY
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
