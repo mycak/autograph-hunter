@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T06:23:03Z",
+  "updatedAt": "2026-11-23T06:33:40Z",
   "rates": {
     "date": "2026-11-20",
     "values": {
@@ -4541,9 +4541,9 @@
       "name": "eBay",
       "url": "https://www.ebay.pl",
       "status": "ok",
-      "message": "Browse API: 2144 kandydatów dla 28 piłkarzy. Ulubieni: maks. 1000 wyników na kategorię; pozostali: maks. 200. Publikacja po kontroli zdjęć, okazje wyłącznie po porównaniu cen.",
-      "checkedAt": "2026-11-22T06:23:03Z",
-      "lastSuccessAt": "2026-11-22T06:23:03Z",
+      "message": "Browse API: 2146 kandydatów dla 28 piłkarzy. Ulubieni: maks. 1000 wyników na kategorię; pozostali: maks. 200. Publikacja po kontroli zdjęć, okazje wyłącznie po porównaniu cen.",
+      "checkedAt": "2026-11-23T06:33:40Z",
+      "lastSuccessAt": "2026-11-23T06:33:40Z",
       "agent": {
         "checkedAt": "2026-11-21T09:43:52Z",
         "offers": 20,
@@ -4835,9 +4835,9 @@
     "nazario"
   ],
   "opportunityDiscovery": {
-    "checkedAt": "2026-11-22T06:23:03Z",
+    "checkedAt": "2026-11-23T06:33:40Z",
     "playersSearched": 28,
-    "candidates": 2144,
+    "candidates": 2146,
     "source": "eBay",
     "status": "awaiting_comparison_review"
   }
