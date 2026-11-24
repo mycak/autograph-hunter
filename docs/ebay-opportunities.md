@@ -1,6 +1,6 @@
 # Okazje cenowe eBay na stronie głównej
 
-Sekcja jest niezależna od sześciu rankingów Zidane’a, Cristiano i Nazário. Te rankingi zachowują dotychczasowe źródła, filtry oraz alerty poniżej 800 PLN. Rozszerzony radar obejmuje 28 nazw z `site/data/watchlist.json`; nowe okazje dotyczą wyłącznie eBay. Nie wyświetlamy osobnych pustych rankingów każdego piłkarza ani wszystkich tanich kandydatów.
+Sekcja jest niezależna od sześciu rankingów Zidane’a, Cristiano i Nazário. Te rankingi zachowują dotychczasowe źródła, filtry oraz alerty poniżej 1000 PLN. Rozszerzony radar obejmuje 28 nazw z `site/data/watchlist.json`; nowe okazje dotyczą wyłącznie eBay. Nie wyświetlamy osobnych pustych rankingów każdego piłkarza ani wszystkich tanich kandydatów.
 
 ## Dwa etapy
 

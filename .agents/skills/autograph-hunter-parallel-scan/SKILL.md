@@ -20,7 +20,7 @@ Read the relevant sibling `.agents/skills/autograph-hunter-<source>/SKILL.md` an
 Give each worker:
 
 - The source skill and relevant raw existing offers, not another worker's conclusions.
-- The favorites, category scope, PLN800 strict threshold and fixed-price-only alert rule.
+- The favorites, category scope, PLN 1000 strict threshold and fixed-price-only alert rule.
 - A unique absolute output path under the current chat's `work/<run-id>/`, plus a separate findings path.
 - Instructions to read current details and visually inspect signature images, record actual timestamps, uncertain costs as null, source currency, availability and PL delivery. API results and cached search text are leads, not signature proof. `unverified` means authenticity is unconfirmed; it does not excuse missing visible signature.
 - No permission to edit common `site/data/offers.json`, import, change branches, publish, or record an alert as sent. Workers report opportunities immediately to the coordinator, who owns deduplication and notification delivery.
@@ -39,6 +39,6 @@ After workers finish, inspect their reports and conflicts. Match cross-market ph
 
 Run `python3 scripts/merge-agent-reports.py <reports...> --out <combined.json>`; conflicting IDs/URLs fail before output replacement. Then the coordinator alone runs `python3 scripts/import-agent.py <combined.json>`. Missing from bounded search is not proof of sale. Do not refresh dates for records that were not checked.
 
-Use saved NBP rates and the same subtotal as the frontend (item + known shipping + known fees) to evaluate newly seen or newly crossing fixed-price offers strictly below 800 PLN. Auctions never trigger this alert. For incomplete costs say “od” and name missing costs. Inspect `work/autograph-alert-state.json`; notify first, record dedup state only after delivery, and never call an unverified signature a confirmed original.
+Use saved NBP rates and the same subtotal as the frontend (item + known shipping + known fees) to evaluate newly seen or newly crossing fixed-price offers strictly below 1000 PLN. Auctions never trigger this alert. For incomplete costs say “od” and name missing costs. Inspect `work/autograph-alert-state.json`; notify first, record dedup state only after delivery, and never call an unverified signature a confirmed original.
 
 Update `site/data/agent-scan.json` and source attempt statuses from actual findings, preserving earlier successes/dates when today's check failed. Run `npm run check`, `node scripts/validate.mjs`, inspect changes, and publish through the Personal/mycak GitHub connector. Never overwrite concurrent remote data; base the update on the latest default-branch state. Wait for Pages and verify its public JSON before claiming publication. Keep existing schedules and unrelated automations unchanged unless requested.

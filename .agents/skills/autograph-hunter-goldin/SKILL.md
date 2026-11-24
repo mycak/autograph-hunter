@@ -21,7 +21,7 @@ Otwórz konkretny `/item/...` znaleziony w wynikach. Zachowaj stabilny identyfik
 
 Dla aukcji wpisz `saleType=auction` oraz bezwzględny `endAt` z aktualnej strony szczegółów. Licznik 7D/21D w podglądzie i stawka bieżąca nie są terminem absolutnym ani finalną ceną. Uwzględnij aktualną prowizję kupującego, wysyłkę, ubezpieczenie i import według konkretnej oferty/warunków; nie hardkoduj procentu z dawnego artykułu. Amerykańska stawka wysyłki nie jest kosztem do Polski. Niewiadome zostaw `null` i opisz je.
 
-Karta z kilkoma podpisami może obejmować ulubionego, ale to jedna fizyczna oferta, nie kilka niezależnych okazji. PSA/BGS ocena stanu karty nie wystarcza do `verified`; potrzebny dowód obejmujący widoczny podpis. Sprzedane loty służą co najwyżej porównaniu historii, nigdy odświeżaniu aktywnego rankingu. Aukcje i Private Sales bez stałej ceny nie wywołują alertu <800 PLN.
+Karta z kilkoma podpisami może obejmować ulubionego, ale to jedna fizyczna oferta, nie kilka niezależnych okazji. PSA/BGS ocena stanu karty nie wystarcza do `verified`; potrzebny dowód obejmujący widoczny podpis. Sprzedane loty służą co najwyżej porównaniu historii, nigdy odświeżaniu aktywnego rankingu. Aukcje i Private Sales bez stałej ceny nie wywołują alertu <1000 PLN.
 
 ## Zakres i przekazanie wyniku
 
@@ -33,4 +33,4 @@ Każdą przyjętą ofertę otwórz aktualnie i **obejrzyj zdjęcie podpisu**. Za
 
 Raport pracownika: unikalny plik `work/research-YYYY-MM-DD-SOURCE.json` z `{schemaVersion:1,offers:[...]}` zgodny z przykładem repo. Oddzielnie przekaż zakres, obejrzane kategorie/strony, liczbę szczegółowo sprawdzonych ofert, odrzucone pozycje i blokady. Nie nadpisuj raportu innego źródła, nie uruchamiaj importera i nie publikuj — robi to koordynator. Zachowuj `firstSeen`, nie odświeżaj `lastSeen` nieobejrzanych rekordów i nie uznawaj braków w ograniczonym wyniku za sprzedaż. Koszt nieznany to `null`; `shipsToPL=null`, jeśli dostawy do Polski nie potwierdzono. Podaj cenę w walucie źródła, dostawę, znane opłaty i kraj wysyłki; nie wymyślaj zera.
 
-Alert zgłoś koordynatorowi od razu wyłącznie dla aktywnego **Kup teraz** z widocznym podpisem, gdy cena+dostawa+znane opłaty po kursach używanych przez dashboard wynoszą **ściśle <800 PLN**. Nieznane koszty oznacz „od” i wymień braki. Aukcje z bieżącą stawką nigdy nie wywołują tego alertu. Koordynator deduplikuje zgłoszenia i tę samą fizyczną kartę między serwisami.
+Alert zgłoś koordynatorowi od razu wyłącznie dla aktywnego **Kup teraz** z widocznym podpisem, gdy cena+dostawa+znane opłaty po kursach używanych przez dashboard wynoszą **ściśle <1000 PLN**. Nieznane koszty oznacz „od” i wymień braki. Aukcje z bieżącą stawką nigdy nie wywołują tego alertu. Koordynator deduplikuje zgłoszenia i tę samą fizyczną kartę między serwisami.
