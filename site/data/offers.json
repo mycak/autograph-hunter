@@ -5318,20 +5318,6 @@
       }
     },
     {
-      "name": "SportsMemorabilia",
-      "url": "https://www.sportsmemorabilia.com",
-      "status": "error",
-      "message": "Próba strony głównej i konkretnej koszulki Cristiano zakończona Access Denied. Zapytania wszystkich trzech piłkarzy nie zastępują kontroli dostępności. Bez importu i bez odświeżania starszych ofert.",
-      "checkedAt": null,
-      "lastSuccessAt": null,
-      "lastAgentAttempt": {
-        "at": "2026-11-21T09:57:12Z",
-        "status": "blocked",
-        "scope": "attempted",
-        "message": "Próba strony głównej i konkretnej koszulki Cristiano zakończona Access Denied. Zapytania wszystkich trzech piłkarzy nie zastępują kontroli dostępności. Bez importu i bez odświeżania starszych ofert."
-      }
-    },
-    {
       "name": "Allegro Lokalnie",
       "url": "https://allegrolokalnie.pl",
       "checkedAt": null,

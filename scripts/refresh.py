@@ -40,7 +40,6 @@ SOURCES = [
     ('MySlabs', 'https://www.myslabs.com', 'manual', 'Import ręczny; grading karty nie zawsze obejmuje podpis.'),
     ('Goldin', 'https://goldin.co', 'manual', 'Import ręczny; uwzględnij prowizję domu aukcyjnego.'),
     ('Whatnot', 'https://www.whatnot.com', 'manual', 'Import ręczny aukcji i sprzedaży na żywo.'),
-    ('SportsMemorabilia', 'https://www.sportsmemorabilia.com', 'manual', 'Import ręczny podpisanych pamiątek.'),
 ]
 
 def stamp():
