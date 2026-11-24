@@ -34,26 +34,32 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
+          name: github-pages-${{ github.run_attempt }}
       - name: Wait for artifact metadata
         env:
           GH_ACTIONS_TOKEN: ${{ github.token }}
           GH_API_URL: ${{ github.api_url }}
           GH_REPOSITORY: ${{ github.repository }}
           GH_RUN_ID: ${{ github.run_id }}
+          PAGES_ARTIFACT_NAME: github-pages-${{ github.run_attempt }}
         run: |
           python3 - <<'PY'
           import json, os, time
+          from urllib.parse import urlencode
           from urllib.request import Request, urlopen
           # Upload may finish before the artifact appears in the REST listing.
+          name = os.environ['PAGES_ARTIFACT_NAME']
           url = (os.environ['GH_API_URL'] + '/repos/' + os.environ['GH_REPOSITORY']
-                 + '/actions/runs/' + os.environ['GH_RUN_ID'] + '/artifacts?name=github-pages&per_page=100')
+                 + '/actions/runs/' + os.environ['GH_RUN_ID'] + '/artifacts?' + urlencode({'name': name}))
           headers = {'Authorization': 'Bearer ' + os.environ['GH_ACTIONS_TOKEN'],
                      'Accept': 'application/vnd.github+json', 'Cache-Control': 'no-cache'}
           for attempt in range(10):
               try:
                   with urlopen(Request(url, headers=headers), timeout=10) as response:
                       artifacts = json.load(response).get('artifacts', [])
-                  if any(a.get('name') == 'github-pages' and not a.get('expired') for a in artifacts):
+                  if any(a.get('name') == name and not a.get('expired') for a in artifacts):
+                      # deploy-pages uses a different artifact index from REST.
+                      time.sleep(12)
                       print('Uploaded Pages artifact is visible.')
                       break
               except Exception:
@@ -65,3 +71,5 @@ jobs:
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages-${{ github.run_attempt }}
