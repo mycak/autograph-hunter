@@ -68,13 +68,13 @@
   },
   "latestDailyScan": {
     "method": "production-api-plus-parallel-agents",
-    "completedAt": "2026-11-23T09:03:41.397192+00:00",
+    "completedAt": "2026-11-24T08:11:59.649436+00:00",
     "status": "partial",
     "scope": "partial",
     "sourceAttempts": 9,
-    "sourcesChecked": 9,
-    "acceptedNewOffers": 8,
-    "activeReviewed": 28,
+    "sourcesChecked": 7,
+    "acceptedNewOffers": 0,
+    "activeReviewed": 18,
     "newAlertCandidates": 0,
     "favoritePlayers": [
       "zidane",
@@ -84,67 +84,75 @@
     "sources": [
       {
         "source": "eBay",
-        "checkedAt": "2026-11-23T08:12:39.601913+00:00",
         "status": "agent_checked",
-        "message": "26 szczegółów z getItem, 25 odpowiedzi i 23 obejrzane zdjęcia. Odświeżono porównania Ibrahimovicia. Jeden aktywny nowy kandydat Zidane, jedna oferta R9 już niedostępna."
-      },
-      {
-        "source": "COMC",
-        "checkedAt": "2026-11-23T08:12:52.137263+00:00",
-        "status": "agent_checked",
-        "message": "Trzej ulubieni objęci wyszukiwaniem, 4 szczegóły i 3 obejrzane zdjęcia podpisów. Karta Zidane Club Legends: 220,10 USD + 7,49 USD dostawy PL, import nieustalony."
-      },
-      {
-        "source": "Catawiki",
-        "checkedAt": "2026-11-23T08:12:52.137263+00:00",
-        "status": "agent_checked",
-        "message": "Ograniczony przegląd trzech piłkarzy, 5 prób szczegółów i zdjęcia podpisów z 3 aukcji. Dwie nowe aukcje bez potwierdzonej dostawy PL. Karta Zidane: stawka 220 EUR, dostawa PL 8 EUR, prowizja 22,80 EUR."
-      },
-      {
-        "source": "Allegro Lokalnie",
-        "status": "agent_checked",
-        "message": "Trzy bieżące wyszukiwania i trzy szczegóły. Zapisana karta CR7 jest zamknięta, a na zdjęciu Panini #217 nie widać podpisu. Nie dodano ofert.",
-        "checkedAt": "2026-11-23T08:59:42.954102+00:00"
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Sprawdzono szczegóły 9 ofert z 10 zapytań i zdjęcia podpisów w czterech ofertach ulubionych. Jedna oferta porównawcza Ibrahimovicia przestała być dostępna, więc karta nie spełnia obecnie progu trzech porównań."
       },
       {
         "source": "All Star Signings",
         "status": "agent_checked",
-        "message": "Odczyt publicznego API sklepu, szczegółów i zdjęć: sześć ofert odświeżonych i jedna nowa. Koszulka Zidane’a Juventus bez ramy staniała z 689,99 GBP do 489,99 GBP. Dostawa do Polski i import niepotwierdzone.",
-        "checkedAt": "2026-11-23T09:00:43.529792+00:00"
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Potwierdzono 7 zapisanych pozycji. Koszt dostawy do Polski i opłaty importowe pozostają nieustalone."
       },
       {
         "source": "Icons.com",
         "status": "agent_checked",
-        "message": "Chrome: trzy kategorie piłkarzy, Zidane i R9 z filtrem Signed shirts i sortowaniem ceny rosnąco; ograniczony zakres załadowanych wyników, bez Load More. 7 szczegółów, 6 obejrzanych zdjęć katalogowych: 5 ofert odświeżonych i nowy R9 Real Madrid Deluxe za 634,99 GBP. Ceny istniejących bez zmian. CR7: 6 pre-order po 2800/2850 GBP; 1 szczegół potwierdza pre-order mimo In Stock, bez potwierdzonego terminu. Trzy wyszukiwania kart Topps/Panini bez przyjętej oferty. Dostawa worldwide, trasa PL i koszty niepotwierdzone, import null.",
-        "checkedAt": "2026-11-23T09:52:56Z"
-      },
-      {
-        "source": "OLX",
-        "status": "agent_checked",
-        "message": "Dwie nowe koszulki Cristiano Ronaldo po 1490 PLN przed kosztami dostawy, z widocznym podpisem i dostępną wysyłką. Wstrzymano ofertę Nazário z powodu rozbieżności klubu między opisem i zdjęciem.",
-        "checkedAt": "2026-11-23T09:03:13.805696Z"
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "W przeglądarce otwarto kategorie wszystkich trzech piłkarzy. Potwierdzono ofertę Real Madrid Ronaldo Nazário za 634,99 GBP i obejrzano zdjęcie katalogowe."
       },
       {
         "source": "Vinted",
         "status": "agent_checked",
-        "message": "Chrome: wyszukiwania trzech ulubionych (59/216/24 wyniki; pierwsza strona, bez pełnej paginacji). 9 szczegółów, 7 ofert ze zdjęciami obejrzanymi. Dodano koszulki CR7 za 1500 PLN i R9 za 4999 PLN; odświeżono kartę R9 02/10 za 15000 PLN i opłaty Vinted. Nadruki i brak podpisu odrzucone; druga oferta tej samej karty 02/10 pominięta. Dostawa PL niepotwierdzona.",
-        "checkedAt": "2026-11-23T09:52:56Z"
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Pierwsza strona wyników dla każdego z trzech piłkarzy oraz szczegóły trzech zapisanych ofert. Sprawdzono aktualne ceny, opłaty i widoczność podpisów."
+      },
+      {
+        "source": "OLX",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Trzy wyszukiwania i dwie nadal aktywne oferty Cristiano po 1490 zł."
       },
       {
         "source": "Allegro",
+        "status": "error",
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Próby sprawdzenia zapisanych ofert charytatywnych zwróciły dwie odmowy dostępu i jeden timeout."
+      },
+      {
+        "source": "Allegro Lokalnie",
         "status": "agent_checked",
-        "message": "Dwie podpisane koszulki Cristiano Ronaldo z Allegro Charytatywni, sprawdzone na żywo o 09:19 czasu polskiego. Stawki 2325 i 2345 PLN plus 40 PLN dostawy. Trzecia oferta Realu może dotyczyć tego samego egzemplarza. Ponowny odczyt zwrócił 403.",
-        "checkedAt": "2026-11-23T08:19:29Z"
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Trzy wyszukiwania. Poprzednia oferta Topps Cristiano nadal zakończona. W sprawdzonych wynikach nie potwierdzono nowej podpisanej pozycji."
+      },
+      {
+        "source": "COMC",
+        "status": "error",
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Odmowa dostępu do pięciu zapisanych pozycji oraz filtra Zidane."
+      },
+      {
+        "source": "Catawiki",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "scope": "partial",
+        "message": "Koszulka Cristiano Juventus sprzedana za 910 EUR. Aukcja koszulki Ronaldo Nazário Brazylia nadal aktywna ze stawką 400 EUR poniżej ceny minimalnej. Lot Zidane nieczytelny w tym odczycie."
       }
     ],
     "ebayApi": {
-      "collectedAt": "2026-11-23T06:33:40Z",
-      "candidates": 2146,
+      "collectedAt": "2026-11-24T06:25:44Z",
+      "candidates": 2134,
       "players": 28
     },
-    "verifiedPriceDeviations": 1,
-    "note": "Skan z 23 listopada uzupełniony kolejną kontrolą sześciu źródeł. Zakres i blokady podano osobno przy każdym źródle. Ponowna kontrola Vinted i Icons.com w Chrome zakończona 23.11 o 10:52 CET; wcześniejsze błędy 403 rozwiązane, zakres częściowy. Dodatkowo 3 nowe oferty i 6 odświeżonych; szczegóły latestBrowserRetry.",
-    "latestRetryAt": "2026-11-23T09:52:56Z"
+    "verifiedPriceDeviations": 0,
+    "note": "Skan częściowy. Vinted i Icons.com sprawdzono we wbudowanej przeglądarce. COMC i Allegro zwróciły odmowy dostępu. Tropów eBay API nie liczono jako ofert sprawdzonych."
   },
   "latestNazarioScan": {
     "method": "browser-agent",
