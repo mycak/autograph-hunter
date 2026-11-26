@@ -68,14 +68,14 @@
   },
   "latestDailyScan": {
     "method": "production-api-plus-parallel-agents",
-    "completedAt": "2026-11-24T08:11:59.649436+00:00",
+    "completedAt": "2026-11-26T07:08:05.821914+00:00",
     "status": "partial",
     "scope": "partial",
     "sourceAttempts": 9,
-    "sourcesChecked": 7,
-    "acceptedNewOffers": 0,
-    "activeReviewed": 18,
-    "newAlertCandidates": 0,
+    "sourcesChecked": 9,
+    "acceptedNewOffers": 14,
+    "activeReviewed": 47,
+    "newAlertCandidates": 1,
     "favoritePlayers": [
       "zidane",
       "ronaldo",
@@ -85,74 +85,106 @@
       {
         "source": "eBay",
         "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "checkedAt": "2026-11-26T07:03:51.076839+00:00",
         "scope": "partial",
-        "message": "Sprawdzono szczegóły 9 ofert z 10 zapytań i zdjęcia podpisów w czterech ofertach ulubionych. Jedna oferta porównawcza Ibrahimovicia przestała być dostępna, więc karta nie spełnia obecnie progu trzech porównań."
-      },
-      {
-        "source": "All Star Signings",
-        "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
-        "scope": "partial",
-        "message": "Potwierdzono 7 zapisanych pozycji. Koszt dostawy do Polski i opłaty importowe pozostają nieustalone."
-      },
-      {
-        "source": "Icons.com",
-        "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
-        "scope": "partial",
-        "message": "W przeglądarce otwarto kategorie wszystkich trzech piłkarzy. Potwierdzono ofertę Real Madrid Ronaldo Nazário za 634,99 GBP i obejrzano zdjęcie katalogowe."
-      },
-      {
-        "source": "Vinted",
-        "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
-        "scope": "partial",
-        "message": "Pierwsza strona wyników dla każdego z trzech piłkarzy oraz szczegóły trzech zapisanych ofert. Sprawdzono aktualne ceny, opłaty i widoczność podpisów."
-      },
-      {
-        "source": "OLX",
-        "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
-        "scope": "partial",
-        "message": "Trzy wyszukiwania i dwie nadal aktywne oferty Cristiano po 1490 zł."
-      },
-      {
-        "source": "Allegro",
-        "status": "error",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
-        "scope": "partial",
-        "message": "Próby sprawdzenia zapisanych ofert charytatywnych zwróciły dwie odmowy dostępu i jeden timeout."
-      },
-      {
-        "source": "Allegro Lokalnie",
-        "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
-        "scope": "partial",
-        "message": "Trzy wyszukiwania. Poprzednia oferta Topps Cristiano nadal zakończona. W sprawdzonych wynikach nie potwierdzono nowej podpisanej pozycji."
+        "message": "Przegląd częściowy zapisanych ofert i nowych tropów trzech ulubionych. Obejrzano 24 zdjęcia. W porównaniach Ibrahimovicia i Pelégo zabrakło trzeciej zgodnej, aktualnej oferty.",
+        "detailAttempts": 37,
+        "mainImagesReviewed": 24,
+        "activeAccepted": 14
       },
       {
         "source": "COMC",
-        "status": "error",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:06:42.490372+00:00",
         "scope": "partial",
-        "message": "Odmowa dostępu do pięciu zapisanych pozycji oraz filtra Zidane."
+        "message": "Potwierdzono ostatnie dostępne sztuki Zidane Select SS-ZZ i Prizm CL-ZZ oraz zdjęcia obu podpisów. Prizm CL-ZZ ma potwierdzony koszt od 932.35 zł z wysyłką do Polski, przed nieznanymi kosztami importu. Ta kopia była już w dashboardzie.",
+        "activeAccepted": 2,
+        "detailPagesChecked": 2,
+        "actualImagesViewed": 2,
+        "newAccepted": 0
       },
       {
         "source": "Catawiki",
         "status": "agent_checked",
-        "checkedAt": "2026-11-24T08:11:59.649436+00:00",
+        "checkedAt": "2026-11-26T07:07:45+00:00",
         "scope": "partial",
-        "message": "Koszulka Cristiano Juventus sprzedana za 910 EUR. Aukcja koszulki Ronaldo Nazário Brazylia nadal aktywna ze stawką 400 EUR poniżej ceny minimalnej. Lot Zidane nieczytelny w tym odczycie."
+        "message": "Sprawdzono cztery zapisane loty i wybrane wyniki z pierwszych stron trzech wyszukiwań. Siedem aktywnych aukcji ze zdjęciem podpisu i wyceną dostawy do Polski, w tym pięć nowych. Dwa zapisane loty nadal mają status Sold. Brak ofert Kup teraz.",
+        "detailAttempts": 14,
+        "activeAccepted": 7,
+        "actualSignaturePhotosViewed": 8,
+        "newAccepted": 5
+      },
+      {
+        "source": "Allegro Lokalnie",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:03:46.720423+00:00",
+        "scope": "partial",
+        "message": "Sprawdzono bieżące wyszukiwania z autografem dla trzech piłkarzy, odpowiednio 4, 3 i 0 lokalnych linków. Zapisana Topps CR7 pozostaje zakończona. Panini #217 bez podpisu na obejrzanym zdjęciu, oferta CR7 z certyfikatem dotyczy fotografii. Brak przyjętych ofert.",
+        "detailAttempts": 3,
+        "activeAccepted": 0,
+        "actualSignaturePhotosViewed": 1
+      },
+      {
+        "source": "All Star Signings",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:05:40.146Z",
+        "scope": "partial",
+        "message": "Sprawdzono 7 zapisanych wariantów i obejrzano ich zdjęcia katalogowe. Ceny bez zmian, w tym Juventus Zidane bez ramy za 489,99 GBP. Publiczne wyszukiwanie katalogowe zwróciło 16 wyników dla Zidane’a, 2 dla Ronaldo Nazário i 0 dla Cristiano Ronaldo. Nie znaleziono kart w zapytaniach Topps i Panini. Strona dostawy potwierdza ogólną wysyłkę międzynarodową, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych.",
+        "detailAttempts": 7,
+        "mainImagesViewed": 7,
+        "newOffers": 0
+      },
+      {
+        "source": "Icons.com",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:05:40.146Z",
+        "scope": "partial",
+        "message": "W Chrome sprawdzono 6 zapisanych ofert, ich ceny i zdjęcia, oraz do 29 pierwszych wyników w każdej z 3 kategorii zawodników. Zapisane ceny bez zmian. Zweryfikowano zdjęcie, cenę i aktywny przycisk zakupu nowej koszulki Cristiano Ronaldo Manchester United 2008 Ballon d’Or Hero Frame za 2600 GBP. W sprawdzonym zakresie brak kwalifikujących się kart. Dostawa ogólnoświatowa według strony, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych.",
+        "detailAttempts": 7,
+        "mainImagesViewed": 7,
+        "newOffers": 1
+      },
+      {
+        "source": "OLX",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:05:11.261597+00:00",
+        "scope": "partial",
+        "message": "Odświeżono dwie aktywne koszulki CR7 po 1 490 zł z włączoną Przesyłką OLX. Brak nowych pozycji i potwierdzonego alertu poniżej 1 000 zł.",
+        "activeAccepted": 2,
+        "detailPagesChecked": 3,
+        "actualImagesViewed": 4,
+        "newAccepted": 0
+      },
+      {
+        "source": "Vinted",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:05:11.261597+00:00",
+        "scope": "partial",
+        "message": "Sprawdzono trzy zapisane oferty i dodano dwa ogłoszenia ze zdjęciami podpisów. Bez potwierdzonej dostawy do Polski na poziomie konkretnego ogłoszenia. Brak alertu poniżej 1 000 zł.",
+        "activeAccepted": 5,
+        "detailPagesChecked": 15,
+        "actualImagesViewed": 12,
+        "newAccepted": 2
+      },
+      {
+        "source": "Allegro",
+        "status": "agent_checked",
+        "checkedAt": "2026-11-26T07:03:46.720423+00:00",
+        "scope": "partial",
+        "message": "Na aktualnych stronach potwierdzono trzy aukcje koszulek Cristiano Ronaldo. Każda pokazuje przewidywaną dostawę za 40 zł. Dwie koszulki Realu mają odmienne numery i naklejki PSA/DNA, dlatego policzono je osobno. Nie potwierdzono certyfikatów w bazach. Bieżące stawki nie uruchamiają alertów Kup teraz.",
+        "detailAttempts": 3,
+        "activeAccepted": 3,
+        "actualSignaturePhotosViewed": 6,
+        "newAccepted": 1
       }
     ],
     "ebayApi": {
-      "collectedAt": "2026-11-24T06:25:44Z",
-      "candidates": 2134,
+      "collectedAt": "2026-11-26T06:25:50Z",
+      "candidates": 2096,
       "players": 28
     },
     "verifiedPriceDeviations": 0,
-    "note": "Skan częściowy. Vinted i Icons.com sprawdzono we wbudowanej przeglądarce. COMC i Allegro zwróciły odmowy dostępu. Tropów eBay API nie liczono jako ofert sprawdzonych."
+    "note": "Skan częściowy. Tropów eBay API nie liczono jako sprawdzonych ofert. Szczegółowy zakres i blokady są w statusach źródeł."
   },
   "latestNazarioScan": {
     "method": "browser-agent",
