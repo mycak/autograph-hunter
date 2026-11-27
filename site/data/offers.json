@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-27T06:26:01Z",
+  "updatedAt": "2026-11-27T08:08:34.257054+00:00",
   "rates": {
     "date": "2026-11-26",
     "values": {
@@ -141,14 +141,14 @@
       "verifiedAt": null,
       "evidenceUrl": "https://allegro.pl/produkt/cr-ronaldo-portugalia-koszulka-z-autografem-w-ramie-od-1zl-zag-b4b1f9f7-e89a-452d-bc49-83feb03db229?offerId=19095955959",
       "firstSeen": "2026-11-23T08:19:29Z",
-      "lastSeen": "2026-11-26T07:03:46.720423+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://a.allegroimg.com/s720/fb9f01/8683a0764ca98efb7e67a87598a7/Cr-Ronaldo-Portugalia-koszulka-z-autografem-w-ramie-od-1zl-zag",
         "imageType": "listing",
-        "note": "Czarny podpis biegnie ukośnie po żółtej cyfrze 7 na czerwono-zielonej koszulce. Na zdjęciu w zbliżeniu widać naklejkę Beckett W162961."
+        "note": "Czarny podpis na dolnej części żółtej cyfry 7 na czerwono-zielonej koszulce. Na zbliżeniu naklejka Beckett W162961."
       },
-      "evidenceNote": "Allegro Charytatywni. Cena licytacji lub wywoławcza plus dostawa 40 zł; strona podaje brak prowizji Allegro. Autentyczność niezweryfikowana niezależnie. Czarny podpis biegnie ukośnie po żółtej cyfrze 7 na czerwono-zielonej koszulce. Na zdjęciu w zbliżeniu widać naklejkę Beckett W162961.",
+      "evidenceNote": "Allegro Charytatywni. Dostawa 40 zł, strona podaje brak prowizji Allegro. Czarny podpis na dolnej części żółtej cyfry 7 na czerwono-zielonej koszulce. Na zbliżeniu naklejka Beckett W162961.",
       "history": [
         {
           "at": "2026-11-23T08:19:29Z",
@@ -156,6 +156,10 @@
         },
         {
           "at": "2026-11-26T07:03:46.720423+00:00",
+          "price": 2520
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
           "price": 2520
         }
       ],
@@ -170,7 +174,7 @@
       "url": "https://allegro.pl/produkt/cr-ronaldo-real-madryt-koszulka-z-autografem-w-ramie-od-1zl-zag-c209a9c9-8dc2-4102-aa00-a59391d4e37b?offerId=19133052268",
       "image": "https://a.allegroimg.com/s720/fbdae7/e56301664f35ae53441ed60c0bf2/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-od-1zl-zag",
       "currency": "PLN",
-      "price": 2650,
+      "price": 2700,
       "shipping": 40,
       "fees": 0,
       "sellerCountry": null,
@@ -182,14 +186,14 @@
       "verifiedAt": null,
       "evidenceUrl": "https://allegro.pl/produkt/cr-ronaldo-real-madryt-koszulka-z-autografem-w-ramie-od-1zl-zag-c209a9c9-8dc2-4102-aa00-a59391d4e37b?offerId=19133052268",
       "firstSeen": "2026-11-23T08:19:05Z",
-      "lastSeen": "2026-11-26T07:03:46.720423+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "signatureEvidence": {
         "visibleSignature": true,
-        "imageUrl": "https://a.allegroimg.com/s720/11978b/d2163f194ebf8a1ccb9aacef5cc9/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-od-1zl-zag-Stan-opakowania-zastepcze",
+        "imageUrl": "https://a.allegroimg.com/s720/fbdae7/e56301664f35ae53441ed60c0bf2/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-od-1zl-zag",
         "imageType": "listing",
-        "note": "Srebrny podpis wzdłuż ukośnego ramienia niebieskiej cyfry 7. Na górze cyfry znajduje się naklejka PSA/DNA AB69352; numer zgadza się z dokumentem na fotografii."
+        "note": "Srebrny podpis wzdłuż ukośnego ramienia niebieskiej cyfry 7. Naklejka PSA/DNA AB69352 widoczna na zdjęciu zbliżenia."
       },
-      "evidenceNote": "Allegro Charytatywni. Cena licytacji lub wywoławcza plus dostawa 40 zł; strona podaje brak prowizji Allegro. Autentyczność niezweryfikowana niezależnie. Srebrny podpis wzdłuż ukośnego ramienia niebieskiej cyfry 7. Na górze cyfry znajduje się naklejka PSA/DNA AB69352; numer zgadza się z dokumentem na fotografii.",
+      "evidenceNote": "Allegro Charytatywni. Dostawa 40 zł, strona podaje brak prowizji Allegro. Srebrny podpis wzdłuż ukośnego ramienia niebieskiej cyfry 7. Naklejka PSA/DNA AB69352 widoczna na zdjęciu zbliżenia.",
       "history": [
         {
           "at": "2026-11-23T08:19:05Z",
@@ -198,6 +202,10 @@
         {
           "at": "2026-11-26T07:03:46.720423+00:00",
           "price": 2650
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
+          "price": 2700
         }
       ],
       "checkedBy": "source-page-and-photo-review"
@@ -220,21 +228,25 @@
       "active": true,
       "endAt": "2026-11-28T14:41:00Z",
       "firstSeen": "2026-11-26T07:03:46.720423+00:00",
-      "lastSeen": "2026-11-26T07:03:46.720423+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "authenticity": "unverified",
       "verifiedAt": null,
       "evidenceUrl": "https://allegro.pl/produkt/cr-ronaldo-real-madryt-koszulka-z-autografem-w-ramie-zag-3c9c398b-677f-4ed3-a760-e20cd1e01e9c?offerId=19134145110",
       "checkedBy": "source-page-and-photo-review",
-      "evidenceNote": "Allegro Charytatywni. Cena licytacji lub wywoławcza plus dostawa 40 zł; strona podaje brak prowizji Allegro. Autentyczność niezweryfikowana niezależnie. Jasny podpis wzdłuż ukośnego ramienia czarnej cyfry 7. Naklejka PSA/DNA AB69354 na górze cyfry odpowiada numerowi dokumentu na zdjęciu. Inny wzór numeru, podpis i numer certyfikatu niż w aukcji 19133052268.",
+      "evidenceNote": "Allegro Charytatywni. Dostawa 40 zł, strona podaje brak prowizji Allegro. Srebrny podpis wzdłuż czarnej cyfry 7. Na zbliżeniu naklejka PSA/DNA AB69354.",
       "signatureEvidence": {
         "visibleSignature": true,
-        "imageUrl": "https://a.allegroimg.com/s720/11c8dc/1fb8ed8e4647aea7bd0cac832788/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-zag-Stan-opakowania-zastepcze",
+        "imageUrl": "https://a.allegroimg.com/s720/fb8639/1f0bb9bd40a388bfcdfe8a8943ad/Cr-Ronaldo-Real-Madryt-koszulka-z-autografem-w-ramie-zag",
         "imageType": "listing",
-        "note": "Jasny podpis wzdłuż ukośnego ramienia czarnej cyfry 7. Naklejka PSA/DNA AB69354 na górze cyfry odpowiada numerowi dokumentu na zdjęciu. Inny wzór numeru, podpis i numer certyfikatu niż w aukcji 19133052268."
+        "note": "Srebrny podpis wzdłuż czarnej cyfry 7. Na zbliżeniu naklejka PSA/DNA AB69354."
       },
       "history": [
         {
           "at": "2026-11-26T07:03:46.720423+00:00",
+          "price": 3499
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
           "price": 3499
         }
       ]
@@ -259,7 +271,7 @@
       "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £549.99. Wariant w ramie: £659.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:24:49.098Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -280,6 +292,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 549.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 549.99
         }
       ],
@@ -312,7 +328,7 @@
       "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £549.99. Wariant w ramie: £659.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:24:38.331Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -333,6 +349,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 549.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 549.99
         }
       ],
@@ -365,7 +385,7 @@
       "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £689.99. Wariant w ramie: £799.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:02:02.142Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -386,6 +406,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 689.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 689.99
         }
       ],
@@ -418,7 +442,7 @@
       "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £489.99. Wariant w ramie: £599.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -447,6 +471,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 489.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 489.99
         }
       ],
@@ -479,7 +507,7 @@
       "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £689.99. Wariant w ramie: £799.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -508,6 +536,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 689.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 689.99
         }
       ],
@@ -540,7 +572,7 @@
       "evidenceNote": "Wariant bez ramy, dostępny do zakupu: £689.99. Wariant w ramie: £799.99. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Autentyczność konkretnego podpisu niezweryfikowana. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "verifiedAt": null,
       "firstSeen": "2026-11-21T09:22:53Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -557,6 +589,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 689.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 689.99
         }
       ],
@@ -589,7 +625,7 @@
       "evidenceUrl": "https://allstarsignings.com/product/framed-zinedine-zidane-signed-france-1998-shirt/",
       "evidenceNote": "Oznaczenie 1998 dotyczy modelu podanego przez sklep. Sklep deklaruje podpisanie 4 października 2025 r. i COA/JSA. Zdjęcie katalogowe pokazuje podpis, ale nie identyfikuje wysyłanego egzemplarza. Oficjalna strona dostawy deklaruje wysyłkę międzynarodową z Wielkiej Brytanii; brak potwierdzenia i wyceny trasy dla Polski. Koszt i należności importowe nieustalone. Stan wybranego wariantu potwierdza aktywny przycisk Add to basket.",
       "firstSeen": "2026-11-23T09:00:43.529792+00:00",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -602,6 +638,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 799.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 799.99
         }
       ],
@@ -667,10 +707,10 @@
         "imageType": "catalog",
         "note": "Jasny podpis wzdłuż prawego boku czarnej cyfry 9 na białej koszulce. Sprzedawca zastrzega, że zdjęcie i numer certyfikatu mogą dotyczyć innego podpisanego egzemplarza."
       },
-      "price": 290,
+      "price": 350,
       "currency": "EUR",
       "shipping": 40,
-      "fees": 29.1,
+      "fees": 34.5,
       "sellerCountry": "NL",
       "shipsToPL": true,
       "saleType": "auction",
@@ -679,15 +719,19 @@
       "authenticity": "unverified",
       "verifiedAt": null,
       "evidenceUrl": "https://www.catawiki.com/en/l/108476275-real-madrid-european-football-league-ronaldo-de-lima-premium-frame-jersey",
-      "evidenceNote": "Jasny podpis wzdłuż prawego boku czarnej cyfry 9 na białej koszulce. Sprzedawca zastrzega, że zdjęcie i numer certyfikatu mogą dotyczyć innego podpisanego egzemplarza. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 40 EUR. Opłata ochronna przy bieżącej stawce wynosi 29.1 EUR i rośnie wraz ze stawką.",
+      "evidenceNote": "Jasny podpis wzdłuż prawego boku czarnej cyfry 9 na białej koszulce. Sprzedawca zastrzega, że zdjęcie i numer certyfikatu mogą dotyczyć innego podpisanego egzemplarza. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 40 EUR. Opłata ochronna przy bieżącej stawce wynosi 34.5 EUR i rośnie wraz ze stawką.",
       "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC.",
-      "lastSeen": "2026-11-26T07:07:45+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "checkedBy": "browser-agent",
       "firstSeen": "2026-11-26T07:07:45+00:00",
       "history": [
         {
           "at": "2026-11-26T07:07:45+00:00",
           "price": 290
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
+          "price": 350
         }
       ]
     },
@@ -700,10 +744,10 @@
       "title": "Ronaldo Nazário — koszulka Brazylii2024 nr9 w ramie (aukcja)",
       "url": "https://www.catawiki.com/en/l/108476317-brazil-football-world-championships-ronaldo-de-lima-premium-frame-jersey",
       "image": "https://assets.catawiki.com/image/cw_ldp_l/plain/assets/catawiki/assets/2025/11/20/a/6/b/a6b2b26d-360b-4851-9c26-0789a69284cd.jpg@webp",
-      "price": 400,
+      "price": 420,
       "currency": "EUR",
       "shipping": 40,
-      "fees": 39.0,
+      "fees": 40.8,
       "sellerCountry": "NL",
       "shipsToPL": true,
       "saleType": "auction",
@@ -712,7 +756,7 @@
       "authenticity": "unverified",
       "verifiedAt": null,
       "evidenceUrl": "https://www.catawiki.com/en/l/108476317-brazil-football-world-championships-ronaldo-de-lima-premium-frame-jersey",
-      "lastSeen": "2026-11-26T07:07:45+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "history": [
         {
           "at": "2026-11-23T08:12:52.137263+00:00",
@@ -725,6 +769,10 @@
         {
           "at": "2026-11-26T07:07:45+00:00",
           "price": 400
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
+          "price": 420
         }
       ],
       "checkedBy": "browser-agent",
@@ -734,7 +782,7 @@
         "note": "Czarny podpis wzdłuż prawego boku zielonej cyfry 9 na żółtych plecach koszulki w ramie. Sprzedawca zastrzega, że zdjęcie i numer certyfikatu mogą dotyczyć innego podpisanego egzemplarza.",
         "imageType": "catalog"
       },
-      "evidenceNote": "Czarny podpis wzdłuż prawego boku zielonej cyfry 9 na żółtych plecach koszulki w ramie. Sprzedawca zastrzega, że zdjęcie i numer certyfikatu mogą dotyczyć innego podpisanego egzemplarza. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 40 EUR. Opłata ochronna przy bieżącej stawce wynosi 39 EUR i rośnie wraz ze stawką.",
+      "evidenceNote": "Czarny podpis wzdłuż prawego boku zielonej cyfry 9 na żółtych plecach koszulki w ramie. Sprzedawca zastrzega, że zdjęcie i numer certyfikatu mogą dotyczyć innego podpisanego egzemplarza. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 40 EUR. Opłata ochronna przy bieżącej stawce wynosi 40.8 EUR i rośnie wraz ze stawką.",
       "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC."
     },
     {
@@ -811,11 +859,11 @@
       "shipsToPL": true,
       "saleType": "auction",
       "endAt": "2026-11-26T20:43:00Z",
-      "active": true,
+      "active": false,
       "authenticity": "unverified",
       "verifiedAt": null,
       "evidenceUrl": "https://www.catawiki.com/en/l/108549376-2022-23-panini-select-serie-a-zinedine-zidane-autograph-1-card-near-mint-nm",
-      "evidenceNote": "Niebieski podpis na jasnym prostokątnym polu poniżej sylwetki Zidane’a w koszulce Juventusu. Bieżąca stawka aukcyjna. Cena minimalna osiągnięta. Dostawa do Polski 30 EUR. Opłata ochronna przy bieżącej stawce wynosi 19.2 EUR i rośnie wraz ze stawką.",
+      "evidenceNote": "Catawiki oznaczyło lot jako sprzedany. Końcowa stawka: 180 EUR bez opłaty i dostawy.",
       "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC.",
       "lastSeen": "2026-11-26T07:07:45+00:00",
       "checkedBy": "browser-agent",
@@ -825,7 +873,10 @@
           "at": "2026-11-26T07:07:45+00:00",
           "price": 180
         }
-      ]
+      ],
+      "closedStatus": "sold",
+      "closedStatusCheckedAt": "2026-11-27T08:07:28+00:00",
+      "finalBid": 180
     },
     {
       "firstSeen": "2026-11-19T08:03:09.913Z",
@@ -844,7 +895,7 @@
       "shipsToPL": true,
       "saleType": "auction",
       "endAt": "2026-11-26T20:51:00Z",
-      "active": true,
+      "active": false,
       "authenticity": "unverified",
       "verifiedAt": null,
       "evidenceUrl": "https://www.catawiki.com/en/l/108581627-2023-24-panini-immaculate-collection-zinedine-zidane-autograph-49-numbered-parallel-1-card-near-mint-nm",
@@ -870,8 +921,11 @@
         "imageType": "listing",
         "note": "Niebieski podpis na dolnym jasnym panelu karty Panini Immaculate, poniżej sylwetki Zidane’a. Numer 36/49 nadrukowany z prawej strony arkusza."
       },
-      "evidenceNote": "Niebieski podpis na dolnym jasnym panelu karty Panini Immaculate, poniżej sylwetki Zidane’a. Numer 36/49 nadrukowany z prawej strony arkusza. Bieżąca stawka aukcyjna. Cena minimalna osiągnięta. Dostawa do Polski 8 EUR. Opłata ochronna przy bieżącej stawce wynosi 24.6 EUR i rośnie wraz ze stawką.",
-      "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC."
+      "evidenceNote": "Catawiki oznaczyło lot jako sprzedany. Końcowa stawka: 240 EUR bez opłaty i dostawy.",
+      "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC.",
+      "closedStatus": "sold",
+      "closedStatusCheckedAt": "2026-11-27T08:07:28+00:00",
+      "finalBid": 240
     },
     {
       "id": "catawiki:108691573",
@@ -901,12 +955,16 @@
       "evidenceUrl": "https://www.catawiki.com/en/l/108691573-manchester-united-english-football-league-cristiano-ronaldo-football-shirt",
       "evidenceNote": "Ciemny podpis biegnie wzdłuż ukośnej kreski białej cyfry 7 na czerwonych plecach koszulki. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 55 EUR. Opłata ochronna przy bieżącej stawce wynosi 16.5 EUR i rośnie wraz ze stawką.",
       "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC.",
-      "lastSeen": "2026-11-26T07:07:45+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "checkedBy": "browser-agent",
       "firstSeen": "2026-11-26T07:07:45+00:00",
       "history": [
         {
           "at": "2026-11-26T07:07:45+00:00",
+          "price": 150
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
           "price": 150
         }
       ]
@@ -925,10 +983,10 @@
         "imageType": "listing",
         "note": "Czarny podpis na pionowej części białej cyfry 1, powyżej naklejki na niebiesko-czarnej koszulce. Sprzedawca opisuje koszulkę jako licencjonowaną replikę z podpisem."
       },
-      "price": 150,
+      "price": 500,
       "currency": "EUR",
       "shipping": 60,
-      "fees": 16.5,
+      "fees": 48.0,
       "sellerCountry": "FR",
       "shipsToPL": true,
       "saleType": "auction",
@@ -937,15 +995,19 @@
       "authenticity": "unverified",
       "verifiedAt": null,
       "evidenceUrl": "https://www.catawiki.com/en/l/108713373-inter-milan-italian-football-league-ronaldo-1998-football-shirt",
-      "evidenceNote": "Czarny podpis na pionowej części białej cyfry 1, powyżej naklejki na niebiesko-czarnej koszulce. Sprzedawca opisuje koszulkę jako licencjonowaną replikę z podpisem. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 60 EUR. Opłata ochronna przy bieżącej stawce wynosi 16.5 EUR i rośnie wraz ze stawką.",
+      "evidenceNote": "Czarny podpis na pionowej części białej cyfry 1, powyżej naklejki na niebiesko-czarnej koszulce. Sprzedawca opisuje koszulkę jako licencjonowaną replikę z podpisem. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 60 EUR. Opłata ochronna przy bieżącej stawce wynosi 48 EUR i rośnie wraz ze stawką.",
       "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC.",
-      "lastSeen": "2026-11-26T07:07:45+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "checkedBy": "browser-agent",
       "firstSeen": "2026-11-26T07:07:45+00:00",
       "history": [
         {
           "at": "2026-11-26T07:07:45+00:00",
           "price": 150
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
+          "price": 500
         }
       ]
     },
@@ -977,12 +1039,16 @@
       "evidenceUrl": "https://www.catawiki.com/en/l/108790662-juventus-italian-football-league-cristiano-ronaldo-2019-football-jersey",
       "evidenceNote": "Czarny podpis wewnątrz dolnej części białej cyfry 7 na czarnych plecach koszulki. Bardzo podobna oprawa oraz położenie podpisu i naklejki w locie 108457317; nie potwierdzono dwóch odrębnych egzemplarzy. Bieżąca stawka aukcyjna. Cena minimalna nieosiągnięta. Dostawa do Polski 35 EUR. Opłata ochronna przy bieżącej stawce wynosi 30 EUR i rośnie wraz ze stawką.",
       "endTimeEvidence": "Bezwzględny termin z widocznego licznika Catawiki i jego atrybutu z datą, przeliczony z CET na UTC.",
-      "lastSeen": "2026-11-26T07:07:45+00:00",
+      "lastSeen": "2026-11-27T08:07:28+00:00",
       "checkedBy": "browser-agent",
       "firstSeen": "2026-11-26T07:07:45+00:00",
       "history": [
         {
           "at": "2026-11-26T07:07:45+00:00",
+          "price": 300
+        },
+        {
+          "at": "2026-11-27T08:07:28+00:00",
           "price": 300
         }
       ]
@@ -1157,10 +1223,10 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.comc.com/Cards/Soccer/2024-25/Panini_Select_FIFA_-_Select_Signatures/SS-ZZ/Zinedine_Zidane/29439214",
-      "evidenceNote": "Ostatni egzemplarz w magazynie, COMC Item 332557022, 281.36 USD. Podpis niebieskim atramentem w centralnym jasnym panelu, pod portretem Zidane’a w stroju Francji i nad nazwiskiem. Na publicznej stronie Shipping Rates po wybraniu POLAND: Guest IMEX Global bez śledzenia, 7,49 USD za pierwszy przedmiot, 0 USD za dodatkowe, 71 dni pakowania, szacowana dostawa 25.03.2027. Delivered Duties Unpaid. Koszty importu nieustalone. Autentyczność niezweryfikowana niezależnie.",
+      "evidenceNote": "Ostatni egzemplarz w magazynie, COMC Item 332557022, 281.36 USD. Podpis niebieskim atramentem w centralnym jasnym panelu, pod portretem Zidane’a w stroju Francji i nad nazwiskiem. Na publicznej stronie Shipping Rates po wybraniu POLAND: Guest IMEX Global bez śledzenia, 7,49 USD za pierwszy przedmiot, 0 USD za dodatkowe, 69 dni pakowania, szacowana dostawa 25.03.2027. Delivered Duties Unpaid. Koszty importu nieustalone. Autentyczność niezweryfikowana niezależnie.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:45:53.912522Z",
-      "lastSeen": "2026-11-26T07:06:42.490372+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "history": [
         {
@@ -1181,6 +1247,10 @@
         },
         {
           "at": "2026-11-26T07:06:42.490372+00:00",
+          "price": 281.36
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
           "price": 281.36
         }
       ],
@@ -1210,10 +1280,10 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.comc.com/Cards/Soccer/2025-26/Panini_Prizm_FIFA_-_Club_Legends_Signatures/CL-ZZ/Zinedine_Zidane/32637544",
-      "evidenceNote": "Ostatni egzemplarz w magazynie, COMC Item 339873322, 220.10 USD. Podpis niebieskim atramentem na jasnym panelu pod nadrukiem Club Legends, powyżej nazwiska Zidane. Na publicznej stronie Shipping Rates po wybraniu POLAND: Guest IMEX Global bez śledzenia, 7,49 USD za pierwszy przedmiot, 0 USD za dodatkowe, 71 dni pakowania, szacowana dostawa 25.03.2027. Delivered Duties Unpaid. Koszty importu nieustalone. Autentyczność niezweryfikowana niezależnie.",
+      "evidenceNote": "Ostatni egzemplarz w magazynie, COMC Item 339873322, 220.10 USD. Podpis niebieskim atramentem na jasnym panelu pod nadrukiem Club Legends, powyżej nazwiska Zidane. Na publicznej stronie Shipping Rates po wybraniu POLAND: Guest IMEX Global bez śledzenia, 7,49 USD za pierwszy przedmiot, 0 USD za dodatkowe, 69 dni pakowania, szacowana dostawa 25.03.2027. Delivered Duties Unpaid. Koszty importu nieustalone. Autentyczność niezweryfikowana niezależnie.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:45:53.912522Z",
-      "lastSeen": "2026-11-26T07:06:42.490372+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "history": [
         {
@@ -1234,6 +1304,10 @@
         },
         {
           "at": "2026-11-26T07:06:42.490372+00:00",
+          "price": 220.1
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
           "price": 220.1
         }
       ],
@@ -1279,6 +1353,42 @@
         {
           "at": "2026-11-26T07:01:32.975236+00:00",
           "price": 399.99
+        }
+      ]
+    },
+    {
+      "id": "ebay:v1|127429710571|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "2025 Topps Decades UCC Ronaldo (R9) Nazario Pioneer Auto 1/5 Inter Mailand BRA",
+      "url": "https://www.ebay.de/itm/127429710571",
+      "image": "https://i.ebayimg.com/images/g/H9YAAeSwpCRqqEsH/s-l1600.jpg",
+      "price": 1280.0,
+      "currency": "EUR",
+      "shipping": 14.49,
+      "fees": null,
+      "sellerCountry": "DE",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/127429710571",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:07.732463+00:00",
+      "lastSeen": "2026-11-27T08:05:07.732463+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Niebieski podpis w dolnym polu karty Topps Decades Pioneer, numer 1/5. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/H9YAAeSwpCRqqEsH/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Niebieski podpis w dolnym polu karty Topps Decades Pioneer, numer 1/5."
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:07.732463+00:00",
+          "price": 1280.0
         }
       ]
     },
@@ -1360,6 +1470,42 @@
         {
           "at": "2026-11-26T07:02:01.660264+00:00",
           "price": 594.85
+        }
+      ]
+    },
+    {
+      "id": "ebay:v1|128133278040|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "card",
+      "title": "2025/26 Topps Gold UCC - Ronaldo Nazario R9 Inter Milan Red Legend Auto /5",
+      "url": "https://www.ebay.de/itm/128133278040",
+      "image": "https://i.ebayimg.com/images/g/sp8AAeSwE55qcdt5/s-l1600.jpg",
+      "price": 899.99,
+      "currency": "EUR",
+      "shipping": 19.99,
+      "fees": null,
+      "sellerCountry": "DE",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/128133278040",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:07.584184+00:00",
+      "lastSeen": "2026-11-27T08:05:07.584184+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Niebieski podpis w dolnym jasnym polu Golden Greats; widoczny numer 1/5. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/sp8AAeSwE55qcdt5/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Niebieski podpis w dolnym jasnym polu Golden Greats; widoczny numer 1/5."
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:07.584184+00:00",
+          "price": 899.99
         }
       ]
     },
@@ -1678,7 +1824,7 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-17T10:07:26.795Z",
-      "lastSeen": "2026-11-26T07:01:26.535499+00:00",
+      "lastSeen": "2026-11-27T08:05:05.197889+00:00",
       "checkedBy": "production-api-and-photo-review",
       "evidenceNote": "Niebieski podpis na srebrnym polu Origins pod nazwiskiem Zidane. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
@@ -1706,6 +1852,10 @@
         },
         {
           "at": "2026-11-26T07:01:26.535499+00:00",
+          "price": 250.0
+        },
+        {
+          "at": "2026-11-27T08:05:05.197889+00:00",
           "price": 250.0
         }
       ]
@@ -1971,6 +2121,49 @@
       "signatureReviewRequired": false
     },
     {
+      "id": "ebay:v1|227017605257|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "ZINEDINE ZIDANE SIGNIERTES REAL MADRID FUSSBALLTRIKOT & BEWEIS EXKLUSIV FÜR ALLSTARS",
+      "url": "https://www.ebay.de/itm/227017605257",
+      "image": "https://i.ebayimg.com/images/g/DjgAAeSwxEpo6ONw/s-l1600.jpg",
+      "price": 717.49,
+      "currency": "GBP",
+      "shipping": 34.96,
+      "fees": 92.0,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/227017605257",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:07.026273+00:00",
+      "lastSeen": "2026-11-27T08:05:07.026273+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Jasny podpis na górnej czarnej części cyfry 5, na białej koszulce Realu Madryt. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/DjgAAeSwxEpo6ONw/s-l1600.jpg",
+        "imageType": "catalog",
+        "note": "Jasny podpis na górnej czarnej części cyfry 5, na białej koszulce Realu Madryt."
+      },
+      "feeQuote": {
+        "value": 92.0,
+        "currency": "GBP",
+        "type": "estimated import fee",
+        "estimated": true,
+        "source": "eBay Browse getItem"
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:07.026273+00:00",
+          "price": 717.49
+        }
+      ]
+    },
+    {
       "id": "ebay:v1|236782398529|0",
       "source": "eBay",
       "player": "nazario",
@@ -2088,6 +2281,42 @@
         "imageUrl": "https://i.ebayimg.com/images/g/F1AAAeSw6gpq5MOP/s-l500.webp",
         "note": "Niebieski podpis na szerokim białym panelu pośrodku karty Select, poniżej wizerunku Zidane’a w koszulce Francji."
       }
+    },
+    {
+      "id": "ebay:v1|256550888446|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "GERAHMTES Ronaldo Nazario von Madrid signiertes Shirt Autogramm Trikot BECKETT COA",
+      "url": "https://www.ebay.de/itm/256550888446",
+      "image": "https://i.ebayimg.com/images/g/5bMAAOSwXOtmdslO/s-l1600.jpg",
+      "price": 695.0,
+      "currency": "GBP",
+      "shipping": 44.0,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/256550888446",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:07.688423+00:00",
+      "lastSeen": "2026-11-27T08:05:07.688423+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Srebrny podpis na prawej czarnej cyfrze 1 na białej koszulce Realu nr 11 w ramie. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/5bMAAOSwXOtmdslO/s-l1600.jpg",
+        "imageType": "catalog",
+        "note": "Srebrny podpis na prawej czarnej cyfrze 1 na białej koszulce Realu nr 11 w ramie."
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:07.688423+00:00",
+          "price": 695.0
+        }
+      ]
     },
     {
       "id": "ebay:v1|256861806536|0",
@@ -2243,6 +2472,49 @@
         "note": "Czarny podpis na białej cyfrze 1 numeru 10 na plecach niebieskiej koszulki Francji w ramie.",
         "checkedAt": "2026-11-21T09:20:00Z"
       }
+    },
+    {
+      "id": "ebay:v1|266872009468|0",
+      "source": "eBay",
+      "player": "nazario",
+      "category": "shirt",
+      "title": "Ronaldo Nazario of Brazil Signed Shirt Autogramm Trikot BECKETT! Silber Kugelschreiber",
+      "url": "https://www.ebay.de/itm/266872009468",
+      "image": "https://i.ebayimg.com/images/g/DgQAAOSwrltmdzDL/s-l1600.jpg",
+      "price": 854.85,
+      "currency": "GBP",
+      "shipping": 41.75,
+      "fees": 109.64,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/266872009468",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:08.126226+00:00",
+      "lastSeen": "2026-11-27T08:05:08.126226+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Srebrny podpis na prawej części zielonej cyfry 9 na żółtej koszulce Brazylii w ramie. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/DgQAAOSwrltmdzDL/s-l1600.jpg",
+        "imageType": "catalog",
+        "note": "Srebrny podpis na prawej części zielonej cyfry 9 na żółtej koszulce Brazylii w ramie."
+      },
+      "feeQuote": {
+        "value": 109.64,
+        "currency": "GBP",
+        "type": "estimated import fee",
+        "estimated": true,
+        "source": "eBay Browse getItem"
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:08.126226+00:00",
+          "price": 854.85
+        }
+      ]
     },
     {
       "id": "ebay:v1|276774797885|0",
@@ -2485,14 +2757,14 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-17T10:09:29.088Z",
-      "lastSeen": "2026-11-26T07:01:29.816935+00:00",
+      "lastSeen": "2026-11-27T08:05:05.980777+00:00",
       "checkedBy": "production-api-and-photo-review",
-      "evidenceNote": "Srebrny podpis na białej cyfrze 7 z tyłu czerwonej koszulki Portugalii. Opis podaje numer 17, zdjęcie pokazuje 7. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "evidenceNote": "Srebrny podpis wewnątrz białej cyfry 7 na czerwonej koszulce. Opis sprzedawcy podaje 17, zdjęcie pokazuje 7. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://i.ebayimg.com/images/g/OmgAAeSw0fJqjgjw/s-l1600.jpg",
         "imageType": "listing",
-        "note": "Srebrny podpis na białej cyfrze 7 z tyłu czerwonej koszulki Portugalii. Opis podaje numer 17, zdjęcie pokazuje 7."
+        "note": "Srebrny podpis wewnątrz białej cyfry 7 na czerwonej koszulce. Opis sprzedawcy podaje 17, zdjęcie pokazuje 7."
       },
       "history": [
         {
@@ -2509,6 +2781,10 @@
         },
         {
           "at": "2026-11-26T07:01:29.816935+00:00",
+          "price": 175.0
+        },
+        {
+          "at": "2026-11-27T08:05:05.980777+00:00",
           "price": 175.0
         }
       ]
@@ -2530,11 +2806,11 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": null,
-      "evidenceNote": "Ponownie odczytano aktualny getItem w kontekście Polski i obejrzano zdjęcie podpisu. Autentyczność podpisu ani certyfikat nie zostały niezależnie zweryfikowane. Zapisano oryginalną walutę ceny i dostawy. Brak pełnej osobnej wyceny importu/podatków; fees=null. ",
+      "evidenceNote": "eBay Browse zwrócił OUT_OF_STOCK, a termin 26.11.2026 minął. Przyczyna zakończenia nieustalona.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:09:15.976Z",
       "lastSeen": "2026-11-21T09:43:48Z",
-      "active": true,
+      "active": false,
       "history": [
         {
           "at": "2026-11-17T10:09:15.976Z",
@@ -2728,7 +3004,7 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-17T10:07:25.732Z",
-      "lastSeen": "2026-11-26T07:01:26.483107+00:00",
+      "lastSeen": "2026-11-27T08:05:05.234214+00:00",
       "checkedBy": "production-api-and-photo-review",
       "evidenceNote": "Niebieski podpis na jasnym polu poniżej sylwetki Zidane’a na zielonej karcie Topps Chrome. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
@@ -2755,6 +3031,10 @@
         },
         {
           "at": "2026-11-26T07:01:26.483107+00:00",
+          "price": 276.75
+        },
+        {
+          "at": "2026-11-27T08:05:05.234214+00:00",
           "price": 276.75
         }
       ]
@@ -2843,7 +3123,7 @@
       "title": "Zinedine Zidane Auto 78/99 Panini Select FIFA World Cup Stars Purple",
       "url": "https://www.ebay.pl/itm/318826033736",
       "image": "https://i.ebayimg.com/images/g/aGUAAeSwzMRqmwI4/s-l1600.jpg",
-      "price": 300,
+      "price": 300.0,
       "currency": "USD",
       "shipping": 12.5,
       "fees": null,
@@ -2852,11 +3132,18 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.ebay.pl/itm/318826033736",
-      "evidenceNote": "Niebieski odręczny podpis w jasnym panelu pod postacią Zidane na karcie Panini Select. Aktualne dane cenowe i wycena dostawy do Polski z eBay. Autentyczność niezweryfikowana niezależnie.",
       "verifiedAt": null,
-      "firstSeen": "2026-11-17T10:08:07.364Z",
-      "lastSeen": "2026-11-23T08:07:55.098300+00:00",
       "active": true,
+      "firstSeen": "2026-11-17T10:08:07.364Z",
+      "lastSeen": "2026-11-27T08:05:05.111240+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Niebieski podpis na białym polu pod wizerunkiem Zidane’a w koszulce Francji. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/aGUAAeSwzMRqmwI4/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Niebieski podpis na białym polu pod wizerunkiem Zidane’a w koszulce Francji."
+      },
       "history": [
         {
           "at": "2026-11-17T10:08:07.364Z",
@@ -2869,15 +3156,12 @@
         {
           "at": "2026-11-23T08:07:55.098300+00:00",
           "price": 300
+        },
+        {
+          "at": "2026-11-27T08:05:05.111240+00:00",
+          "price": 300.0
         }
-      ],
-      "checkedBy": "production-api-and-photo-review",
-      "signatureEvidence": {
-        "visibleSignature": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/aGUAAeSwzMRqmwI4/s-l1600.jpg",
-        "imageType": "listing",
-        "note": "Niebieski odręczny podpis w jasnym panelu pod postacią Zidane na karcie Panini Select."
-      }
+      ]
     },
     {
       "id": "ebay:v1|327397582989|0",
@@ -2956,6 +3240,42 @@
         "imageUrl": "https://i.ebayimg.com/images/g/CjMAAeSwxNFq0~X8/s-l1600.jpg",
         "note": "Srebrny odręczny podpis na prawej dolnej części czarnej cyfry5 na plecach białej koszulki Realu."
       }
+    },
+    {
+      "id": "ebay:v1|356087610495|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "shirt",
+      "title": "Gerahmtes Zinedine Zidane signiertes Frankreich Trikot Home 2004-06 [Classic]",
+      "url": "https://www.ebay.de/itm/356087610495",
+      "image": "https://i.ebayimg.com/images/g/tm8AAOSw-S1m9v~0/s-l1600.jpg",
+      "price": 700.0,
+      "currency": "GBP",
+      "shipping": 29.99,
+      "fees": null,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/356087610495",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:07.169494+00:00",
+      "lastSeen": "2026-11-27T08:05:07.169494+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Jasny podpis wewnątrz zera na oprawionej niebieskiej koszulce Francji. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/tm8AAOSw-S1m9v~0/s-l1600.jpg",
+        "imageType": "catalog",
+        "note": "Jasny podpis wewnątrz zera na oprawionej niebieskiej koszulce Francji."
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:07.169494+00:00",
+          "price": 700.0
+        }
+      ]
     },
     {
       "id": "ebay:v1|357054152514|0",
@@ -3219,14 +3539,14 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-17T10:08:16.790Z",
-      "lastSeen": "2026-11-26T07:01:27.537515+00:00",
+      "lastSeen": "2026-11-27T08:05:05.964143+00:00",
       "checkedBy": "production-api-and-photo-review",
-      "evidenceNote": "Czarny podpis nakreślony przez portret i czerwoną koszulkę Cristiano na naklejce z Euro 2020. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "evidenceNote": "Czarny podpis przechodzi przez portret i czerwoną koszulkę na naklejce Euro 2020. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://i.ebayimg.com/images/g/ISgAAeSwveVq3F0o/s-l1600.jpg",
         "imageType": "listing",
-        "note": "Czarny podpis nakreślony przez portret i czerwoną koszulkę Cristiano na naklejce z Euro 2020."
+        "note": "Czarny podpis przechodzi przez portret i czerwoną koszulkę na naklejce Euro 2020."
       },
       "history": [
         {
@@ -3243,6 +3563,10 @@
         },
         {
           "at": "2026-11-26T07:01:27.537515+00:00",
+          "price": 319.99
+        },
+        {
+          "at": "2026-11-27T08:05:05.964143+00:00",
           "price": 319.99
         }
       ]
@@ -3349,7 +3673,7 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-17T10:08:49.321Z",
-      "lastSeen": "2026-11-26T07:01:27.003222+00:00",
+      "lastSeen": "2026-11-27T08:05:05.158145+00:00",
       "checkedBy": "production-api-and-photo-review",
       "evidenceNote": "Ciemny podpis w białym wnętrzu cyfry 0 na koszulce Francji. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
@@ -3377,6 +3701,10 @@
         },
         {
           "at": "2026-11-26T07:01:27.003222+00:00",
+          "price": 305.0
+        },
+        {
+          "at": "2026-11-27T08:05:05.158145+00:00",
           "price": 305.0
         }
       ]
@@ -3486,7 +3814,7 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-21T09:18:31Z",
-      "lastSeen": "2026-11-26T07:01:30.349105+00:00",
+      "lastSeen": "2026-11-27T08:05:06.285643+00:00",
       "checkedBy": "production-api-and-photo-review",
       "evidenceNote": "Niebieski podpis w dolnym jasnym polu karty Donruss The Beautiful Game. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
@@ -3510,6 +3838,10 @@
         },
         {
           "at": "2026-11-26T07:01:30.349105+00:00",
+          "price": 300.0
+        },
+        {
+          "at": "2026-11-27T08:05:06.285643+00:00",
           "price": 300.0
         }
       ]
@@ -3766,14 +4098,14 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-21T09:18:31Z",
-      "lastSeen": "2026-11-26T07:01:29.305937+00:00",
+      "lastSeen": "2026-11-27T08:05:06.441718+00:00",
       "checkedBy": "production-api-and-photo-review",
-      "evidenceNote": "Ciemny podpis na żółtym materiale po lewej stronie dolnej części zielonej cyfry 9. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "evidenceNote": "Ciemny podpis na żółtym materiale obok zielonej cyfry 9. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
         "visibleSignature": true,
         "imageUrl": "https://i.ebayimg.com/images/g/mCEAAeSwAIBo285l/s-l1600.jpg",
         "imageType": "listing",
-        "note": "Ciemny podpis na żółtym materiale po lewej stronie dolnej części zielonej cyfry 9."
+        "note": "Ciemny podpis na żółtym materiale obok zielonej cyfry 9."
       },
       "history": [
         {
@@ -3782,6 +4114,10 @@
         },
         {
           "at": "2026-11-26T07:01:29.305937+00:00",
+          "price": 290.0
+        },
+        {
+          "at": "2026-11-27T08:05:06.441718+00:00",
           "price": 290.0
         }
       ]
@@ -3872,18 +4208,25 @@
       "image": "https://i.ebayimg.com/images/g/P6wAAeSwwilqC31d/s-l1600.jpg",
       "price": 334.8,
       "currency": "USD",
-      "shipping": 20,
+      "shipping": 20.0,
       "fees": null,
       "sellerCountry": "ES",
       "shipsToPL": true,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.ebay.pl/itm/398250510292",
-      "evidenceNote": "Czarny odręczny podpis na żółtym materiale po lewej stronie dolnej części zielonej cyfry 9. Aktualne dane cenowe i wycena dostawy do Polski z eBay. Autentyczność niezweryfikowana niezależnie.",
       "verifiedAt": null,
-      "firstSeen": "2026-11-19T08:23:30.464Z",
-      "lastSeen": "2026-11-23T08:07:57.539066+00:00",
       "active": true,
+      "firstSeen": "2026-11-19T08:23:30.464Z",
+      "lastSeen": "2026-11-27T08:05:06.551991+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Czarny podpis na żółtym materiale po lewej stronie od cyfry 9, ze sfotografowanym COA. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/P6wAAeSwwilqC31d/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Czarny podpis na żółtym materiale po lewej stronie od cyfry 9, ze sfotografowanym COA."
+      },
       "history": [
         {
           "at": "2026-11-19T08:23:30.464Z",
@@ -3892,15 +4235,12 @@
         {
           "at": "2026-11-23T08:07:57.539066+00:00",
           "price": 334.8
+        },
+        {
+          "at": "2026-11-27T08:05:06.551991+00:00",
+          "price": 334.8
         }
-      ],
-      "checkedBy": "production-api-and-photo-review",
-      "signatureEvidence": {
-        "visibleSignature": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/P6wAAeSwwilqC31d/s-l1600.jpg",
-        "imageType": "listing",
-        "note": "Czarny odręczny podpis na żółtym materiale po lewej stronie dolnej części zielonej cyfry 9."
-      }
+      ]
     },
     {
       "id": "ebay:v1|398250510410|0",
@@ -4070,18 +4410,25 @@
       "image": "https://i.ebayimg.com/images/g/G40AAOSw3uJmjTV3/s-l1600.jpg",
       "price": 349.99,
       "currency": "EUR",
-      "shipping": 7,
+      "shipping": 7.0,
       "fees": null,
       "sellerCountry": "FR",
       "shipsToPL": true,
       "saleType": "fixed",
       "authenticity": "unverified",
-      "evidenceUrl": null,
-      "evidenceNote": "Ponownie odczytano aktualny getItem w kontekście Polski i obejrzano zdjęcie podpisu. Autentyczność podpisu ani certyfikat nie zostały niezależnie zweryfikowane. Zapisano oryginalną walutę ceny i dostawy. Brak pełnej osobnej wyceny importu/podatków; fees=null. ",
+      "evidenceUrl": "https://www.ebay.de/itm/405088545064",
       "verifiedAt": null,
-      "firstSeen": "2026-11-17T10:08:29.526Z",
-      "lastSeen": "2026-11-21T09:43:51Z",
       "active": true,
+      "firstSeen": "2026-11-17T10:08:29.526Z",
+      "lastSeen": "2026-11-27T08:05:05.669401+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Czarny podpis przez tors Cristiano na karcie Panini Hero 205. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/G40AAOSw3uJmjTV3/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Czarny podpis przez tors Cristiano na karcie Panini Hero 205."
+      },
       "history": [
         {
           "at": "2026-11-17T10:08:29.526Z",
@@ -4090,16 +4437,12 @@
         {
           "at": "2026-11-21T09:43:51Z",
           "price": 349.99
+        },
+        {
+          "at": "2026-11-27T08:05:05.669401+00:00",
+          "price": 349.99
         }
-      ],
-      "checkedBy": "production-api-photo-review",
-      "signatureReviewRequired": false,
-      "reviewHoldReason": null,
-      "signatureEvidence": {
-        "visibleSignature": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/G40AAOSw3uJmjTV3/s-l1600.jpg",
-        "note": "Czarny odręczny podpis przez środek karty Panini Qatar2022#205, na czerwonym stroju oraz polu pod szyją Cristiano."
-      }
+      ]
     },
     {
       "id": "ebay:v1|405487653915|0",
@@ -4121,7 +4464,7 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-17T10:08:27.939Z",
-      "lastSeen": "2026-11-26T07:01:27.012473+00:00",
+      "lastSeen": "2026-11-27T08:05:05.700648+00:00",
       "checkedBy": "production-api-and-photo-review",
       "evidenceNote": "Czarny podpis na dolnej połowie portretu Cristiano w koszulce Juventusu. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
@@ -4141,6 +4484,10 @@
         },
         {
           "at": "2026-11-26T07:01:27.012473+00:00",
+          "price": 299.99
+        },
+        {
+          "at": "2026-11-27T08:05:05.700648+00:00",
           "price": 299.99
         }
       ]
@@ -4450,6 +4797,49 @@
       }
     },
     {
+      "id": "ebay:v1|800969524351|0",
+      "source": "eBay",
+      "player": "zidane",
+      "category": "card",
+      "title": "Panini 2024-25 Select Signatures Zinedine Zidane Auto JUVENTUS/FRANCE",
+      "url": "https://www.ebay.de/itm/800969524351",
+      "image": "https://i.ebayimg.com/images/g/LwkAAeSwSL5rCDpC/s-l1600.jpg",
+      "price": 179.83,
+      "currency": "GBP",
+      "shipping": 22.55,
+      "fees": 2.05,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/800969524351",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:06.982956+00:00",
+      "lastSeen": "2026-11-27T08:05:06.982956+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Niebieski podpis w jasnym panelu pod sylwetką Zidane’a w koszulce Juventusu. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/LwkAAeSwSL5rCDpC/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Niebieski podpis w jasnym panelu pod sylwetką Zidane’a w koszulce Juventusu."
+      },
+      "feeQuote": {
+        "value": 2.05,
+        "currency": "GBP",
+        "type": "estimated import fee",
+        "estimated": true,
+        "source": "eBay Browse getItem"
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:06.982956+00:00",
+          "price": 179.83
+        }
+      ]
+    },
+    {
       "id": "ebay:v1|820252482042|0",
       "source": "eBay",
       "player": "nazario",
@@ -4564,20 +4954,27 @@
       "title": "Zinedine Zidane signed Frankreich #10 Trikot GCOA COA Autogramm",
       "url": "https://www.ebay.de/itm/860020793782",
       "image": "https://i.ebayimg.com/images/g/3w8AAeSw5opqxsfz/s-l1600.jpg",
-      "price": 315,
+      "price": 315.0,
       "currency": "USD",
-      "shipping": 25,
+      "shipping": 25.0,
       "fees": null,
       "sellerCountry": "ES",
       "shipsToPL": true,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.ebay.de/itm/860020793782",
-      "evidenceNote": "Czarny odręczny podpis na białym materiale poniżej niebieskiego numeru 10. Aktualne dane cenowe i wycena dostawy do Polski z eBay. Autentyczność niezweryfikowana niezależnie.",
       "verifiedAt": null,
-      "firstSeen": "2026-11-17T10:08:50.813Z",
-      "lastSeen": "2026-11-23T08:07:55.023487+00:00",
       "active": true,
+      "firstSeen": "2026-11-17T10:08:50.813Z",
+      "lastSeen": "2026-11-27T08:05:05.243522+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Ciemny podpis na białym materiale poniżej cyfry 10. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/3w8AAeSw5opqxsfz/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Ciemny podpis na białym materiale poniżej cyfry 10."
+      },
       "history": [
         {
           "at": "2026-11-17T10:08:50.813Z",
@@ -4590,17 +4987,12 @@
         {
           "at": "2026-11-23T08:07:55.023487+00:00",
           "price": 315
+        },
+        {
+          "at": "2026-11-27T08:05:05.243522+00:00",
+          "price": 315.0
         }
-      ],
-      "checkedBy": "production-api-and-photo-review",
-      "signatureReviewRequired": false,
-      "reviewHoldReason": null,
-      "signatureEvidence": {
-        "visibleSignature": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/3w8AAeSw5opqxsfz/s-l1600.jpg",
-        "imageType": "listing",
-        "note": "Czarny odręczny podpis na białym materiale poniżej niebieskiego numeru 10."
-      }
+      ]
     },
     {
       "id": "ebay:v1|860055249065|0",
@@ -4622,7 +5014,7 @@
       "verifiedAt": null,
       "active": true,
       "firstSeen": "2026-11-21T09:18:31Z",
-      "lastSeen": "2026-11-26T07:01:37.647360+00:00",
+      "lastSeen": "2026-11-27T08:05:06.332724+00:00",
       "checkedBy": "production-api-and-photo-review",
       "evidenceNote": "Niebieski podpis w jasnym panelu Sensational Signatures. Zdjęcie pokazuje strój PSV. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
       "signatureEvidence": {
@@ -4645,6 +5037,10 @@
         },
         {
           "at": "2026-11-26T07:01:37.647360+00:00",
+          "price": 264.44
+        },
+        {
+          "at": "2026-11-27T08:05:06.332724+00:00",
           "price": 264.44
         }
       ]
@@ -4728,33 +5124,38 @@
       "category": "card",
       "title": "Ronaldo Nazário — Panini Origins 2022/23 Inter Milan Silver Autograph /35",
       "url": "https://www.ebay.pl/itm/920110858870",
-      "image": "https://i.ebayimg.com/images/g/cAMAAeSwHS5q7Wdt/s-l1600.webp",
+      "image": "https://i.ebayimg.com/images/g/cAMAAeSwHS5q7Wdt/s-l1600.jpg",
       "price": 585.87,
       "currency": "AUD",
-      "shipping": 25.44,
+      "shipping": 26.27,
       "fees": null,
       "sellerCountry": "AU",
       "shipsToPL": true,
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.ebay.pl/itm/920110858870",
-      "evidenceNote": "19.11: aktywne Kup teraz, obejrzano zdjęcie podpisu na przedmiocie. Cena 585.87 AUD, wysyłka 25.44 AUD do Polski (01-001). Miejsce wysyłki: Glen Waverley, VIC, Australia. Dodatkowe opłaty nie zostały wycenione, fees=null. Sprzedawca deklaruje autograf producenta Panini; nie sprawdzono niezależnie jego gwarancji dla tego egzemplarza.",
       "verifiedAt": null,
-      "firstSeen": "2026-11-19T08:20:40.979Z",
-      "lastSeen": "2026-11-19T08:20:40.979Z",
       "active": true,
+      "firstSeen": "2026-11-19T08:20:40.979Z",
+      "lastSeen": "2026-11-27T08:05:06.264458+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Niebieski podpis w dolnej srebrnej części karty Origins Inter, numer 03/35. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/cAMAAeSwHS5q7Wdt/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Niebieski podpis w dolnej srebrnej części karty Origins Inter, numer 03/35."
+      },
       "history": [
         {
           "at": "2026-11-19T08:20:40.979Z",
           "price": 585.87
+        },
+        {
+          "at": "2026-11-27T08:05:06.264458+00:00",
+          "price": 585.87
         }
-      ],
-      "checkedBy": "browser-agent",
-      "signatureEvidence": {
-        "visibleSignature": true,
-        "imageUrl": "https://i.ebayimg.com/images/g/cAMAAeSwHS5q7Wdt/s-l1600.webp",
-        "note": "Niebieski podpis na dolnym panelu karty Origins, pod nazwiskiem i sylwetką Nazário w stroju Interu."
-      }
+      ]
     },
     {
       "id": "ebay:v1|920115670394|0",
@@ -4832,6 +5233,49 @@
         "note": "Niebieski odręczny podpis na jasnej holograficznej naklejce w dolnej połowie Topps I Rossoneri, pod Ronaldo w AC Milan;45/49."
       },
       "signatureReviewRequired": false
+    },
+    {
+      "id": "ebay:v1|920188230451|0",
+      "source": "eBay",
+      "player": "ronaldo",
+      "category": "card",
+      "title": "Topps Match Attax UEFA Euro 2024 Ultimate Cristiano Ronaldo Portugal Autograph",
+      "url": "https://www.ebay.de/itm/920188230451",
+      "image": "https://i.ebayimg.com/images/g/BSMAAeSw995rCHpk/s-l1600.jpg",
+      "price": 121.77,
+      "currency": "GBP",
+      "shipping": 19.64,
+      "fees": 5.14,
+      "sellerCountry": "GB",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": "https://www.ebay.de/itm/920188230451",
+      "verifiedAt": null,
+      "active": true,
+      "firstSeen": "2026-11-27T08:05:07.360214+00:00",
+      "lastSeen": "2026-11-27T08:05:07.360214+00:00",
+      "checkedBy": "production-api-and-photo-review",
+      "evidenceNote": "Czarny podpis markerem przez sylwetkę Cristiano, od górnej lewej strony do dolnej części karty. Na rewersie brak deklaracji autografu fabrycznego. eBay podał koszt wysyłki do Polski. Autentyczność wymaga niezależnej weryfikacji.",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://i.ebayimg.com/images/g/BSMAAeSw995rCHpk/s-l1600.jpg",
+        "imageType": "listing",
+        "note": "Czarny podpis markerem przez sylwetkę Cristiano, od górnej lewej strony do dolnej części karty. Na rewersie brak deklaracji autografu fabrycznego."
+      },
+      "feeQuote": {
+        "value": 5.14,
+        "currency": "GBP",
+        "type": "estimated import fee",
+        "estimated": true,
+        "source": "eBay Browse getItem"
+      },
+      "history": [
+        {
+          "at": "2026-11-27T08:05:07.360214+00:00",
+          "price": 121.77
+        }
+      ]
     },
     {
       "id": "fanatics-collect:5c8b594d-c630-417e-b7b1-960ebc151073",
@@ -4992,10 +5436,10 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/ronaldo-front-signed-modern-brazil-home-shirt-in-deluxe-packaging-75849.html",
-      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. 1 sztuka. Wariant Deluxe, podpis deklarowany 6 lipca 2023 r. na Ibizie.",
+      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Wariant Deluxe, podpis deklarowany 6 lipca 2023 r. na Ibizie.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:25:51.752Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -5012,6 +5456,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 634.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 634.99
         }
       ],
@@ -5049,6 +5497,10 @@
         {
           "at": "2026-11-26T07:05:40.146Z",
           "price": 634.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
+          "price": 634.99
         }
       ],
       "price": 634.99,
@@ -5056,7 +5508,7 @@
       "shipping": null,
       "shipsToPL": null,
       "image": "https://www.icons.com/media/catalog/product/cache/e1052113a0bc78e1ca02d3895d567666/i/2/i2073d_-_ronaldo_back_signed_real_madrid_2023-24_home_shirt.webp",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "authenticity": "unverified",
       "signatureEvidence": {
@@ -5065,7 +5517,7 @@
         "imageType": "catalog",
         "note": "Srebrny podpis na dolnej prawej części ciemnej cyfry 9 z tyłu białej koszulki Realu; zdjęcie katalogowe."
       },
-      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. 2 sztuki. Wariant Deluxe, podpis deklarowany 6 lipca 2023 r. na Ibizie.",
+      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Wariant Deluxe, podpis deklarowany 6 lipca 2023 r. na Ibizie.",
       "checkedBy": "browser-agent"
     },
     {
@@ -5085,10 +5537,10 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-classic-frame-01549.html",
-      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. 5 sztuk. Tytuł France 2024, szczegóły datują podpisanie na 12 grudnia 2022 r. w Madrycie.",
+      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Tytuł France 2024, szczegóły datują podpisanie na 12 grudnia 2022 r. w Madrycie.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -5113,6 +5565,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 1374.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 1374.99
         }
       ],
@@ -5142,10 +5598,10 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/zinedine-zidane-back-signed-france-2024-shirt-with-fan-style-numbers-in-hero-frame-option-1-17826.html",
-      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. 5 sztuk. Tytuł France 2024, szczegóły datują podpisanie na 12 grudnia 2022 r. w Madrycie.",
+      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Tytuł France 2024, szczegóły datują podpisanie na 12 grudnia 2022 r. w Madrycie.",
       "verifiedAt": null,
       "firstSeen": "2026-11-17T10:58:49.751299Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -5170,6 +5626,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 1399.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 1399.99
         }
       ],
@@ -5202,7 +5662,7 @@
       "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Wariant Deluxe.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:25:42.173Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -5219,6 +5679,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 634.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 634.99
         }
       ],
@@ -5248,10 +5712,10 @@
       "saleType": "fixed",
       "authenticity": "unverified",
       "evidenceUrl": "https://www.icons.com/ronaldo-back-signed-fc-barcelona-2025-26-home-shirt-in-deluxe-packaging-18094.html",
-      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. 2 sztuki. Wariant Deluxe, źródło Memento Memorabilia.",
+      "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Wariant Deluxe, źródło Memento Memorabilia.",
       "verifiedAt": null,
       "firstSeen": "2026-11-19T08:25:29.836Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
@@ -5268,6 +5732,10 @@
         },
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 584.99
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 584.99
         }
       ],
@@ -5300,11 +5768,15 @@
       "evidenceNote": "Karta produktu potwierdza dostępność i pokazuje aktywny przycisk Add to Cart. Obejrzano zdjęcie katalogowe z podpisem. Sklep deklaruje COA i wysyłkę światową z Wielkiej Brytanii. Brak niezależnej weryfikacji autentyczności, potwierdzenia dostawy do Polski oraz wyceny kosztu dostawy i importu. Wersja Hero Frame z COA Ballon d’Or według opisu sklepu. Źródło Memento Memorabilia.",
       "verifiedAt": null,
       "firstSeen": "2026-11-26T07:05:40.146Z",
-      "lastSeen": "2026-11-26T07:05:40.146Z",
+      "lastSeen": "2026-11-27T08:07:57.431Z",
       "active": true,
       "history": [
         {
           "at": "2026-11-26T07:05:40.146Z",
+          "price": 2600
+        },
+        {
+          "at": "2026-11-27T08:07:57.431Z",
           "price": 2600
         }
       ],
@@ -5353,6 +5825,42 @@
       ]
     },
     {
+      "id": "olx:1061625212",
+      "source": "OLX",
+      "player": "ronaldo",
+      "category": "shirt",
+      "title": "Cristiano Ronaldo — podpisana koszulka Realu Madryt 2011/12 w ramie, deklarowany Beckett",
+      "url": "https://www.olx.pl/d/oferta/cristiano-ronaldo-koszulka-z-autografem-real-madryt-2011-12-beckett-CID87-ID19Qtdi.html",
+      "image": "https://ireland.apollo.olxcdn.com/v1/files/q0vd4ird41gf-PL/image;s=1500x2000",
+      "price": 2990,
+      "currency": "PLN",
+      "shipping": null,
+      "fees": null,
+      "sellerCountry": "PL",
+      "shipsToPL": true,
+      "saleType": "fixed",
+      "authenticity": "unverified",
+      "evidenceUrl": null,
+      "evidenceNote": "Aktywne ogłoszenie z włączoną Przesyłką OLX. Koszt dostawy i Pakietu Ochronnego pozostaje nieustalony. Zdjęcia pokazują białą koszulkę Realu Madryt w ramie, złoty numer 7 i ciemny podpis. Sprzedający deklaruje Beckett, a na górze cyfry 7 widoczna jest naklejka. Certyfikat nie został niezależnie zweryfikowany.",
+      "verifiedAt": null,
+      "firstSeen": "2026-11-27T08:03:53.991503+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
+      "active": true,
+      "history": [
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
+          "price": 2990
+        }
+      ],
+      "checkedBy": "public-listing-and-photo-review",
+      "signatureEvidence": {
+        "visibleSignature": true,
+        "imageUrl": "https://ireland.apollo.olxcdn.com/v1/files/q0vd4ird41gf-PL/image;s=1500x2000",
+        "imageType": "listing",
+        "note": "Ciemny marker biegnie wzdłuż ukośnej części złotej cyfry 7 na plecach białej koszulki, między naklejką na górze a herbem Realu u dołu."
+      }
+    },
+    {
       "id": "olx:1086361525",
       "source": "OLX",
       "player": "ronaldo",
@@ -5372,7 +5880,7 @@
       "evidenceNote": "Bieżąca strona oferty potwierdza aktywny status i włączoną Przesyłkę OLX dla tego ID. Koszt dostawy i Pakietu Ochronnego nieustalone. Opis wskazuje sezon 2016. Certyfikat widoczny pod koszulką jest nieczytelny i nie został zweryfikowany.",
       "verifiedAt": null,
       "firstSeen": "2026-11-23T09:03:13.805696Z",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "history": [
         {
@@ -5385,6 +5893,10 @@
         },
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
+          "price": 1490
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
           "price": 1490
         }
       ],
@@ -5416,7 +5928,7 @@
       "evidenceNote": "Bieżąca strona oferty potwierdza aktywny status i włączoną Przesyłkę OLX dla tego ID. Koszt dostawy i Pakietu Ochronnego nieustalone. Tytuł podaje sezon 2022/23, opis 2021/22. Nie potwierdzono sezonu ani certyfikatu. Oferta za 1200 zł używa tej samej fotografii i nie ma włączonej Przesyłki OLX.",
       "verifiedAt": null,
       "firstSeen": "2026-11-23T09:03:13.805696Z",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "history": [
         {
@@ -5429,6 +5941,10 @@
         },
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
+          "price": 1490
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
           "price": 1490
         }
       ],
@@ -5501,6 +6017,10 @@
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
           "price": 1500
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
+          "price": 1500
         }
       ],
       "price": 1500,
@@ -5508,7 +6028,7 @@
       "shipping": null,
       "shipsToPL": null,
       "image": "https://images1.vinted.net/t/02_00c5b_Cvp5xXe2btFeUbfCcb4no8xo/f800/7a1deb3d.webp?s=a841db0eca0dc44669eb5b98400a623ad4a02a63",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "authenticity": "unverified",
       "signatureEvidence": {
@@ -5545,6 +6065,10 @@
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
           "price": 4999
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
+          "price": 4999
         }
       ],
       "price": 4999,
@@ -5552,7 +6076,7 @@
       "shipping": null,
       "shipsToPL": null,
       "image": "https://images1.vinted.net/t/06_0148b_FkZkQNJzrRm7PRDysT1DyRcc/f800/860ce440.webp?s=baaf3ebbb4705e6ba8b7d5f99876ff9439e635f6",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "authenticity": "unverified",
       "signatureEvidence": {
@@ -5584,7 +6108,7 @@
       "evidenceNote": "Aktywne Kup teraz. Niebieski podpis na jasnym polu pod wycinkiem siatki karty 02/10. Cena z ochroną kupującego 15752,90 zł. Sprzedawca preferuje odbiór lub przedpłatę. Druga oferta 7525862959 przedstawia ten sam egzemplarz. Autentyczność wymaga niezależnej weryfikacji.",
       "verifiedAt": null,
       "firstSeen": "2026-11-21T09:51:38.877823Z",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "history": [
         {
@@ -5601,6 +6125,10 @@
         },
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
+          "price": 15000
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
           "price": 15000
         }
       ],
@@ -5629,6 +6157,10 @@
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
           "price": 8999
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
+          "price": 8999
         }
       ],
       "price": 8999,
@@ -5636,7 +6168,7 @@
       "shipping": null,
       "shipsToPL": null,
       "image": "https://images1.vinted.net/t/05_01061_xG6kX1MDgMqNaMSsrdwom7qh/f800/4068ccd1.webp?s=d01e3bf3a3525a60c5dda61b0f892e4251033365",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "authenticity": "unverified",
       "signatureEvidence": {
@@ -5665,6 +6197,10 @@
         {
           "at": "2026-11-26T07:05:11.261597+00:00",
           "price": 30000
+        },
+        {
+          "at": "2026-11-27T08:03:53.991503+00:00",
+          "price": 30000
         }
       ],
       "price": 30000,
@@ -5672,7 +6208,7 @@
       "shipping": null,
       "shipsToPL": null,
       "image": "https://images1.vinted.net/t/04_01b91_JHc5cYJcYrqDoczgXLVAgFKF/f800/262aa066.webp?s=d5f191ddc7bab0709f2d68d8aed5777bffb96294",
-      "lastSeen": "2026-11-26T07:05:11.261597+00:00",
+      "lastSeen": "2026-11-27T08:03:53.991503+00:00",
       "active": true,
       "authenticity": "unverified",
       "signatureEvidence": {
@@ -5764,116 +6300,116 @@
       "checkedAt": "2026-11-27T06:26:01Z",
       "lastSuccessAt": "2026-11-27T06:26:01Z",
       "agent": {
-        "checkedAt": "2026-11-26T07:03:51.076839+00:00",
-        "offers": 14,
+        "checkedAt": "2026-11-27T08:07:11.352439+00:00",
+        "offers": 22,
         "scope": "partial",
-        "message": "Przegląd częściowy zapisanych ofert i nowych tropów trzech ulubionych. Obejrzano 24 zdjęcia. W porównaniach Ibrahimovicia i Pelégo zabrakło trzeciej zgodnej, aktualnej oferty."
+        "message": "Przegląd częściowy zapisanych ofert i nowych tropów trzech ulubionych. Obejrzano 31 zdjęć głównych i dwa dodatkowe ujęcia karty Cristiano Ronaldo. W porównaniach Ibrahimovicia i Pelégo zabrakło trzeciej zgodnej, aktualnej oferty."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:03:51.076839+00:00",
+        "at": "2026-11-27T08:07:11.352439+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Przegląd częściowy zapisanych ofert i nowych tropów trzech ulubionych. Obejrzano 24 zdjęcia. W porównaniach Ibrahimovicia i Pelégo zabrakło trzeciej zgodnej, aktualnej oferty."
+        "message": "Przegląd częściowy zapisanych ofert i nowych tropów trzech ulubionych. Obejrzano 31 zdjęć głównych i dwa dodatkowe ujęcia karty Cristiano Ronaldo. W porównaniach Ibrahimovicia i Pelégo zabrakło trzeciej zgodnej, aktualnej oferty."
       }
     },
     {
       "name": "Vinted",
       "url": "https://www.vinted.pl",
       "status": "agent_checked",
-      "message": "Sprawdzono trzy zapisane oferty i dodano dwa ogłoszenia ze zdjęciami podpisów. Bez potwierdzonej dostawy do Polski na poziomie konkretnego ogłoszenia. Brak alertu poniżej 1 000 zł.",
+      "message": "Pięć zapisanych ofert nadal miało Kup teraz oraz te same ceny i opłaty Vinted. Nie dodano nowych ofert. Dokładny koszt i możliwość dostawy do Polski pozostają nieustalone.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-26T07:05:11.261597+00:00",
+        "checkedAt": "2026-11-27T08:03:53.991503+00:00",
         "offers": 5,
         "scope": "partial",
-        "message": "Sprawdzono trzy zapisane oferty i dodano dwa ogłoszenia ze zdjęciami podpisów. Bez potwierdzonej dostawy do Polski na poziomie konkretnego ogłoszenia. Brak alertu poniżej 1 000 zł."
+        "message": "Pięć zapisanych ofert nadal miało Kup teraz oraz te same ceny i opłaty Vinted. Nie dodano nowych ofert. Dokładny koszt i możliwość dostawy do Polski pozostają nieustalone."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:05:11.261597+00:00",
+        "at": "2026-11-27T08:03:53.991503+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Sprawdzono trzy zapisane oferty i dodano dwa ogłoszenia ze zdjęciami podpisów. Bez potwierdzonej dostawy do Polski na poziomie konkretnego ogłoszenia. Brak alertu poniżej 1 000 zł."
+        "message": "Pięć zapisanych ofert nadal miało Kup teraz oraz te same ceny i opłaty Vinted. Nie dodano nowych ofert. Dokładny koszt i możliwość dostawy do Polski pozostają nieustalone."
       }
     },
     {
       "name": "OLX",
       "url": "https://www.olx.pl",
       "status": "agent_checked",
-      "message": "Odświeżono dwie aktywne koszulki CR7 po 1 490 zł z włączoną Przesyłką OLX. Brak nowych pozycji i potwierdzonego alertu poniżej 1 000 zł.",
+      "message": "Dwie zapisane koszulki CR7 nadal po 1 490 zł. Jedna nowa koszulka CR7 Real Madryt 2011/12 w ramie za 2 990 zł z włączoną Przesyłką OLX. Brak potwierdzonej oferty poniżej 1 000 zł.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-26T07:05:11.261597+00:00",
-        "offers": 2,
+        "checkedAt": "2026-11-27T08:03:53.991503+00:00",
+        "offers": 3,
         "scope": "partial",
-        "message": "Odświeżono dwie aktywne koszulki CR7 po 1 490 zł z włączoną Przesyłką OLX. Brak nowych pozycji i potwierdzonego alertu poniżej 1 000 zł."
+        "message": "Dwie zapisane koszulki CR7 nadal po 1 490 zł. Jedna nowa koszulka CR7 Real Madryt 2011/12 w ramie za 2 990 zł z włączoną Przesyłką OLX. Brak potwierdzonej oferty poniżej 1 000 zł."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:05:11.261597+00:00",
+        "at": "2026-11-27T08:03:53.991503+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Odświeżono dwie aktywne koszulki CR7 po 1 490 zł z włączoną Przesyłką OLX. Brak nowych pozycji i potwierdzonego alertu poniżej 1 000 zł."
+        "message": "Dwie zapisane koszulki CR7 nadal po 1 490 zł. Jedna nowa koszulka CR7 Real Madryt 2011/12 w ramie za 2 990 zł z włączoną Przesyłką OLX. Brak potwierdzonej oferty poniżej 1 000 zł."
       }
     },
     {
       "name": "Allegro",
       "url": "https://allegro.pl",
       "status": "agent_checked",
-      "message": "Na aktualnych stronach potwierdzono trzy aukcje koszulek Cristiano Ronaldo. Każda pokazuje przewidywaną dostawę za 40 zł. Dwie koszulki Realu mają odmienne numery i naklejki PSA/DNA, dlatego policzono je osobno. Nie potwierdzono certyfikatów w bazach. Bieżące stawki nie uruchamiają alertów Kup teraz.",
+      "message": "Sprawdzono dokładnie trzy zapisane aukcje charytatywne koszulek Cristiano Ronaldo, ich aktualne ceny, czasy zakończenia, dostawę do Polski i zdjęcia podpisów. Stawki 2700 zł i 2520 zł oraz cena wywoławcza 3499 zł. Dostawa za 40 zł w każdej aukcji. Dwa egzemplarze Realu Madryt mają różne oznaczenia i numery certyfikatów widoczne na zdjęciach.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-26T07:03:46.720423+00:00",
+        "checkedAt": "2026-11-27T08:07:28+00:00",
         "offers": 3,
         "scope": "partial",
-        "message": "Na aktualnych stronach potwierdzono trzy aukcje koszulek Cristiano Ronaldo. Każda pokazuje przewidywaną dostawę za 40 zł. Dwie koszulki Realu mają odmienne numery i naklejki PSA/DNA, dlatego policzono je osobno. Nie potwierdzono certyfikatów w bazach. Bieżące stawki nie uruchamiają alertów Kup teraz."
+        "message": "Sprawdzono dokładnie trzy zapisane aukcje charytatywne koszulek Cristiano Ronaldo, ich aktualne ceny, czasy zakończenia, dostawę do Polski i zdjęcia podpisów. Stawki 2700 zł i 2520 zł oraz cena wywoławcza 3499 zł. Dostawa za 40 zł w każdej aukcji. Dwa egzemplarze Realu Madryt mają różne oznaczenia i numery certyfikatów widoczne na zdjęciach."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:03:46.720423+00:00",
+        "at": "2026-11-27T08:07:28+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Na aktualnych stronach potwierdzono trzy aukcje koszulek Cristiano Ronaldo. Każda pokazuje przewidywaną dostawę za 40 zł. Dwie koszulki Realu mają odmienne numery i naklejki PSA/DNA, dlatego policzono je osobno. Nie potwierdzono certyfikatów w bazach. Bieżące stawki nie uruchamiają alertów Kup teraz."
+        "message": "Sprawdzono dokładnie trzy zapisane aukcje charytatywne koszulek Cristiano Ronaldo, ich aktualne ceny, czasy zakończenia, dostawę do Polski i zdjęcia podpisów. Stawki 2700 zł i 2520 zł oraz cena wywoławcza 3499 zł. Dostawa za 40 zł w każdej aukcji. Dwa egzemplarze Realu Madryt mają różne oznaczenia i numery certyfikatów widoczne na zdjęciach."
       }
     },
     {
       "name": "Catawiki",
       "url": "https://www.catawiki.com",
       "status": "agent_checked",
-      "message": "Sprawdzono cztery zapisane loty i wybrane wyniki z pierwszych stron trzech wyszukiwań. Siedem aktywnych aukcji ze zdjęciem podpisu i wyceną dostawy do Polski, w tym pięć nowych. Dwa zapisane loty nadal mają status Sold. Brak ofert Kup teraz.",
+      "message": "Ponownie sprawdzono siedem lotów obecnych w aktywnym widoku. Dwie karty Zidane’a sprzedano za 180 EUR i 240 EUR. Pięć aukcji pozostało aktywnych. Dziś kończą się koszulki Ronaldo Nazário: Brazylia o 20:10 CET oraz Real Madryt o 20:29 CET.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-26T07:07:45+00:00",
-        "offers": 7,
+        "checkedAt": "2026-11-27T08:07:28+00:00",
+        "offers": 5,
         "scope": "partial",
-        "message": "Sprawdzono cztery zapisane loty i wybrane wyniki z pierwszych stron trzech wyszukiwań. Siedem aktywnych aukcji ze zdjęciem podpisu i wyceną dostawy do Polski, w tym pięć nowych. Dwa zapisane loty nadal mają status Sold. Brak ofert Kup teraz."
+        "message": "Ponownie sprawdzono siedem lotów obecnych w aktywnym widoku. Dwie karty Zidane’a sprzedano za 180 EUR i 240 EUR. Pięć aukcji pozostało aktywnych. Dziś kończą się koszulki Ronaldo Nazário: Brazylia o 20:10 CET oraz Real Madryt o 20:29 CET."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:07:45+00:00",
+        "at": "2026-11-27T08:07:28+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Sprawdzono cztery zapisane loty i wybrane wyniki z pierwszych stron trzech wyszukiwań. Siedem aktywnych aukcji ze zdjęciem podpisu i wyceną dostawy do Polski, w tym pięć nowych. Dwa zapisane loty nadal mają status Sold. Brak ofert Kup teraz."
+        "message": "Ponownie sprawdzono siedem lotów obecnych w aktywnym widoku. Dwie karty Zidane’a sprzedano za 180 EUR i 240 EUR. Pięć aukcji pozostało aktywnych. Dziś kończą się koszulki Ronaldo Nazário: Brazylia o 20:10 CET oraz Real Madryt o 20:29 CET."
       }
     },
     {
       "name": "COMC",
       "url": "https://www.comc.com",
       "status": "agent_checked",
-      "message": "Potwierdzono ostatnie dostępne sztuki Zidane Select SS-ZZ i Prizm CL-ZZ oraz zdjęcia obu podpisów. Prizm CL-ZZ ma potwierdzony koszt od 932.35 zł z wysyłką do Polski, przed nieznanymi kosztami importu. Ta kopia była już w dashboardzie.",
+      "message": "Obie karty Zidane’a mają ostatnią sztukę w magazynie. Prizm CL-ZZ od 929.36 zł z wysyłką przed importem, Select SS-ZZ od 1179.52 zł. Prizm był wcześniej poniżej 1 000 zł w znanych kosztach.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-26T07:06:42.490372+00:00",
+        "checkedAt": "2026-11-27T08:03:53.991503+00:00",
         "offers": 2,
         "scope": "partial",
-        "message": "Potwierdzono ostatnie dostępne sztuki Zidane Select SS-ZZ i Prizm CL-ZZ oraz zdjęcia obu podpisów. Prizm CL-ZZ ma potwierdzony koszt od 932.35 zł z wysyłką do Polski, przed nieznanymi kosztami importu. Ta kopia była już w dashboardzie."
+        "message": "Obie karty Zidane’a mają ostatnią sztukę w magazynie. Prizm CL-ZZ od 929.36 zł z wysyłką przed importem, Select SS-ZZ od 1179.52 zł. Prizm był wcześniej poniżej 1 000 zł w znanych kosztach."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:06:42.490372+00:00",
+        "at": "2026-11-27T08:03:53.991503+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Potwierdzono ostatnie dostępne sztuki Zidane Select SS-ZZ i Prizm CL-ZZ oraz zdjęcia obu podpisów. Prizm CL-ZZ ma potwierdzony koszt od 932.35 zł z wysyłką do Polski, przed nieznanymi kosztami importu. Ta kopia była już w dashboardzie."
+        "message": "Obie karty Zidane’a mają ostatnią sztukę w magazynie. Prizm CL-ZZ od 929.36 zł z wysyłką przed importem, Select SS-ZZ od 1179.52 zł. Prizm był wcześniej poniżej 1 000 zł w znanych kosztach."
       }
     },
     {
@@ -5900,20 +6436,20 @@
       "name": "Icons.com",
       "url": "https://www.icons.com",
       "status": "agent_checked",
-      "message": "W Chrome sprawdzono 6 zapisanych ofert, ich ceny i zdjęcia, oraz do 29 pierwszych wyników w każdej z 3 kategorii zawodników. Zapisane ceny bez zmian. Zweryfikowano zdjęcie, cenę i aktywny przycisk zakupu nowej koszulki Cristiano Ronaldo Manchester United 2008 Ballon d’Or Hero Frame za 2600 GBP. W sprawdzonym zakresie brak kwalifikujących się kart. Dostawa ogólnoświatowa według strony, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych.",
+      "message": "Potwierdzono dostępność, ceny i zdjęcia siedmiu zapisanych ofert. Ceny bez zmian. Dwie dodatkowe oprawy tej samej koszulki Cristiano Ronaldo Manchester United 2008 za 2800 i 2850 GBP potraktowano jako warianty; w rankingu pozostaje oprawa za 2600 GBP. Dostawa i koszty do Polski nadal niepotwierdzone.",
       "checkedAt": null,
       "lastSuccessAt": null,
       "agent": {
-        "checkedAt": "2026-11-26T07:05:40.146Z",
+        "checkedAt": "2026-11-27T08:07:57.431Z",
         "offers": 7,
         "scope": "partial",
-        "message": "W Chrome sprawdzono 6 zapisanych ofert, ich ceny i zdjęcia, oraz do 29 pierwszych wyników w każdej z 3 kategorii zawodników. Zapisane ceny bez zmian. Zweryfikowano zdjęcie, cenę i aktywny przycisk zakupu nowej koszulki Cristiano Ronaldo Manchester United 2008 Ballon d’Or Hero Frame za 2600 GBP. W sprawdzonym zakresie brak kwalifikujących się kart. Dostawa ogólnoświatowa według strony, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych."
+        "message": "Potwierdzono dostępność, ceny i zdjęcia siedmiu zapisanych ofert. Ceny bez zmian. Dwie dodatkowe oprawy tej samej koszulki Cristiano Ronaldo Manchester United 2008 za 2800 i 2850 GBP potraktowano jako warianty; w rankingu pozostaje oprawa za 2600 GBP. Dostawa i koszty do Polski nadal niepotwierdzone."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:05:40.146Z",
+        "at": "2026-11-27T08:07:57.431Z",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "W Chrome sprawdzono 6 zapisanych ofert, ich ceny i zdjęcia, oraz do 29 pierwszych wyników w każdej z 3 kategorii zawodników. Zapisane ceny bez zmian. Zweryfikowano zdjęcie, cenę i aktywny przycisk zakupu nowej koszulki Cristiano Ronaldo Manchester United 2008 Ballon d’Or Hero Frame za 2600 GBP. W sprawdzonym zakresie brak kwalifikujących się kart. Dostawa ogólnoświatowa według strony, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych."
+        "message": "Potwierdzono dostępność, ceny i zdjęcia siedmiu zapisanych ofert. Ceny bez zmian. Dwie dodatkowe oprawy tej samej koszulki Cristiano Ronaldo Manchester United 2008 za 2800 i 2850 GBP potraktowano jako warianty; w rankingu pozostaje oprawa za 2600 GBP. Dostawa i koszty do Polski nadal niepotwierdzone."
       }
     },
     {
@@ -6002,18 +6538,18 @@
       "checkedAt": null,
       "lastSuccessAt": null,
       "status": "agent_checked",
-      "message": "Sprawdzono bieżące wyszukiwania z autografem dla trzech piłkarzy, odpowiednio 4, 3 i 0 lokalnych linków. Zapisana Topps CR7 pozostaje zakończona. Panini #217 bez podpisu na obejrzanym zdjęciu, oferta CR7 z certyfikatem dotyczy fotografii. Brak przyjętych ofert.",
+      "message": "Pierwsze strony trzech wyszukiwań dały 4, 3 i 0 lokalnych wyników. Zapisaną kartę Topps CR7 nadal oznaczono jako zakończoną. Panini Euro 2008 #217 nie ma podpisu na obejrzanym zdjęciu karty, opis wymienia autografy w ogólnym asortymencie. Tytuł CR7 z certyfikatem dotyczy fotografii. Odczyt pozostałych wyników nie dał kwalifikującej się karty ani koszulki.",
       "agent": {
-        "checkedAt": "2026-11-26T07:03:46.720423+00:00",
+        "checkedAt": "2026-11-27T08:07:28+00:00",
         "offers": 0,
         "scope": "partial",
-        "message": "Sprawdzono bieżące wyszukiwania z autografem dla trzech piłkarzy, odpowiednio 4, 3 i 0 lokalnych linków. Zapisana Topps CR7 pozostaje zakończona. Panini #217 bez podpisu na obejrzanym zdjęciu, oferta CR7 z certyfikatem dotyczy fotografii. Brak przyjętych ofert."
+        "message": "Pierwsze strony trzech wyszukiwań dały 4, 3 i 0 lokalnych wyników. Zapisaną kartę Topps CR7 nadal oznaczono jako zakończoną. Panini Euro 2008 #217 nie ma podpisu na obejrzanym zdjęciu karty, opis wymienia autografy w ogólnym asortymencie. Tytuł CR7 z certyfikatem dotyczy fotografii. Odczyt pozostałych wyników nie dał kwalifikującej się karty ani koszulki."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:03:46.720423+00:00",
+        "at": "2026-11-27T08:07:28+00:00",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Sprawdzono bieżące wyszukiwania z autografem dla trzech piłkarzy, odpowiednio 4, 3 i 0 lokalnych linków. Zapisana Topps CR7 pozostaje zakończona. Panini #217 bez podpisu na obejrzanym zdjęciu, oferta CR7 z certyfikatem dotyczy fotografii. Brak przyjętych ofert."
+        "message": "Pierwsze strony trzech wyszukiwań dały 4, 3 i 0 lokalnych wyników. Zapisaną kartę Topps CR7 nadal oznaczono jako zakończoną. Panini Euro 2008 #217 nie ma podpisu na obejrzanym zdjęciu karty, opis wymienia autografy w ogólnym asortymencie. Tytuł CR7 z certyfikatem dotyczy fotografii. Odczyt pozostałych wyników nie dał kwalifikującej się karty ani koszulki."
       }
     },
     {
@@ -6022,18 +6558,18 @@
       "checkedAt": null,
       "lastSuccessAt": null,
       "status": "agent_checked",
-      "message": "Sprawdzono 7 zapisanych wariantów i obejrzano ich zdjęcia katalogowe. Ceny bez zmian, w tym Juventus Zidane bez ramy za 489,99 GBP. Publiczne wyszukiwanie katalogowe zwróciło 16 wyników dla Zidane’a, 2 dla Ronaldo Nazário i 0 dla Cristiano Ronaldo. Nie znaleziono kart w zapytaniach Topps i Panini. Strona dostawy potwierdza ogólną wysyłkę międzynarodową, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych.",
+      "message": "Potwierdzono dostępność i ceny 7 zapisanych wariantów oraz podpisy na zdjęciach katalogowych. Ceny bez zmian, Juventus Zidane nadal 489,99 GBP bez ramy. Wyszukiwanie katalogowe pokazało 16 wyników dla Zidane’a, 0 dla Cristiano Ronaldo i 2 dla Ronaldo Nazário. Zapytania z Topps i Panini nie zwróciły kart. Dwie kolejne oprawione koszulki Realu za 799,99 GBP pozostawiono poza raportem, bo zdjęcia są bardzo podobne do zachowanych wariantów bez ramy opisanych jako współczesne, a tytuły wskazują inne sezony. Ogólna wysyłka międzynarodowa bez potwierdzenia dostawy i kosztów dla Polski.",
       "agent": {
-        "checkedAt": "2026-11-26T07:05:40.146Z",
+        "checkedAt": "2026-11-27T08:07:57.431Z",
         "offers": 7,
         "scope": "partial",
-        "message": "Sprawdzono 7 zapisanych wariantów i obejrzano ich zdjęcia katalogowe. Ceny bez zmian, w tym Juventus Zidane bez ramy za 489,99 GBP. Publiczne wyszukiwanie katalogowe zwróciło 16 wyników dla Zidane’a, 2 dla Ronaldo Nazário i 0 dla Cristiano Ronaldo. Nie znaleziono kart w zapytaniach Topps i Panini. Strona dostawy potwierdza ogólną wysyłkę międzynarodową, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych."
+        "message": "Potwierdzono dostępność i ceny 7 zapisanych wariantów oraz podpisy na zdjęciach katalogowych. Ceny bez zmian, Juventus Zidane nadal 489,99 GBP bez ramy. Wyszukiwanie katalogowe pokazało 16 wyników dla Zidane’a, 0 dla Cristiano Ronaldo i 2 dla Ronaldo Nazário. Zapytania z Topps i Panini nie zwróciły kart. Dwie kolejne oprawione koszulki Realu za 799,99 GBP pozostawiono poza raportem, bo zdjęcia są bardzo podobne do zachowanych wariantów bez ramy opisanych jako współczesne, a tytuły wskazują inne sezony. Ogólna wysyłka międzynarodowa bez potwierdzenia dostawy i kosztów dla Polski."
       },
       "lastAgentAttempt": {
-        "at": "2026-11-26T07:05:40.146Z",
+        "at": "2026-11-27T08:07:57.431Z",
         "status": "agent_checked",
         "scope": "partial",
-        "message": "Sprawdzono 7 zapisanych wariantów i obejrzano ich zdjęcia katalogowe. Ceny bez zmian, w tym Juventus Zidane bez ramy za 489,99 GBP. Publiczne wyszukiwanie katalogowe zwróciło 16 wyników dla Zidane’a, 2 dla Ronaldo Nazário i 0 dla Cristiano Ronaldo. Nie znaleziono kart w zapytaniach Topps i Panini. Strona dostawy potwierdza ogólną wysyłkę międzynarodową, bez potwierdzenia trasy do Polski, kosztu dostawy i należności importowych."
+        "message": "Potwierdzono dostępność i ceny 7 zapisanych wariantów oraz podpisy na zdjęciach katalogowych. Ceny bez zmian, Juventus Zidane nadal 489,99 GBP bez ramy. Wyszukiwanie katalogowe pokazało 16 wyników dla Zidane’a, 0 dla Cristiano Ronaldo i 2 dla Ronaldo Nazário. Zapytania z Topps i Panini nie zwróciły kart. Dwie kolejne oprawione koszulki Realu za 799,99 GBP pozostawiono poza raportem, bo zdjęcia są bardzo podobne do zachowanych wariantów bez ramy opisanych jako współczesne, a tytuły wskazują inne sezony. Ogólna wysyłka międzynarodowa bez potwierdzenia dostawy i kosztów dla Polski."
       }
     }
   ],
@@ -6047,6 +6583,15 @@
     "playersSearched": 28,
     "candidates": 2120,
     "source": "eBay",
-    "status": "awaiting_comparison_review"
+    "status": "partial_review",
+    "lastAgentReviewAt": "2026-11-27T08:08:34.257054+00:00",
+    "acceptedDeviations": 0,
+    "reviewedPlayerGroups": [
+      "ibrahimovic",
+      "pele",
+      "messi",
+      "kaka"
+    ],
+    "message": "2120 tropów Browse API dla 28 piłkarzy. W ograniczonym przeglądzie ofert Ibrahimovicia, Pelégo, Messiego oraz Kaká nie potwierdzono trzech zgodnych porównań."
   }
 }
